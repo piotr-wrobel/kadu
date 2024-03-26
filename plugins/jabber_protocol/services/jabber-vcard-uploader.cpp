@@ -21,7 +21,7 @@
 #include "jabber-vcard-uploader.h"
 #include "jabber-vcard-uploader.moc"
 
-#include <qxmpp/QXmppVCardManager.h>
+#include <QXmppQt5/QXmppVCardManager.h>
 
 JabberVCardUploader::JabberVCardUploader(QXmppVCardManager *vcardManager, QObject *parent)
         : QObject{parent}, m_vcardManager{vcardManager}

@@ -27,8 +27,8 @@
 #include "contacts/contact-id.h"
 #include "misc/memory.h"
 
-#include <qxmpp/QXmppClient.h>
-#include <qxmpp/QXmppRosterManager.h>
+#include <QXmppQt5/QXmppClient.h>
+#include <QXmppQt5/QXmppRosterManager.h>
 
 JabberContactAvatarService::JabberContactAvatarService(
     QXmppClient *client, JabberVCardService *vCardService, Account account, QObject *parent)

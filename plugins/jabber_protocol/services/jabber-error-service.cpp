@@ -20,8 +20,8 @@
 #include "jabber-error-service.h"
 #include "jabber-error-service.moc"
 
-#include <qxmpp/QXmppIq.h>
-#include <qxmpp/QXmppStanza.h>
+#include <QXmppQt5/QXmppIq.h>
+#include <QXmppQt5/QXmppStanza.h>
 
 JabberErrorService::JabberErrorService(QObject *parent) : QObject{parent}
 {

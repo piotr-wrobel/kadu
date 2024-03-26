@@ -25,7 +25,7 @@
 
 #include "plugin/plugin-injected-factory.h"
 
-#include <qxmpp/QXmppClient.h>
+#include <QXmppQt5/QXmppClient.h>
 
 JabberRegisterAccountService::JabberRegisterAccountService(QObject *parent) : QObject{parent}
 {

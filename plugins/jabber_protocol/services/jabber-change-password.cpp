@@ -24,7 +24,7 @@
 #include "qxmpp/jabber-register-extension.h"
 #include "services/jabber-error-service.h"
 
-#include <qxmpp/QXmppRegisterIq.h>
+#include <QXmppQt5/QXmppRegisterIq.h>
 
 JabberChangePassword::JabberChangePassword(
     const QString &jid, const QString &newPassword, JabberRegisterExtension *registerExtension, QObject *parent)

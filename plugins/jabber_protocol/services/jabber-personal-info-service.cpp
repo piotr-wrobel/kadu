@@ -29,7 +29,7 @@
 
 #include "buddies/buddy-storage.h"
 
-#include <qxmpp/QXmppVCardIq.h>
+#include <QXmppQt5/QXmppVCardIq.h>
 
 JabberPersonalInfoService::JabberPersonalInfoService(Account account, QObject *parent)
         : PersonalInfoService(account, parent)

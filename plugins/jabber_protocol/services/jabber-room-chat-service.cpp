@@ -32,9 +32,9 @@
 #include "contacts/contact-manager.h"
 #include "message/message-storage.h"
 
-#include <qxmpp/QXmppClient.h>
-#include <qxmpp/QXmppMessage.h>
-#include <qxmpp/QXmppMucManager.h>
+#include <QXmppQt5/QXmppClient.h>
+#include <QXmppQt5/QXmppMessage.h>
+#include <QXmppQt5/QXmppMucManager.h>
 
 JabberRoomChatService::JabberRoomChatService(
     QXmppClient *client, QXmppMucManager *muc, Account account, QObject *parent)

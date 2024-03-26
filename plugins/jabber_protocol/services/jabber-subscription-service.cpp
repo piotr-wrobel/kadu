@@ -28,7 +28,7 @@
 
 #include "contacts/contact-manager.h"
 
-#include <qxmpp/QXmppRosterManager.h>
+#include <QXmppQt5/QXmppRosterManager.h>
 
 JabberSubscriptionService::JabberSubscriptionService(QXmppRosterManager *roster, JabberProtocol *protocol)
         : SubscriptionService{protocol}, m_roster{roster}, m_protocol{protocol}

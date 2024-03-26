@@ -25,7 +25,7 @@
 #include "file-transfer/file-transfer-status.h"
 
 #include <QtCore/QFileInfo>
-#include <qxmpp/QXmppTransferManager.h>
+#include <QXmppQt5/QXmppTransferManager.h>
 
 JabberStreamIncomingFileTransferHandler::JabberStreamIncomingFileTransferHandler(FileTransfer transfer)
         : StreamIncomingFileTransferHandler{transfer}, m_inProgress{false}

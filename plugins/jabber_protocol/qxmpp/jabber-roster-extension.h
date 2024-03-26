@@ -20,7 +20,7 @@
 #pragma once
 
 #include <QtCore/QPointer>
-#include <qxmpp/QXmppClientExtension.h>
+#include <QXmppQt5/QXmppClientExtension.h>
 
 class JabberErrorService;
 class Jid;

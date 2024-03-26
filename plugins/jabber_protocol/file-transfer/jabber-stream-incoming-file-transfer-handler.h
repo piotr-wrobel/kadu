@@ -22,7 +22,7 @@
 #include "file-transfer/stream-incoming-file-transfer-handler.h"
 
 #include <QtCore/QPointer>
-#include <qxmpp/QXmppTransferManager.h>
+#include <QXmppQt5/QXmppTransferManager.h>
 
 class JabberStreamIncomingFileTransferHandler : public StreamIncomingFileTransferHandler
 {

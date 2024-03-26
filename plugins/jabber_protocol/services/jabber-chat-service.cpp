@@ -53,7 +53,7 @@
 #include "windows/message-dialog.h"
 
 #include <QtGui/QTextDocument>
-#include <qxmpp/QXmppMessage.h>
+#include <QXmppQt5/QXmppMessage.h>
 
 JabberChatService::JabberChatService(QXmppClient *client, Account account, QObject *parent)
         : ChatService{account, parent}, m_client{client}

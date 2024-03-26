@@ -23,7 +23,7 @@
 #pragma once
 
 #include <QtCore/QObject>
-#include <qxmpp/QXmppLogger.h>
+#include <QXmppQt5/QXmppLogger.h>
 
 class QXmppClient;
 

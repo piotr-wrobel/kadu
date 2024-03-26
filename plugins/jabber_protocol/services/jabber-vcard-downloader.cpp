@@ -24,8 +24,8 @@
 
 #include "jabber-protocol.h"
 
-#include <qxmpp/QXmppVCardIq.h>
-#include <qxmpp/QXmppVCardManager.h>
+#include <QXmppQt5/QXmppVCardIq.h>
+#include <QXmppQt5/QXmppVCardManager.h>
 
 JabberVCardDownloader::JabberVCardDownloader(QXmppVCardManager *vcardManager, QObject *parent)
         : QObject(parent), m_vcardManager{vcardManager}

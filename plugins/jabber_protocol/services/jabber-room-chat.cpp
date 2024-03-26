@@ -27,7 +27,7 @@
 #include "chat/chat-details-room.h"
 #include "contacts/contact-manager.h"
 
-#include <qxmpp/QXmppMucManager.h>
+#include <QXmppQt5/QXmppMucManager.h>
 
 JabberRoomChat::JabberRoomChat(QXmppMucRoom *room, Chat chat, QObject *parent)
         : QObject{parent}, m_room{room}, m_chat{std::move(chat)}

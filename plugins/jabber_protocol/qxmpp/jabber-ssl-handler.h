@@ -23,7 +23,7 @@
 #include <QtCore/QPointer>
 #include <functional>
 #include <injeqt/injeqt.h>
-#include <qxmpp/QXmppClient.h>
+#include <QXmppQt5/QXmppClient.h>
 
 class SslCertificateManager;
 class QSslError;

@@ -23,7 +23,7 @@
 #include "status/status-type.h"
 #include "status/status.h"
 
-#include <qxmpp/QXmppPresence.h>
+#include <QXmppQt5/QXmppPresence.h>
 
 JabberPresenceService::JabberPresenceService(QObject *parent) : QObject{parent}
 {

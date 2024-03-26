@@ -36,7 +36,7 @@
 #include "file-transfer/file-transfer-type.h"
 #include "file-transfer/gui/file-transfer-can-send-result.h"
 
-#include <qxmpp/QXmppTransferManager.h>
+#include <QXmppQt5/QXmppTransferManager.h>
 
 JabberFileTransferService::JabberFileTransferService(
     QXmppTransferManager *transferManager, Account account, QObject *parent)

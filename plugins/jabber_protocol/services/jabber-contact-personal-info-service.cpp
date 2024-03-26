@@ -29,7 +29,7 @@
 #include "contacts/contact.h"
 
 #include <QtCore/QDate>
-#include <qxmpp/QXmppVCardIq.h>
+#include <QXmppQt5/QXmppVCardIq.h>
 
 JabberContactPersonalInfoService::JabberContactPersonalInfoService(Account account, QObject *parent)
         : ContactPersonalInfoService(account, parent)

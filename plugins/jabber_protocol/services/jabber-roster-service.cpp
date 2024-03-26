@@ -37,7 +37,7 @@
 #include "roster/roster-task-type.h"
 #include "roster/roster-task.h"
 
-#include <qxmpp/QXmppRosterManager.h>
+#include <QXmppQt5/QXmppRosterManager.h>
 
 QSet<QString> JabberRosterService::buddyGroups(const Buddy &buddy)
 {

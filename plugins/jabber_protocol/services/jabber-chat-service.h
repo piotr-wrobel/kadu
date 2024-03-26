@@ -26,7 +26,7 @@
 #include <QtCore/QMap>
 #include <QtCore/QPointer>
 #include <injeqt/injeqt.h>
-#include <qxmpp/QXmppMessage.h>
+#include <QXmppQt5/QXmppMessage.h>
 
 class ChatManager;
 class ChatStorage;

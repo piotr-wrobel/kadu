@@ -23,7 +23,7 @@
 #include "jabber-stream-debug-service.h"
 #include "jabber-stream-debug-service.moc"
 
-#include <qxmpp/QXmppClient.h>
+#include <QXmppQt5/QXmppClient.h>
 
 JabberStreamDebugService::JabberStreamDebugService(QXmppClient *m_client, QObject *parent) : QObject{parent}
 {

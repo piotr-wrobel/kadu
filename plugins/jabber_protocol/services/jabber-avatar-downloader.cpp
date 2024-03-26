@@ -28,7 +28,7 @@
 #include "services/jabber-vcard-downloader.h"
 #include "services/jabber-vcard-service.h"
 
-#include <qxmpp/QXmppVCardIq.h>
+#include <QXmppQt5/QXmppVCardIq.h>
 
 JabberAvatarDownloader::JabberAvatarDownloader(ContactAvatarId id, JabberVCardService *vCardService, QObject *parent)
         : QObject{parent}, m_id{std::move(id)}, m_vCardService{vCardService}

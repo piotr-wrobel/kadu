@@ -24,7 +24,7 @@
 #include "jabber-vcard-service.h"
 #include "jabber-vcard-service.moc"
 
-#include <qxmpp/QXmppVCardManager.h>
+#include <QXmppQt5/QXmppVCardManager.h>
 
 JabberVCardService::JabberVCardService(QXmppVCardManager *vcardManager, QObject *parent)
         : QObject{parent}, m_vcardManager{vcardManager}
