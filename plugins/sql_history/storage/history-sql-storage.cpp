@@ -192,7 +192,7 @@ void HistorySqlStorage::init()
     connect(
         initializer, SIGNAL(progressFinished(bool, QString, QString)), this,
         SLOT(initializerProgressFinished(bool, QString, QString)));
-    connect(initializer, SIGNAL(databaseReady(bool)), this, SLOT(databaseReady(bool)));
+    connect(initializer, SIGNAL(databaseReady(bool,QString)), this, SLOT(databaseReady(bool,QString)));
 
     InitializerThread->start();
 
@@ -234,10 +234,14 @@ void HistorySqlStorage::initializerProgressFinished(bool ok, const QString &icon
         ImportProgressWindow->progressFinished(ok, iconName, message);
 }
 
-void HistorySqlStorage::databaseReady(bool ok)
+void HistorySqlStorage::databaseReady(bool ok, const QString &historyFilePath)
 {
     if (ok)
-        Database = QSqlDatabase::database("kadu-history", true);
+        {
+        	Database = QSqlDatabase::addDatabase("QSQLITE", "kadu-history");
+        	Database.setDatabaseName(historyFilePath);
+        	Database.open();
+        }
 
     if (!Database.isOpen() || Database.isOpenError())
     {

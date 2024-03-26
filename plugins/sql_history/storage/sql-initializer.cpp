@@ -71,7 +71,8 @@ void SqlInitializer::initialize()
     bool ok = Database.isOpen() && !Database.isOpenError();
     Database.close();
 
-    emit databaseReady(ok);
+    QString historyFilePath = m_pathsProvider->profilePath() + QStringLiteral(HISTORY_FILE_CURRENT);
+    emit databaseReady(ok,historyFilePath);
 
     deleteLater();
 }

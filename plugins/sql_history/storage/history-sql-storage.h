@@ -141,7 +141,7 @@ private slots:
     void initializerProgressMessage(const QString &iconName, const QString &message);
     void initializerProgressFinished(bool ok, const QString &iconName, const QString &message);
 
-    void databaseReady(bool ok);
+    void databaseReady(bool ok, const QString &historyFilePath);
 
 public:
     Q_INVOKABLE explicit HistorySqlStorage(QObject *parent = nullptr);

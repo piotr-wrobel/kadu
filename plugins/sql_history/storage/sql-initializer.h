@@ -62,7 +62,7 @@ public slots:
     void initialize();
 
 signals:
-    void databaseReady(bool ok);
+    void databaseReady(bool ok, const QString &historyFilePath);
 
     void progressMessage(const QString &iconName, const QString &message);
     void progressFinished(bool ok, const QString &iconName, const QString &message);
