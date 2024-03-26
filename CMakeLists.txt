@@ -34,7 +34,7 @@ else ()
 	set (CXX_FLAGS "${CXX_FLAGS} -Wall -Wextra -Wundef -Wunused -Wuninitialized -Wcast-align -Wpointer-arith -fno-common")
 	set (C_FLAGS "-Wwrite-strings")
 	set (CXX_FLAGS "-Woverloaded-virtual -Wnon-virtual-dtor ${CXX_FLAGS}")
-	set (CMAKE_CXX_STANDARD 14)
+	set (CMAKE_CXX_STANDARD 17)
 
 	if (NOT WIN32)
 		set (CXX_FLAGS "${CXX_FLAGS} -fvisibility=hidden")

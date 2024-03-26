@@ -40,7 +40,7 @@ else ()
 
 	if (USE_ENCHANT)
 		find_package (PkgConfig)
-		pkg_search_module (ENCHANT enchant)
+		pkg_search_module (ENCHANT enchant-2)
 
 		if (NOT ENCHANT_FOUND)
 			if (FORCE_ENGINE)

@@ -44,7 +44,7 @@ include_directories (${INJEQT_INCLUDEDIR})
 link_directories (${INJEQT_LIBRARY_DIRS})
 
 set (CMAKE_CXX_FLAGS "-Woverloaded-virtual -Wnon-virtual-dtor ${CMAKE_CXX_FLAGS}")
-set (CMAKE_CXX_STANDARD 14)
+set (CMAKE_CXX_STANDARD 17)
 
 if (NOT WIN32)
     set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fvisibility-inlines-hidden")
