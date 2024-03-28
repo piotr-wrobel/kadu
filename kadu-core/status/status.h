@@ -59,8 +59,8 @@ public:
      * Creates new status with given type and description.
      */
     explicit Status(StatusType statusType = StatusType::Offline, const QString &description = QString());
-    Status(const Status &copyme);
-    ~Status();
+//   Status(const Status &copyme);
+//    ~Status();
 
     /**
      * @short Returns this status type.
