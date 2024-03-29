@@ -89,7 +89,7 @@
     <name>ShowConfigWizardAction</name>
     <message>
         <source>Start Configuration Wizard</source>
-        <translation type="unfinished"/>
+        <translation>Spustit průvodce nastavením</translation>
     </message>
 </context>
 </TS>

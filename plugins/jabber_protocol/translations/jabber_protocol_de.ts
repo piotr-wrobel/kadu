@@ -3,7 +3,7 @@
     <name>AskForSubscriptionAction</name>
     <message>
         <source>Ask for Subscription</source>
-        <translation type="unfinished"/>
+        <translation>Fordere Online-Status an</translation>
     </message>
 </context>
 <context>
@@ -634,28 +634,28 @@ Server-Nachricht: %1</translation>
     <name>RemoveSubscriptionAction</name>
     <message>
         <source>Remove Subscription</source>
-        <translation type="unfinished"/>
+        <translation>Online-Status nicht mehr freigeben</translation>
     </message>
 </context>
 <context>
     <name>ResendSubscriptionAction</name>
     <message>
         <source>Resend Subscription</source>
-        <translation type="unfinished"/>
+        <translation>Online-Status erneut freigeben</translation>
     </message>
 </context>
 <context>
     <name>ShowXmlConsoleAction</name>
     <message>
         <source>Show XML Console</source>
-        <translation type="unfinished"/>
+        <translation>Zeige XML-Konsole</translation>
     </message>
 </context>
 <context>
     <name>SubscriptionAction</name>
     <message>
         <source>Resend Subscription</source>
-        <translation type="unfinished"/>
+        <translation>Online-Status erneut freigeben</translation>
     </message>
 </context>
 <context>

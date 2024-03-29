@@ -132,7 +132,7 @@ Debería ser más grande.</translation>
     </message>
     <message>
         <source>ScreenShot</source>
-        <translation type="unfinished"/>
+        <translation>Captura de Pantalla</translation>
     </message>
 </context>
 <context>

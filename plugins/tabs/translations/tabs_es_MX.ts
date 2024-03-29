@@ -94,14 +94,14 @@
     <name>AttachTabAction</name>
     <message>
         <source>Attach Chat to Tabs</source>
-        <translation type="unfinished"/>
+        <translation>Fijar la conversación a las pestañas</translation>
     </message>
 </context>
 <context>
     <name>OpenInNewTabAction</name>
     <message>
         <source>Chat in New Tab</source>
-        <translation type="unfinished"/>
+        <translation>Conversación en nueva pestaña</translation>
     </message>
 </context>
 <context>

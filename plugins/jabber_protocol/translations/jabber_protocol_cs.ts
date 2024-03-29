@@ -3,7 +3,7 @@
     <name>AskForSubscriptionAction</name>
     <message>
         <source>Ask for Subscription</source>
-        <translation type="unfinished"/>
+        <translation>Požádat o odběr</translation>
     </message>
 </context>
 <context>
@@ -634,28 +634,28 @@ Zpráva od serveru: %1</translation>
     <name>RemoveSubscriptionAction</name>
     <message>
         <source>Remove Subscription</source>
-        <translation type="unfinished"/>
+        <translation>Odstranit odběr</translation>
     </message>
 </context>
 <context>
     <name>ResendSubscriptionAction</name>
     <message>
         <source>Resend Subscription</source>
-        <translation type="unfinished"/>
+        <translation>Poslat odběr znovu</translation>
     </message>
 </context>
 <context>
     <name>ShowXmlConsoleAction</name>
     <message>
         <source>Show XML Console</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat konzoli XML</translation>
     </message>
 </context>
 <context>
     <name>SubscriptionAction</name>
     <message>
         <source>Resend Subscription</source>
-        <translation type="unfinished"/>
+        <translation>Poslat odběr znovu</translation>
     </message>
 </context>
 <context>

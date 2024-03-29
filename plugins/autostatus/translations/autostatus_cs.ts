@@ -46,7 +46,7 @@
     <name>ToggleAutostatusAction</name>
     <message>
         <source>&amp;Autostatus</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Automatický stav</translation>
     </message>
 </context>
 </TS>

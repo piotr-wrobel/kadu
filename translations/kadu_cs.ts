@@ -1107,11 +1107,11 @@ ihned po zřízení spojení se serverem</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Odstranit</translation>
     </message>
     <message>
         <source>Change</source>
-        <translation type="unfinished"/>
+        <translation>Změnit</translation>
     </message>
 </context>
 <context>
@@ -1133,7 +1133,7 @@ ihned po zřízení spojení se serverem</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"/>
+        <translation>Přehlížet</translation>
     </message>
 </context>
 <context>
@@ -1316,14 +1316,14 @@ ihned po zřízení spojení se serverem</translation>
     <name>AddFoundBuddyAction</name>
     <message>
         <source>Add selected user</source>
-        <translation type="unfinished"/>
+        <translation>Přidat vybraného uživatele</translation>
     </message>
 </context>
 <context>
     <name>AddGroupAction</name>
     <message>
         <source>Add Group...</source>
-        <translation type="unfinished"/>
+        <translation>Přidat skupinu...</translation>
     </message>
 </context>
 <context>
@@ -1404,7 +1404,7 @@ ihned po zřízení spojení se serverem</translation>
     <name>AddUserAction</name>
     <message>
         <source>Add Buddy...</source>
-        <translation type="unfinished"/>
+        <translation>Přidat kamaráda...</translation>
     </message>
 </context>
 <context>
@@ -1437,25 +1437,25 @@ ihned po zřízení spojení se serverem</translation>
     <name>AutoSendAction</name>
     <message>
         <source>More...</source>
-        <translation type="unfinished"/>
+        <translation>Více...</translation>
     </message>
     <message>
         <source>Return Sends Message</source>
-        <translation type="unfinished"/>
+        <translation>Vrátit zprávu o poslání</translation>
     </message>
 </context>
 <context>
     <name>BlockUserAction</name>
     <message>
         <source>Block Buddy</source>
-        <translation type="unfinished"/>
+        <translation>Obstavit kamaráda</translation>
     </message>
 </context>
 <context>
     <name>BoldAction</name>
     <message>
         <source>Bold</source>
-        <translation type="unfinished"/>
+        <translation>Tučné</translation>
     </message>
 </context>
 <context>
@@ -1481,11 +1481,11 @@ ihned po zřízení spojení se serverem</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Odstranit</translation>
     </message>
     <message>
         <source>Change</source>
-        <translation type="unfinished"/>
+        <translation>Změnit</translation>
     </message>
 </context>
 <context>
@@ -1781,7 +1781,7 @@ ihned po zřízení spojení se serverem</translation>
     <name>ChatFoundAction</name>
     <message>
         <source>&amp;Chat</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Rozhovor</translation>
     </message>
 </context>
 <context>
@@ -1921,14 +1921,14 @@ Chcete přesto tento obrázek přijmout?</translation>
     <name>ClearChatAction</name>
     <message>
         <source>Clear Messages in Chat Window</source>
-        <translation type="unfinished"/>
+        <translation>Smazat zprávy v okně pro rozhovor</translation>
     </message>
 </context>
 <context>
     <name>ClearResultsAction</name>
     <message>
         <source>Clear results</source>
-        <translation type="unfinished"/>
+        <translation>Smazat výsledky</translation>
     </message>
 </context>
 <context>
@@ -1957,30 +1957,30 @@ Chcete přesto tento obrázek přijmout?</translation>
     <name>CopyDescriptionAction</name>
     <message>
         <source>Copy Description</source>
-        <translation type="unfinished"/>
+        <translation>Kopírovat popis</translation>
     </message>
 </context>
 <context>
     <name>CopyPersonalInfoAction</name>
     <message>
         <source>Copy Personal Info</source>
-        <translation type="unfinished"/>
+        <translation>Kopírovat osobní informace</translation>
     </message>
     <message>
         <source>Contact:</source>
-        <translation type="unfinished"/>
+        <translation>Spojení:</translation>
     </message>
     <message>
         <source>First name:</source>
-        <translation type="unfinished"/>
+        <translation>Křestní jméno:</translation>
     </message>
     <message>
         <source>Last name:</source>
-        <translation type="unfinished"/>
+        <translation>Příjmení:</translation>
     </message>
     <message>
         <source>Mobile:</source>
-        <translation type="unfinished"/>
+        <translation>Přenosný telefon:</translation>
     </message>
 </context>
 <context>
@@ -2074,7 +2074,7 @@ Chcete přesto tento obrázek přijmout?</translation>
     <name>ExitAction</name>
     <message>
         <source>&amp;Quit</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ukončit</translation>
     </message>
 </context>
 <context>
@@ -2139,19 +2139,19 @@ Chcete přesto tento obrázek přijmout?</translation>
     </message>
     <message>
         <source>Accept</source>
-        <translation type="unfinished"/>
+        <translation>Přijmout</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"/>
+        <translation>Uložit</translation>
     </message>
     <message>
         <source>Reject</source>
-        <translation type="unfinished"/>
+        <translation>Odmítnout</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"/>
+        <translation>Přehlížet</translation>
     </message>
 </context>
 <context>
@@ -2259,7 +2259,7 @@ Chcete přesto tento obrázek přijmout?</translation>
     <name>FirstSearchAction</name>
     <message>
         <source>&amp;Search</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Hledat</translation>
     </message>
 </context>
 <context>
@@ -2493,14 +2493,14 @@ Chcete přesto tento obrázek přijmout?</translation>
     <name>InsertImageAction</name>
     <message>
         <source>Insert Image</source>
-        <translation type="unfinished"/>
+        <translation>Vložit obrázek</translation>
     </message>
 </context>
 <context>
     <name>ItalicAction</name>
     <message>
         <source>Italic</source>
-        <translation type="unfinished"/>
+        <translation>Kurzíva</translation>
     </message>
 </context>
 <context>
@@ -2651,7 +2651,7 @@ poradu</translation>
     <name>LookupBuddyInfoAction</name>
     <message>
         <source>Search in Directory</source>
-        <translation type="unfinished"/>
+        <translation>Hledat v adresáři</translation>
     </message>
 </context>
 <context>
@@ -2688,15 +2688,16 @@ poradu</translation>
     <name>MergeBuddiesAction</name>
     <message>
         <source>Merge Buddies...</source>
-        <translation type="unfinished"/>
+        <translation>
+Sloučit kamarády...</translation>
     </message>
     <message>
         <source>Choose which buddy would you like to merge with &lt;i&gt;%1&lt;/i&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Vyberte, kterého kamaráda chcete sloučit s &lt;i&gt;%1&lt;/i&gt;</translation>
     </message>
     <message>
         <source>Merge</source>
-        <translation type="unfinished"/>
+        <translation>Sloučit</translation>
     </message>
 </context>
 <context>
@@ -2734,18 +2735,18 @@ poradu</translation>
     </message>
     <message>
         <source>Chat</source>
-        <translation type="unfinished"/>
+        <translation>Rozhovor</translation>
     </message>
 </context>
 <context>
     <name>MoreActionsAction</name>
     <message>
         <source>More...</source>
-        <translation type="unfinished"/>
+        <translation>Více...</translation>
     </message>
     <message>
         <source>More</source>
-        <translation type="unfinished"/>
+        <translation>Více</translation>
     </message>
 </context>
 <context>
@@ -2783,7 +2784,7 @@ poradu</translation>
     </message>
     <message>
         <source>Disconnect session</source>
-        <translation type="unfinished"/>
+        <translation>Odpojit sezení</translation>
     </message>
 </context>
 <context>
@@ -2816,7 +2817,7 @@ poradu</translation>
     <name>NextResultsAction</name>
     <message>
         <source>&amp;Next results</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Další výsledky</translation>
     </message>
 </context>
 <context>
@@ -2830,7 +2831,7 @@ poradu</translation>
     <name>NotifyAboutBuddyAction</name>
     <message>
         <source>Notify About Buddy</source>
-        <translation type="unfinished"/>
+        <translation>Upozornit na kamaráda</translation>
     </message>
 </context>
 <context>
@@ -2855,14 +2856,14 @@ poradu</translation>
     <name>OpenBuddyEmailAction</name>
     <message>
         <source>Send E-Mail</source>
-        <translation type="unfinished"/>
+        <translation>Poslat elektronický dopis</translation>
     </message>
 </context>
 <context>
     <name>OpenChatAction</name>
     <message>
         <source>&amp;Chat</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Rozhovor</translation>
     </message>
 </context>
 <context>
@@ -2888,49 +2889,49 @@ poradu</translation>
     <name>OpenChatWithAction</name>
     <message>
         <source>Open Chat with...</source>
-        <translation type="unfinished"/>
+        <translation>Otevřít rozhovor s...</translation>
     </message>
 </context>
 <context>
     <name>OpenDescriptionLinkAction</name>
     <message>
         <source>Open Description Link in Browser</source>
-        <translation type="unfinished"/>
+        <translation>Otevřít odkaz na popis v prohlížeči</translation>
     </message>
 </context>
 <context>
     <name>OpenForumAction</name>
     <message>
         <source>Forum</source>
-        <translation type="unfinished"/>
+        <translation>Fórum</translation>
     </message>
 </context>
 <context>
     <name>OpenGetInvolvedAction</name>
     <message>
         <source>Get Involved</source>
-        <translation type="unfinished"/>
+        <translation>Zapojit se</translation>
     </message>
 </context>
 <context>
     <name>OpenRedmineAction</name>
     <message>
         <source>Report a Bug</source>
-        <translation type="unfinished"/>
+        <translation>Nahlásit chybu</translation>
     </message>
 </context>
 <context>
     <name>OpenSearchAction</name>
     <message>
         <source>Search for Buddy...</source>
-        <translation type="unfinished"/>
+        <translation>Hledat kamaráda...</translation>
     </message>
 </context>
 <context>
     <name>OpenTranslateAction</name>
     <message>
         <source>Translate Kadu</source>
-        <translation type="unfinished"/>
+        <translation>Přeložit Kadu</translation>
     </message>
 </context>
 <context>
@@ -2983,7 +2984,7 @@ poradu</translation>
     </message>
     <message>
         <source>Select paths</source>
-        <translation type="unfinished"/>
+        <translation>Vybrat cesty</translation>
     </message>
 </context>
 <context>
@@ -3449,7 +3450,7 @@ poradu</translation>
     </message>
     <message>
         <source>Search User in Directory</source>
-        <translation type="unfinished"/>
+        <translation>Hledat uživatele v adresáři</translation>
     </message>
 </context>
 <context>
@@ -3494,7 +3495,7 @@ poradu</translation>
     <name>SendAction</name>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Poslat</translation>
     </message>
 </context>
 <context>
@@ -3512,28 +3513,28 @@ poradu</translation>
     <name>ShowAboutWindowAction</name>
     <message>
         <source>A&amp;bout Kadu</source>
-        <translation type="unfinished"/>
+        <translation>O &amp;programu Kadu</translation>
     </message>
 </context>
 <context>
     <name>ShowBlockedBuddiesAction</name>
     <message>
         <source>Show Blocked Buddies</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat obstavené kamarády</translation>
     </message>
 </context>
 <context>
     <name>ShowConfigurationWindowAction</name>
     <message>
         <source>Preferences</source>
-        <translation type="unfinished"/>
+        <translation>Volby</translation>
     </message>
 </context>
 <context>
     <name>ShowDescriptionsAction</name>
     <message>
         <source>Show Descriptions</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat popisy</translation>
     </message>
 </context>
 <context>
@@ -3547,49 +3548,49 @@ poradu</translation>
     <name>ShowInfoPanelAction</name>
     <message>
         <source>Show Information Panel</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat informační panel</translation>
     </message>
 </context>
 <context>
     <name>ShowMultilogonsAction</name>
     <message>
         <source>Multilogons</source>
-        <translation type="unfinished"/>
+        <translation>Více přihlášení</translation>
     </message>
 </context>
 <context>
     <name>ShowMyselfAction</name>
     <message>
         <source>Show Myself Buddy</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat sebe kamarádovi</translation>
     </message>
 </context>
 <context>
     <name>ShowOfflineBuddiesAction</name>
     <message>
         <source>Show Offline Buddies</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat nepřipojené kamarády</translation>
     </message>
 </context>
 <context>
     <name>ShowOnlyBuddiesWithDescriptionAction</name>
     <message>
         <source>Only Show Buddies with Description</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat pouze kamarády s popisem</translation>
     </message>
 </context>
 <context>
     <name>ShowOnlyBuddiesWithDescriptionOrOnlineAction</name>
     <message>
         <source>Only Show Online Buddies and Buddies with Description</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat pouze připojené kamarády a kamarády s popisem</translation>
     </message>
 </context>
 <context>
     <name>ShowYourAccountsAction</name>
     <message>
         <source>Your Accounts</source>
-        <translation type="unfinished"/>
+        <translation>Vaše účty</translation>
     </message>
 </context>
 <context>
@@ -3608,15 +3609,15 @@ poradu</translation>
     </message>
     <message>
         <source>Show details...</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat podrobnosti...</translation>
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished"/>
+        <translation>Spojit</translation>
     </message>
     <message>
         <source>Trust</source>
-        <translation type="unfinished"/>
+        <translation>Důvěřovat</translation>
     </message>
 </context>
 <context>
@@ -3841,7 +3842,7 @@ poradu</translation>
     <name>StopSearchAction</name>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"/>
+        <translation>Zastavit</translation>
     </message>
 </context>
 <context>
@@ -3875,14 +3876,14 @@ poradu</translation>
     </message>
     <message>
         <source>Ask For Sharing Status</source>
-        <translation type="unfinished"/>
+        <translation>Požádat o stav sdílení</translation>
     </message>
 </context>
 <context>
     <name>ToggleSilentModeAction</name>
     <message>
         <source>Silent Mode</source>
-        <translation type="unfinished"/>
+        <translation>Tichý režim</translation>
     </message>
 </context>
 <context>
@@ -3987,7 +3988,7 @@ poradu</translation>
     <name>UnderlineAction</name>
     <message>
         <source>Underline</source>
-        <translation type="unfinished"/>
+        <translation>Podtržení</translation>
     </message>
 </context>
 <context>
@@ -4010,7 +4011,7 @@ poradu</translation>
     </message>
     <message>
         <source>New version is available. Please update</source>
-        <translation type="unfinished"/>
+        <translation>Je dostupná nová verze. Proveďte, prosím, aktualizaci</translation>
     </message>
 </context>
 <context>

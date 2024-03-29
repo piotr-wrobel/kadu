@@ -35,14 +35,14 @@
     </message>
     <message>
         <source>Buddies Information</source>
-        <translation type="unfinished"/>
+        <translation>Informace o kamarádech</translation>
     </message>
 </context>
 <context>
     <name>ShowInfosWindowAction</name>
     <message>
         <source>&amp;Show infos about buddies</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ukázat informace o kamarádech</translation>
     </message>
 </context>
 </TS>

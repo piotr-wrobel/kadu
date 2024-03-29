@@ -3,89 +3,89 @@
     <name>FacebookAddAccountWidget</name>
     <message>
         <source>Username</source>
-        <translation type="unfinished"/>
+        <translation>Uživatelské jméno</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished"/>
+        <translation>Heslo</translation>
     </message>
     <message>
         <source>Remember Password</source>
-        <translation type="unfinished"/>
+        <translation>Zapamatovat si heslo</translation>
     </message>
     <message>
         <source>Account Identity</source>
-        <translation type="unfinished"/>
+        <translation>Totožnost účtu</translation>
     </message>
     <message>
         <source>&lt;font size=&apos;-1&apos;&gt;&lt;i&gt;Select or enter the identity that will be associated with this account.&lt;/i&gt;&lt;/font&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;font size=&apos;-1&apos;&gt;&lt;i&gt;Vyberte nebo zadejte totožnost, která bude spojena s tímto účtem.&lt;/i&gt;&lt;/font&gt;</translation>
     </message>
     <message>
         <source>Add Account</source>
-        <translation type="unfinished"/>
+        <translation>Přidat účet</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>Zrušit</translation>
     </message>
 </context>
 <context>
     <name>FacebookEditAccountWidget</name>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"/>
+        <translation>Použít</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>Zrušit</translation>
     </message>
     <message>
         <source>Delete account</source>
-        <translation type="unfinished"/>
+        <translation>Smazat účet</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation type="unfinished"/>
+        <translation>Uživatelské jméno</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished"/>
+        <translation>Heslo</translation>
     </message>
     <message>
         <source>Remember password</source>
-        <translation type="unfinished"/>
+        <translation>Zapamatovat si heslo</translation>
     </message>
     <message>
         <source>Account Identity</source>
-        <translation type="unfinished"/>
+        <translation>Totožnost účtu</translation>
     </message>
     <message>
         <source>Proxy</source>
-        <translation type="unfinished"/>
+        <translation>Proxy</translation>
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished"/>
+        <translation>Obecné</translation>
     </message>
     <message>
         <source>Confrim Account Removal</source>
-        <translation type="unfinished"/>
+        <translation>Potvrdit odstranění účtu</translation>
     </message>
     <message>
         <source>Are you sure do you want to remove account %1 (%2)?</source>
-        <translation type="unfinished"/>
+        <translation>Opravdu chcete odstranit účet %1 (%2)?</translation>
     </message>
     <message>
         <source>Remove account</source>
-        <translation type="unfinished"/>
+        <translation>Odstranit účet</translation>
     </message>
 </context>
 <context>
     <name>FacebookProtocolFactory</name>
     <message>
         <source>User ID:</source>
-        <translation type="unfinished"/>
+        <translation>Uživatelovo ID:</translation>
     </message>
 </context>
 </TS>

@@ -3,68 +3,70 @@
     <name>@default</name>
     <message>
         <source>Notification</source>
-        <translation type="unfinished"/>
+        <translation>Benachrichtigung</translation>
     </message>
     <message>
         <source>Tray Icon Balloon</source>
-        <translation type="unfinished"/>
+        <translation>Sprechblase im Tray</translation>
     </message>
     <message>
         <source>Timeout</source>
-        <translation type="unfinished"/>
+        <translation>Zeitüberschreitung</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n Sekunde</numerusform><numerusform>%n Sekunden</numerusform></translation>
     </message>
     <message>
         <source>Notification icon</source>
-        <translation type="unfinished"/>
+        <translation>Benachrichtigungssymbol</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation>Information</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>Warnung</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation type="unfinished"/>
+        <translation>Kritisch</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"/>
+        <translation>Titel</translation>
     </message>
     <message>
         <source>Syntax</source>
-        <translation type="unfinished"/>
+        <translation>Syntax</translation>
     </message>
     <message>
         <source>No Icon</source>
-        <translation type="unfinished"/>
+        <translation>Kein Symbol</translation>
     </message>
     <message>
         <source>Notifications</source>
-        <translation type="unfinished"/>
+        <translation>Benachrichtigungen</translation>
     </message>
 </context>
 <context>
     <name>DockingNotifyConfigurationWidget</name>
     <message>
         <source>Configure</source>
-        <translation type="unfinished"/>
+        <translation>Konfigurieren</translation>
     </message>
     <message>
         <source>Tray icon balloon&apos;s look configuration</source>
-        <translation type="unfinished"/>
+        <translation>Aussehen der Sprechblase bearbeiten</translation>
     </message>
     <message>
         <source>
 %&amp;t - title (eg. New message) %&amp;m - notification text (eg. Message from Jim), %&amp;d - details (eg. message quotation),
 %&amp;i - notification icon</source>
-        <translation type="unfinished"/>
+        <translation>
+%&amp;t - Titel (z.B. Neue Nachricht) %&amp;m - Nachrichtentext (z.B. Nachricht vom Jim), %&amp;d - Details (z.B. Nachrichteninhalt),
+%&amp;i - Benachrichtigungssymbol</translation>
     </message>
 </context>
 </TS>

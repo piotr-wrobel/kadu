@@ -132,7 +132,7 @@ Měl by být větší.</translation>
     </message>
     <message>
         <source>ScreenShot</source>
-        <translation type="unfinished"/>
+        <translation>Snímek obrazovky</translation>
     </message>
 </context>
 <context>

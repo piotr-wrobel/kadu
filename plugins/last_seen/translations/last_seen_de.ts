@@ -35,14 +35,14 @@
     </message>
     <message>
         <source>Buddies Information</source>
-        <translation type="unfinished"/>
+        <translation>Kontaktinformationen</translation>
     </message>
 </context>
 <context>
     <name>ShowInfosWindowAction</name>
     <message>
         <source>&amp;Show infos about buddies</source>
-        <translation type="unfinished"/>
+        <translation>Zeige Info&amp;s über Kontakte</translation>
     </message>
 </context>
 </TS>

@@ -193,56 +193,56 @@ Win+ Enter/Backspace/Left/Right/Up/Down.</translation>
     <name>MediaplayerMenuAction</name>
     <message>
         <source>MediaPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Reproductor multimedia</translation>
     </message>
 </context>
 <context>
     <name>NextAction</name>
     <message>
         <source>Next Track</source>
-        <translation type="unfinished"/>
+        <translation>Siguiente pista</translation>
     </message>
 </context>
 <context>
     <name>PlayAction</name>
     <message>
         <source>Play</source>
-        <translation type="unfinished"/>
+        <translation>Reproducir</translation>
     </message>
 </context>
 <context>
     <name>PrevAction</name>
     <message>
         <source>Previous Track</source>
-        <translation type="unfinished"/>
+        <translation>Anterior pista</translation>
     </message>
 </context>
 <context>
     <name>StopAction</name>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"/>
+        <translation>Detener</translation>
     </message>
 </context>
 <context>
     <name>ToggleMediaplayerStatusesAction</name>
     <message>
         <source>Enable MediaPlayer Statuses</source>
-        <translation type="unfinished"/>
+        <translation>Habilitar los Estados del Reproductor Multimedia</translation>
     </message>
 </context>
 <context>
     <name>VolumeDownAction</name>
     <message>
         <source>Volume Down</source>
-        <translation type="unfinished"/>
+        <translation>Bajar Volumen</translation>
     </message>
 </context>
 <context>
     <name>VolumeUpAction</name>
     <message>
         <source>Volume Up</source>
-        <translation type="unfinished"/>
+        <translation>Subir Volumen</translation>
     </message>
 </context>
 </TS>

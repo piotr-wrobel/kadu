@@ -1107,11 +1107,11 @@ wenn Kontakte sich mit dem Server verbinden</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Entfernen</translation>
     </message>
     <message>
         <source>Change</source>
-        <translation type="unfinished"/>
+        <translation>Ändern</translation>
     </message>
 </context>
 <context>
@@ -1133,7 +1133,7 @@ wenn Kontakte sich mit dem Server verbinden</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"/>
+        <translation>Ignorieren</translation>
     </message>
 </context>
 <context>
@@ -1316,14 +1316,14 @@ wenn Kontakte sich mit dem Server verbinden</translation>
     <name>AddFoundBuddyAction</name>
     <message>
         <source>Add selected user</source>
-        <translation type="unfinished"/>
+        <translation>Ausgewählten Benutzer hinzufügen</translation>
     </message>
 </context>
 <context>
     <name>AddGroupAction</name>
     <message>
         <source>Add Group...</source>
-        <translation type="unfinished"/>
+        <translation>Gruppe hinzufügen...</translation>
     </message>
 </context>
 <context>
@@ -1404,7 +1404,7 @@ wenn Kontakte sich mit dem Server verbinden</translation>
     <name>AddUserAction</name>
     <message>
         <source>Add Buddy...</source>
-        <translation type="unfinished"/>
+        <translation>Kontakt hinzufügen...</translation>
     </message>
 </context>
 <context>
@@ -1437,25 +1437,25 @@ wenn Kontakte sich mit dem Server verbinden</translation>
     <name>AutoSendAction</name>
     <message>
         <source>More...</source>
-        <translation type="unfinished"/>
+        <translation>Mehr...</translation>
     </message>
     <message>
         <source>Return Sends Message</source>
-        <translation type="unfinished"/>
+        <translation>ENTER sendet die Nachricht</translation>
     </message>
 </context>
 <context>
     <name>BlockUserAction</name>
     <message>
         <source>Block Buddy</source>
-        <translation type="unfinished"/>
+        <translation>Kontakt blockieren</translation>
     </message>
 </context>
 <context>
     <name>BoldAction</name>
     <message>
         <source>Bold</source>
-        <translation type="unfinished"/>
+        <translation>Fett</translation>
     </message>
 </context>
 <context>
@@ -1481,11 +1481,11 @@ wenn Kontakte sich mit dem Server verbinden</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Entfernen</translation>
     </message>
     <message>
         <source>Change</source>
-        <translation type="unfinished"/>
+        <translation>Ändern</translation>
     </message>
 </context>
 <context>
@@ -1781,7 +1781,7 @@ wenn Kontakte sich mit dem Server verbinden</translation>
     <name>ChatFoundAction</name>
     <message>
         <source>&amp;Chat</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Chat</translation>
     </message>
 </context>
 <context>
@@ -1921,14 +1921,14 @@ Möchten Sie die Datei trotzdem annehmen?</translation>
     <name>ClearChatAction</name>
     <message>
         <source>Clear Messages in Chat Window</source>
-        <translation type="unfinished"/>
+        <translation>Nachrichten im Chatfenster entfernen</translation>
     </message>
 </context>
 <context>
     <name>ClearResultsAction</name>
     <message>
         <source>Clear results</source>
-        <translation type="unfinished"/>
+        <translation>Ergebnis leeren</translation>
     </message>
 </context>
 <context>
@@ -1957,30 +1957,30 @@ Möchten Sie die Datei trotzdem annehmen?</translation>
     <name>CopyDescriptionAction</name>
     <message>
         <source>Copy Description</source>
-        <translation type="unfinished"/>
+        <translation>Beschreibung kopieren</translation>
     </message>
 </context>
 <context>
     <name>CopyPersonalInfoAction</name>
     <message>
         <source>Copy Personal Info</source>
-        <translation type="unfinished"/>
+        <translation>Persönliche Daten kopieren</translation>
     </message>
     <message>
         <source>Contact:</source>
-        <translation type="unfinished"/>
+        <translation>Kontakt:</translation>
     </message>
     <message>
         <source>First name:</source>
-        <translation type="unfinished"/>
+        <translation>Vorname:</translation>
     </message>
     <message>
         <source>Last name:</source>
-        <translation type="unfinished"/>
+        <translation>Nachname:</translation>
     </message>
     <message>
         <source>Mobile:</source>
-        <translation type="unfinished"/>
+        <translation>Mobil:</translation>
     </message>
 </context>
 <context>
@@ -2074,7 +2074,7 @@ Möchten Sie die Datei trotzdem annehmen?</translation>
     <name>ExitAction</name>
     <message>
         <source>&amp;Quit</source>
-        <translation type="unfinished"/>
+        <translation>Beenden</translation>
     </message>
 </context>
 <context>
@@ -2139,19 +2139,19 @@ Möchten Sie die Datei trotzdem annehmen?</translation>
     </message>
     <message>
         <source>Accept</source>
-        <translation type="unfinished"/>
+        <translation>Akzeptieren</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"/>
+        <translation>Speichern</translation>
     </message>
     <message>
         <source>Reject</source>
-        <translation type="unfinished"/>
+        <translation>Ablehnen</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"/>
+        <translation>Ignorieren</translation>
     </message>
 </context>
 <context>
@@ -2259,7 +2259,7 @@ Möchten Sie die Datei trotzdem annehmen?</translation>
     <name>FirstSearchAction</name>
     <message>
         <source>&amp;Search</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Suche</translation>
     </message>
 </context>
 <context>
@@ -2493,14 +2493,14 @@ Möchten Sie die Datei trotzdem annehmen?</translation>
     <name>InsertImageAction</name>
     <message>
         <source>Insert Image</source>
-        <translation type="unfinished"/>
+        <translation>Bild einfügen</translation>
     </message>
 </context>
 <context>
     <name>ItalicAction</name>
     <message>
         <source>Italic</source>
-        <translation type="unfinished"/>
+        <translation>Kursiv</translation>
     </message>
 </context>
 <context>
@@ -2650,7 +2650,7 @@ Konferenz wirklich verlassen?</translation>
     <name>LookupBuddyInfoAction</name>
     <message>
         <source>Search in Directory</source>
-        <translation type="unfinished"/>
+        <translation>Suche im Verzeichnis</translation>
     </message>
 </context>
 <context>
@@ -2687,15 +2687,15 @@ Konferenz wirklich verlassen?</translation>
     <name>MergeBuddiesAction</name>
     <message>
         <source>Merge Buddies...</source>
-        <translation type="unfinished"/>
+        <translation>Kontakte zusammenführen...</translation>
     </message>
     <message>
         <source>Choose which buddy would you like to merge with &lt;i&gt;%1&lt;/i&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Kontakt auswählen, mit dem &lt;i&gt;%1&lt;/i&gt; zusammengefasst werden soll</translation>
     </message>
     <message>
         <source>Merge</source>
-        <translation type="unfinished"/>
+        <translation>Zusammenführen</translation>
     </message>
 </context>
 <context>
@@ -2733,18 +2733,18 @@ Konferenz wirklich verlassen?</translation>
     </message>
     <message>
         <source>Chat</source>
-        <translation type="unfinished"/>
+        <translation>Chat</translation>
     </message>
 </context>
 <context>
     <name>MoreActionsAction</name>
     <message>
         <source>More...</source>
-        <translation type="unfinished"/>
+        <translation>Mehr...</translation>
     </message>
     <message>
         <source>More</source>
-        <translation type="unfinished"/>
+        <translation>Mehr</translation>
     </message>
 </context>
 <context>
@@ -2782,7 +2782,7 @@ Konferenz wirklich verlassen?</translation>
     </message>
     <message>
         <source>Disconnect session</source>
-        <translation type="unfinished"/>
+        <translation>Sitzung trennen</translation>
     </message>
 </context>
 <context>
@@ -2815,7 +2815,7 @@ Konferenz wirklich verlassen?</translation>
     <name>NextResultsAction</name>
     <message>
         <source>&amp;Next results</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Weitere Ergebnisse</translation>
     </message>
 </context>
 <context>
@@ -2829,7 +2829,7 @@ Konferenz wirklich verlassen?</translation>
     <name>NotifyAboutBuddyAction</name>
     <message>
         <source>Notify About Buddy</source>
-        <translation type="unfinished"/>
+        <translation>Über Kontakt benachrichtigen</translation>
     </message>
 </context>
 <context>
@@ -2854,14 +2854,14 @@ Konferenz wirklich verlassen?</translation>
     <name>OpenBuddyEmailAction</name>
     <message>
         <source>Send E-Mail</source>
-        <translation type="unfinished"/>
+        <translation>Sende E-Mail</translation>
     </message>
 </context>
 <context>
     <name>OpenChatAction</name>
     <message>
         <source>&amp;Chat</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Chat</translation>
     </message>
 </context>
 <context>
@@ -2887,49 +2887,49 @@ Konferenz wirklich verlassen?</translation>
     <name>OpenChatWithAction</name>
     <message>
         <source>Open Chat with...</source>
-        <translation type="unfinished"/>
+        <translation>Starte Chat mit...</translation>
     </message>
 </context>
 <context>
     <name>OpenDescriptionLinkAction</name>
     <message>
         <source>Open Description Link in Browser</source>
-        <translation type="unfinished"/>
+        <translation>Beschreibungs-Link im Browser öffnen</translation>
     </message>
 </context>
 <context>
     <name>OpenForumAction</name>
     <message>
         <source>Forum</source>
-        <translation type="unfinished"/>
+        <translation>Forum</translation>
     </message>
 </context>
 <context>
     <name>OpenGetInvolvedAction</name>
     <message>
         <source>Get Involved</source>
-        <translation type="unfinished"/>
+        <translation>Mithelfen</translation>
     </message>
 </context>
 <context>
     <name>OpenRedmineAction</name>
     <message>
         <source>Report a Bug</source>
-        <translation type="unfinished"/>
+        <translation>Einen Fehler melden</translation>
     </message>
 </context>
 <context>
     <name>OpenSearchAction</name>
     <message>
         <source>Search for Buddy...</source>
-        <translation type="unfinished"/>
+        <translation>Suche nach Kontakt...</translation>
     </message>
 </context>
 <context>
     <name>OpenTranslateAction</name>
     <message>
         <source>Translate Kadu</source>
-        <translation type="unfinished"/>
+        <translation>Kadu übersetzen</translation>
     </message>
 </context>
 <context>
@@ -2982,7 +2982,7 @@ Konferenz wirklich verlassen?</translation>
     </message>
     <message>
         <source>Select paths</source>
-        <translation type="unfinished"/>
+        <translation>Pfade auswählen</translation>
     </message>
 </context>
 <context>
@@ -3448,7 +3448,7 @@ Konferenz wirklich verlassen?</translation>
     </message>
     <message>
         <source>Search User in Directory</source>
-        <translation type="unfinished"/>
+        <translation>Suche Benutzer im Verzeichnis</translation>
     </message>
 </context>
 <context>
@@ -3493,7 +3493,7 @@ Konferenz wirklich verlassen?</translation>
     <name>SendAction</name>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Senden</translation>
     </message>
 </context>
 <context>
@@ -3511,28 +3511,28 @@ Konferenz wirklich verlassen?</translation>
     <name>ShowAboutWindowAction</name>
     <message>
         <source>A&amp;bout Kadu</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Über Kadu</translation>
     </message>
 </context>
 <context>
     <name>ShowBlockedBuddiesAction</name>
     <message>
         <source>Show Blocked Buddies</source>
-        <translation type="unfinished"/>
+        <translation>Zeige blockierte Kontakte</translation>
     </message>
 </context>
 <context>
     <name>ShowConfigurationWindowAction</name>
     <message>
         <source>Preferences</source>
-        <translation type="unfinished"/>
+        <translation>Einstellungen</translation>
     </message>
 </context>
 <context>
     <name>ShowDescriptionsAction</name>
     <message>
         <source>Show Descriptions</source>
-        <translation type="unfinished"/>
+        <translation>Zeige Beschreibungen</translation>
     </message>
 </context>
 <context>
@@ -3546,49 +3546,49 @@ Konferenz wirklich verlassen?</translation>
     <name>ShowInfoPanelAction</name>
     <message>
         <source>Show Information Panel</source>
-        <translation type="unfinished"/>
+        <translation>Zeige Kontakt-Infopanel</translation>
     </message>
 </context>
 <context>
     <name>ShowMultilogonsAction</name>
     <message>
         <source>Multilogons</source>
-        <translation type="unfinished"/>
+        <translation>Mehrfach-Logins</translation>
     </message>
 </context>
 <context>
     <name>ShowMyselfAction</name>
     <message>
         <source>Show Myself Buddy</source>
-        <translation type="unfinished"/>
+        <translation>Eigenen Benutzer anzeigen</translation>
     </message>
 </context>
 <context>
     <name>ShowOfflineBuddiesAction</name>
     <message>
         <source>Show Offline Buddies</source>
-        <translation type="unfinished"/>
+        <translation>Zeige Kontakte, die offline sind</translation>
     </message>
 </context>
 <context>
     <name>ShowOnlyBuddiesWithDescriptionAction</name>
     <message>
         <source>Only Show Buddies with Description</source>
-        <translation type="unfinished"/>
+        <translation>Zeige nur Kontakte mit Beschreibung</translation>
     </message>
 </context>
 <context>
     <name>ShowOnlyBuddiesWithDescriptionOrOnlineAction</name>
     <message>
         <source>Only Show Online Buddies and Buddies with Description</source>
-        <translation type="unfinished"/>
+        <translation>Zeige nur Kontakte mit Beschreibung und Kontakte die online sind</translation>
     </message>
 </context>
 <context>
     <name>ShowYourAccountsAction</name>
     <message>
         <source>Your Accounts</source>
-        <translation type="unfinished"/>
+        <translation>Eigene Konten</translation>
     </message>
 </context>
 <context>
@@ -3607,15 +3607,15 @@ Konferenz wirklich verlassen?</translation>
     </message>
     <message>
         <source>Show details...</source>
-        <translation type="unfinished"/>
+        <translation>Zeige Details...</translation>
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished"/>
+        <translation>Verbinden</translation>
     </message>
     <message>
         <source>Trust</source>
-        <translation type="unfinished"/>
+        <translation>Vertrauen</translation>
     </message>
 </context>
 <context>
@@ -3840,7 +3840,7 @@ Konferenz wirklich verlassen?</translation>
     <name>StopSearchAction</name>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"/>
+        <translation>Stop</translation>
     </message>
 </context>
 <context>
@@ -3874,14 +3874,14 @@ Konferenz wirklich verlassen?</translation>
     </message>
     <message>
         <source>Ask For Sharing Status</source>
-        <translation type="unfinished"/>
+        <translation>Fordere Status an</translation>
     </message>
 </context>
 <context>
     <name>ToggleSilentModeAction</name>
     <message>
         <source>Silent Mode</source>
-        <translation type="unfinished"/>
+        <translation>Stiller Modus</translation>
     </message>
 </context>
 <context>
@@ -3986,7 +3986,7 @@ Konferenz wirklich verlassen?</translation>
     <name>UnderlineAction</name>
     <message>
         <source>Underline</source>
-        <translation type="unfinished"/>
+        <translation>Unterstrichen</translation>
     </message>
 </context>
 <context>
@@ -4009,7 +4009,7 @@ Konferenz wirklich verlassen?</translation>
     </message>
     <message>
         <source>New version is available. Please update</source>
-        <translation type="unfinished"/>
+        <translation>Eine neue Version ist verfügbar. Bitte updaten Sie</translation>
     </message>
 </context>
 <context>

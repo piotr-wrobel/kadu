@@ -89,7 +89,7 @@
     <name>ShowConfigWizardAction</name>
     <message>
         <source>Start Configuration Wizard</source>
-        <translation type="unfinished"/>
+        <translation>Iniciar el Asistente de Configuración</translation>
     </message>
 </context>
 </TS>

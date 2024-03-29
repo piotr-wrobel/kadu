@@ -192,56 +192,56 @@ Meta + Enter/Backspace/Links/Rechts/Hoch/Runter.</translation>
     <name>MediaplayerMenuAction</name>
     <message>
         <source>MediaPlayer</source>
-        <translation type="unfinished"/>
+        <translation>MediaPlayer</translation>
     </message>
 </context>
 <context>
     <name>NextAction</name>
     <message>
         <source>Next Track</source>
-        <translation type="unfinished"/>
+        <translation>Nächstes Stück</translation>
     </message>
 </context>
 <context>
     <name>PlayAction</name>
     <message>
         <source>Play</source>
-        <translation type="unfinished"/>
+        <translation>Abspielen</translation>
     </message>
 </context>
 <context>
     <name>PrevAction</name>
     <message>
         <source>Previous Track</source>
-        <translation type="unfinished"/>
+        <translation>Vorheriges Stück</translation>
     </message>
 </context>
 <context>
     <name>StopAction</name>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"/>
+        <translation>Anhalten</translation>
     </message>
 </context>
 <context>
     <name>ToggleMediaplayerStatusesAction</name>
     <message>
         <source>Enable MediaPlayer Statuses</source>
-        <translation type="unfinished"/>
+        <translation>MediaPlayer-Status einschalten</translation>
     </message>
 </context>
 <context>
     <name>VolumeDownAction</name>
     <message>
         <source>Volume Down</source>
-        <translation type="unfinished"/>
+        <translation>Leiser</translation>
     </message>
 </context>
 <context>
     <name>VolumeUpAction</name>
     <message>
         <source>Volume Up</source>
-        <translation type="unfinished"/>
+        <translation>Lauter</translation>
     </message>
 </context>
 </TS>

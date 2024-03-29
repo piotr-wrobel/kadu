@@ -84,7 +84,7 @@ Los argumentos deberían estar separados. El argumento %k se convierte a numero,
     <name>SendSmsAction</name>
     <message>
         <source>Send SMS...</source>
-        <translation type="unfinished"/>
+        <translation>Enviar mensaje de texto...</translation>
     </message>
 </context>
 <context>
@@ -143,7 +143,7 @@ Los argumentos deberían estar separados. El argumento %k se convierte a numero,
     </message>
     <message>
         <source>Send SMS</source>
-        <translation type="unfinished"/>
+        <translation>Enviar mensaje de texto</translation>
     </message>
 </context>
 <context>

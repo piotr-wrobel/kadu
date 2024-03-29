@@ -104,7 +104,7 @@
     <name>ClearHistoryAction</name>
     <message>
         <source>Clear History</source>
-        <translation type="unfinished"/>
+        <translation>Verlauf löschen</translation>
     </message>
 </context>
 <context>
@@ -269,27 +269,27 @@
     <name>ShowHistoryAction</name>
     <message>
         <source>View Chat History</source>
-        <translation type="unfinished"/>
+        <translation>Zeige Chat-Verlauf</translation>
     </message>
     <message>
         <source>Show last %1 messages</source>
-        <translation type="unfinished"/>
+        <translation>Letzte %1 Nachrichten anzeigen</translation>
     </message>
     <message>
         <source>Show messages since yesterday</source>
-        <translation type="unfinished"/>
+        <translation>Zeige Nachrichten seit gestern</translation>
     </message>
     <message>
         <source>Show messages from last 7 days</source>
-        <translation type="unfinished"/>
+        <translation>Zeige Nachrichten der letzten 7 Tage</translation>
     </message>
     <message>
         <source>Show messages from last 30 days</source>
-        <translation type="unfinished"/>
+        <translation>Zeige Nachrichten der letzten 30 Tage</translation>
     </message>
     <message>
         <source>Show whole history</source>
-        <translation type="unfinished"/>
+        <translation>Zeige gesamten Verlauf</translation>
     </message>
 </context>
 </TS>

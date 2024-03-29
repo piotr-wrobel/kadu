@@ -3,7 +3,7 @@
     <name>AskForSubscriptionAction</name>
     <message>
         <source>Ask for Subscription</source>
-        <translation type="unfinished"/>
+        <translation>Solicitar Suscripción</translation>
     </message>
 </context>
 <context>
@@ -634,28 +634,28 @@ Mensaje de servidor: %1</translation>
     <name>RemoveSubscriptionAction</name>
     <message>
         <source>Remove Subscription</source>
-        <translation type="unfinished"/>
+        <translation>Eliminar Suscripción</translation>
     </message>
 </context>
 <context>
     <name>ResendSubscriptionAction</name>
     <message>
         <source>Resend Subscription</source>
-        <translation type="unfinished"/>
+        <translation>Reenviar Suscripción</translation>
     </message>
 </context>
 <context>
     <name>ShowXmlConsoleAction</name>
     <message>
         <source>Show XML Console</source>
-        <translation type="unfinished"/>
+        <translation>Mostrar la consola de XML</translation>
     </message>
 </context>
 <context>
     <name>SubscriptionAction</name>
     <message>
         <source>Resend Subscription</source>
-        <translation type="unfinished"/>
+        <translation>Reenviar Suscripción</translation>
     </message>
 </context>
 <context>

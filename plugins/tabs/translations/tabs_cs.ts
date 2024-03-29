@@ -94,14 +94,14 @@
     <name>AttachTabAction</name>
     <message>
         <source>Attach Chat to Tabs</source>
-        <translation type="unfinished"/>
+        <translation>Připojit rozhovor ke kartám</translation>
     </message>
 </context>
 <context>
     <name>OpenInNewTabAction</name>
     <message>
         <source>Chat in New Tab</source>
-        <translation type="unfinished"/>
+        <translation>Rozhovor v nové kartě</translation>
     </message>
 </context>
 <context>

@@ -104,7 +104,7 @@
     <name>ClearHistoryAction</name>
     <message>
         <source>Clear History</source>
-        <translation type="unfinished"/>
+        <translation>Smazat historii</translation>
     </message>
 </context>
 <context>
@@ -269,27 +269,27 @@
     <name>ShowHistoryAction</name>
     <message>
         <source>View Chat History</source>
-        <translation type="unfinished"/>
+        <translation>Zobrazit historii rozhovoru</translation>
     </message>
     <message>
         <source>Show last %1 messages</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat posledních %1 zpráv</translation>
     </message>
     <message>
         <source>Show messages since yesterday</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat zprávy od včerejška</translation>
     </message>
     <message>
         <source>Show messages from last 7 days</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat zprávy z posledních sedmi dní</translation>
     </message>
     <message>
         <source>Show messages from last 30 days</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat zprávy z posledních třiceti dní</translation>
     </message>
     <message>
         <source>Show whole history</source>
-        <translation type="unfinished"/>
+        <translation>Ukázat celou historii</translation>
     </message>
 </context>
 </TS>

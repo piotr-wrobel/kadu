@@ -192,56 +192,56 @@ Win+ Enter/Backspace/Left/Right/Up/Down.</translation>
     <name>MediaplayerMenuAction</name>
     <message>
         <source>MediaPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Přehrávač</translation>
     </message>
 </context>
 <context>
     <name>NextAction</name>
     <message>
         <source>Next Track</source>
-        <translation type="unfinished"/>
+        <translation>Další skladba</translation>
     </message>
 </context>
 <context>
     <name>PlayAction</name>
     <message>
         <source>Play</source>
-        <translation type="unfinished"/>
+        <translation>Přehrát</translation>
     </message>
 </context>
 <context>
     <name>PrevAction</name>
     <message>
         <source>Previous Track</source>
-        <translation type="unfinished"/>
+        <translation>Předchozí skladba</translation>
     </message>
 </context>
 <context>
     <name>StopAction</name>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"/>
+        <translation>Zastavit</translation>
     </message>
 </context>
 <context>
     <name>ToggleMediaplayerStatusesAction</name>
     <message>
         <source>Enable MediaPlayer Statuses</source>
-        <translation type="unfinished"/>
+        <translation>Povolit popisy stavů MediaPlayeru</translation>
     </message>
 </context>
 <context>
     <name>VolumeDownAction</name>
     <message>
         <source>Volume Down</source>
-        <translation type="unfinished"/>
+        <translation>Snížit hlasitost</translation>
     </message>
 </context>
 <context>
     <name>VolumeUpAction</name>
     <message>
         <source>Volume Up</source>
-        <translation type="unfinished"/>
+        <translation>Zvýšit hlasitost</translation>
     </message>
 </context>
 </TS>
