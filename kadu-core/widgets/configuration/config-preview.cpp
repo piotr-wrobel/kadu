@@ -27,7 +27,7 @@
 #include "widgets/configuration/config-group-box.h"
 
 #include "widgets/configuration/config-preview.h"
-#include "widgets/configuration/config-preview.moc"
+#include "widgets/configuration/moc_config-preview.cpp"
 
 ConfigPreview::ConfigPreview(
     const QString &widgetCaption, const QString &toolTip, ConfigGroupBox *parentConfigGroupBox,

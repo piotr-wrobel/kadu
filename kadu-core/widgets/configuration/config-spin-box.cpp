@@ -27,7 +27,7 @@
 #include "widgets/configuration/config-group-box.h"
 
 #include "widgets/configuration/config-spin-box.h"
-#include "widgets/configuration/config-spin-box.moc"
+#include "widgets/configuration/moc_config-spin-box.cpp"
 
 ConfigSpinBox::ConfigSpinBox(
     const QString &section, const QString &item, const QString &widgetCaption, const QString &toolTip,

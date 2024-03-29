@@ -28,7 +28,7 @@
 #include "widgets/configuration/configuration-widget.h"
 
 #include "widgets/configuration/config-widget.h"
-#include "widgets/configuration/config-widget.moc"
+#include "widgets/configuration/moc_config-widget.cpp"
 
 ConfigWidget::ConfigWidget(ConfigGroupBox *parentConfigGroupBox, ConfigurationWindowDataManager *dataManager)
         : parentConfigGroupBox(parentConfigGroupBox), dataManager(dataManager)

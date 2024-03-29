@@ -27,7 +27,7 @@
 #include "widgets/configuration/config-group-box.h"
 
 #include "widgets/configuration/config-select-file.h"
-#include "widgets/configuration/config-select-file.moc"
+#include "widgets/configuration/moc_config-select-file.cpp"
 
 ConfigSelectFile::ConfigSelectFile(
     const QString &section, const QString &item, const QString &widgetCaption, const QString &toolTip,

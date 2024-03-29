@@ -26,7 +26,7 @@
 #include <QtWidgets/QWidget>
 
 #include "widgets/configuration/config-group-box.h"
-#include "widgets/configuration/config-group-box.moc"
+#include "widgets/configuration/moc_config-group-box.cpp"
 
 #include "widgets/configuration/config-tab.h"
 #include "widgets/configuration/config-widget.h"

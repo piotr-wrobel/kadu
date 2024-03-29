@@ -25,7 +25,7 @@
 #include <QtWidgets/QListWidget>
 
 #include "widgets/configuration/config-radio-button.h"
-#include "widgets/configuration/config-radio-button.moc"
+#include "widgets/configuration/moc_config-radio-button.cpp"
 
 #include "widgets/configuration/config-group-box.h"
 

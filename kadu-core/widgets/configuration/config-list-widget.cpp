@@ -27,7 +27,7 @@
 #include "widgets/configuration/config-group-box.h"
 
 #include "widgets/configuration/config-list-widget.h"
-#include "widgets/configuration/config-list-widget.moc"
+#include "widgets/configuration/moc_config-list-widget.cpp"
 
 ConfigListWidget::ConfigListWidget(
     const QString &section, const QString &item, const QString &widgetCaption, const QString &toolTip,

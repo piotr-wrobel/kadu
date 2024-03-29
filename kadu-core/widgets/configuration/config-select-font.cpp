@@ -26,7 +26,7 @@
 #include "widgets/configuration/config-group-box.h"
 
 #include "widgets/configuration/config-select-font.h"
-#include "widgets/configuration/config-select-font.moc"
+#include "widgets/configuration/moc_config-select-font.cpp"
 
 ConfigSelectFont::ConfigSelectFont(
     const QString &section, const QString &item, const QString &widgetCaption, const QString &toolTip,

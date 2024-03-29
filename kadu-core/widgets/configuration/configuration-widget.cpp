@@ -61,7 +61,7 @@
 #include "windows/configuration-window.h"
 
 #include "widgets/configuration/configuration-widget.h"
-#include "widgets/configuration/configuration-widget.moc"
+#include "widgets/configuration/moc_configuration-widget.cpp"
 
 ConfigurationWidget::ConfigurationWidget(ConfigurationWindowDataManager *dataManager, QWidget *parent)
         : QWidget(parent), DataManager(dataManager), CurrentSection(0)
