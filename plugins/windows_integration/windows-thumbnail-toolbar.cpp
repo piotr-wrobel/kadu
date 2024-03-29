@@ -87,4 +87,4 @@ void WindowsThumbnailToolbar::changeStatus(QAction *action)
     }
 }
 
-#include "windows-thumbnail-toolbar.moc"
+#include "moc_windows-thumbnail-toolbar.cpp"

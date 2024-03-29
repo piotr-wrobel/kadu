@@ -57,4 +57,4 @@ void WindowsJumpList::setVisible(bool visible)
     m_jumpList->tasks()->setVisible(visible);
 }
 
-#include "windows-jump-list.moc"
+#include "moc_windows-jump-list.cpp"

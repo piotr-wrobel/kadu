@@ -123,4 +123,4 @@ void RecentChatService::chatRemoved(Chat chat) const
     remove(chat);
 }
 
-#include "recent-chat-service.moc"
+#include "moc_recent-chat-service.cpp"

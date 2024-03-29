@@ -146,4 +146,4 @@ bool MessageManagerImpl::sendRawMessage(const Chat &chat, const QByteArray &cont
         return false;
 }
 
-#include "message-manager-impl.moc"
+#include "moc_message-manager-impl.cpp"

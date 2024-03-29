@@ -29,4 +29,4 @@ MessageManager::~MessageManager()
 {
 }
 
-#include "message-manager.moc"
+#include "moc_message-manager.cpp"

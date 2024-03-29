@@ -27,4 +27,4 @@ JumpList::~JumpList()
 {
 }
 
-#include "jump-list.moc"
+#include "moc_jump-list.cpp"
