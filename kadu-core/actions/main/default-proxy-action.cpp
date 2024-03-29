@@ -19,7 +19,7 @@
  */
 
 #include "default-proxy-action.h"
-#include "moc_default-proxy-action.cpp"
+#include "default-proxy-action.moc"
 
 #include "actions/action.h"
 #include "core/injected-factory.h"
