@@ -104,7 +104,6 @@ void EmoticonsPluginObject::init()
     m_clipboardHtmlTransformerService->registerTransformer(m_emoticonClipboardHtmlTransformer);
     m_configurationUiHandlerRepository->addConfigurationUiHandler(m_emoticonsConfigurationUiHandler);
     m_domVisitorProviderRepository->addVisitorProvider(m_emoticonExpanderDomVisitorProvider, 2000);
-    m_emoticonConfigurator->configure();
 }
 
 void EmoticonsPluginObject::done()

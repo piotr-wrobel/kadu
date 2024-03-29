@@ -70,6 +70,7 @@ void EmoticonConfigurator::init()
     ThemeManager.reset(m_pluginInjectedFactory->makeInjected<EmoticonThemeManager>());
 
     createDefaultConfiguration();
+    configure();
 }
 
 void EmoticonConfigurator::createDefaultConfiguration()
