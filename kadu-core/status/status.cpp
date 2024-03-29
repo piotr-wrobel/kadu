@@ -34,13 +34,13 @@ Status::Status(StatusType statusType, const QString &description) : Description(
     setType(statusType);
 }
 
-Status::Status(const Status &copyme) : Type(copyme.Type), Description(copyme.Description)
-{
-}
-
-Status::~Status()
-{
-}
+//Status::Status(const Status &copyme) : Type(copyme.Type), Description(copyme.Description)
+//{
+//}
+//
+//Status::~Status()
+//{
+//}
 
 void Status::setType(StatusType type)
 {
