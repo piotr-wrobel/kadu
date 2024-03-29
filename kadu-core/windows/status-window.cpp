@@ -21,7 +21,7 @@
  */
 
 #include "status-window.h"
-#include "status-window.moc"
+#include "moc_status-window.cpp"
 
 #include "activate.h"
 #include "configuration/configuration.h"

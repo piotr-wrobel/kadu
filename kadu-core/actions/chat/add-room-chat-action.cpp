@@ -27,7 +27,7 @@
 #include "windows/add-room-chat-window.h"
 
 #include "add-room-chat-action.h"
-#include "add-room-chat-action.moc"
+#include "moc_add-room-chat-action.cpp"
 
 AddRoomChatAction::AddRoomChatAction(QObject *parent) : ActionDescription(parent)
 {

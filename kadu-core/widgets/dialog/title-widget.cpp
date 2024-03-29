@@ -25,7 +25,7 @@
 #include <QtWidgets/QVBoxLayout>
 
 #include "title-widget.h"
-#include "title-widget.moc"
+#include "moc_title-widget.cpp"
 
 TitleWidget::TitleWidget(QWidget *parent) : QWidget(parent)
 {

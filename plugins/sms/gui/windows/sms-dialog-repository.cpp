@@ -18,7 +18,7 @@
  */
 
 #include "sms-dialog-repository.h"
-#include "sms-dialog-repository.moc"
+#include "moc_sms-dialog-repository.cpp"
 
 #include "gui/windows/sms-dialog.h"
 

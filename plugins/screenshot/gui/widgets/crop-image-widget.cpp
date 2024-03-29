@@ -33,7 +33,7 @@
 #include "gui/widgets/screenshot-tool-box.h"
 
 #include "crop-image-widget.h"
-#include "crop-image-widget.moc"
+#include "moc_crop-image-widget.cpp"
 
 #define HANDLER_SIZE 10
 #define HANDLER_HALF_SIZE (HANDLER_SIZE / 2)

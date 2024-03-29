@@ -29,7 +29,7 @@
 #include "widgets/chat-widget/chat-widget.h"
 
 #include "recent-chats-menu.h"
-#include "recent-chats-menu.moc"
+#include "moc_recent-chats-menu.cpp"
 
 RecentChatsMenu::RecentChatsMenu(QWidget *parent) : QMenu(parent)
 {

@@ -20,7 +20,7 @@
  */
 
 #include "mediaplayer-configuration-ui-handler.h"
-#include "mediaplayer-configuration-ui-handler.moc"
+#include "moc_mediaplayer-configuration-ui-handler.cpp"
 
 #include "widgets/configuration/configuration-widget.h"
 #include "windows/main-configuration-window.h"

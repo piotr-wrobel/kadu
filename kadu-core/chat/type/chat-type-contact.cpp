@@ -27,7 +27,7 @@
 #include "icons/kadu-icon.h"
 
 #include "chat-type-contact.h"
-#include "chat-type-contact.moc"
+#include "moc_chat-type-contact.cpp"
 
 Chat ChatTypeContact::findChat(
     ChatManager *chatManager, ChatStorage *chatStorage, const Contact &contact, NotFoundAction notFoundAction)

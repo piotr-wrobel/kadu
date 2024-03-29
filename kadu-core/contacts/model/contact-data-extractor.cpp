@@ -21,7 +21,7 @@
  */
 
 #include "contact-data-extractor.h"
-#include "contact-data-extractor.moc"
+#include "moc_contact-data-extractor.cpp"
 
 #include "accounts/account.h"
 #include "avatars/avatar-id.h"

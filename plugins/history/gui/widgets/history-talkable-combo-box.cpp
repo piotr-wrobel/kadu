@@ -29,7 +29,7 @@
 #include "plugin/plugin-injected-factory.h"
 
 #include "history-talkable-combo-box.h"
-#include "history-talkable-combo-box.moc"
+#include "moc_history-talkable-combo-box.cpp"
 
 HistoryTalkableComboBox::HistoryTalkableComboBox(QWidget *parent)
         : SelectTalkableComboBox(parent), TalkablesFutureWatcher(0)

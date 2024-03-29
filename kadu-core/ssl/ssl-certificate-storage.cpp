@@ -18,7 +18,7 @@
  */
 
 #include "ssl-certificate-storage.h"
-#include "ssl-certificate-storage.moc"
+#include "moc_ssl-certificate-storage.cpp"
 
 #include "chat/chat-manager.h"
 #include "ssl/ssl-certificate.h"

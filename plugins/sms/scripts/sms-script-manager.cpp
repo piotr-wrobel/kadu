@@ -37,7 +37,7 @@
 #include "scripts/sms-translator.h"
 
 #include "sms-script-manager.h"
-#include "sms-script-manager.moc"
+#include "moc_sms-script-manager.cpp"
 
 SmsScriptsManager::SmsScriptsManager(QObject *parent) : QObject{parent}
 {

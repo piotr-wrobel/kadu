@@ -18,7 +18,7 @@
  */
 
 #include "attach-tab-action.h"
-#include "attach-tab-action.moc"
+#include "moc_attach-tab-action.cpp"
 
 #include "tabs.h"
 

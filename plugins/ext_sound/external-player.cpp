@@ -19,7 +19,7 @@
  */
 
 #include "external-player.h"
-#include "external-player.moc"
+#include "moc_external-player.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

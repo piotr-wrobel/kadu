@@ -22,7 +22,7 @@
  */
 
 #include "config-section.h"
-#include "config-section.moc"
+#include "moc_config-section.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

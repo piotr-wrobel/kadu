@@ -18,7 +18,7 @@
  */
 
 #include "add-group-action.h"
-#include "add-group-action.moc"
+#include "moc_add-group-action.cpp"
 
 #include "actions/action-context.h"
 #include "actions/action.h"

@@ -18,7 +18,7 @@
  */
 
 #include "show-info-panel-action.h"
-#include "show-info-panel-action.moc"
+#include "moc_show-info-panel-action.cpp"
 
 #include "actions/action.h"
 #include "configuration/configuration.h"

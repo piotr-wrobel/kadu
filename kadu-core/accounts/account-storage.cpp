@@ -18,7 +18,7 @@
  */
 
 #include "account-storage.h"
-#include "account-storage.moc"
+#include "moc_account-storage.cpp"
 
 #include "accounts/account-shared.h"
 #include "accounts/account.h"

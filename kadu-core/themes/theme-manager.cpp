@@ -25,7 +25,7 @@
 #include <QtCore/QStringList>
 
 #include "theme-manager.h"
-#include "theme-manager.moc"
+#include "moc_theme-manager.cpp"
 
 ThemeManager::ThemeManager(QObject *parent) : QObject(parent)
 {

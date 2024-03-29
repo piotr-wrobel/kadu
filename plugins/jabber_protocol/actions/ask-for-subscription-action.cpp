@@ -18,7 +18,7 @@
  */
 
 #include "ask-for-subscription-action.h"
-#include "ask-for-subscription-action.moc"
+#include "moc_ask-for-subscription-action.cpp"
 
 #include "protocols/services/subscription-service.h"
 

@@ -20,7 +20,7 @@
  */
 
 #include "chat-notifier.h"
-#include "chat-notifier.moc"
+#include "moc_chat-notifier.cpp"
 
 #include "contacts/contact-set.h"
 #include "formatted-string/formatted-string-factory.h"

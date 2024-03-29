@@ -18,7 +18,7 @@
  */
 
 #include "spellchecker-plugin-modules-factory.h"
-#include "spellchecker-plugin-modules-factory.moc"
+#include "moc_spellchecker-plugin-modules-factory.cpp"
 
 #include "spellchecker-module.h"
 

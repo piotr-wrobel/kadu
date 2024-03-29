@@ -26,7 +26,7 @@
 #include "oauth/oauth-token-fetcher.h"
 
 #include "oauth-manager.h"
-#include "oauth-manager.moc"
+#include "moc_oauth-manager.cpp"
 
 OAuthManager::OAuthManager(QObject *parent) : QObject(parent)
 {

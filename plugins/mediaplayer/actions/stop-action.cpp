@@ -18,7 +18,7 @@
  */
 
 #include "stop-action.h"
-#include "stop-action.moc"
+#include "moc_stop-action.cpp"
 
 #include "mediaplayer.h"
 

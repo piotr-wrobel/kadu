@@ -18,7 +18,7 @@
  */
 
 #include "contact-avatar-service.h"
-#include "contact-avatar-service.moc"
+#include "moc_contact-avatar-service.cpp"
 
 ContactAvatarService::ContactAvatarService(Account account, QObject *parent) : AccountService{account, parent}
 {

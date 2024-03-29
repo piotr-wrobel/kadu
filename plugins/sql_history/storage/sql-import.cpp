@@ -39,7 +39,7 @@
 #include "storage/sql-contacts-mapping.h"
 
 #include "sql-import.h"
-#include "sql-import.moc"
+#include "moc_sql-import.cpp"
 
 #define CURRENT_SCHEMA_VERSION 4
 

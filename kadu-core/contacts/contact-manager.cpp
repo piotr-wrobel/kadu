@@ -22,7 +22,7 @@
  */
 
 #include "contact-manager.h"
-#include "contact-manager.moc"
+#include "moc_contact-manager.cpp"
 
 #include "buddies/buddy-manager.h"
 #include "buddies/buddy-storage.h"

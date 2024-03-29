@@ -18,7 +18,7 @@
  */
 
 #include "docking-configuration-provider.h"
-#include "docking-configuration-provider.moc"
+#include "moc_docking-configuration-provider.cpp"
 
 #include "docking-configuration.h"
 

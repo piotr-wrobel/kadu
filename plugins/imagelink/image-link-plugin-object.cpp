@@ -18,7 +18,7 @@
  */
 
 #include "image-link-plugin-object.h"
-#include "image-link-plugin-object.moc"
+#include "moc_image-link-plugin-object.cpp"
 
 #include "configuration/image-link-configurator.h"
 #include "image-expander-dom-visitor-provider.h"

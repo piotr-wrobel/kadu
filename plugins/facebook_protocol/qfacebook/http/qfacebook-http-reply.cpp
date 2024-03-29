@@ -21,7 +21,7 @@
  */
 
 #include "qfacebook-http-reply.h"
-#include "qfacebook-http-reply.moc"
+#include "moc_qfacebook-http-reply.cpp"
 
 #include "qfacebook/exceptions/qfacebook-invalid-data-exception.h"
 #include "qfacebook/qfacebook-json-reader.h"

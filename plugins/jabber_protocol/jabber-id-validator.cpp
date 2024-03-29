@@ -19,7 +19,7 @@
  */
 
 #include "jabber-id-validator.h"
-#include "jabber-id-validator.moc"
+#include "moc_jabber-id-validator.cpp"
 
 #include "jid.h"
 

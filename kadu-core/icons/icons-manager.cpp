@@ -21,7 +21,7 @@
  */
 
 #include "icons-manager.h"
-#include "icons-manager.moc"
+#include "moc_icons-manager.cpp"
 
 #include "accounts/account-manager.h"
 #include "configuration/configuration.h"

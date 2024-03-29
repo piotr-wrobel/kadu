@@ -18,7 +18,7 @@
  */
 
 #include "window-chat-widget-container-handler.h"
-#include "window-chat-widget-container-handler.moc"
+#include "moc_window-chat-widget-container-handler.cpp"
 
 #include "activate.h"
 #include "core/injected-factory.h"

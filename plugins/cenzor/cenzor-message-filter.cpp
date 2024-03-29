@@ -19,7 +19,7 @@
  */
 
 #include "cenzor-message-filter.h"
-#include "cenzor-message-filter.moc"
+#include "moc_cenzor-message-filter.cpp"
 
 #include "cenzor-notification-service.h"
 

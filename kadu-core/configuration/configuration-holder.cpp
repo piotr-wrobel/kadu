@@ -20,7 +20,7 @@
  */
 
 #include "configuration-holder.h"
-#include "configuration-holder.moc"
+#include "moc_configuration-holder.cpp"
 
 QList<ConfigurationHolder *> ConfigurationHolder::Instances;
 

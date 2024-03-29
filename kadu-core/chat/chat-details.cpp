@@ -18,7 +18,7 @@
  */
 
 #include "chat-details.h"
-#include "chat-details.moc"
+#include "moc_chat-details.cpp"
 
 #include "misc/change-notifier.h"
 

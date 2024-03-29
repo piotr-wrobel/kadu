@@ -19,7 +19,7 @@
  */
 
 #include "network-proxy-model.h"
-#include "network-proxy-model.moc"
+#include "moc_network-proxy-model.cpp"
 
 #include "model/roles.h"
 #include "network/proxy/network-proxy-manager.h"

@@ -28,7 +28,7 @@
 #include "widgets/simple-configuration-value-state-notifier.h"
 
 #include "history-chat-configuration-widget.h"
-#include "history-chat-configuration-widget.moc"
+#include "moc_history-chat-configuration-widget.cpp"
 
 HistoryChatConfigurationWidget::HistoryChatConfigurationWidget(const Chat &chat, QWidget *parent)
         : ChatConfigurationWidget(chat, parent), StateNotifier(new SimpleConfigurationValueStateNotifier(this))

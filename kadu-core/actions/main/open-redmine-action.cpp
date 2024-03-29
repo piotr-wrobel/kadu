@@ -18,7 +18,7 @@
  */
 
 #include "open-redmine-action.h"
-#include "open-redmine-action.moc"
+#include "moc_open-redmine-action.cpp"
 
 #include "os/generic/url-opener.h"
 

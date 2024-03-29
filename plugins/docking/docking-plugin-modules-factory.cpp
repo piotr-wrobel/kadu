@@ -18,7 +18,7 @@
  */
 
 #include "docking-plugin-modules-factory.h"
-#include "docking-plugin-modules-factory.moc"
+#include "moc_docking-plugin-modules-factory.cpp"
 
 #include "docking-module.h"
 

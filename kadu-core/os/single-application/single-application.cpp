@@ -22,7 +22,7 @@
  */
 
 #include "single-application.h"
-#include "single-application.moc"
+#include .cpp_single-application.cpp"
 
 #include "long-lived-lock-file.h"
 

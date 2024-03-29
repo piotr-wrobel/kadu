@@ -27,7 +27,7 @@
 #include "account-configuration-widget-factory.h"
 
 #include "account-edit-widget.h"
-#include "account-edit-widget.moc"
+#include "moc_account-edit-widget.cpp"
 
 AccountEditWidget::AccountEditWidget(Account account, QWidget *parent)
         : AccountConfigurationWidget(account, parent), StateNotifier(new SimpleConfigurationValueStateNotifier(this)),

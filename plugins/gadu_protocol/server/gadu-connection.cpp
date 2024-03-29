@@ -18,7 +18,7 @@
  */
 
 #include "gadu-connection.h"
-#include "gadu-connection.moc"
+#include "moc_gadu-connection.cpp"
 
 GaduConnection::GaduConnection(QObject *parent) : QObject{parent}
 {

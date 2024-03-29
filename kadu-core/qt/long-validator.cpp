@@ -20,7 +20,7 @@
  */
 
 #include "long-validator.h"
-#include "long-validator.moc"
+#include "moc_long-validator.cpp"
 
 LongValidator::LongValidator(qlonglong bottom, qlonglong top, QObject *parent)
         : QValidator(parent), Bottom(bottom), Top(top)

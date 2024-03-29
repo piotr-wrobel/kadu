@@ -19,7 +19,7 @@
  */
 
 #include "change-notifier.h"
-#include "change-notifier.moc"
+#include "moc_change-notifier.cpp"
 
 ChangeNotifier::ChangeNotifier(QObject *parent) : QObject(parent), Blocked(0), Changed(false)
 {

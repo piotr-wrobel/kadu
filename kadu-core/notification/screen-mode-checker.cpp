@@ -22,7 +22,7 @@
 #include <QtCore/QTimer>
 
 #include "screen-mode-checker.h"
-#include "screen-mode-checker.moc"
+#include "moc_screen-mode-checker.cpp"
 
 #define FULLSCREENCHECKTIMER_INTERVAL 2000 /*ms*/
 

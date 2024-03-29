@@ -18,7 +18,7 @@
  */
 
 #include "docking-tooltip-handler.h"
-#include "docking-tooltip-handler.moc"
+#include "moc_docking-tooltip-handler.cpp"
 
 #include "docking-configuration-provider.h"
 #include "docking-configuration.h"

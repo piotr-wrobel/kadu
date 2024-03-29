@@ -21,7 +21,7 @@
  */
 
 #include "pcspeaker-notifier.h"
-#include "pcspeaker-notifier.moc"
+#include "moc_pcspeaker-notifier.cpp"
 
 #include "pcspeaker-configuration-widget.h"
 

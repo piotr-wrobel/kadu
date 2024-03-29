@@ -18,7 +18,7 @@
  */
 
 #include "docking-plugin-object.h"
-#include "docking-plugin-object.moc"
+#include "moc_docking-plugin-object.cpp"
 
 #include "docking.h"
 

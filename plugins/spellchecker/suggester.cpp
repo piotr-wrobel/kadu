@@ -35,7 +35,7 @@
 #include "suggest-action.h"
 
 #include "suggester.h"
-#include "suggester.moc"
+#include "moc_suggester.cpp"
 
 Suggester::Suggester(QObject *parent) : QObject{parent}
 {

@@ -34,7 +34,7 @@
 #include "windows/main-configuration-window.h"
 
 #include "docking-notify-configuration-widget.h"
-#include "docking-notify-configuration-widget.moc"
+#include "moc_docking-notify-configuration-widget.cpp"
 
 DockingNotifyConfigurationWidget::DockingNotifyConfigurationWidget(QWidget *parent)
         : NotifierConfigurationWidget(parent)

@@ -19,7 +19,7 @@
  */
 
 #include "cenzor-configuration-ui-handler.h"
-#include "cenzor-configuration-ui-handler.moc"
+#include "moc_cenzor-configuration-ui-handler.cpp"
 
 #include "configuration/cenzor-configuration.h"
 #include "gui/widgets/list-edit-widget.h"

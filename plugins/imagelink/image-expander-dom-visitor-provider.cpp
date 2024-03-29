@@ -19,7 +19,7 @@
  */
 
 #include "image-expander-dom-visitor-provider.h"
-#include "image-expander-dom-visitor-provider.moc"
+#include "moc_image-expander-dom-visitor-provider.cpp"
 
 #include "image-expander.h"
 

@@ -18,7 +18,7 @@
  */
 
 #include "insert-image-action.h"
-#include "insert-image-action.moc"
+#include "moc_insert-image-action.cpp"
 
 #include "actions/action.h"
 #include "protocols/protocol.h"

@@ -20,7 +20,7 @@
  */
 
 #include "sql-restore.h"
-#include "sql-restore.moc"
+#include "moc_sql-restore.cpp"
 
 #include "misc/paths-provider.h"
 

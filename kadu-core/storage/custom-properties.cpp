@@ -19,7 +19,7 @@
  */
 
 #include "custom-properties.h"
-#include "custom-properties.moc"
+#include "moc_custom-properties.cpp"
 
 #include "configuration/configuration-api.h"
 #include "storage/storage-point.h"

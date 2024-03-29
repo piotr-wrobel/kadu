@@ -18,7 +18,7 @@
  */
 
 #include "identity-status-container.h"
-#include "identity-status-container.moc"
+#include "moc_identity-status-container.cpp"
 
 #include "accounts/account-manager.h"
 #include "icons/kadu-icon.h"

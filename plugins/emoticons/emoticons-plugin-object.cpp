@@ -18,7 +18,7 @@
  */
 
 #include "emoticons-plugin-object.h"
-#include "emoticons-plugin-object.moc"
+#include "moc_emoticons-plugin-object.cpp"
 
 #include "configuration/emoticon-configurator.h"
 #include "expander/emoticon-expander-dom-visitor-provider.h"

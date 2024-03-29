@@ -39,7 +39,7 @@
 #include "protocols/services/contact-personal-info-service.h"
 
 #include "buddy-personal-info-configuration-widget.h"
-#include "buddy-personal-info-configuration-widget.moc"
+#include "moc_buddy-personal-info-configuration-widget.cpp"
 
 BuddyPersonalInfoConfigurationWidget::BuddyPersonalInfoConfigurationWidget(const Buddy &buddy, QWidget *parent)
         : QWidget(parent), MyBuddy(buddy), InfoWidget(0)

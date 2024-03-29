@@ -19,7 +19,7 @@
  */
 
 #include "chat-details-room.h"
-#include "chat-details-room.moc"
+#include "moc_chat-details-room.cpp"
 
 #include "buddies/buddy-manager.h"
 #include "chat/chat.h"

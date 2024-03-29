@@ -24,7 +24,7 @@
 #include "protocols/protocol.h"
 
 #include "protocol-state-machine.h"
-#include "protocol-state-machine.moc"
+#include "moc_protocol-state-machine.cpp"
 
 /**
  * @short Creates new ProtocolStateMachine associated with given protocol handler.

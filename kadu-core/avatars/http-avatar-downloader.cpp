@@ -19,7 +19,7 @@
  */
 
 #include "http-avatar-downloader.h"
-#include "http-avatar-downloader.moc"
+#include "moc_http-avatar-downloader.cpp"
 
 #include <QtGui/QImage>
 #include <QtNetwork/QNetworkAccessManager>

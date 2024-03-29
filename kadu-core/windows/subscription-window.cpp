@@ -22,7 +22,7 @@
  */
 
 #include "subscription-window.h"
-#include "subscription-window.moc"
+#include "moc_subscription-window.cpp"
 
 #include "buddies/buddy-manager.h"
 #include "contacts/contact-manager.h"

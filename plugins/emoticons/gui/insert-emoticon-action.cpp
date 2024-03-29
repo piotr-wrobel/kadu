@@ -29,7 +29,7 @@
 #include "gui/emoticon-selector.h"
 
 #include "insert-emoticon-action.h"
-#include "insert-emoticon-action.moc"
+#include "moc_insert-emoticon-action.cpp"
 
 InsertEmoticonAction::InsertEmoticonAction(QObject *parent) : ActionDescription(parent)
 {

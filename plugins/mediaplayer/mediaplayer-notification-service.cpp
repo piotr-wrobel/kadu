@@ -18,7 +18,7 @@
  */
 
 #include "mediaplayer-notification-service.h"
-#include "mediaplayer-notification-service.moc"
+#include "moc_mediaplayer-notification-service.cpp"
 
 #include "html/html-conversion.h"
 #include "html/html-string.h"

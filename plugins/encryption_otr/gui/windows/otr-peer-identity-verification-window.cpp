@@ -18,7 +18,7 @@
  */
 
 #include "otr-peer-identity-verification-window.h"
-#include "otr-peer-identity-verification-window.moc"
+#include "moc_otr-peer-identity-verification-window.cpp"
 
 OtrPeerIdentityVerificationWindow::OtrPeerIdentityVerificationWindow(const Contact &contact, QWidget *parent)
         : QWizard(parent), MyContact(contact)

@@ -21,7 +21,7 @@
  */
 
 #include "protocols-combo-box.h"
-#include "protocols-combo-box.moc"
+#include "moc_protocols-combo-box.cpp"
 
 #include "core/injected-factory.h"
 #include "model/model-chain.h"

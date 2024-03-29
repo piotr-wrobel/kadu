@@ -25,7 +25,7 @@
  */
 
 #include "docking.h"
-#include "docking.moc"
+#include "moc_docking.cpp"
 
 #include "docking-configuration-provider.h"
 #include "docking-menu-handler.h"

@@ -29,7 +29,7 @@
 #include "protocols/services/personal-info-service.h"
 
 #include "gadu-personal-info-widget.h"
-#include "gadu-personal-info-widget.moc"
+#include "moc_gadu-personal-info-widget.cpp"
 
 GaduPersonalInfoWidget::GaduPersonalInfoWidget(Account account, QWidget *parent)
         : QWidget(parent), m_account{account}, Id(account.id())

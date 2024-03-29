@@ -18,7 +18,7 @@
  */
 
 #include "send-action.h"
-#include "send-action.moc"
+#include "moc_send-action.cpp"
 
 #include "actions/action.h"
 #include "widgets/chat-edit-box.h"

@@ -20,7 +20,7 @@
  */
 
 #include "jabber-add-account-widget.h"
-#include "jabber-add-account-widget.moc"
+#include "moc_jabber-add-account-widget.cpp"
 
 #include "jabber-account-data.h"
 #include "services/jabber-servers-service.h"

@@ -18,7 +18,7 @@
  */
 
 #include "chat-widget-container-handler-mapper.h"
-#include "chat-widget-container-handler-mapper.moc"
+#include "moc_chat-widget-container-handler-mapper.cpp"
 
 #include "message/sorted-messages.h"
 #include "widgets/chat-widget/chat-widget-container-handler-mapper.h"

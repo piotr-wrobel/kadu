@@ -31,7 +31,7 @@
 #include "languages-manager.h"
 
 #include "config-wizard-profile-page.h"
-#include "config-wizard-profile-page.moc"
+#include "moc_config-wizard-profile-page.cpp"
 
 ConfigWizardProfilePage::ConfigWizardProfilePage(QWidget *parent) : ConfigWizardPage(parent)
 {

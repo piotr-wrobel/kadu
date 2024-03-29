@@ -19,7 +19,7 @@
  */
 
 #include "chat-widget-impl.h"
-#include "chat-widget-impl.moc"
+#include "moc_chat-widget-impl.cpp"
 
 #include "actions/action.h"
 #include "actions/actions.h"

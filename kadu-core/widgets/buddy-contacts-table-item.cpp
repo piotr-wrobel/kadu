@@ -20,7 +20,7 @@
  */
 
 #include "buddy-contacts-table-item.h"
-#include "buddy-contacts-table-item.moc"
+#include "moc_buddy-contacts-table-item.cpp"
 
 #include "contacts/contact-manager.h"
 #include "protocols/protocol-factory.h"

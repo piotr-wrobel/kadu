@@ -18,7 +18,7 @@
  */
 
 #include "next-results-action.h"
-#include "next-results-action.moc"
+#include "moc_next-results-action.cpp"
 
 #include "windows/search-window.h"
 

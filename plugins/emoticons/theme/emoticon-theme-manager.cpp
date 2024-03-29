@@ -27,7 +27,7 @@
 #include "misc/paths-provider.h"
 
 #include "emoticon-theme-manager.h"
-#include "emoticon-theme-manager.moc"
+#include "moc_emoticon-theme-manager.cpp"
 
 QString EmoticonThemeManager::defaultTheme()
 {

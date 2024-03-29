@@ -18,7 +18,7 @@
  */
 
 #include "status-notifier-item-attention.h"
-#include "status-notifier-item-attention.moc"
+#include "moc_status-notifier-item-attention.cpp"
 
 StatusNotifierItemAttention::StatusNotifierItemAttention(QObject *parent) : QObject{parent}
 {

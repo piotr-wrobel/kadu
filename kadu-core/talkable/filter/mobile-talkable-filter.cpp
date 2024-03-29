@@ -23,7 +23,7 @@
 #include "contacts/contact.h"
 
 #include "mobile-talkable-filter.h"
-#include "mobile-talkable-filter.moc"
+#include "moc_mobile-talkable-filter.cpp"
 
 MobileTalkableFilter::MobileTalkableFilter(QObject *parent) : TalkableFilter(parent)
 {

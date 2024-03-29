@@ -25,7 +25,7 @@
 #include "autoaway.h"
 
 #include "autoaway-status-changer.h"
-#include "autoaway-status-changer.moc"
+#include "moc_autoaway-status-changer.cpp"
 
 AutoawayStatusChanger::AutoawayStatusChanger(QObject *parent) : StatusChanger{900, parent}
 {

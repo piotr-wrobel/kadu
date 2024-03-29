@@ -30,7 +30,7 @@
 #include "otr-peer-identity-verification-service.h"
 
 #include "otr-peer-identity-verification-question-and-answer-page.h"
-#include "otr-peer-identity-verification-question-and-answer-page.moc"
+#include "moc_otr-peer-identity-verification-question-and-answer-page.cpp"
 
 OtrPeerIdentityVerificationQuestionAndAnswerPage::OtrPeerIdentityVerificationQuestionAndAnswerPage(
     const Contact &contact, QWidget *parent)

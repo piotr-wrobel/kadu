@@ -38,7 +38,7 @@
 #include "notification/notify-configuration-ui-handler.h"
 
 #include "notify-tree-widget.h"
-#include "notify-tree-widget.moc"
+#include "moc_notify-tree-widget.cpp"
 
 #define OFFSET 30
 

@@ -18,7 +18,7 @@
  */
 
 #include "buddy-dummy-factory.h"
-#include "buddy-dummy-factory.moc"
+#include "moc_buddy-dummy-factory.cpp"
 
 #include "accounts/account-storage.h"
 #include "accounts/account.h"

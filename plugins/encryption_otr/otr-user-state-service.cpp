@@ -18,7 +18,7 @@
  */
 
 #include "otr-user-state-service.h"
-#include "otr-user-state-service.moc"
+#include "moc_otr-user-state-service.cpp"
 
 OtrUserStateService::OtrUserStateService()
 {

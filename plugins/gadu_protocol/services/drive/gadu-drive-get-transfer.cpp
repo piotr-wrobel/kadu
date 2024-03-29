@@ -18,7 +18,7 @@
  */
 
 #include "gadu-drive-get-transfer.h"
-#include "gadu-drive-get-transfer.moc"
+#include "moc_gadu-drive-get-transfer.cpp"
 
 #include <QtCore/QFile>
 #include <QtCore/QFileInfo>

@@ -22,7 +22,7 @@
 #include "storage/history-sql-storage.h"
 
 #include "sql-messages-chat-storage.h"
-#include "sql-messages-chat-storage.moc"
+#include "moc_sql-messages-chat-storage.cpp"
 
 SqlMessagesChatStorage::SqlMessagesChatStorage(HistorySqlStorage *sqlStorage)
         : HistoryMessagesStorage(sqlStorage), SqlStorage(sqlStorage)

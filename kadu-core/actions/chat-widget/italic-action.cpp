@@ -18,7 +18,7 @@
  */
 
 #include "italic-action.h"
-#include "italic-action.moc"
+#include "moc_italic-action.cpp"
 
 #include "actions/action.h"
 #include "protocols/protocol-factory.h"

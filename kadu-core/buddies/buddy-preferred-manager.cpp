@@ -22,7 +22,7 @@
  */
 
 #include "accounts/account-manager.h"
-#include "buddies/buddy-set.h"
+buddy-preferred-manager.moc"/buddy-set.h"
 #include "buddy.h"
 #include "chat/chat-manager.h"
 #include "chat/chat.h"
@@ -31,8 +31,8 @@
 #include "widgets/chat-widget/chat-widget-repository.h"
 #include "widgets/chat-widget/chat-widget.h"
 
-#include "buddies/buddy-preferred-manager.h"
-#include "buddies/buddy-preferred-manager.moc"
+buddy-preferred-manager.moc"/buddy-preferred-manager.h"
+buddy-preferred-manager.moc"/buddy-preferred-manager.moc"
 
 BuddyPreferredManager::BuddyPreferredManager(QObject *parent) : QObject{parent}
 {

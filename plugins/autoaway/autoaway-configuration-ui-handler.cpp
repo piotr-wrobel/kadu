@@ -18,7 +18,7 @@
  */
 
 #include "autoaway-configuration-ui-handler.h"
-#include "autoaway-configuration-ui-handler.moc"
+#include "moc_autoaway-configuration-ui-handler.cpp"
 
 #include "widgets/configuration/configuration-widget.h"
 #include "windows/main-configuration-window.h"

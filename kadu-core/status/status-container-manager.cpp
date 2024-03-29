@@ -34,7 +34,7 @@
 #include "status/status-type.h"
 
 #include "status-container-manager.h"
-#include "status-container-manager.moc"
+#include "moc_status-container-manager.cpp"
 
 StatusContainerManager::StatusContainerManager(QObject *parent) : StatusContainer(parent), DefaultStatusContainer(0)
 {

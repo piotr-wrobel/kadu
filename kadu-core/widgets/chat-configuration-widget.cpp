@@ -18,7 +18,7 @@
  */
 
 #include "chat-configuration-widget.h"
-#include "chat-configuration-widget.moc"
+#include "moc_chat-configuration-widget.cpp"
 
 ChatConfigurationWidget::ChatConfigurationWidget(const Chat &chat, QWidget *parent)
         : ModalConfigurationWidget(parent), MyChat(chat)

@@ -18,7 +18,7 @@
  */
 
 #include "chat-configuration-widget-group-boxes-adapter.h"
-#include "chat-configuration-widget-group-boxes-adapter.moc"
+#include "moc_chat-configuration-widget-group-boxes-adapter.cpp"
 
 #include "widgets/chat-configuration-widget.h"
 #include "windows/chat-data-window.h"

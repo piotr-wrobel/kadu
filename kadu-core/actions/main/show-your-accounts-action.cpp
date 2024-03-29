@@ -18,7 +18,7 @@
  */
 
 #include "show-your-accounts-action.h"
-#include "show-your-accounts-action.moc"
+#include "moc_show-your-accounts-action.cpp"
 
 #include "windows/your-accounts-window-service.h"
 

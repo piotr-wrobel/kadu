@@ -20,7 +20,7 @@
  */
 
 #include "select-talkable-popup.h"
-#include "select-talkable-popup.moc"
+#include "moc_select-talkable-popup.cpp"
 
 #include "core/injected-factory.h"
 #include "model/model-chain.h"

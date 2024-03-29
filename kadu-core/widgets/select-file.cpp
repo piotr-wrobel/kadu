@@ -30,7 +30,7 @@
 #include "misc/misc.h"
 
 #include "select-file.h"
-#include "select-file.moc"
+#include "moc_select-file.cpp"
 
 SelectFile::SelectFile(const QString &type, QWidget *parent) : QWidget(parent), Type(type)
 {

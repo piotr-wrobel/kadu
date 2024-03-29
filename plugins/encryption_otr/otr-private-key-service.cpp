@@ -32,7 +32,7 @@ extern "C" {
 #include "otr-user-state-service.h"
 
 #include "otr-private-key-service.h"
-#include "otr-private-key-service.moc"
+#include "moc_otr-private-key-service.cpp"
 
 void OtrPrivateKeyService::wrapperOtrCreatePrivateKey(void *data, const char *accountName, const char *protocol)
 {

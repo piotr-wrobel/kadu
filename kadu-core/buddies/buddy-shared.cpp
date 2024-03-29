@@ -22,7 +22,7 @@
  */
 
 #include "buddy-shared.h"
-#include "buddy-shared.moc"
+#include "moc_buddy-shared.cpp"
 
 #include "accounts/account.h"
 #include "avatars/avatars.h"

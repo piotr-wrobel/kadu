@@ -18,7 +18,7 @@
  */
 
 #include "jabber-servers-service.h"
-#include "jabber-servers-service.moc"
+#include "moc_jabber-servers-service.cpp"
 
 #include <QtCore/QStringList>
 

@@ -37,7 +37,7 @@
 #include "widgets/chat-widget/chat-widget-manager.h"
 
 #include "gadu-url-handler.h"
-#include "gadu-url-handler.moc"
+#include "moc_gadu-url-handler.cpp"
 
 GaduUrlHandler::GaduUrlHandler(QObject *parent) : QObject{parent}
 {

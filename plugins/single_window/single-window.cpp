@@ -39,7 +39,7 @@
 #include "windows/main-window-repository.h"
 
 #include "single-window.h"
-#include "single-window.moc"
+#include "moc_single-window.cpp"
 
 SingleWindowManager::SingleWindowManager(QObject *parent)
         : QObject(parent), m_windowProvider(new SimpleProvider<QWidget *>(0))

@@ -28,7 +28,7 @@
 #include "widgets/talkable-tree-view.h"
 
 #include "kadu-tree-view-delegate.h"
-#include "kadu-tree-view-delegate.moc"
+#include "moc_kadu-tree-view-delegate.cpp"
 
 KaduTreeViewDelegate::KaduTreeViewDelegate(TalkableTreeView *parent) : QItemDelegate(parent)
 {

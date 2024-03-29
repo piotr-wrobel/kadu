@@ -20,7 +20,7 @@
  */
 
 #include "config-wizard-actions.h"
-#include "config-wizard-actions.moc"
+#include "moc_config-wizard-actions.cpp"
 
 #include "show-config-wizard-action.h"
 

@@ -21,7 +21,7 @@
 #include <QtWidgets/QApplication>
 
 #include "sms-translator.h"
-#include "sms-translator.moc"
+#include "moc_sms-translator.cpp"
 
 SmsTranslator::SmsTranslator(QObject *parent) : QObject(parent)
 {

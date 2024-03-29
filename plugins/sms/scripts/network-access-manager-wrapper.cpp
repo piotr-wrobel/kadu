@@ -20,7 +20,7 @@
  */
 
 #include "network-access-manager-wrapper.h"
-#include "network-access-manager-wrapper.moc"
+#include "moc_network-access-manager-wrapper.cpp"
 
 #include "scripts/network-reply-wrapper.h"
 

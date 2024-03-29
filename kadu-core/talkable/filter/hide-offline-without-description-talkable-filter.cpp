@@ -19,7 +19,7 @@
  */
 
 #include "hide-offline-without-description-talkable-filter.h"
-#include "hide-offline-without-description-talkable-filter.moc"
+#include "moc_hide-offline-without-description-talkable-filter.cpp"
 
 #include "buddies/buddy-preferred-manager.h"
 #include "buddies/buddy.h"

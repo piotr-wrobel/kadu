@@ -19,7 +19,7 @@
  */
 
 #include "autoresponder-message-filter.h"
-#include "autoresponder-message-filter.moc"
+#include "moc_autoresponder-message-filter.cpp"
 
 #include "autoresponder-configuration-ui-handler.h"
 

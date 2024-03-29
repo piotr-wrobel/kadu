@@ -18,7 +18,7 @@
  */
 
 #include "mpris-player-plugin-modules-factory.h"
-#include "mpris-player-plugin-modules-factory.moc"
+#include "moc_mpris-player-plugin-modules-factory.cpp"
 
 #include "mpris-player-module.h"
 

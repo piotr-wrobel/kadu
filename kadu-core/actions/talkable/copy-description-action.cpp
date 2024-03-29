@@ -18,7 +18,7 @@
  */
 
 #include "copy-description-action.h"
-#include "copy-description-action.moc"
+#include "moc_copy-description-action.cpp"
 
 #include "actions/action-context.h"
 #include "actions/action.h"

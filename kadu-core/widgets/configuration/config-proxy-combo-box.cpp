@@ -18,7 +18,7 @@
  */
 
 #include "config-proxy-combo-box.h"
-#include "config-proxy-combo-box.moc"
+#include "moc_config-proxy-combo-box.cpp"
 
 #include "network/proxy/network-proxy-manager.h"
 #include "widgets/configuration/config-group-box.h"

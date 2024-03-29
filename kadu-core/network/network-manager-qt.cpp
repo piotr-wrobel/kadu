@@ -23,7 +23,7 @@
 #include <QtNetwork/QNetworkConfigurationManager>
 
 #include "network-manager-qt.h"
-#include "network-manager-qt.moc"
+#include "moc_network-manager-qt.cpp"
 
 NetworkManagerQt::NetworkManagerQt(QObject *parent) : NetworkManager{parent}
 {

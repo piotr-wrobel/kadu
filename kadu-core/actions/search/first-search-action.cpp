@@ -18,7 +18,7 @@
  */
 
 #include "first-search-action.h"
-#include "first-search-action.moc"
+#include "moc_first-search-action.cpp"
 
 #include "windows/search-window.h"
 

@@ -176,4 +176,4 @@ void FacebookAddAccountWidget::resetGui()
     simpleStateNotifier()->setState(StateNotChanged);
 }
 
-#include "facebook-add-account-widget.moc"
+#include "moc_facebook-add-account-widget.cpp"

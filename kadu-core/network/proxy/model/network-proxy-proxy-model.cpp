@@ -23,7 +23,7 @@
 #include "network/proxy/network-proxy.h"
 
 #include "network-proxy-proxy-model.h"
-#include "network-proxy-proxy-model.moc"
+#include "moc_network-proxy-proxy-model.cpp"
 
 NetworkProxyProxyModel::NetworkProxyProxyModel(QObject *parent) : QSortFilterProxyModel(parent)
 {

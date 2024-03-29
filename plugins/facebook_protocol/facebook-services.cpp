@@ -18,7 +18,7 @@
  */
 
 #include "facebook-services.h"
-#include "facebook-services.moc"
+#include "moc_facebook-services.cpp"
 
 #include "qfacebook/session/qfacebook-session.h"
 #include "services/facebook-chat-service.h"

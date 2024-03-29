@@ -28,7 +28,7 @@
 #include "windows/your-accounts.h"
 
 #include "config-wizard-choose-network-page.h"
-#include "config-wizard-choose-network-page.moc"
+#include "moc_config-wizard-choose-network-page.cpp"
 
 ConfigWizardChooseNetworkPage::ConfigWizardChooseNetworkPage(QWidget *parent)
         : ConfigWizardPage(parent), LastProtocol(0)

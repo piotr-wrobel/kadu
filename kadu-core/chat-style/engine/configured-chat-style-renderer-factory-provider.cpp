@@ -18,7 +18,7 @@
  */
 
 #include "configured-chat-style-renderer-factory-provider.h"
-#include "configured-chat-style-renderer-factory-provider.moc"
+#include "moc_configured-chat-style-renderer-factory-provider.cpp"
 
 #include "chat-style/engine/chat-style-renderer-factory.h"
 

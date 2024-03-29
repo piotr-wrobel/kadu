@@ -20,7 +20,7 @@
  */
 
 #include "menu-inventory.h"
-#include "menu-inventory.moc"
+#include "moc_menu-inventory.cpp"
 
 #include "accounts/account.h"
 #include "actions/action-context.h"

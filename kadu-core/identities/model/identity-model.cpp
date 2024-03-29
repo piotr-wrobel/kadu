@@ -20,7 +20,7 @@
  */
 
 #include "identity-model.h"
-#include "identity-model.moc"
+#include "moc_identity-model.cpp"
 
 #include "identities/identity-manager.h"
 #include "model/roles.h"

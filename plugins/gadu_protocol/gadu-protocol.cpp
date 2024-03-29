@@ -76,7 +76,7 @@
 #include "services/user-data/gadu-user-data-service.h"
 
 #include "gadu-protocol.h"
-#include "gadu-protocol.moc"
+#include "moc_gadu-protocol.cpp"
 
 GaduProtocol::GaduProtocol(
     GaduListHelper *gaduListHelper, GaduServersManager *gaduServersManager, Account account, ProtocolFactory *factory)

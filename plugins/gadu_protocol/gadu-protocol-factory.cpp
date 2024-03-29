@@ -34,7 +34,7 @@
 #include "plugin/plugin-injected-factory.h"
 
 #include "gadu-protocol-factory.h"
-#include "gadu-protocol-factory.moc"
+#include "moc_gadu-protocol-factory.cpp"
 
 GaduProtocolFactory::GaduProtocolFactory(QObject *parent) : ProtocolFactory{}
 {

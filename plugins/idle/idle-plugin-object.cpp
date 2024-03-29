@@ -18,7 +18,7 @@
  */
 
 #include "idle-plugin-object.h"
-#include "idle-plugin-object.moc"
+#include "moc_idle-plugin-object.cpp"
 
 #include "idle.h"
 

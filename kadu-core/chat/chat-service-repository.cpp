@@ -18,7 +18,7 @@
  */
 
 #include "chat-service-repository.h"
-#include "chat-service-repository.moc"
+#include "moc_chat-service-repository.cpp"
 
 #include "protocols/services/chat-service.h"
 

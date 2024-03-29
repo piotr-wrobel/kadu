@@ -18,7 +18,7 @@
  */
 
 #include "autoaway-plugin-object.h"
-#include "autoaway-plugin-object.moc"
+#include "moc_autoaway-plugin-object.cpp"
 
 #include "autoaway-configuration-ui-handler.h"
 #include "autoaway.h"

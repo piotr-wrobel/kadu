@@ -18,7 +18,7 @@
  */
 
 #include "gadu-drive-send-ticket-request.h"
-#include "gadu-drive-send-ticket-request.moc"
+#include "moc_gadu-drive-send-ticket-request.cpp"
 
 #include "services/drive/gadu-drive-send-ticket-parser.h"
 #include "services/drive/gadu-drive-session-token.h"

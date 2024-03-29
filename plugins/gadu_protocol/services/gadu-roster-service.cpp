@@ -19,7 +19,7 @@
  */
 
 #include "gadu-roster-service.h"
-#include "gadu-roster-service.moc"
+#include "moc_gadu-roster-service.cpp"
 
 #include "gadu-account-data.h"
 #include "helpers/gadu-list-helper.h"

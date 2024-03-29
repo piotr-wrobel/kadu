@@ -18,7 +18,7 @@
  */
 
 #include "multilogon-window-service.h"
-#include "multilogon-window-service.moc"
+#include "moc_multilogon-window-service.cpp"
 
 #include "activate.h"
 #include "core/injected-factory.h"

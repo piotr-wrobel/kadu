@@ -25,7 +25,7 @@
 #include "themes.h"
 
 #include "sound-theme-manager.h"
-#include "sound-theme-manager.moc"
+#include "moc_sound-theme-manager.cpp"
 
 SoundThemeManager::SoundThemeManager(QObject *parent) : QObject{parent}
 {

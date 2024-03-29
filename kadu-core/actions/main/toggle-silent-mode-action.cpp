@@ -18,7 +18,7 @@
  */
 
 #include "toggle-silent-mode-action.h"
-#include "toggle-silent-mode-action.moc"
+#include "moc_toggle-silent-mode-action.cpp"
 
 #include "actions/action.h"
 #include "notification/silent-mode-service.h"

@@ -18,7 +18,7 @@
  */
 
 #include "status-window-service.h"
-#include "status-window-service.moc"
+#include "moc_status-window-service.cpp"
 
 #include "activate.h"
 #include "configuration/configuration.h"

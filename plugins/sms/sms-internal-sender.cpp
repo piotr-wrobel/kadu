@@ -33,7 +33,7 @@
 #include "sms-token-read-job.h"
 
 #include "sms-internal-sender.h"
-#include "sms-internal-sender.moc"
+#include "moc_sms-internal-sender.cpp"
 
 SmsInternalSender::SmsInternalSender(
     SmsGatewayManager *smsGatewayManager, SmsScriptsManager *smsScriptsManager, const QString &number,

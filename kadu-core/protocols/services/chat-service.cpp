@@ -25,7 +25,7 @@
 #include "services/raw-message-transformer-service.h"
 
 #include "chat-service.h"
-#include "chat-service.moc"
+#include "moc_chat-service.cpp"
 
 ChatService::ChatService(Account account, QObject *parent) : AccountService(account, parent)
 {

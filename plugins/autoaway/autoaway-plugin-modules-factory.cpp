@@ -18,7 +18,7 @@
  */
 
 #include "autoaway-plugin-modules-factory.h"
-#include "autoaway-plugin-modules-factory.moc"
+#include "moc_autoaway-plugin-modules-factory.cpp"
 
 #include "autoaway-module.h"
 

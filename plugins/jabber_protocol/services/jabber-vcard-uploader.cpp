@@ -19,7 +19,7 @@
  */
 
 #include "jabber-vcard-uploader.h"
-#include "jabber-vcard-uploader.moc"
+#include "moc_jabber-vcard-uploader.cpp"
 
 #include <QXmppQt5/QXmppVCardManager.h>
 

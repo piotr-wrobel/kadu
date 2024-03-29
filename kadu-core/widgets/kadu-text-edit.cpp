@@ -19,7 +19,7 @@
  */
 
 #include "kadu-text-edit.h"
-#include "kadu-text-edit.moc"
+#include "moc_kadu-text-edit.cpp"
 
 KaduTextEdit::KaduTextEdit(QWidget *parent) : QTextEdit(parent), PreferredLines(5)
 {

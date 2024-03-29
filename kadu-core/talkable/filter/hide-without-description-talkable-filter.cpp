@@ -19,7 +19,7 @@
  */
 
 #include "hide-without-description-talkable-filter.h"
-#include "hide-without-description-talkable-filter.moc"
+#include "moc_hide-without-description-talkable-filter.cpp"
 
 #include "buddies/buddy-preferred-manager.h"
 #include "buddies/buddy.h"

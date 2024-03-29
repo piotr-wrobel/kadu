@@ -23,7 +23,7 @@
 #include "misc/paths-provider.h"
 
 #include "autostatus-configuration.h"
-#include "autostatus-configuration.moc"
+#include "moc_autostatus-configuration.cpp"
 
 AutostatusConfiguration::AutostatusConfiguration(QObject *parent) : QObject{parent}
 {

@@ -19,7 +19,7 @@
  */
 
 #include "proxy-combo-box.h"
-#include "proxy-combo-box.moc"
+#include "moc_proxy-combo-box.cpp"
 
 #include "core/injected-factory.h"
 #include "model/model-chain.h"

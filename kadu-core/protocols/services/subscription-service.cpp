@@ -18,4 +18,4 @@
  */
 
 #include "subscription-service.h"
-#include "subscription-service.moc"
+#include "moc_subscription-service.cpp"

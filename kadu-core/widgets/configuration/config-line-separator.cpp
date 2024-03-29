@@ -24,7 +24,7 @@
 #include "widgets/configuration/config-group-box.h"
 
 #include "config-line-separator.h"
-#include "config-line-separator.moc"
+#include "moc_config-line-separator.cpp"
 
 ConfigLineSeparator::ConfigLineSeparator(
     ConfigGroupBox *parentConfigGroupBox, ConfigurationWindowDataManager *dataManager)

@@ -18,7 +18,7 @@
  */
 
 #include "ssl-certificate-error-dialog.h"
-#include "ssl-certificate-error-dialog.moc"
+#include "moc_ssl-certificate-error-dialog.cpp"
 
 #include "ssl/gui/ssl-certificate-widget.h"
 #include "ssl/ssl-certificate-repository.h"

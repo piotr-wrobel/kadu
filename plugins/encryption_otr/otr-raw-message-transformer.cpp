@@ -18,7 +18,7 @@
  */
 
 #include "otr-raw-message-transformer.h"
-#include "otr-raw-message-transformer.moc"
+#include "moc_otr-raw-message-transformer.cpp"
 
 #include "otr-app-ops-service.h"
 #include "otr-op-data-factory.h"

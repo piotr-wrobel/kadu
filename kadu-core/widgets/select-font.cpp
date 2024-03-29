@@ -25,7 +25,7 @@
 #include <QtWidgets/QPushButton>
 
 #include "select-font.h"
-#include "select-font.moc"
+#include "moc_select-font.cpp"
 
 SelectFont::SelectFont(QWidget *parent) : QWidget(parent)
 {

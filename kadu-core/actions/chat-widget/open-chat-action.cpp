@@ -18,7 +18,7 @@
  */
 
 #include "open-chat-action.h"
-#include "open-chat-action.moc"
+#include "moc_open-chat-action.cpp"
 
 #include "actions/action-context.h"
 #include "actions/action.h"

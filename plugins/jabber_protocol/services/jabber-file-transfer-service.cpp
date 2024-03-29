@@ -19,7 +19,7 @@
  */
 
 #include "jabber-file-transfer-service.h"
-#include "jabber-file-transfer-service.moc"
+#include "moc_jabber-file-transfer-service.cpp"
 
 #include "file-transfer/jabber-outgoing-file-transfer-handler.h"
 #include "file-transfer/jabber-stream-incoming-file-transfer-handler.h"

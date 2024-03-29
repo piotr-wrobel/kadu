@@ -24,7 +24,7 @@
 #include "sms-gateway.h"
 
 #include "sms-gateway-manager.h"
-#include "sms-gateway-manager.moc"
+#include "moc_sms-gateway-manager.cpp"
 
 SmsGatewayManager::SmsGatewayManager(QObject *parent) : QObject{parent}
 {

@@ -19,7 +19,7 @@
  */
 
 #include "emoticon-expander-dom-visitor-provider.h"
-#include "emoticon-expander-dom-visitor-provider.moc"
+#include "moc_emoticon-expander-dom-visitor-provider.cpp"
 
 #include "expander/animated-emoticon-path-provider.h"
 #include "expander/emoticon-expander.h"

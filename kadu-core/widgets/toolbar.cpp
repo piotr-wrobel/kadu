@@ -46,7 +46,7 @@
 #include "windows/message-dialog.h"
 
 #include "toolbar.h"
-#include "toolbar.moc"
+#include "moc_toolbar.cpp"
 
 class DisabledActionsWatcher : public QObject
 {

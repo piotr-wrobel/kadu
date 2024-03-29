@@ -19,4 +19,4 @@
 
 #include "action-context.h"
 
-#include "action-context.moc"
+#include "moc_action-context.cpp"

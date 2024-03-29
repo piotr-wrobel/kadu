@@ -30,7 +30,7 @@
 #include "otr-peer-identity-verification-service.h"
 
 #include "otr-peer-identity-verification-shared-secret-page.h"
-#include "otr-peer-identity-verification-shared-secret-page.moc"
+#include "moc_otr-peer-identity-verification-shared-secret-page.cpp"
 
 OtrPeerIdentityVerificationSharedSecretPage::OtrPeerIdentityVerificationSharedSecretPage(
     const Contact &contact, QWidget *parent)

@@ -18,7 +18,7 @@
  */
 
 #include "chat-widget-repository.h"
-#include "chat-widget-repository.moc"
+#include "moc_chat-widget-repository.cpp"
 
 ChatWidgetRepository::ChatWidgetRepository(QObject *parent) : QObject{parent}
 {

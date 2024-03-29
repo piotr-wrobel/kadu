@@ -39,7 +39,7 @@
 #include "history.h"
 
 #include "history-window.h"
-#include "history-window.moc"
+#include "moc_history-window.cpp"
 
 HistoryWindow::HistoryWindow(QWidget *parent) : QWidget(parent), CurrentTab(-1)
 {

@@ -18,7 +18,7 @@
  */
 
 #include "remove-subscription-action.h"
-#include "remove-subscription-action.moc"
+#include "moc_remove-subscription-action.cpp"
 
 #include "protocols/services/subscription-service.h"
 

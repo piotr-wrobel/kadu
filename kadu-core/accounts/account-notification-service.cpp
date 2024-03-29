@@ -18,7 +18,7 @@
  */
 
 #include "account-notification-service.h"
-#include "account-notification-service.moc"
+#include "moc_account-notification-service.cpp"
 
 #include "accounts/account.h"
 #include "html/html-conversion.h"

@@ -23,7 +23,7 @@
 #include "protocols/protocol.h"
 
 #include "protocol-filter.h"
-#include "protocol-filter.moc"
+#include "moc_protocol-filter.cpp"
 
 ProtocolFilter::ProtocolFilter(QObject *parent) : AbstractAccountFilter(parent)
 {

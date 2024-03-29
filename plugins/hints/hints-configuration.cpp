@@ -18,7 +18,7 @@
  */
 
 #include "hints-configuration.h"
-#include "hints-configuration.moc"
+#include "moc_hints-configuration.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

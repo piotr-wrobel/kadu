@@ -21,7 +21,7 @@
  */
 
 #include "contact-parser-tags.h"
-#include "contact-parser-tags.moc"
+#include "moc_contact-parser-tags.cpp"
 
 #include "accounts/account.h"
 #include "icons/icons-manager.h"

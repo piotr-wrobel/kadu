@@ -26,7 +26,7 @@
 #include "services/jabber-stream-debug-service.h"
 
 #include "xml-console.h"
-#include "xml-console.moc"
+#include "moc_xml-console.cpp"
 
 XmlConsole::XmlConsole(Account account)
         :   // using C++ initializers breaks Qt's lupdate

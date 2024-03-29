@@ -18,4 +18,4 @@
  */
 
 #include "protocol-factory.h"
-#include "protocol-factory.moc"
+#include "moc_protocol-factory.cpp"

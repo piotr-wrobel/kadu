@@ -18,7 +18,7 @@
  */
 
 #include "avatars.h"
-#include "avatars.moc"
+#include "moc_avatars.cpp"
 
 #include "avatars/avatar-id.h"
 #include "contacts/contact-global-id.h"

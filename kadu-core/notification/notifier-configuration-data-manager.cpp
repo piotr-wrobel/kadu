@@ -24,7 +24,7 @@
 #include "windows/configuration-window.h"
 
 #include "notifier-configuration-data-manager.h"
-#include "notifier-configuration-data-manager.moc"
+#include "moc_notifier-configuration-data-manager.cpp"
 
 QMap<QString, NotifierConfigurationDataManager *> NotifierConfigurationDataManager::DataManagers;
 

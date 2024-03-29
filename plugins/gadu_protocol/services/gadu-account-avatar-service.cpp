@@ -19,7 +19,7 @@
  */
 
 #include "gadu-account-avatar-service.h"
-#include "gadu-account-avatar-service.moc"
+#include "moc_gadu-account-avatar-service.cpp"
 
 #include "oauth/oauth-manager.h"
 #include "oauth/oauth-token-fetcher.h"

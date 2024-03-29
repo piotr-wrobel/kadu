@@ -51,4 +51,4 @@ void FacebookPluginObject::done()
     m_protocolsManager->unregisterProtocolFactory(m_facebookProtocolFactory);
 }
 
-#include "facebook-plugin-object.moc"
+#include "moc_facebook-plugin-object.cpp"

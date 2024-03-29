@@ -18,7 +18,7 @@
  */
 
 #include "message-storage.h"
-#include "message-storage.moc"
+#include "moc_message-storage.cpp"
 
 #include "core/injected-factory.h"
 #include "message/message-shared.h"

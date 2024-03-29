@@ -18,7 +18,7 @@
  */
 
 #include "history-buddy-configuration-widget-factory.h"
-#include "history-buddy-configuration-widget-factory.moc"
+#include "moc_history-buddy-configuration-widget-factory.cpp"
 
 #include "gui/widgets/history-buddy-configuration-widget.h"
 #include "plugin/plugin-injected-factory.h"

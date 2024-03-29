@@ -20,7 +20,7 @@
  */
 
 #include "contact-avatar-downloader.h"
-#include "contact-avatar-downloader.moc"
+#include "moc_contact-avatar-downloader.cpp"
 
 #include "avatars/aggregated-contact-avatar-service.h"
 #include "avatars/avatar-id.h"

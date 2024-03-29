@@ -18,7 +18,7 @@
  */
 
 #include "filedesc-plugin-modules-factory.h"
-#include "filedesc-plugin-modules-factory.moc"
+#include "moc_filedesc-plugin-modules-factory.cpp"
 
 #include "filedesc-module.h"
 

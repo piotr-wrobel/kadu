@@ -18,4 +18,4 @@
  */
 
 #include "buddy-configuration-widget-factory.h"
-#include "buddy-configuration-widget-factory.moc"
+#include "moc_buddy-configuration-widget-factory.cpp"

@@ -18,7 +18,7 @@
  */
 
 #include "open-forum-action.h"
-#include "open-forum-action.moc"
+#include "moc_open-forum-action.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

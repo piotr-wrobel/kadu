@@ -18,7 +18,7 @@
  */
 
 #include "kadu-window-service.h"
-#include "kadu-window-service.moc"
+#include "moc_kadu-window-service.cpp"
 
 #include "core/injected-factory.h"
 #include "windows/kadu-window.h"

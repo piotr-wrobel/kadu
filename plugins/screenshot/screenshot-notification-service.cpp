@@ -18,7 +18,7 @@
  */
 
 #include "screenshot-notification-service.h"
-#include "screenshot-notification-service.moc"
+#include "moc_screenshot-notification-service.cpp"
 
 #include "html/html-conversion.h"
 #include "html/html-string.h"

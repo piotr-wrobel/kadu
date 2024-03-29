@@ -42,7 +42,7 @@
 #include "widgets/accounts-combo-box.h"
 
 #include "multilogon-window.h"
-#include "multilogon-window.moc"
+#include "moc_multilogon-window.cpp"
 
 MultilogonWindow::MultilogonWindow(QWidget *parent) : QWidget(parent), DesktopAwareObject(this)
 {

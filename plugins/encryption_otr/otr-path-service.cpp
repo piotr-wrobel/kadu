@@ -18,7 +18,7 @@
  */
 
 #include "otr-path-service.h"
-#include "otr-path-service.moc"
+#include "moc_otr-path-service.cpp"
 
 #include "misc/paths-provider.h"
 

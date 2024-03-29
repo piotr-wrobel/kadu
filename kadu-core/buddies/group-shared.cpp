@@ -25,7 +25,7 @@
 #include "misc/change-notifier.h"
 
 #include "group-shared.h"
-#include "group-shared.moc"
+#include "moc_group-shared.cpp"
 
 GroupShared::GroupShared(const QUuid &uuid)
         : Shared(uuid), NotifyAboutStatusChanges(true), ShowInAllGroup(true), OfflineToGroup(false), ShowIcon(false),

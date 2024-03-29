@@ -28,7 +28,7 @@
 #include "otr-trust-level-service.h"
 
 #include "otr-chat-top-bar-widget-factory.h"
-#include "otr-chat-top-bar-widget-factory.moc"
+#include "moc_otr-chat-top-bar-widget-factory.cpp"
 
 OtrChatTopBarWidgetFactory::OtrChatTopBarWidgetFactory()
 {

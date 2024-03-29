@@ -21,7 +21,7 @@
 #include "gui/windows/otr-peer-identity-verification-window.h"
 
 #include "otr-peer-identity-verification-window-repository.h"
-#include "otr-peer-identity-verification-window-repository.moc"
+#include "moc_otr-peer-identity-verification-window-repository.cpp"
 
 OtrPeerIdentityVerificationWindowRepository::OtrPeerIdentityVerificationWindowRepository()
 {

@@ -20,7 +20,7 @@
  */
 
 #include "firewall-configuration-ui-handler.h"
-#include "firewall-configuration-ui-handler.moc"
+#include "moc_firewall-configuration-ui-handler.cpp"
 
 #include "firewall-message-filter.h"
 

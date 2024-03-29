@@ -18,7 +18,7 @@
  */
 
 #include "file-transfer-window.h"
-#include "file-transfer-window.moc"
+#include "moc_file-transfer-window.cpp"
 
 #include "configuration/config-file-variant-wrapper.h"
 #include "core/injected-factory.h"

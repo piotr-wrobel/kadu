@@ -18,7 +18,7 @@
  */
 
 #include "sound-select-file.h"
-#include "sound-select-file.moc"
+#include "moc_sound-select-file.cpp"
 
 #include "sound-manager.h"
 

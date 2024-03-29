@@ -18,7 +18,7 @@
  */
 
 #include "chat-style-preview.h"
-#include "chat-style-preview.moc"
+#include "moc_chat-style-preview.cpp"
 
 #include "buddies/buddy-preferred-manager.h"
 #include "buddies/buddy-storage.h"

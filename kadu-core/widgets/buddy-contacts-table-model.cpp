@@ -21,7 +21,7 @@
  */
 
 #include "buddy-contacts-table-model.h"
-#include "buddy-contacts-table-model.moc"
+#include "moc_buddy-contacts-table-model.cpp"
 
 #include "buddies/buddy-manager.h"
 #include "contacts/contact-manager.h"

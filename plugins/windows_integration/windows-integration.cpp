@@ -18,7 +18,7 @@
  */
 
 #include "windows-integration.h"
-#include "windows-integration.moc"
+#include "moc_windows-integration.cpp"
 
 #include "windows-taskbar-progress.h"
 #include "windows-thumbnail-toolbar.h"

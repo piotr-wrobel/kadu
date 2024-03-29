@@ -18,7 +18,7 @@
  */
 
 #include "roster-service.h"
-#include "roster-service.moc"
+#include "moc_roster-service.cpp"
 
 #include "protocols/protocol.h"
 #include "roster/roster-entry-state.h"

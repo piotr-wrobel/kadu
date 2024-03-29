@@ -19,7 +19,7 @@
  */
 
 #include "jabber-account-avatar-service.h"
-#include "jabber-account-avatar-service.moc"
+#include "moc_jabber-account-avatar-service.cpp"
 
 #include "jabber-protocol.h"
 #include "services/jabber-vcard-downloader.h"

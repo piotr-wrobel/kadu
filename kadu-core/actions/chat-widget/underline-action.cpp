@@ -18,7 +18,7 @@
  */
 
 #include "underline-action.h"
-#include "underline-action.moc"
+#include "moc_underline-action.cpp"
 
 #include "accounts/account.h"
 #include "actions/action.h"

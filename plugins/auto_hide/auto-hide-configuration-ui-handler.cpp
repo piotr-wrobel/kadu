@@ -18,7 +18,7 @@
  */
 
 #include "auto-hide-configuration-ui-handler.h"
-#include "auto-hide-configuration-ui-handler.moc"
+#include "moc_auto-hide-configuration-ui-handler.cpp"
 
 #include "widgets/configuration/configuration-widget.h"
 #include "windows/main-configuration-window.h"

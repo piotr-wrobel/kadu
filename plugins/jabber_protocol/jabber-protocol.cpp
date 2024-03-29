@@ -21,7 +21,7 @@
  */
 
 #include "jabber-protocol.h"
-#include "jabber-protocol.moc"
+#include "moc_jabber-protocol.cpp"
 
 #include "actions/jabber-actions.h"
 #include "actions/jabber-protocol-menu-manager.h"

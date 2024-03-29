@@ -29,7 +29,7 @@
 #include "widgets/select-talkable-popup.h"
 
 #include "select-talkable-combo-box.h"
-#include "select-talkable-combo-box.moc"
+#include "moc_select-talkable-combo-box.cpp"
 
 SelectTalkableComboBox::SelectTalkableComboBox(QWidget *parent) : ActionsComboBox(parent)
 {

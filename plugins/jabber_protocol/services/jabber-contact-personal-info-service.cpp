@@ -19,7 +19,7 @@
  */
 
 #include "jabber-contact-personal-info-service.h"
-#include "jabber-contact-personal-info-service.moc"
+#include "moc_jabber-contact-personal-info-service.cpp"
 
 #include "jabber-vcard-downloader.h"
 #include "jabber-vcard-service.h"

@@ -26,7 +26,7 @@
 #include "history.h"
 
 #include "history-query-results-model.h"
-#include "history-query-results-model.moc"
+#include "moc_history-query-results-model.cpp"
 
 HistoryQueryResultsModel::HistoryQueryResultsModel(QObject *parent) : QAbstractListModel(parent)
 {

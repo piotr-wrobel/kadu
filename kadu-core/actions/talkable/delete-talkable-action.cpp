@@ -34,7 +34,7 @@
 #include "windows/message-dialog.h"
 
 #include "delete-talkable-action.h"
-#include "delete-talkable-action.moc"
+#include "moc_delete-talkable-action.cpp"
 
 DeleteTalkableAction::DeleteTalkableAction(QObject *parent) : ActionDescription(parent)
 {

@@ -24,7 +24,7 @@
  */
 
 #include "configuration-window.h"
-#include "configuration-window.moc"
+#include "moc_configuration-window.cpp"
 
 #include "activate.h"
 #include "configuration/config-file-variant-wrapper.h"

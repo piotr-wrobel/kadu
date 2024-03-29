@@ -44,7 +44,7 @@
 #include "sms-gateway-manager.h"
 
 #include "sms-actions.h"
-#include "sms-actions.moc"
+#include "moc_sms-actions.cpp"
 
 SmsActions::SmsActions(QObject *parent) : QObject{parent}
 {

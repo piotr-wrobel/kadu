@@ -18,7 +18,7 @@
  */
 
 #include "emoticon-clipboard-html-transformer.h"
-#include "emoticon-clipboard-html-transformer.moc"
+#include "moc_emoticon-clipboard-html-transformer.cpp"
 
 // Assume we don't use apostrophes in HTML attributes.
 // Expected string to replace is as follows (capitalics are captured):

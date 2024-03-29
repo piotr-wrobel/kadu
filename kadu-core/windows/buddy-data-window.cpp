@@ -69,7 +69,7 @@
 #include "icons/icons-manager.h"
 
 #include "buddy-data-window.h"
-#include "buddy-data-window.moc"
+#include "moc_buddy-data-window.cpp"
 
 BuddyDataWindow::BuddyDataWindow(const Buddy &buddy)
         : QWidget(0, Qt::Dialog), MyBuddy(buddy), ValueStateNotifier(new CompositeConfigurationValueStateNotifier(this))

@@ -18,7 +18,7 @@
  */
 
 #include "exit-action.h"
-#include "exit-action.moc"
+#include "moc_exit-action.cpp"
 
 #include "core/application.h"
 

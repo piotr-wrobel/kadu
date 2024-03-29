@@ -25,7 +25,7 @@
 #include "oauth/oauth-parameters.h"
 
 #include "oauth-token-fetcher.h"
-#include "oauth-token-fetcher.moc"
+#include "moc_oauth-token-fetcher.cpp"
 
 OAuthTokenFetcher::OAuthTokenFetcher(
     QString requestTokenUrl, OAuthToken token, QNetworkAccessManager *networkAccessManager, QObject *parent)

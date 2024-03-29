@@ -22,7 +22,7 @@
  */
 
 #include "jabber-avatar-downloader.h"
-#include "jabber-avatar-downloader.moc"
+#include "moc_jabber-avatar-downloader.cpp"
 
 #include "jabber-protocol.h"
 #include "services/jabber-vcard-downloader.h"

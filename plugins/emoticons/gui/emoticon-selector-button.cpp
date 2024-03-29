@@ -35,7 +35,7 @@
 #include "gui/emoticon-selector-button-popup.h"
 
 #include "emoticon-selector-button.h"
-#include "emoticon-selector-button.moc"
+#include "moc_emoticon-selector-button.cpp"
 
 EmoticonSelectorButton::EmoticonSelectorButton(
     const Emoticon &emoticon, EmoticonPathProvider *pathProvider, QWidget *parent)

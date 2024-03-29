@@ -18,7 +18,7 @@
  */
 
 #include "chat-widget-activation-service.h"
-#include "chat-widget-activation-service.moc"
+#include "moc_chat-widget-activation-service.cpp"
 
 #include "widgets/chat-widget/chat-widget-container-handler-mapper.h"
 #include "widgets/chat-widget/chat-widget-container-handler-repository.h"

@@ -20,7 +20,7 @@
  */
 
 #include "jabber-protocol-factory.h"
-#include "jabber-protocol-factory.moc"
+#include "moc_jabber-protocol-factory.cpp"
 
 #include "actions/jabber-protocol-menu-manager.h"
 #include "facebook-depreceated-message.h"

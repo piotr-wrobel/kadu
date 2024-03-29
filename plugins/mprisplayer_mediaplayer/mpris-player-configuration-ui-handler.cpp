@@ -41,7 +41,7 @@
 #include "mpris-player.h"
 
 #include "mpris-player-configuration-ui-handler.h"
-#include "mpris-player-configuration-ui-handler.moc"
+#include "moc_mpris-player-configuration-ui-handler.cpp"
 
 MPRISPlayerConfigurationUiHandler::MPRISPlayerConfigurationUiHandler(QObject *parent) : QObject{parent}, PlayersBox{}
 {

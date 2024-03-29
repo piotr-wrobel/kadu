@@ -36,7 +36,7 @@
 #include "widgets/chat-widget/chat-widget-manager.h"
 
 #include "notification-service.h"
-#include "notification-service.moc"
+#include "moc_notification-service.cpp"
 
 NotificationService::NotificationService(QObject *parent) : QObject{parent}
 {

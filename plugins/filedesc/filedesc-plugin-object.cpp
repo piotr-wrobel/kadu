@@ -18,7 +18,7 @@
  */
 
 #include "filedesc-plugin-object.h"
-#include "filedesc-plugin-object.moc"
+#include "moc_filedesc-plugin-object.cpp"
 
 #include "filedesc-status-changer.h"
 

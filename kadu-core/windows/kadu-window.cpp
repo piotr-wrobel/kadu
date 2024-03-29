@@ -92,7 +92,7 @@
 #include "icons/kadu-icon.h"
 
 #include "kadu-window.h"
-#include "kadu-window.moc"
+#include "moc_kadu-window.cpp"
 
 KaduWindow::KaduWindow() : MainWindow(nullptr, QString(), 0), Docked(false), WindowParent(0), CompositingEnabled(false)
 {

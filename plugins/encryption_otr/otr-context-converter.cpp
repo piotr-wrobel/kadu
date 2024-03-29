@@ -31,7 +31,7 @@ extern "C" {
 #include "otr-user-state-service.h"
 
 #include "otr-context-converter.h"
-#include "otr-context-converter.moc"
+#include "moc_otr-context-converter.cpp"
 
 OtrContextConverter::OtrContextConverter(QObject *parent) : QObject{parent}
 {

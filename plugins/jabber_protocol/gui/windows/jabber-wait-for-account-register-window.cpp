@@ -19,7 +19,7 @@
  */
 
 #include "jabber-wait-for-account-register-window.h"
-#include "jabber-wait-for-account-register-window.moc"
+#include "moc_jabber-wait-for-account-register-window.cpp"
 
 #include "services/jabber-register-account.h"
 

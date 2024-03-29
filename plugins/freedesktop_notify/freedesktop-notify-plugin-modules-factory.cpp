@@ -18,7 +18,7 @@
  */
 
 #include "freedesktop-notify-plugin-modules-factory.h"
-#include "freedesktop-notify-plugin-modules-factory.moc"
+#include "moc_freedesktop-notify-plugin-modules-factory.cpp"
 
 #include "freedesktop-notify-module.h"
 

@@ -18,7 +18,7 @@
  */
 
 #include "show-multilogons-action.h"
-#include "show-multilogons-action.moc"
+#include "moc_show-multilogons-action.cpp"
 
 #include "accounts/account-manager.h"
 #include "actions/action.h"

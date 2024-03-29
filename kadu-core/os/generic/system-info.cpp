@@ -37,7 +37,7 @@
 #endif
 
 #include "system-info.h"
-#include "system-info.moc"
+#include "moc_system-info.cpp"
 
 SystemInfo::~SystemInfo()
 {

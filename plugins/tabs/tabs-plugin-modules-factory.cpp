@@ -18,7 +18,7 @@
  */
 
 #include "tabs-plugin-modules-factory.h"
-#include "tabs-plugin-modules-factory.moc"
+#include "moc_tabs-plugin-modules-factory.cpp"
 
 #include "tabs-module.h"
 

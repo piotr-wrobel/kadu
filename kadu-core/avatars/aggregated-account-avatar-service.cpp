@@ -18,7 +18,7 @@
  */
 
 #include "aggregated-account-avatar-service.h"
-#include "aggregated-account-avatar-service.moc"
+#include "moc_aggregated-account-avatar-service.cpp"
 
 #include "avatars/account-avatar-service.h"
 

@@ -32,7 +32,7 @@ extern "C" {
 #include "otr-user-state-service.h"
 
 #include "otr-fingerprint-service.h"
-#include "otr-fingerprint-service.moc"
+#include "moc_otr-fingerprint-service.cpp"
 
 void OtrFingerprintService::wrapperOtrWriteFingerprints(void *data)
 {

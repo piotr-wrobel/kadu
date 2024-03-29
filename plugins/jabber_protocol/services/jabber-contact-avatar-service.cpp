@@ -18,7 +18,7 @@
  */
 
 #include "jabber-contact-avatar-service.h"
-#include "jabber-contact-avatar-service.moc"
+#include "moc_jabber-contact-avatar-service.cpp"
 
 #include "jid.h"
 #include "services/jabber-avatar-downloader.h"

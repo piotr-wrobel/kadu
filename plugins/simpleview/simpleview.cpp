@@ -46,7 +46,7 @@
 
 #include "simpleview-config-ui.h"
 #include "simpleview.h"
-#include "simpleview.moc"
+#include "moc_simpleview.cpp"
 
 SimpleView::SimpleView(QObject *parent) : QObject{parent}, SimpleViewActive(false)
 {

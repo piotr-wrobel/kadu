@@ -24,7 +24,7 @@
 #include "accounts/account.h"
 
 #include "sql-accounts-mapping.h"
-#include "sql-accounts-mapping.moc"
+#include "moc_sql-accounts-mapping.cpp"
 
 SqlAccountsMapping::SqlAccountsMapping(const QSqlDatabase &database, QObject *parent)
         : QObject(parent), Database(database), Mutex(QMutex::Recursive)

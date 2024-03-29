@@ -23,7 +23,7 @@
 #include "contacts/model/contact-list-model.h"
 
 #include "chat-adapter.h"
-#include "chat-adapter.moc"
+#include "moc_chat-adapter.cpp"
 
 ChatAdapter::ChatAdapter(ContactListModel *model, const Chat &chat) : QObject(model), Model(model)
 {

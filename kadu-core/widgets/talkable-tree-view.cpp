@@ -63,7 +63,7 @@
 #include "widgets/tool-tip-manager.h"
 
 #include "talkable-tree-view.h"
-#include "talkable-tree-view.moc"
+#include "moc_talkable-tree-view.cpp"
 
 TalkableTreeView::TalkableTreeView(QWidget *parent)
         : KaduTreeView(parent), Delegate(0), Chain(0), ContextMenuEnabled(false)

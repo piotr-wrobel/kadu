@@ -23,7 +23,7 @@
 #include <libgadu.h>
 
 #include "gadu-pubdir-socket-notifiers.h"
-#include "gadu-pubdir-socket-notifiers.moc"
+#include "moc_gadu-pubdir-socket-notifiers.cpp"
 
 void GaduPubdirSocketNotifiers::watchFor(struct gg_http *h)
 {

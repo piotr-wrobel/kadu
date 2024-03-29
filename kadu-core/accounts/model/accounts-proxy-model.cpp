@@ -25,7 +25,7 @@
 #include "model/roles.h"
 
 #include "accounts-proxy-model.h"
-#include "accounts-proxy-model.moc"
+#include "moc_accounts-proxy-model.cpp"
 
 AccountsProxyModel::AccountsProxyModel(QObject *parent) : QSortFilterProxyModel(parent)
 {

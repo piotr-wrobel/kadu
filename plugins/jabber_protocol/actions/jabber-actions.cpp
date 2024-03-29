@@ -19,7 +19,7 @@
  */
 
 #include "jabber-actions.h"
-#include "jabber-actions.moc"
+#include "moc_jabber-actions.cpp"
 
 #include "actions/show-xml-console-action.h"
 

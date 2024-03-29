@@ -18,7 +18,7 @@
  */
 
 #include "speech-plugin-modules-factory.h"
-#include "speech-plugin-modules-factory.moc"
+#include "moc_speech-plugin-modules-factory.cpp"
 
 #include "speech-module.h"
 

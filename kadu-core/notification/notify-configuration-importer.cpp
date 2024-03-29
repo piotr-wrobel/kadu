@@ -18,7 +18,7 @@
  */
 
 #include "notify-configuration-importer.h"
-#include "notify-configuration-importer.moc"
+#include "moc_notify-configuration-importer.cpp"
 
 #include "buddies/buddy-manager.h"
 #include "configuration/configuration.h"

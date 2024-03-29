@@ -18,4 +18,4 @@
  */
 
 #include "chat-top-bar-widget-factory.h"
-#include "chat-top-bar-widget-factory.moc"
+#include "moc_chat-top-bar-widget-factory.cpp"

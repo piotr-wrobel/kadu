@@ -19,7 +19,7 @@
  */
 
 #include "languages-manager.h"
-#include "languages-manager.moc"
+#include "moc_languages-manager.cpp"
 
 #include "misc/paths-provider.h"
 

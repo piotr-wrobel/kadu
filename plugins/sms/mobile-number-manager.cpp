@@ -29,7 +29,7 @@
 #include "mobile-number.h"
 
 #include "mobile-number-manager.h"
-#include "mobile-number-manager.moc"
+#include "moc_mobile-number-manager.cpp"
 
 MobileNumberManager::MobileNumberManager(QObject *parent) : StorableObject{parent}
 {

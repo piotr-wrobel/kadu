@@ -18,4 +18,4 @@
  */
 
 #include "kadu-tab-widget.h"
-#include "kadu-tab-widget.moc"
+#include "moc_kadu-tab-widget.cpp"

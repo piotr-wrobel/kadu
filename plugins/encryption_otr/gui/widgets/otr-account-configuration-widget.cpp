@@ -27,7 +27,7 @@
 #include "otr-policy.h"
 
 #include "otr-account-configuration-widget.h"
-#include "otr-account-configuration-widget.moc"
+#include "moc_otr-account-configuration-widget.cpp"
 
 OtrAccountConfigurationWidget::OtrAccountConfigurationWidget(const Account &account, QWidget *parent)
         : AccountConfigurationWidget(account, parent), StateNotifier(new SimpleConfigurationValueStateNotifier(this))

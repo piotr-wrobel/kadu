@@ -34,7 +34,7 @@
 #include "storage/sql-contacts-mapping.h"
 
 #include "sql-chats-mapping.h"
-#include "sql-chats-mapping.moc"
+#include "moc_sql-chats-mapping.cpp"
 
 SqlChatsMapping::SqlChatsMapping(
     const QSqlDatabase &database, SqlAccountsMapping *accountsMapping, SqlContactsMapping *contactsMapping,

@@ -19,7 +19,7 @@
  */
 
 #include "account-service.h"
-#include "account-service.moc"
+#include "moc_account-service.cpp"
 
 AccountService::AccountService(Account account, QObject *parent) : QObject{parent}, m_account{account}
 {

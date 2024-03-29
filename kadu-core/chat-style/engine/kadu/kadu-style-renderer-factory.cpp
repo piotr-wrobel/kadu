@@ -18,7 +18,7 @@
  */
 
 #include "kadu-style-renderer-factory.h"
-#include "kadu-style-renderer-factory.moc"
+#include "moc_kadu-style-renderer-factory.cpp"
 
 #include "chat-style/engine/kadu/kadu-style-renderer.h"
 #include "core/injected-factory.h"

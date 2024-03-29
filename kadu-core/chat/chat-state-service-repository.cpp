@@ -18,7 +18,7 @@
  */
 
 #include "chat-state-service-repository.h"
-#include "chat-state-service-repository.moc"
+#include "moc_chat-state-service-repository.cpp"
 
 #include "protocols/services/chat-state-service.h"
 

@@ -27,7 +27,7 @@
 #include "server/gadu-writable-session-token.h"
 
 #include "gadu-contact-personal-info-service.h"
-#include "gadu-contact-personal-info-service.moc"
+#include "moc_gadu-contact-personal-info-service.cpp"
 
 GaduContactPersonalInfoService::GaduContactPersonalInfoService(Account account, QObject *parent)
         : ContactPersonalInfoService(account, parent), FetchSeq(0)

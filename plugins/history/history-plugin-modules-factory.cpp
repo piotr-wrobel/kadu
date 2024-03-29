@@ -18,7 +18,7 @@
  */
 
 #include "history-plugin-modules-factory.h"
-#include "history-plugin-modules-factory.moc"
+#include "moc_history-plugin-modules-factory.cpp"
 
 #include "history-module.h"
 

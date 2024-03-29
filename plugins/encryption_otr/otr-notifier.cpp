@@ -31,7 +31,7 @@
 #include "widgets/chat-widget/chat-widget.h"
 
 #include "otr-notifier.h"
-#include "otr-notifier.moc"
+#include "moc_otr-notifier.cpp"
 
 QString OtrNotifier::OtrNotifyTopic("OTR");
 QString OtrNotifier::CreatePrivateKeyStartedNotifyTopic("OTR/CreatePrivateKeyStarted");

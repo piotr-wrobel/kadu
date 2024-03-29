@@ -22,7 +22,7 @@
 #include "services/jabber-vcard-uploader.h"
 
 #include "jabber-vcard-service.h"
-#include "jabber-vcard-service.moc"
+#include "moc_jabber-vcard-service.cpp"
 
 #include <QXmppQt5/QXmppVCardManager.h>
 

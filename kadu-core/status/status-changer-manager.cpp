@@ -23,7 +23,7 @@
 #include "status/status-container-manager.h"
 
 #include "status-changer-manager.h"
-#include "status-changer-manager.moc"
+#include "moc_status-changer-manager.cpp"
 
 StatusChangerManager::StatusChangerManager(QObject *parent) : QObject{parent}
 {

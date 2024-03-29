@@ -21,7 +21,7 @@
 #include "otr-policy-service.h"
 
 #include "otr-account-configuration-widget-factory.h"
-#include "otr-account-configuration-widget-factory.moc"
+#include "moc_otr-account-configuration-widget-factory.cpp"
 
 OtrAccountConfigurationWidgetFactory::~OtrAccountConfigurationWidgetFactory()
 {

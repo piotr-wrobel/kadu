@@ -21,7 +21,7 @@
  */
 
 #include "buddy-manager.h"
-#include "buddy-manager.moc"
+#include "moc_buddy-manager.cpp"
 
 #include "accounts/account.h"
 #include "buddies/buddy-list.h"

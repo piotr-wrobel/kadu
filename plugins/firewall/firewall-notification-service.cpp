@@ -18,7 +18,7 @@
  */
 
 #include "firewall-notification-service.h"
-#include "firewall-notification-service.moc"
+#include "moc_firewall-notification-service.cpp"
 
 #include "accounts/account.h"
 #include "chat/chat.h"

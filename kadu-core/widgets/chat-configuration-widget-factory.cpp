@@ -18,4 +18,4 @@
  */
 
 #include "chat-configuration-widget-factory.h"
-#include "chat-configuration-widget-factory.moc"
+#include "moc_chat-configuration-widget-factory.cpp"

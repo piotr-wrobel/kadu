@@ -27,7 +27,7 @@
 #include "configuration/deprecated-configuration-api.h"
 
 #include "speech-configuration-widget.h"
-#include "speech-configuration-widget.moc"
+#include "moc_speech-configuration-widget.cpp"
 
 SpeechConfigurationWidget::SpeechConfigurationWidget(QWidget *parent) : NotifierConfigurationWidget(parent)
 {

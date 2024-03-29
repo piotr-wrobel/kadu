@@ -18,7 +18,7 @@
  */
 
 #include "mediaplayer-menu-action.h"
-#include "mediaplayer-menu-action.moc"
+#include "moc_mediaplayer-menu-action.cpp"
 
 #include "mediaplayer.h"
 

@@ -18,7 +18,7 @@
  */
 
 #include "otr-plugin-modules-factory.h"
-#include "otr-plugin-modules-factory.moc"
+#include "moc_otr-plugin-modules-factory.cpp"
 
 #include "otr-module.h"
 

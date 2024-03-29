@@ -18,7 +18,7 @@
  */
 
 #include "mediaplayer-plugin-modules-factory.h"
-#include "mediaplayer-plugin-modules-factory.moc"
+#include "moc_mediaplayer-plugin-modules-factory.cpp"
 
 #include "mediaplayer-module.h"
 

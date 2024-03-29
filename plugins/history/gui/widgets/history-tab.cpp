@@ -19,7 +19,7 @@
  */
 
 #include "history-tab.h"
-#include "history-tab.moc"
+#include "moc_history-tab.cpp"
 
 HistoryTab::HistoryTab(QWidget *parent) : QWidget(parent)
 {

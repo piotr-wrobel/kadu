@@ -18,7 +18,7 @@
  */
 
 #include "word-fix-plugin-object.h"
-#include "word-fix-plugin-object.moc"
+#include "moc_word-fix-plugin-object.cpp"
 
 #include "word-fix-configuration-ui-handler.h"
 #include "word-fix.h"

@@ -18,7 +18,7 @@
  */
 
 #include "open-description-link-action.h"
-#include "open-description-link-action.moc"
+#include "moc_open-description-link-action.cpp"
 
 #include "actions/action-context.h"
 #include "actions/action.h"

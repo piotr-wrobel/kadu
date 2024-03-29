@@ -20,7 +20,7 @@
  */
 
 #include "show-xml-console-action.h"
-#include "show-xml-console-action.moc"
+#include "moc_show-xml-console-action.cpp"
 
 #include "accounts/account-manager.h"
 #include "accounts/account.h"

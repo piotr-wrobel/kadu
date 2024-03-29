@@ -18,7 +18,7 @@
  */
 
 #include "firewall-plugin-modules-factory.h"
-#include "firewall-plugin-modules-factory.moc"
+#include "moc_firewall-plugin-modules-factory.cpp"
 
 #include "firewall-module.h"
 

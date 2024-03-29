@@ -20,7 +20,7 @@
 #include <QtCore/QTimer>
 
 #include "toolbar-configuration-manager.h"
-#include "toolbar-configuration-manager.moc"
+#include "moc_toolbar-configuration-manager.cpp"
 
 ToolbarConfigurationManager::ToolbarConfigurationManager(QObject *parent) : QObject(parent)
 {

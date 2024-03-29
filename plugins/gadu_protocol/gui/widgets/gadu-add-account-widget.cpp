@@ -19,7 +19,7 @@
  */
 
 #include "gadu-add-account-widget.h"
-#include "gadu-add-account-widget.moc"
+#include "moc_gadu-add-account-widget.cpp"
 
 #include "gadu-id-validator.h"
 #include "gadu-protocol-factory.h"

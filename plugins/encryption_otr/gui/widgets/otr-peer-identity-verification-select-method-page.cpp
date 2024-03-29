@@ -25,7 +25,7 @@
 #include "gui/windows/otr-peer-identity-verification-window.h"
 
 #include "otr-peer-identity-verification-select-method-page.h"
-#include "otr-peer-identity-verification-select-method-page.moc"
+#include "moc_otr-peer-identity-verification-select-method-page.cpp"
 
 OtrPeerIdentityVerificationSelectMethodPage::OtrPeerIdentityVerificationSelectMethodPage(QWidget *parent)
         : QWizardPage(parent)

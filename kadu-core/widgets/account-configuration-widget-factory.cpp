@@ -18,4 +18,4 @@
  */
 
 #include "account-configuration-widget-factory.h"
-#include "account-configuration-widget-factory.moc"
+#include "moc_account-configuration-widget-factory.cpp"

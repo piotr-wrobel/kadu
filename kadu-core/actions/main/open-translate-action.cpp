@@ -18,7 +18,7 @@
  */
 
 #include "open-translate-action.h"
-#include "open-translate-action.moc"
+#include "moc_open-translate-action.cpp"
 
 #include "os/generic/url-opener.h"
 

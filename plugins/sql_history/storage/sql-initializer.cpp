@@ -35,7 +35,7 @@
 #include "storage/sql-restore.h"
 
 #include "sql-initializer.h"
-#include "sql-initializer.moc"
+#include "moc_sql-initializer.cpp"
 
 #define HISTORY_FILE_0 "history/history.db"
 #define HISTORY_FILE_1 "history1.db"

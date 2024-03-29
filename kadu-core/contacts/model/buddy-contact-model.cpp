@@ -32,7 +32,7 @@
 #include "protocols/protocol.h"
 
 #include "buddy-contact-model.h"
-#include "buddy-contact-model.moc"
+#include "moc_buddy-contact-model.cpp"
 
 BuddyContactModel::BuddyContactModel(Buddy buddy, QObject *parent)
         : QAbstractListModel(parent), SourceBuddy(buddy), IncludeIdentityInDisplay(false)

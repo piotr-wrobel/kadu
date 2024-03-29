@@ -30,7 +30,7 @@
 #include "widgets/configuration/kadu-scroll-area.h"
 
 #include "config-tab.h"
-#include "config-tab.moc"
+#include "moc_config-tab.cpp"
 
 ConfigTab::ConfigTab(const QString &name, ConfigSection *configSection, QWidget *mainWidget)
         : QObject(configSection), MyName(name)

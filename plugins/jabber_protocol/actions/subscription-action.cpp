@@ -18,7 +18,7 @@
  */
 
 #include "subscription-action.h"
-#include "subscription-action.moc"
+#include "moc_subscription-action.cpp"
 
 #include "jabber-protocol.h"
 

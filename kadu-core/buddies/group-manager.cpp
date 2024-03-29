@@ -35,7 +35,7 @@
 #include "windows/message-dialog.h"
 
 #include "group-manager.h"
-#include "group-manager.moc"
+#include "moc_group-manager.cpp"
 
 GroupManager::GroupManager(QObject *parent) : Manager<Group>{parent}
 {

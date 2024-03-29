@@ -18,7 +18,7 @@
  */
 
 #include "attention-service.h"
-#include "attention-service.moc"
+#include "moc_attention-service.cpp"
 
 #include "message/unread-message-repository.h"
 

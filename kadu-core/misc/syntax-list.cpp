@@ -20,7 +20,7 @@
  */
 
 #include "syntax-list.h"
-#include "syntax-list.moc"
+#include "moc_syntax-list.cpp"
 
 #include "misc/paths-provider.h"
 

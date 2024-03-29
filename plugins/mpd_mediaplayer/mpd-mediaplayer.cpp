@@ -19,7 +19,7 @@
  */
 
 #include "mpd-mediaplayer.h"
-#include "mpd-mediaplayer.moc"
+#include "moc_mpd-mediaplayer.cpp"
 
 #include "plugins/mediaplayer/mediaplayer.h"
 

@@ -18,7 +18,7 @@
  */
 
 #include "otr-message-event-service.h"
-#include "otr-message-event-service.moc"
+#include "moc_otr-message-event-service.cpp"
 
 #include "otr-op-data.h"
 

@@ -24,7 +24,7 @@
  */
 
 #include "search-window.h"
-#include "search-window.moc"
+#include "moc_search-window.cpp"
 
 #include "accounts/account-manager.h"
 #include "actions/actions.h"

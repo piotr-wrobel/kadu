@@ -23,7 +23,7 @@
 #include "protocols/services/multilogon-service.h"
 
 #include "multilogon-model.h"
-#include "multilogon-model.moc"
+#include "moc_multilogon-model.cpp"
 
 MultilogonModel::MultilogonModel(MultilogonService *service, QObject *parent)
         : QAbstractTableModel(parent), Service(service)

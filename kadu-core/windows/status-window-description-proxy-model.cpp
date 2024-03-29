@@ -25,7 +25,7 @@
 #include "model/roles.h"
 
 #include "status-window-description-proxy-model.h"
-#include "status-window-description-proxy-model.moc"
+#include "moc_status-window-description-proxy-model.cpp"
 
 #define DESCRIPTION_SELECT_DISPLAY_MAX_LENGTH 60
 

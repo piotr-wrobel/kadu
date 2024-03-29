@@ -29,7 +29,7 @@
 #include "widgets/line-edit-clear-button.h"
 
 #include "line-edit-with-clear-button.h"
-#include "line-edit-with-clear-button.moc"
+#include "moc_line-edit-with-clear-button.cpp"
 
 LineEditWithClearButton::LineEditWithClearButton(QWidget *parent) : QLineEdit(parent), ClearButtonVisible(true)
 {

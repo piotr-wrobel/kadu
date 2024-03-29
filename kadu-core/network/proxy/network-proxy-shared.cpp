@@ -24,7 +24,7 @@
 #include "network/proxy/network-proxy-manager.h"
 
 #include "network-proxy-shared.h"
-#include "network-proxy-shared.moc"
+#include "moc_network-proxy-shared.cpp"
 
 NetworkProxyShared::NetworkProxyShared(const QUuid &uuid) : Shared(uuid), Port(0)
 {

@@ -22,7 +22,7 @@
 #include "windows/buddy-data-window.h"
 
 #include "buddy-data-window-repository.h"
-#include "buddy-data-window-repository.moc"
+#include "moc_buddy-data-window-repository.cpp"
 
 BuddyDataWindowRepository::BuddyDataWindowRepository(QObject *parent) : QObject(parent)
 {

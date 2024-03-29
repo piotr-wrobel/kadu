@@ -29,7 +29,7 @@ extern "C" {
 #include "otr-user-state-service.h"
 
 #include "otr-create-private-key-job.h"
-#include "otr-create-private-key-job.moc"
+#include "moc_otr-create-private-key-job.cpp"
 
 OtrCreatePrivateKeyJob::OtrCreatePrivateKeyJob(QObject *parent) : QObject(parent), KeyPointer(0)
 {

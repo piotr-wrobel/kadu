@@ -18,7 +18,7 @@
  */
 
 #include "configuration-writer.h"
-#include "configuration-writer.moc"
+#include "moc_configuration-writer.cpp"
 
 #include "configuration/configuration-path-provider.h"
 #include "configuration/configuration.h"

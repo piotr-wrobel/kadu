@@ -25,7 +25,7 @@
 #include <QtGui/QPainter>
 
 #include "line-edit-clear-button.h"
-#include "line-edit-clear-button.moc"
+#include "moc_line-edit-clear-button.cpp"
 
 #define ANIMATION_FRAMES_COUNT 255
 

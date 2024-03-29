@@ -19,7 +19,7 @@
  */
 
 #include "cenzor-configuration.h"
-#include "cenzor-configuration.moc"
+#include "moc_cenzor-configuration.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

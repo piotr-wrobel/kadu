@@ -18,7 +18,7 @@
  */
 
 #include "autostatus-plugin-object.h"
-#include "autostatus-plugin-object.moc"
+#include "moc_autostatus-plugin-object.cpp"
 
 #include "autostatus-actions.h"
 #include "autostatus-service.h"

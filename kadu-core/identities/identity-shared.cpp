@@ -33,7 +33,7 @@
 #include "status/status-type.h"
 
 #include "identity-shared.h"
-#include "identity-shared.moc"
+#include "moc_identity-shared.cpp"
 
 IdentityShared::IdentityShared(const QUuid &uuid, QObject *parent) : Shared(uuid, parent), Permanent(false)
 {

@@ -26,7 +26,7 @@
  */
 
 #include "kadu-window-actions.h"
-#include "kadu-window-actions.moc"
+#include "moc_kadu-window-actions.cpp"
 
 #include "actions/chat-widget/block-user-action.h"
 #include "actions/talkable/copy-description-action.h"

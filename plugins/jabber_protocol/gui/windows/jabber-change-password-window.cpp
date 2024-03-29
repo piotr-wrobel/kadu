@@ -19,7 +19,7 @@
  */
 
 #include "jabber-change-password-window.h"
-#include "jabber-change-password-window.moc"
+#include "moc_jabber-change-password-window.cpp"
 
 #include "services/jabber-change-password-service.h"
 #include "services/jabber-change-password.h"

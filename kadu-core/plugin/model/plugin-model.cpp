@@ -23,7 +23,7 @@
  */
 
 #include "plugin-model.h"
-#include "plugin-model.moc"
+#include "moc_plugin-model.cpp"
 
 #include "model/categorized-sort-filter-proxy-model.h"
 #include "plugin/metadata/plugin-metadata.h"

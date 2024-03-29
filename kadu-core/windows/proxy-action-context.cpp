@@ -24,7 +24,7 @@
 #include "status/status-container-manager.h"
 
 #include "proxy-action-context.h"
-#include "proxy-action-context.moc"
+#include "moc_proxy-action-context.cpp"
 
 ProxyActionContext::ProxyActionContext(StatusContainer *statusContainer)
         : m_statusContainer{statusContainer}, ForwardActionContext(0)

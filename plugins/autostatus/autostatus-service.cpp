@@ -31,7 +31,7 @@
 #include "configuration/autostatus-configuration.h"
 
 #include "autostatus-service.h"
-#include "autostatus-service.moc"
+#include "moc_autostatus-service.cpp"
 
 AutostatusService::AutostatusService(QObject *parent) : QObject{parent}
 {

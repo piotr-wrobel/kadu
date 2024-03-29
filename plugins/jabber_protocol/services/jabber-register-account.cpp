@@ -18,7 +18,7 @@
  */
 
 #include "jabber-register-account.h"
-#include "jabber-register-account.moc"
+#include "moc_jabber-register-account.cpp"
 
 #include "jid.h"
 #include "qxmpp/jabber-register-extension.h"

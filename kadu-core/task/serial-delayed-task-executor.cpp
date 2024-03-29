@@ -20,7 +20,7 @@
  */
 
 #include "serial-delayed-task-executor.h"
-#include "serial-delayed-task-executor.moc"
+#include "moc_serial-delayed-task-executor.cpp"
 
 #include <QtCore/QTimer>
 

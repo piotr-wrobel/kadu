@@ -26,7 +26,7 @@
 #include "protocols/protocol-factory.h"
 
 #include "protocols-manager.h"
-#include "protocols-manager.moc"
+#include "moc_protocols-manager.cpp"
 
 ProtocolsManager::ProtocolsManager(QObject *parent) : QObject{parent}
 {

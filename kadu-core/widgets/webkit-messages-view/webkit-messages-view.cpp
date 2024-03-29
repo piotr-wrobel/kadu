@@ -18,7 +18,7 @@
  */
 
 #include "webkit-messages-view.h"
-#include "webkit-messages-view.moc"
+#include "moc_webkit-messages-view.cpp"
 
 #include "chat-style/chat-style-manager.h"
 #include "chat-style/engine/chat-style-renderer-configuration.h"

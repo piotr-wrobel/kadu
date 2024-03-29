@@ -32,7 +32,7 @@
 #include "otr-trust-level-service.h"
 
 #include "otr-op-data-factory.h"
-#include "otr-op-data-factory.moc"
+#include "moc_otr-op-data-factory.cpp"
 
 OtrOpDataFactory::OtrOpDataFactory()
 {

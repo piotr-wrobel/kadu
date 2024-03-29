@@ -20,7 +20,7 @@
  */
 
 #include "jabber-url-handler.h"
-#include "jabber-url-handler.moc"
+#include "moc_jabber-url-handler.cpp"
 
 #include "accounts/account-manager.h"
 #include "accounts/account.h"

@@ -26,7 +26,7 @@
 #include "services/image-storage-service.h"
 
 #include "chat-view-network-access-manager.h"
-#include "chat-view-network-access-manager.moc"
+#include "moc_chat-view-network-access-manager.cpp"
 
 ChatViewNetworkAccessManager::ChatViewNetworkAccessManager(QNetworkAccessManager *manager, QObject *parent)
         : QNetworkAccessManager(parent)

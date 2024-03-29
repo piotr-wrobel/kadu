@@ -25,7 +25,7 @@
 #include <QtWidgets/QListWidget>
 
 #include "config-check-box.h"
-#include "config-check-box.moc"
+#include "moc_config-check-box.cpp"
 
 #include "widgets/configuration/config-group-box.h"
 

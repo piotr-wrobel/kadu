@@ -19,7 +19,7 @@
  */
 
 #include "antistring-configuration.h"
-#include "antistring-configuration.moc"
+#include "moc_antistring-configuration.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

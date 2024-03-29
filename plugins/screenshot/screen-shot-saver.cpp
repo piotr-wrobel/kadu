@@ -27,7 +27,7 @@
 #include "windows/message-dialog.h"
 
 #include "screen-shot-saver.h"
-#include "screen-shot-saver.moc"
+#include "moc_screen-shot-saver.cpp"
 
 ScreenShotSaver::ScreenShotSaver(
     IconsManager *iconsManager, ScreenShotConfiguration *screenShotConfiguration, QObject *parent)

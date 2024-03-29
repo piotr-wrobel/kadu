@@ -21,7 +21,7 @@
 #include <QtXml/QDomDocument>
 
 #include "standard-url-expander.h"
-#include "standard-url-expander.moc"
+#include "moc_standard-url-expander.cpp"
 
 StandardUrlExpander::StandardUrlExpander(QRegExp regExp) : DomTextRegexpVisitor(regExp)
 {

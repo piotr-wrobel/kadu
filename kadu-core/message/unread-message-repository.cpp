@@ -19,7 +19,7 @@
  */
 
 #include "unread-message-repository.h"
-#include "unread-message-repository.moc"
+#include "moc_unread-message-repository.cpp"
 
 #include "buddies/buddy-manager.h"
 #include "chat/chat-details-buddy.h"

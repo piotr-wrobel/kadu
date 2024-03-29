@@ -18,7 +18,7 @@
  */
 
 #include "single-window-plugin-modules-factory.h"
-#include "single-window-plugin-modules-factory.moc"
+#include "moc_single-window-plugin-modules-factory.cpp"
 
 #include "single-window-module.h"
 

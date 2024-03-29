@@ -18,7 +18,7 @@
  */
 
 #include "history-chat-configuration-widget-factory.h"
-#include "history-chat-configuration-widget-factory.moc"
+#include "moc_history-chat-configuration-widget-factory.cpp"
 
 #include "gui/widgets/history-chat-configuration-widget.h"
 #include "plugin/plugin-injected-factory.h"

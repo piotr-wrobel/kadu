@@ -18,7 +18,7 @@
  */
 
 #include "group-edit-window.h"
-#include "group-edit-window.moc"
+#include "moc_group-edit-window.cpp"
 
 #include "buddies/group-manager.h"
 #include "buddies/group-storage.h"

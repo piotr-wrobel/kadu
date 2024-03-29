@@ -22,7 +22,7 @@
  */
 
 #include "preview.h"
-#include "preview.moc"
+#include "moc_preview.cpp"
 
 #include "buddies/buddy-dummy-factory.h"
 #include "parser/parser.h"

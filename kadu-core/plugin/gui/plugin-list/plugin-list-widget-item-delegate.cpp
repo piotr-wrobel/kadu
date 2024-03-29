@@ -22,7 +22,7 @@
  */
 
 #include "plugin-list-widget-item-delegate.h"
-#include "plugin-list-widget-item-delegate.moc"
+#include "moc_plugin-list-widget-item-delegate.cpp"
 
 #include "configuration/configuration-manager.h"
 #include "core/core.h"

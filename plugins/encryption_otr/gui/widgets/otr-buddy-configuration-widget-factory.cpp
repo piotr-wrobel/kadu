@@ -21,7 +21,7 @@
 #include "otr-policy-service.h"
 
 #include "otr-buddy-configuration-widget-factory.h"
-#include "otr-buddy-configuration-widget-factory.moc"
+#include "moc_otr-buddy-configuration-widget-factory.cpp"
 
 OtrBuddyConfigurationWidgetFactory::~OtrBuddyConfigurationWidgetFactory()
 {

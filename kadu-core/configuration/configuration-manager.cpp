@@ -22,7 +22,7 @@
  */
 
 #include "configuration-manager.h"
-#include "configuration-manager.moc"
+#include "moc_configuration-manager.cpp"
 
 #include "configuration/configuration-api.h"
 #include "configuration/configuration.h"

@@ -24,7 +24,7 @@
 #include "otr-policy.h"
 
 #include "otr-policy-service.h"
-#include "otr-policy-service.moc"
+#include "moc_otr-policy-service.cpp"
 
 OtrlPolicy OtrPolicyService::wrapperOtrPolicy(void *data, ConnContext *context)
 {

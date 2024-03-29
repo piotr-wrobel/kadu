@@ -18,7 +18,7 @@
  */
 
 #include "auto-hide-plugin-modules-factory.h"
-#include "auto-hide-plugin-modules-factory.moc"
+#include "moc_auto-hide-plugin-modules-factory.cpp"
 
 #include "auto-hide-module.h"
 

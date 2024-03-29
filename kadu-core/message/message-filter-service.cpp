@@ -21,7 +21,7 @@
 #include "message/message-filter.h"
 
 #include "message-filter-service.h"
-#include "message-filter-service.moc"
+#include "moc_message-filter-service.cpp"
 
 MessageFilterService::MessageFilterService(QObject *parent) : QObject(parent)
 {

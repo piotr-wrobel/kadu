@@ -21,7 +21,7 @@
 #include "roster/roster-entry-state.h"
 
 #include "roster-entry.h"
-#include "roster-entry.moc"
+#include "moc_roster-entry.cpp"
 
 RosterEntry::RosterEntry(QObject *parent) : QObject{parent}, m_state{RosterEntryState::Unknown}
 {

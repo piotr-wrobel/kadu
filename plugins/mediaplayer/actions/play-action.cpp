@@ -18,7 +18,7 @@
  */
 
 #include "play-action.h"
-#include "play-action.moc"
+#include "moc_play-action.cpp"
 
 #include "mediaplayer.h"
 

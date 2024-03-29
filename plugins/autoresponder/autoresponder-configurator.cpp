@@ -28,7 +28,7 @@
 #include "autoresponder-message-filter.h"
 
 #include "autoresponder-configurator.h"
-#include "autoresponder-configurator.moc"
+#include "moc_autoresponder-configurator.cpp"
 
 AutoresponderConfigurator::AutoresponderConfigurator(QObject *parent) : QObject{parent}
 {

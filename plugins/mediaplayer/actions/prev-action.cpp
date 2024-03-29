@@ -18,7 +18,7 @@
  */
 
 #include "prev-action.h"
-#include "prev-action.moc"
+#include "moc_prev-action.cpp"
 
 #include "mediaplayer.h"
 

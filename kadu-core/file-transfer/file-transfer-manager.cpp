@@ -22,7 +22,7 @@
  */
 
 #include "file-transfer-manager.h"
-#include "file-transfer-manager.moc"
+#include "moc_file-transfer-manager.cpp"
 
 #include "accounts/account-manager.h"
 #include "accounts/account.h"

@@ -37,7 +37,7 @@
 #include "widgets/talkable-tree-view.h"
 
 #include "filter-widget.h"
-#include "filter-widget.moc"
+#include "moc_filter-widget.cpp"
 
 QString FilterWidget::filterText() const
 {

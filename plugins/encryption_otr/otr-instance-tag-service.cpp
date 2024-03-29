@@ -26,7 +26,7 @@
 #include "otr-user-state-service.h"
 
 #include "otr-instance-tag-service.h"
-#include "otr-instance-tag-service.moc"
+#include "moc_otr-instance-tag-service.cpp"
 
 void OtrInstanceTagService::wrapperOtrCreateInstanceTag(void *data, const char *accountName, const char *protocol)
 {

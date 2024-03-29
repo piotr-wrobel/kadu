@@ -35,7 +35,7 @@
 #include "os/generic/url-opener.h"
 
 #include "updates-dialog.h"
-#include "updates-dialog.moc"
+#include "moc_updates-dialog.cpp"
 
 UpdatesDialog::UpdatesDialog(const QString &newestVersion, QWidget *parent)
         : QDialog(parent), DesktopAwareObject(this), m_newestVersion{newestVersion}

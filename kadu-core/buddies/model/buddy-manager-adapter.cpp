@@ -22,7 +22,7 @@
 #include "buddies/model/buddy-list-model.h"
 
 #include "buddy-manager-adapter.h"
-#include "buddy-manager-adapter.moc"
+#include "moc_buddy-manager-adapter.cpp"
 
 BuddyManagerAdapter::BuddyManagerAdapter(BuddyListModel *model) : QObject(model), Model(model)
 {

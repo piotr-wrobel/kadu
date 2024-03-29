@@ -63,7 +63,7 @@
 #include "open-in-new-tab-action.h"
 
 #include "tabs.h"
-#include "tabs.moc"
+#include "moc_tabs.cpp"
 
 TabsManager::TabsManager(QObject *parent) : StorableObject(parent), TargetTabs(-1)
 {

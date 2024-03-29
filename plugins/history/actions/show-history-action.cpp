@@ -41,7 +41,7 @@
 #include "history.h"
 
 #include "show-history-action.h"
-#include "show-history-action.moc"
+#include "moc_show-history-action.cpp"
 
 ShowHistoryAction::ShowHistoryAction(QObject *parent) : ActionDescription(parent)
 {

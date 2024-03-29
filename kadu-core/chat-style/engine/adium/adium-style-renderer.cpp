@@ -18,7 +18,7 @@
  */
 
 #include "adium-style-renderer.h"
-#include "adium-style-renderer.moc"
+#include "moc_adium-style-renderer.cpp"
 
 #include "avatars/avatar-id.h"
 #include "avatars/avatars.h"

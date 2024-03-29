@@ -18,7 +18,7 @@
  */
 
 #include "buddy-configuration-widget-factory-repository.h"
-#include "buddy-configuration-widget-factory-repository.moc"
+#include "moc_buddy-configuration-widget-factory-repository.cpp"
 
 BuddyConfigurationWidgetFactoryRepository::BuddyConfigurationWidgetFactoryRepository(QObject *parent) : QObject(parent)
 {

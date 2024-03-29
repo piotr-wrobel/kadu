@@ -31,7 +31,7 @@
 #include "protocols/protocol.h"
 
 #include "accounts-model.h"
-#include "accounts-model.moc"
+#include "moc_accounts-model.cpp"
 
 AccountsModel::AccountsModel(AccountManager *accountManager, QObject *parent)
         : QAbstractListModel{parent}, m_accountManager{accountManager}, m_includeIdInDisplay{}

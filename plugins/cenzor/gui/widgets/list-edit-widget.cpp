@@ -19,7 +19,7 @@
  */
 
 #include "list-edit-widget.h"
-#include "list-edit-widget.moc"
+#include "moc_list-edit-widget.cpp"
 
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QLineEdit>

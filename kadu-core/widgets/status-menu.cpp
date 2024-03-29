@@ -37,7 +37,7 @@
 #include "windows/window-manager.h"
 
 #include "status-menu.h"
-#include "status-menu.moc"
+#include "moc_status-menu.cpp"
 
 StatusMenu::StatusMenu(StatusContainer *statusContainer, bool includePrefix, QMenu *menu)
         : QObject(menu), Menu(menu), Container(statusContainer), m_includePrefix{includePrefix}

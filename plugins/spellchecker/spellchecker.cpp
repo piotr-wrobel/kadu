@@ -49,7 +49,7 @@
 #include "suggester.h"
 
 #include "spellchecker.h"
-#include "spellchecker.moc"
+#include "moc_spellchecker.cpp"
 
 #if defined(HAVE_ENCHANT)
 typedef std::pair<const SpellChecker::Checkers *, QStringList *> DescWrapper;

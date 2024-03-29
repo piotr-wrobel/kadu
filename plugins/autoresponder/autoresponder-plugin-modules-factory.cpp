@@ -18,7 +18,7 @@
  */
 
 #include "autoresponder-plugin-modules-factory.h"
-#include "autoresponder-plugin-modules-factory.moc"
+#include "moc_autoresponder-plugin-modules-factory.cpp"
 
 #include "autoresponder-module.h"
 

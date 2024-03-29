@@ -18,7 +18,7 @@
  */
 
 #include "stop-search-action.h"
-#include "stop-search-action.moc"
+#include "moc_stop-search-action.cpp"
 
 #include "windows/search-window.h"
 

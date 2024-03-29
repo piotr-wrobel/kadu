@@ -18,7 +18,7 @@
  */
 
 #include "single-window-plugin-object.h"
-#include "single-window-plugin-object.moc"
+#include "moc_single-window-plugin-object.cpp"
 
 #include "single-window.h"
 

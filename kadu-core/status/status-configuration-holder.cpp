@@ -18,7 +18,7 @@
  */
 
 #include "status-configuration-holder.h"
-#include "status-configuration-holder.moc"
+#include "moc_status-configuration-holder.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

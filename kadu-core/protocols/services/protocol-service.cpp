@@ -18,7 +18,7 @@
  */
 
 #include "protocol-service.h"
-#include "protocol-service.moc"
+#include "moc_protocol-service.cpp"
 
 #include "protocols/protocol.h"
 

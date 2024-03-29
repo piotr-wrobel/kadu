@@ -24,7 +24,7 @@
 #include <QtWidgets/QVBoxLayout>
 
 #include "screenshot-tool-box.h"
-#include "screenshot-tool-box.moc"
+#include "moc_screenshot-tool-box.cpp"
 
 ScreenshotToolBox::ScreenshotToolBox(QWidget *parent) : QFrame(parent)
 {

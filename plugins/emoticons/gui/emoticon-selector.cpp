@@ -42,7 +42,7 @@
 #include "gui/emoticon-selector-button.h"
 
 #include "emoticon-selector.h"
-#include "emoticon-selector.moc"
+#include "moc_emoticon-selector.cpp"
 
 EmoticonSelector::EmoticonSelector(
     const QVector<Emoticon> &emoticons, EmoticonPathProvider *pathProvider, QWidget *parent)

@@ -19,7 +19,7 @@
  */
 
 #include "have-multilogon-filter.h"
-#include "have-multilogon-filter.moc"
+#include "moc_have-multilogon-filter.cpp"
 
 #include "accounts/account.h"
 #include "protocols/protocol.h"

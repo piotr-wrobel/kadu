@@ -20,7 +20,7 @@
  */
 
 #include "gadu-list-helper.h"
-#include "gadu-list-helper.moc"
+#include "moc_gadu-list-helper.cpp"
 
 #include "buddies/buddy-list.h"
 #include "buddies/buddy-manager.h"

@@ -36,7 +36,7 @@
 #include "widgets/dialog/title-widget.h"
 
 #include "kadu-dialog.h"
-#include "kadu-dialog.moc"
+#include "moc_kadu-dialog.cpp"
 
 KaduDialog::KaduDialog(DialogWidget *dialogWidget, QWidget *parent)
         : QDialog(parent), DesktopAwareObject(this), CentralWidget(dialogWidget)

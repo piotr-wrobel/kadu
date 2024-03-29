@@ -18,7 +18,7 @@
  */
 
 #include "volume-up-action.h"
-#include "volume-up-action.moc"
+#include "moc_volume-up-action.cpp"
 
 #include "mediaplayer.h"
 

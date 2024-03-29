@@ -50,7 +50,7 @@
 #include "url-handlers/url-handler-manager.h"
 
 #include "about.h"
-#include "about.moc"
+#include "moc_about.cpp"
 
 About::About(QWidget *parent) : QWidget(parent, Qt::Window), DesktopAwareObject(this)
 {

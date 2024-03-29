@@ -47,7 +47,7 @@
 #include "os/generic/window-geometry-manager.h"
 
 #include "proxy-edit-window.h"
-#include "proxy-edit-window.moc"
+#include "moc_proxy-edit-window.cpp"
 
 ProxyEditWindow::ProxyEditWindow(QWidget *parent) : QWidget(parent), ForceProxyChange(false)
 {

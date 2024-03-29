@@ -28,8 +28,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "core/application.h"
-#include "core/application.moc"
+application.moc"/application.h"
+application.moc"/application.moc"
 
 #include "configuration/configuration-writer.h"
 

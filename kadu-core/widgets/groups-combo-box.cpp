@@ -32,7 +32,7 @@
 #include "model/roles.h"
 
 #include "groups-combo-box.h"
-#include "groups-combo-box.moc"
+#include "moc_groups-combo-box.cpp"
 
 GroupsComboBox::GroupsComboBox(QWidget *parent) : ActionsComboBox(parent)
 {

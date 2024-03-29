@@ -24,7 +24,7 @@
 #include "otr-peer-identity-verification-state.h"
 
 #include "otr-peer-identity-verification-result-page.h"
-#include "otr-peer-identity-verification-result-page.moc"
+#include "moc_otr-peer-identity-verification-result-page.cpp"
 
 OtrPeerIdentityVerificationResultPage::OtrPeerIdentityVerificationResultPage(const Contact &contact, QWidget *parent)
         : QWizardPage(parent), MyContact(contact)

@@ -18,7 +18,7 @@
  */
 
 #include "gadu-user-data-service.h"
-#include "gadu-user-data-service.moc"
+#include "moc_gadu-user-data-service.cpp"
 
 #include "services/gadu-contact-avatar-service.h"
 #include "services/user-data/gadu-user-data-type.h"

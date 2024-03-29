@@ -21,7 +21,7 @@
  */
 
 #include "protocols-model.h"
-#include "protocols-model.moc"
+#include "moc_protocols-model.cpp"
 
 #include "accounts/account-manager.h"
 #include "accounts/account.h"

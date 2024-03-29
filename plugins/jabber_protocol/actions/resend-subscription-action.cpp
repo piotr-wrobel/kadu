@@ -18,7 +18,7 @@
  */
 
 #include "resend-subscription-action.h"
-#include "resend-subscription-action.moc"
+#include "moc_resend-subscription-action.cpp"
 
 #include "protocols/services/subscription-service.h"
 

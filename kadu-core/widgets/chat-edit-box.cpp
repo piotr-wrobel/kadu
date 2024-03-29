@@ -58,7 +58,7 @@
 #include "windows/message-dialog.h"
 
 #include "chat-edit-box.h"
-#include "chat-edit-box.moc"
+#include "moc_chat-edit-box.cpp"
 
 QList<ChatEditBox *> chatEditBoxes;
 

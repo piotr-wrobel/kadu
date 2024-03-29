@@ -18,7 +18,7 @@
  */
 
 #include "sound-configuration-ui-handler.h"
-#include "sound-configuration-ui-handler.moc"
+#include "moc_sound-configuration-ui-handler.cpp"
 
 #include "gui/sound-configuration-widget.h"
 #include "sound-manager.h"

@@ -18,7 +18,7 @@
  */
 
 #include "merge-buddies-action.h"
-#include "merge-buddies-action.moc"
+#include "moc_merge-buddies-action.cpp"
 
 #include "actions/action-context.h"
 #include "actions/action.h"

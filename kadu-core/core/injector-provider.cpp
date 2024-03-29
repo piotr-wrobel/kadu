@@ -18,7 +18,7 @@
  */
 
 #include "injector-provider.h"
-#include "injector-provider.moc"
+#include "moc_injector-provider.cpp"
 
 InjectorProvider::InjectorProvider(QObject *parent) : QObject{parent}, m_injector{nullptr}
 {

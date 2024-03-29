@@ -53,7 +53,7 @@
 #include "word-fix-formatted-string-visitor.h"
 
 #include "word-fix.h"
-#include "word-fix.moc"
+#include "moc_word-fix.cpp"
 
 WordFix::WordFix(QObject *parent) : QObject{parent}
 {

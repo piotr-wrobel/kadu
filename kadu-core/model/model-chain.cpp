@@ -24,7 +24,7 @@
 #include "model/kadu-abstract-model.h"
 
 #include "model-chain.h"
-#include "model-chain.moc"
+#include "moc_model-chain.cpp"
 
 ModelChain::ModelChain(QObject *parent) : QObject(parent), Model(0), KaduModel(0)
 {

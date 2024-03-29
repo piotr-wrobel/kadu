@@ -18,4 +18,4 @@
  */
 
 #include "kadu-scroll-area.h"
-#include "kadu-scroll-area.moc"
+#include "moc_kadu-scroll-area.cpp"

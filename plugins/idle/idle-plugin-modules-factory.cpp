@@ -18,7 +18,7 @@
  */
 
 #include "idle-plugin-modules-factory.h"
-#include "idle-plugin-modules-factory.moc"
+#include "moc_idle-plugin-modules-factory.cpp"
 
 #include "idle-module.h"
 

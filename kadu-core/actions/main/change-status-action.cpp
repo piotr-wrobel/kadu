@@ -28,7 +28,7 @@
 #include "widgets/status-menu.h"
 
 #include "change-status-action.h"
-#include "change-status-action.moc"
+#include "moc_change-status-action.cpp"
 
 ChangeStatusAction::ChangeStatusAction(QObject *parent) : ActionDescription(parent)
 {

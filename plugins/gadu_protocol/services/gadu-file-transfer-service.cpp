@@ -19,7 +19,7 @@
  */
 
 #include "gadu-file-transfer-service.h"
-#include "gadu-file-transfer-service.moc"
+#include "moc_gadu-file-transfer-service.cpp"
 
 #include "gadu-imtoken-service.h"
 

@@ -18,7 +18,7 @@
  */
 
 #include "plugin-state-service.h"
-#include "plugin-state-service.moc"
+#include "moc_plugin-state-service.cpp"
 
 #include "misc/change-notifier.h"
 #include "plugin/state/plugin-state.h"

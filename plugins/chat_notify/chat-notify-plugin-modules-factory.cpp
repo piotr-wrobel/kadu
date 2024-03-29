@@ -18,7 +18,7 @@
  */
 
 #include "chat-notify-plugin-modules-factory.h"
-#include "chat-notify-plugin-modules-factory.moc"
+#include "moc_chat-notify-plugin-modules-factory.cpp"
 
 #include "chat-notify-module.h"
 

@@ -39,7 +39,7 @@
 #include "parser/parser.h"
 
 #include "chat-shared.h"
-#include "chat-shared.moc"
+#include "moc_chat-shared.cpp"
 
 /**
  * @short Creates new ChatShared object.

@@ -19,7 +19,7 @@
  */
 
 #include "image-storage-service-impl.h"
-#include "image-storage-service-impl.moc"
+#include "moc_image-storage-service-impl.cpp"
 
 #include "icons/icons-manager.h"
 #include "icons/kadu-icon.h"

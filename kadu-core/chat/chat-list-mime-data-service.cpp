@@ -18,7 +18,7 @@
  */
 
 #include "chat-list-mime-data-service.h"
-#include "chat-list-mime-data-service.moc"
+#include "moc_chat-list-mime-data-service.cpp"
 
 #include "chat/chat-manager.h"
 #include "chat/chat.h"

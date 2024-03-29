@@ -18,7 +18,7 @@
  */
 
 #include "hints-widget.h"
-#include "hints-widget.moc"
+#include "moc_hints-widget.cpp"
 
 #include "hint.h"
 #include "hints-configuration.h"

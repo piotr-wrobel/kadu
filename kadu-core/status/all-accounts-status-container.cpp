@@ -26,7 +26,7 @@
 #include "status/status-configuration-holder.h"
 
 #include "all-accounts-status-container.h"
-#include "all-accounts-status-container.moc"
+#include "moc_all-accounts-status-container.cpp"
 
 AllAccountsStatusContainer::AllAccountsStatusContainer(QObject *parent) : StatusContainer(parent)
 {

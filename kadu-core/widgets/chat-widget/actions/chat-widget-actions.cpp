@@ -19,7 +19,7 @@
  */
 
 #include "chat-widget-actions.h"
-#include "chat-widget-actions.moc"
+#include "moc_chat-widget-actions.cpp"
 
 #include "actions/chat-widget/open-chat-action.h"
 #include "menu/menu-inventory.h"

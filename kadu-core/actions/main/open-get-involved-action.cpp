@@ -18,7 +18,7 @@
  */
 
 #include "open-get-involved-action.h"
-#include "open-get-involved-action.moc"
+#include "moc_open-get-involved-action.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

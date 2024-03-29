@@ -18,7 +18,7 @@
  */
 
 #include "spellchecker-plugin-object.h"
-#include "spellchecker-plugin-object.moc"
+#include "moc_spellchecker-plugin-object.cpp"
 
 #include "spellchecker-configuration-ui-handler.h"
 #include "spellchecker.h"

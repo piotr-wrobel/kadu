@@ -25,7 +25,7 @@
 #include "core/core.h"
 
 #include "sms-external-sender.h"
-#include "sms-external-sender.moc"
+#include "moc_sms-external-sender.cpp"
 
 SmsExternalSender::SmsExternalSender(const QString &number, QObject *parent) : SmsSender{number, parent}, Process{}
 {

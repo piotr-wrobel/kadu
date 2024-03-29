@@ -24,7 +24,7 @@
 #include "widgets/webkit-messages-view/webkit-messages-view.h"
 
 #include "web-view-highlighter.h"
-#include "web-view-highlighter.moc"
+#include "moc_web-view-highlighter.cpp"
 
 WebViewHighlighter::WebViewHighlighter(WebkitMessagesView *parent) : QObject(parent), AutoUpdate(false)
 {

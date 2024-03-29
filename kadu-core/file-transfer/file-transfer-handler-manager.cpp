@@ -18,7 +18,7 @@
  */
 
 #include "file-transfer-handler-manager.h"
-#include "file-transfer-handler-manager.moc"
+#include "moc_file-transfer-handler-manager.cpp"
 
 #include "accounts/account-manager.h"
 #include "accounts/account.h"

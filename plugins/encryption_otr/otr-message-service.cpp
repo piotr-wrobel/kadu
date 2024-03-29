@@ -29,7 +29,7 @@
 #include "otr-op-data.h"
 
 #include "otr-message-service.h"
-#include "otr-message-service.moc"
+#include "moc_otr-message-service.cpp"
 
 void OtrMessageService::wrapperOtrInjectMessage(
     void *data, const char *accountName, const char *protocol, const char *recipient, const char *message)

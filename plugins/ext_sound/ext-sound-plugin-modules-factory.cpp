@@ -18,7 +18,7 @@
  */
 
 #include "ext-sound-plugin-modules-factory.h"
-#include "ext-sound-plugin-modules-factory.moc"
+#include "moc_ext-sound-plugin-modules-factory.cpp"
 
 #include "ext-sound-module.h"
 

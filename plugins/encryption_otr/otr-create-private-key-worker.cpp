@@ -22,7 +22,7 @@ extern "C" {
 }
 
 #include "otr-create-private-key-worker.h"
-#include "otr-create-private-key-worker.moc"
+#include "moc_otr-create-private-key-worker.cpp"
 
 OtrCreatePrivateKeyWorker::OtrCreatePrivateKeyWorker(void *keyPointer, QObject *parent)
         : QObject(parent), KeyPointer(keyPointer)

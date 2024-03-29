@@ -18,7 +18,7 @@
  */
 
 #include "windows-integration-plugin-modules-factory.h"
-#include "windows-integration-plugin-modules-factory.moc"
+#include "moc_windows-integration-plugin-modules-factory.cpp"
 
 #include "windows-integration-module.h"
 

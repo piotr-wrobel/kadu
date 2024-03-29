@@ -49,7 +49,7 @@
 #include "widgets/simple-configuration-value-state-notifier.h"
 
 #include "chat-data-window.h"
-#include "chat-data-window.moc"
+#include "moc_chat-data-window.cpp"
 
 ChatDataWindow::ChatDataWindow(const Chat &chat)
         : QWidget(0, Qt::Dialog), ValueStateNotifier(new CompositeConfigurationValueStateNotifier(this)),

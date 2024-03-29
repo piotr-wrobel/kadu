@@ -22,7 +22,7 @@
 #include "chat/model/chat-list-model.h"
 
 #include "chat-manager-adapter.h"
-#include "chat-manager-adapter.moc"
+#include "moc_chat-manager-adapter.cpp"
 
 ChatManagerAdapter::ChatManagerAdapter(ChatManager *chatManager, ChatListModel *model) : QObject{model}, m_model{model}
 {

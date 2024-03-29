@@ -18,7 +18,7 @@
  */
 
 #include "show-offline-buddies-action.h"
-#include "show-offline-buddies-action.moc"
+#include "moc_show-offline-buddies-action.cpp"
 
 #include "actions/action.h"
 #include "configuration/configuration.h"

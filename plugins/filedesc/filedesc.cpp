@@ -19,7 +19,7 @@
  */
 
 #include "filedesc.h"
-#include "filedesc.moc"
+#include "moc_filedesc.cpp"
 
 #include "filedesc-status-changer.h"
 

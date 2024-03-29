@@ -18,7 +18,7 @@
  */
 
 #include "jabber-url-dom-visitor-provider.h"
-#include "jabber-url-dom-visitor-provider.moc"
+#include "moc_jabber-url-dom-visitor-provider.cpp"
 
 #include "dom/ignore-links-dom-visitor.h"
 #include "misc/memory.h"

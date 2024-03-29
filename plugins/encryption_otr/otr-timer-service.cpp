@@ -32,7 +32,7 @@ extern "C" {
 #include "otr-user-state-service.h"
 
 #include "otr-timer-service.h"
-#include "otr-timer-service.moc"
+#include "moc_otr-timer-service.cpp"
 
 void OtrTimerService::wrapperOtrTimerControl(void *data, unsigned int interval)
 {

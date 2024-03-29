@@ -19,7 +19,7 @@
  */
 
 #include "chats-buddies-splitter.h"
-#include "chats-buddies-splitter.moc"
+#include "moc_chats-buddies-splitter.cpp"
 
 #include "buddies/buddy-manager.h"
 #include "chat/buddy-chat-manager.h"

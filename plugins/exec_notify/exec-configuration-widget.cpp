@@ -21,7 +21,7 @@
  */
 
 #include "exec-configuration-widget.h"
-#include "exec-configuration-widget.moc"
+#include "moc_exec-configuration-widget.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

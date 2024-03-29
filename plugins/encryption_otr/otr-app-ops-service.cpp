@@ -31,7 +31,7 @@
 #include "otr-trust-level-service.h"
 
 #include "otr-app-ops-service.h"
-#include "otr-app-ops-service.moc"
+#include "moc_otr-app-ops-service.cpp"
 
 OtrAppOpsService::OtrAppOpsService()
 {

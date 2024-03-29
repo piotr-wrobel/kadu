@@ -18,7 +18,7 @@
  */
 
 #include "aggregated-contact-avatar-service.h"
-#include "aggregated-contact-avatar-service.moc"
+#include "moc_aggregated-contact-avatar-service.cpp"
 
 #include "avatars/contact-avatar-global-id.h"
 #include "avatars/contact-avatar-id.h"

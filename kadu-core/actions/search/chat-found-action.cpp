@@ -18,7 +18,7 @@
  */
 
 #include "chat-found-action.h"
-#include "chat-found-action.moc"
+#include "moc_chat-found-action.cpp"
 
 #include "windows/search-window.h"
 

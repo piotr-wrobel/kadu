@@ -18,7 +18,7 @@
  */
 
 #include "last-seen-plugin-object.h"
-#include "last-seen-plugin-object.moc"
+#include "moc_last-seen-plugin-object.cpp"
 
 #include "infos.h"
 

@@ -18,7 +18,7 @@
  */
 
 #include "jabber-plugin-object.h"
-#include "jabber-plugin-object.moc"
+#include "moc_jabber-plugin-object.cpp"
 
 #include "actions/jabber-actions.h"
 #include "actions/jabber-protocol-menu-manager.h"

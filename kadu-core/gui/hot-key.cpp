@@ -25,7 +25,7 @@
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"
 #include "hot-key.h"
-#include "hot-key.moc"
+#include "moc_hot-key.cpp"
 
 QKeySequence HotKey::shortCutFromFile(Configuration *configuration, const QString &groupname, const QString &name)
 {

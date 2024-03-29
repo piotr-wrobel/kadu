@@ -19,7 +19,7 @@
  */
 
 #include "gadu-protocol-socket-notifiers.h"
-#include "gadu-protocol-socket-notifiers.moc"
+#include "moc_gadu-protocol-socket-notifiers.cpp"
 
 #include "services/gadu-imtoken-service.h"
 #include "services/gadu-roster-service.h"

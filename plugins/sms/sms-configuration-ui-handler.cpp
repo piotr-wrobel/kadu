@@ -50,7 +50,7 @@
 #include "sms-actions.h"
 
 #include "sms-configuration-ui-handler.h"
-#include "sms-configuration-ui-handler.moc"
+#include "moc_sms-configuration-ui-handler.cpp"
 
 SmsConfigurationUiHandler::SmsConfigurationUiHandler(QObject *parent)
         : QObject{parent}, useBuiltIn{}, customApp{}, useCustomString{}, customString{}, EraGatewayComboBox{},

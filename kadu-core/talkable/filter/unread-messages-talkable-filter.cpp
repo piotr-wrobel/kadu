@@ -23,7 +23,7 @@
 #include "contacts/contact.h"
 
 #include "unread-messages-talkable-filter.h"
-#include "unread-messages-talkable-filter.moc"
+#include "moc_unread-messages-talkable-filter.cpp"
 
 UnreadMessagesTalkableFilter::UnreadMessagesTalkableFilter(QObject *parent) : TalkableFilter(parent)
 {

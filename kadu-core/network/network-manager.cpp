@@ -20,7 +20,7 @@
  */
 
 #include "network-manager.h"
-#include "network-manager.moc"
+#include "moc_network-manager.cpp"
 
 NetworkManager::NetworkManager(QObject *parent) : QObject{parent}
 {

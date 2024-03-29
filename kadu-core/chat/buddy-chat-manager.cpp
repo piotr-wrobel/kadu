@@ -19,7 +19,7 @@
  */
 
 #include "buddy-chat-manager.h"
-#include "buddy-chat-manager.moc"
+#include "moc_buddy-chat-manager.cpp"
 
 #include "accounts/account-manager.h"
 #include "buddies/buddy-manager.h"

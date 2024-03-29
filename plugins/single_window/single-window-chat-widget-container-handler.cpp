@@ -18,7 +18,7 @@
  */
 
 #include "single-window-chat-widget-container-handler.h"
-#include "single-window-chat-widget-container-handler.moc"
+#include "moc_single-window-chat-widget-container-handler.cpp"
 
 #include "single-window.h"
 

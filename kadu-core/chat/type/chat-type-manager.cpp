@@ -20,7 +20,7 @@
  */
 
 #include "chat-type-manager.h"
-#include "chat-type-manager.moc"
+#include "moc_chat-type-manager.cpp"
 
 #include "chat/type/chat-type-buddy.h"
 #include "chat/type/chat-type-contact-set.h"

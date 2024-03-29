@@ -18,7 +18,7 @@
  */
 
 #include "word-fix-plugin-modules-factory.h"
-#include "word-fix-plugin-modules-factory.moc"
+#include "moc_word-fix-plugin-modules-factory.cpp"
 
 #include "word-fix-module.h"
 

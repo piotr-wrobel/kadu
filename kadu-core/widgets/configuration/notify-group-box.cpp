@@ -20,7 +20,7 @@
  */
 
 #include "notify-group-box.h"
-#include "notify-group-box.moc"
+#include "moc_notify-group-box.cpp"
 
 #include "icons/icons-manager.h"
 

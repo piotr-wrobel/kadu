@@ -26,7 +26,7 @@
 #include "otr-peer-identity-verification-state.h"
 
 #include "otr-peer-identity-verification-progress-page.h"
-#include "otr-peer-identity-verification-progress-page.moc"
+#include "moc_otr-peer-identity-verification-progress-page.cpp"
 
 OtrPeerIdentityVerificationProgressPage::OtrPeerIdentityVerificationProgressPage(
     const Contact &contact, QWidget *parent)

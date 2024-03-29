@@ -18,7 +18,7 @@
  */
 
 #include "gadu-drive-put-transfer.h"
-#include "gadu-drive-put-transfer.moc"
+#include "moc_gadu-drive-put-transfer.cpp"
 
 #include "services/drive/gadu-drive-send-ticket.h"
 #include "services/drive/gadu-drive-session-token.h"

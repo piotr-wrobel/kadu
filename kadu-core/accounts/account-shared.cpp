@@ -41,7 +41,7 @@
 #include "status/status-setter.h"
 
 #include "account-shared.h"
-#include "account-shared.moc"
+#include "moc_account-shared.cpp"
 
 AccountShared::AccountShared(const QString &protocolName, QObject *parent)
         : Shared(QUuid(), parent), ProtocolName(protocolName), ProtocolHandler(0), RememberPassword(false),

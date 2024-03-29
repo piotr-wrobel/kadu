@@ -18,7 +18,7 @@
  */
 
 #include "antistring-plugin-object.h"
-#include "antistring-plugin-object.moc"
+#include "moc_antistring-plugin-object.cpp"
 
 #include "antistring-configuration-ui-handler.h"
 #include "antistring-message-filter.h"

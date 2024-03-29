@@ -19,7 +19,7 @@
  */
 
 #include "chat-room-edit-widget.h"
-#include "chat-room-edit-widget.moc"
+#include "moc_chat-room-edit-widget.cpp"
 
 #include "accounts/filter/protocol-filter.h"
 #include "chat/chat-details-room.h"

@@ -18,7 +18,7 @@
  */
 
 #include "configuration.h"
-#include "configuration.moc"
+#include "moc_configuration.cpp"
 
 #include "configuration/configuration-api.h"
 #include "configuration/deprecated-configuration-api.h"

@@ -20,7 +20,7 @@
  */
 
 #include "merge-buddies-dialog-widget.h"
-#include "merge-buddies-dialog-widget.moc"
+#include "moc_merge-buddies-dialog-widget.cpp"
 
 #include "buddies/buddy-manager.h"
 #include "buddies/model/buddy-list-model.h"

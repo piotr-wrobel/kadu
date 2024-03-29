@@ -22,7 +22,7 @@
 #include "protocols/protocol.h"
 
 #include "writeable-contacts-list-filter.h"
-#include "writeable-contacts-list-filter.moc"
+#include "moc_writeable-contacts-list-filter.cpp"
 
 WriteableContactsListFilter::WriteableContactsListFilter(QObject *parent) : AbstractAccountFilter(parent)
 {

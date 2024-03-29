@@ -23,7 +23,7 @@
 #include "model/roles.h"
 
 #include "action-list-model.h"
-#include "action-list-model.moc"
+#include "moc_action-list-model.cpp"
 
 ActionListModel::ActionListModel(QObject *parent) : QAbstractItemModel(parent)
 {

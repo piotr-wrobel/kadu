@@ -18,7 +18,7 @@
  */
 
 #include "media-player-status-changer.h"
-#include "media-player-status-changer.moc"
+#include "moc_media-player-status-changer.cpp"
 
 #include "status/status.h"
 

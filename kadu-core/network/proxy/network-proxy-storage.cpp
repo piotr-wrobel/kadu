@@ -18,7 +18,7 @@
  */
 
 #include "network-proxy-storage.h"
-#include "network-proxy-storage.moc"
+#include "moc_network-proxy-storage.cpp"
 
 #include "core/injected-factory.h"
 #include "network/proxy/network-proxy-shared.h"

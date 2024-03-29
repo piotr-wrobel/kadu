@@ -19,7 +19,7 @@
  */
 
 #include "chat-type-buddy.h"
-#include "chat-type-buddy.moc"
+#include "moc_chat-type-buddy.cpp"
 
 #include "chat/chat-details-buddy.h"
 #include "chat/chat.h"

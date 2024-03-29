@@ -18,7 +18,7 @@
  */
 
 #include "next-action.h"
-#include "next-action.moc"
+#include "moc_next-action.cpp"
 
 #include "mediaplayer.h"
 

@@ -18,4 +18,4 @@
  */
 
 #include "personal-info-service.h"
-#include "personal-info-service.moc"
+#include "moc_personal-info-service.cpp"

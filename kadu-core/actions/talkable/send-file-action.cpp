@@ -18,7 +18,7 @@
  */
 
 #include "send-file-action.h"
-#include "send-file-action.moc"
+#include "moc_send-file-action.cpp"
 
 #include "accounts/account.h"
 #include "actions/action-context.h"

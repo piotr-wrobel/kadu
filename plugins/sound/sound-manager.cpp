@@ -20,7 +20,7 @@
  */
 
 #include "sound-manager.h"
-#include "sound-manager.moc"
+#include "moc_sound-manager.cpp"
 
 #include "sound-player.h"
 #include "sound-theme-manager.h"

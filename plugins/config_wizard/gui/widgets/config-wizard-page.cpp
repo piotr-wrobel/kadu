@@ -23,7 +23,7 @@
 #include <QtWidgets/QTextBrowser>
 
 #include "config-wizard-page.h"
-#include "config-wizard-page.moc"
+#include "moc_config-wizard-page.cpp"
 
 ConfigWizardPage::ConfigWizardPage(QWidget *parent) : QWizardPage(parent)
 {

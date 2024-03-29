@@ -18,7 +18,7 @@
  */
 
 #include "add-user-action.h"
-#include "add-user-action.moc"
+#include "moc_add-user-action.cpp"
 
 #include "actions/action-context.h"
 #include "actions/action.h"

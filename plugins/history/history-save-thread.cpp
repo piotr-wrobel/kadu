@@ -26,7 +26,7 @@
 #include "history.h"
 
 #include "history-save-thread.h"
-#include "history-save-thread.moc"
+#include "moc_history-save-thread.cpp"
 
 // 15 seconds
 #define SYNCHRONIZATION_TIMEOUT 15 * 1000

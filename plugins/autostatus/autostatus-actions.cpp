@@ -20,7 +20,7 @@
  */
 
 #include "autostatus-actions.h"
-#include "autostatus-actions.moc"
+#include "moc_autostatus-actions.cpp"
 
 #include "autostatus-service.h"
 #include "toggle-autostatus-action.h"

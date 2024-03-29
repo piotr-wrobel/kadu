@@ -18,7 +18,7 @@
  */
 
 #include "outgoing-file-transfer-handler.h"
-#include "outgoing-file-transfer-handler.moc"
+#include "moc_outgoing-file-transfer-handler.cpp"
 
 OutgoingFileTransferHandler::OutgoingFileTransferHandler(FileTransfer transfer, QObject *parent)
         : FileTransferHandler{transfer, parent}

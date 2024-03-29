@@ -19,7 +19,7 @@
  */
 
 #include "wait-overlay.h"
-#include "wait-overlay.moc"
+#include "moc_wait-overlay.cpp"
 
 #include "icons/icons-manager.h"
 #include "icons/kadu-icon.h"

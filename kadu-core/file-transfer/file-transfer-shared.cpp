@@ -20,7 +20,7 @@
  */
 
 #include "file-transfer-shared.h"
-#include "file-transfer-shared.moc"
+#include "moc_file-transfer-shared.cpp"
 
 #include "accounts/account-manager.h"
 #include "accounts/account.h"

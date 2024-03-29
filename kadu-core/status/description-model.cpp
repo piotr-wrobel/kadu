@@ -23,7 +23,7 @@
 #include "status/description-manager.h"
 
 #include "description-model.h"
-#include "description-model.moc"
+#include "moc_description-model.cpp"
 
 DescriptionModel::DescriptionModel(DescriptionManager *manager) : Manager(manager)
 {

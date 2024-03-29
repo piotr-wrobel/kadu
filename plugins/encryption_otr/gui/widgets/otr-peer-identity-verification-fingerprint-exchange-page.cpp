@@ -29,7 +29,7 @@
 #include "otr-fingerprint-service.h"
 
 #include "otr-peer-identity-verification-fingerprint-exchange-page.h"
-#include "otr-peer-identity-verification-fingerprint-exchange-page.moc"
+#include "moc_otr-peer-identity-verification-fingerprint-exchange-page.cpp"
 
 OtrPeerIdentityVerificationFingerprintExchangePage::OtrPeerIdentityVerificationFingerprintExchangePage(
     const Contact &contact, QWidget *parent)

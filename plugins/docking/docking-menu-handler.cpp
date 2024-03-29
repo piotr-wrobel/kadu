@@ -18,7 +18,7 @@
  */
 
 #include "docking-menu-handler.h"
-#include "docking-menu-handler.moc"
+#include "moc_docking-menu-handler.cpp"
 
 #include "docking-menu-action-repository.h"
 #include "status-notifier-item.h"

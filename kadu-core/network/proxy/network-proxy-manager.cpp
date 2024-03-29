@@ -28,7 +28,7 @@
 #include "storage/storage-point.h"
 
 #include "network-proxy-manager.h"
-#include "network-proxy-manager.moc"
+#include "moc_network-proxy-manager.cpp"
 
 NetworkProxyManager::NetworkProxyManager(QObject *parent) : Manager<NetworkProxy>{parent}
 {

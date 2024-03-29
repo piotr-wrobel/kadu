@@ -35,7 +35,7 @@
 #include "roster/roster-entry.h"
 
 #include "contact-shared.h"
-#include "contact-shared.moc"
+#include "moc_contact-shared.cpp"
 
 ContactShared::ContactShared(const QUuid &uuid)
         : Shared(uuid), Priority(-1), MaximumImageSize(0), UnreadMessagesCount(0), Blocking(false),

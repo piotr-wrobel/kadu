@@ -18,7 +18,7 @@
  */
 
 #include "autostatus-plugin-modules-factory.h"
-#include "autostatus-plugin-modules-factory.moc"
+#include "moc_autostatus-plugin-modules-factory.cpp"
 
 #include "autostatus-module.h"
 

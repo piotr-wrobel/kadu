@@ -18,7 +18,7 @@
  */
 
 #include "expand-action.h"
-#include "expand-action.moc"
+#include "moc_expand-action.cpp"
 
 #include "actions/action-context.h"
 #include "actions/action.h"

@@ -18,7 +18,7 @@
  */
 
 #include "file-transfer-storage.h"
-#include "file-transfer-storage.moc"
+#include "moc_file-transfer-storage.cpp"
 
 #include "core/injected-factory.h"
 #include "file-transfer/file-transfer-shared.h"

@@ -18,7 +18,7 @@
  */
 
 #include "roster-replacer.h"
-#include "roster-replacer.moc"
+#include "moc_roster-replacer.cpp"
 
 #include "accounts/account.h"
 #include "buddies/buddy-list.h"

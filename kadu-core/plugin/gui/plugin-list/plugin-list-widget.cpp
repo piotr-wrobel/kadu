@@ -22,7 +22,7 @@
  */
 
 #include "plugin-list-widget.h"
-#include "plugin-list-widget.moc"
+#include "moc_plugin-list-widget.cpp"
 
 #include "core/injected-factory.h"
 #include "misc/change-notifier-lock.h"

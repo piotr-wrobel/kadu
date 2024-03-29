@@ -40,7 +40,7 @@
 #include "windows/kadu-dialog.h"
 
 #include "account-manager.h"
-#include "account-manager.moc"
+#include "moc_account-manager.cpp"
 
 AccountManager::AccountManager(QObject *parent) : Manager<Account>{parent}
 {

@@ -18,7 +18,7 @@
  */
 
 #include "facebook-contact-avatar-service.h"
-#include "facebook-contact-avatar-service.moc"
+#include "moc_facebook-contact-avatar-service.cpp"
 
 #include "qfacebook/qfacebook-contact.h"
 

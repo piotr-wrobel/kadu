@@ -18,7 +18,7 @@
  */
 
 #include "have-protocol-filter.h"
-#include "have-protocol-filter.moc"
+#include "moc_have-protocol-filter.cpp"
 
 #include "accounts/account.h"
 

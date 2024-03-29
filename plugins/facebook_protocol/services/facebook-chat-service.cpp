@@ -21,7 +21,7 @@
  */
 
 #include "facebook-chat-service.h"
-#include "facebook-chat-service.moc"
+#include "moc_facebook-chat-service.cpp"
 
 #include "qfacebook/http/qfacebook-download-threads-result.h"
 #include "qfacebook/http/qfacebook-download-unread-messages-result.h"

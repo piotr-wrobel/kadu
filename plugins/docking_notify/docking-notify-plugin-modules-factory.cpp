@@ -18,7 +18,7 @@
  */
 
 #include "docking-notify-plugin-modules-factory.h"
-#include "docking-notify-plugin-modules-factory.moc"
+#include "moc_docking-notify-plugin-modules-factory.cpp"
 
 #include "docking-notify-module.h"
 

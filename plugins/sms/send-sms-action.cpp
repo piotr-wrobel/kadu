@@ -18,7 +18,7 @@
  */
 
 #include "send-sms-action.h"
-#include "send-sms-action.moc"
+#include "moc_send-sms-action.cpp"
 
 #include "sms-actions.h"
 

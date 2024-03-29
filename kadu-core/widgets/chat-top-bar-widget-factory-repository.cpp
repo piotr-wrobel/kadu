@@ -18,7 +18,7 @@
  */
 
 #include "chat-top-bar-widget-factory-repository.h"
-#include "chat-top-bar-widget-factory-repository.moc"
+#include "moc_chat-top-bar-widget-factory-repository.cpp"
 
 ChatTopBarWidgetFactoryRepository::ChatTopBarWidgetFactoryRepository(QObject *parent) : QObject(parent)
 {

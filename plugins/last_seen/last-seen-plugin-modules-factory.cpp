@@ -18,7 +18,7 @@
  */
 
 #include "last-seen-plugin-modules-factory.h"
-#include "last-seen-plugin-modules-factory.moc"
+#include "moc_last-seen-plugin-modules-factory.cpp"
 
 #include "last-seen-module.h"
 

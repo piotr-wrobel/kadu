@@ -58,7 +58,7 @@
 #include "sms-internal-sender.h"
 
 #include "sms-dialog.h"
-#include "sms-dialog.moc"
+#include "moc_sms-dialog.cpp"
 
 SmsDialog::SmsDialog(
     History *history, MobileNumberManager *mobileNumberManager, SmsGatewayManager *smsGatewayManager,

@@ -19,7 +19,7 @@
  */
 
 #include "jabber-protocol-menu-manager.h"
-#include "jabber-protocol-menu-manager.moc"
+#include "moc_jabber-protocol-menu-manager.cpp"
 
 #include "actions/ask-for-subscription-action.h"
 #include "actions/jabber-actions.h"

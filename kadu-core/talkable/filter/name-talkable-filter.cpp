@@ -25,7 +25,7 @@
 #include "contacts/contact.h"
 
 #include "name-talkable-filter.h"
-#include "name-talkable-filter.moc"
+#include "moc_name-talkable-filter.cpp"
 
 NameTalkableFilter::NameTalkableFilter(NameFilterMatchingMode mode, QObject *parent)
         : TalkableFilter(parent), Mode(mode)

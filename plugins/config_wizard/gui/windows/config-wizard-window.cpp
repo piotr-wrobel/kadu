@@ -30,7 +30,7 @@
 #include "protocols/protocols-manager.h"
 
 #include "config-wizard-window.h"
-#include "config-wizard-window.moc"
+#include "moc_config-wizard-window.cpp"
 
 /**
  * @ingroup config_wizard

@@ -18,7 +18,7 @@
  */
 
 #include "configuration-factory.h"
-#include "configuration-factory.moc"
+#include "moc_configuration-factory.cpp"
 
 #include "configuration/configuration-api.h"
 #include "configuration/configuration-path-provider.h"

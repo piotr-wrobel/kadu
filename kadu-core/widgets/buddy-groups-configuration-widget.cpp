@@ -20,7 +20,7 @@
  */
 
 #include "buddy-groups-configuration-widget.h"
-#include "buddy-groups-configuration-widget.moc"
+#include "moc_buddy-groups-configuration-widget.cpp"
 
 #include "buddies/group.h"
 #include "contacts/contact.h"

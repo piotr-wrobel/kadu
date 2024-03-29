@@ -18,7 +18,7 @@
  */
 
 #include "gadu-drive-authorization.h"
-#include "gadu-drive-authorization.moc"
+#include "moc_gadu-drive-authorization.cpp"
 
 #include "services/drive/gadu-drive-session-token.h"
 

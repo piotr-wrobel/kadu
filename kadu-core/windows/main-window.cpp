@@ -41,7 +41,7 @@
 #include "widgets/toolbar.h"
 
 #include "main-window.h"
-#include "main-window.moc"
+#include "moc_main-window.cpp"
 
 #if defined(Q_OS_UNIX)
 #include <QtX11Extras/QX11Info>

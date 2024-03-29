@@ -18,7 +18,7 @@
  */
 
 #include "ext-sound-plugin-object.h"
-#include "ext-sound-plugin-object.moc"
+#include "moc_ext-sound-plugin-object.cpp"
 
 #include "external-player.h"
 

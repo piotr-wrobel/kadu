@@ -18,7 +18,7 @@
  */
 
 #include "mpd-player-plugin-object.h"
-#include "mpd-player-plugin-object.moc"
+#include "moc_mpd-player-plugin-object.cpp"
 
 #include "mpd-mediaplayer.h"
 

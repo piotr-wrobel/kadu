@@ -39,7 +39,7 @@
 #include "plugins/docking/docking.h"
 
 #include "docking-notifier.h"
-#include "docking-notifier.moc"
+#include "moc_docking-notifier.cpp"
 
 /**
  * @ingroup qt4_notify

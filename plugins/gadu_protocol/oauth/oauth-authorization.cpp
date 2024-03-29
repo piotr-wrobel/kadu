@@ -23,7 +23,7 @@
 #include <QtNetwork/QNetworkRequest>
 
 #include "oauth-authorization.h"
-#include "oauth-authorization.moc"
+#include "moc_oauth-authorization.cpp"
 
 OAuthAuthorization::OAuthAuthorization(
     OAuthToken token, const QString &authorizationUrl, const QString &callbackUrl, OAuthConsumer consumer,

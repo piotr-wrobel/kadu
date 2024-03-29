@@ -20,7 +20,7 @@
  */
 
 #include "gadu-edit-account-widget.h"
-#include "gadu-edit-account-widget.moc"
+#include "moc_gadu-edit-account-widget.cpp"
 
 #include "gadu-account-data.h"
 #include "gadu-id-validator.h"

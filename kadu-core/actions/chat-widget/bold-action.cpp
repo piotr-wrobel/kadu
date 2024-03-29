@@ -18,7 +18,7 @@
  */
 
 #include "bold-action.h"
-#include "bold-action.moc"
+#include "moc_bold-action.cpp"
 
 #include "actions/action.h"
 #include "protocols/protocol-factory.h"

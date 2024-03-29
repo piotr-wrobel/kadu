@@ -21,7 +21,7 @@
 #include "model/model-chain.h"
 
 #include "kadu-merged-proxy-model.h"
-#include "kadu-merged-proxy-model.moc"
+#include "moc_kadu-merged-proxy-model.cpp"
 
 KaduMergedProxyModel::KaduMergedProxyModel(QObject *parent) : MergedProxyModel(parent)
 {

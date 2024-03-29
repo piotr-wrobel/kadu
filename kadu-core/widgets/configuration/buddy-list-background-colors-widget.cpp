@@ -31,7 +31,7 @@
 #include "windows/main-configuration-window.h"
 
 #include "buddy-list-background-colors-widget.h"
-#include "buddy-list-background-colors-widget.moc"
+#include "moc_buddy-list-background-colors-widget.cpp"
 
 BuddyListBackgroundColorsWidget::BuddyListBackgroundColorsWidget(MainConfigurationWindow *mainWindow)
         : m_mainWindow{mainWindow}

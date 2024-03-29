@@ -43,7 +43,7 @@
 #include "screen-shot-saver.h"
 
 #include "screenshot.h"
-#include "screenshot.moc"
+#include "moc_screenshot.cpp"
 
 ScreenShot::ScreenShot(ScreenShotConfiguration *screenShotConfiguration, ChatWidget *chatWidget)
         : m_screenShotConfiguration{screenShotConfiguration}, Mode{}, MyScreenshotTaker{}, MyChatWidget{chatWidget}

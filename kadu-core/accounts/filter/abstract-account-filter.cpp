@@ -18,4 +18,4 @@
  */
 
 #include "abstract-account-filter.h"
-#include "abstract-account-filter.moc"
+#include "moc_abstract-account-filter.cpp"

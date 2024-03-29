@@ -64,7 +64,7 @@
 #include "windows/message-dialog.h"
 
 #include "kadu-web-view.h"
-#include "kadu-web-view.moc"
+#include "moc_kadu-web-view.cpp"
 
 KaduWebView::KaduWebView(QWidget *parent)
         : QWebView(parent), DraggingPossible(false), IsLoading(false), RefreshTimer(new QTimer(this))

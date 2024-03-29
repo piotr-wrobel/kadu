@@ -18,7 +18,7 @@
  */
 
 #include "file-transfer-widget.h"
-#include "file-transfer-widget.moc"
+#include "moc_file-transfer-widget.cpp"
 
 #include "buddies/buddy.h"
 #include "contacts/contact.h"

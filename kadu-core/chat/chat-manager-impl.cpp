@@ -30,7 +30,7 @@
 #include "message/unread-message-repository.h"
 
 #include "chat-manager-impl.h"
-#include "chat-manager-impl.moc"
+#include "moc_chat-manager-impl.cpp"
 
 ChatManagerImpl::ChatManagerImpl(QObject *parent) : ChatManager{parent}
 {

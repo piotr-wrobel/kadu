@@ -22,7 +22,7 @@
  */
 
 #include "open-chat-with.h"
-#include "open-chat-with.moc"
+#include "moc_open-chat-with.cpp"
 
 #include "open-chat-with-contact-list-runner.h"
 #include "open-chat-with-runner-manager.h"

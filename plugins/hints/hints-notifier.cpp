@@ -22,7 +22,7 @@
  */
 
 #include "hints-notifier.h"
-#include "hints-notifier.moc"
+#include "moc_hints-notifier.cpp"
 
 #include "hints-widget.h"
 

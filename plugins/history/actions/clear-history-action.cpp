@@ -18,7 +18,7 @@
  */
 
 #include "clear-history-action.h"
-#include "clear-history-action.moc"
+#include "moc_clear-history-action.cpp"
 
 #include "history.h"
 

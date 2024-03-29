@@ -36,7 +36,7 @@
 #include "show-infos-window-action.h"
 
 #include "infos.h"
-#include "infos.moc"
+#include "moc_infos.cpp"
 
 Infos::Infos(QObject *parent) : QObject{parent}, menuID{}
 {

@@ -18,7 +18,7 @@
  */
 
 #include "buddy-storage.h"
-#include "buddy-storage.moc"
+#include "moc_buddy-storage.cpp"
 
 #include "buddies/buddy-shared.h"
 #include "buddies/buddy.h"

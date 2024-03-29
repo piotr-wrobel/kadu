@@ -19,7 +19,7 @@
  */
 
 #include "notifier-configuration-widget.h"
-#include "notifier-configuration-widget.moc"
+#include "moc_notifier-configuration-widget.cpp"
 
 NotifierConfigurationWidget::NotifierConfigurationWidget(QWidget *parent) : QWidget(parent)
 {

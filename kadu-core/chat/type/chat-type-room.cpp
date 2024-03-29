@@ -26,7 +26,7 @@
 #include "widgets/chat-room-edit-widget.h"
 
 #include "chat-type-room.h"
-#include "chat-type-room.moc"
+#include "moc_chat-type-room.cpp"
 
 Chat ChatTypeRoom::findChat(
     ChatManager *chatManager, ChatStorage *chatStorage, const Account &account, const QString &room,

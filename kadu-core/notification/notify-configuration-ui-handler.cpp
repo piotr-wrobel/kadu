@@ -49,7 +49,7 @@
 #include "notifier.h"
 
 #include "notify-configuration-ui-handler.h"
-#include "notify-configuration-ui-handler.moc"
+#include "moc_notify-configuration-ui-handler.cpp"
 
 NotifyConfigurationUiHandler::NotifyConfigurationUiHandler(QObject *parent)
         : QObject{parent}, allUsers{}, notifiedUsers{}, notificationsGroupBox{}, useCustomSettingsCheckBox{},

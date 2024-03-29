@@ -18,7 +18,7 @@
  */
 
 #include "exec-notify-plugin-object.h"
-#include "exec-notify-plugin-object.moc"
+#include "moc_exec-notify-plugin-object.cpp"
 
 #include "exec-notifier.h"
 

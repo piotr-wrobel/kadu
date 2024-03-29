@@ -21,7 +21,7 @@
  */
 
 #include "qfacebook-session.h"
-#include "qfacebook-session.moc"
+#include "moc_qfacebook-session.cpp"
 
 #include "qfacebook/http/qfacebook-download-contacts-delta-job.h"
 #include "qfacebook/http/qfacebook-download-contacts-job.h"

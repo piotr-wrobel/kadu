@@ -23,7 +23,7 @@
  */
 
 #include "parser.h"
-#include "parser.moc"
+#include "moc_parser.cpp"
 
 #include "accounts/account-manager.h"
 #include "buddies/group.h"

@@ -24,7 +24,7 @@
  */
 
 #include "your-accounts.h"
-#include "your-accounts.moc"
+#include "moc_your-accounts.cpp"
 
 #include "accounts/account-manager.h"
 #include "accounts/filter/have-protocol-filter.h"

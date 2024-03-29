@@ -27,7 +27,7 @@
 #include "server/gadu-writable-session-token.h"
 
 #include "gadu-personal-info-service.h"
-#include "gadu-personal-info-service.moc"
+#include "moc_gadu-personal-info-service.cpp"
 
 GaduPersonalInfoService::GaduPersonalInfoService(Account account, QObject *parent)
         : PersonalInfoService(account, parent), FetchSeq(0), UpdateSeq(0)

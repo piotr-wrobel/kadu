@@ -45,7 +45,7 @@
 #include "plugin/gui/plugin-list/plugin-list-view-delegate-widgets.h"
 
 #include "plugin-list-view-delegate.h"
-#include "plugin-list-view-delegate.moc"
+#include "moc_plugin-list-view-delegate.cpp"
 
 Q_DECLARE_METATYPE(QList<QEvent::Type>)
 

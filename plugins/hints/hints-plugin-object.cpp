@@ -18,7 +18,7 @@
  */
 
 #include "hints-plugin-object.h"
-#include "hints-plugin-object.moc"
+#include "moc_hints-plugin-object.cpp"
 
 #include "hints-notifier.h"
 

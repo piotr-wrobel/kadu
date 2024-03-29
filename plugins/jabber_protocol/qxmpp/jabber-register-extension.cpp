@@ -18,7 +18,7 @@
  */
 
 #include "jabber-register-extension.h"
-#include "jabber-register-extension.moc"
+#include "moc_jabber-register-extension.cpp"
 
 #include <QtXml/QDomElement>
 #include <QXmppQt5/QXmppClient.h>

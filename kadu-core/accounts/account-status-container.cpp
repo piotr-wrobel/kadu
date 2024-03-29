@@ -26,7 +26,7 @@
 #include "protocols/protocol.h"
 
 #include "account-status-container.h"
-#include "account-status-container.moc"
+#include "moc_account-status-container.cpp"
 
 AccountStatusContainer::AccountStatusContainer(AccountShared *account)
         : StorableStatusContainer(account), Account(account)

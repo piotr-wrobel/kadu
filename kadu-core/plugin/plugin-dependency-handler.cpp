@@ -19,7 +19,7 @@
  */
 
 #include "plugin-dependency-handler.h"
-#include "plugin-dependency-handler.moc"
+#include "moc_plugin-dependency-handler.cpp"
 
 #include "misc/algorithm.h"
 #include "plugin/dependency-graph/plugin-dependency-graph-builder.h"

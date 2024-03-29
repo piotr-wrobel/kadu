@@ -18,7 +18,7 @@
  */
 
 #include "cenzor-plugin-object.h"
-#include "cenzor-plugin-object.moc"
+#include "moc_cenzor-plugin-object.cpp"
 
 #include "cenzor-message-filter.h"
 #include "configuration/gui/cenzor-configuration-ui-handler.h"

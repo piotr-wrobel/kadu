@@ -18,7 +18,7 @@
  */
 
 #include "show-descriptions-action.h"
-#include "show-descriptions-action.moc"
+#include "moc_show-descriptions-action.cpp"
 
 #include "actions/action.h"
 #include "configuration/configuration.h"

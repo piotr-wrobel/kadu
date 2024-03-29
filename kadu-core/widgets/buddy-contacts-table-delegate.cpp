@@ -21,7 +21,7 @@
  */
 
 #include "buddy-contacts-table-delegate.h"
-#include "buddy-contacts-table-delegate.moc"
+#include "moc_buddy-contacts-table-delegate.cpp"
 
 #include "accounts/account.h"
 #include "core/injected-factory.h"

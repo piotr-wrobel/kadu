@@ -33,7 +33,7 @@
 #include "icons/kadu-icon.h"
 
 #include "action.h"
-#include "action.moc"
+#include "moc_action.cpp"
 
 Action::Action(ActionDescription *description, ActionContext *context, QObject *parent)
         : QAction(parent), Description(description), Context(context)

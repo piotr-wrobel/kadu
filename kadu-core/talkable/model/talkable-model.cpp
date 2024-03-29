@@ -27,7 +27,7 @@
 #include "core/myself.h"
 
 #include "talkable-model.h"
-#include "talkable-model.moc"
+#include "moc_talkable-model.cpp"
 
 TalkableModel::TalkableModel(QObject *parent) : KaduMergedProxyModel{parent}, m_includeMyself{false}
 {

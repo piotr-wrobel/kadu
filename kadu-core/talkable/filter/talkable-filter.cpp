@@ -19,7 +19,7 @@
  */
 
 #include "talkable-filter.h"
-#include "talkable-filter.moc"
+#include "moc_talkable-filter.cpp"
 
 #include "buddies/buddy.h"
 #include "chat/chat.h"

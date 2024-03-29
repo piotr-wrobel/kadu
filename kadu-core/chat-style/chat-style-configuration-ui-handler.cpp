@@ -18,7 +18,7 @@
  */
 
 #include "chat-style-configuration-ui-handler.h"
-#include "chat-style-configuration-ui-handler.moc"
+#include "moc_chat-style-configuration-ui-handler.cpp"
 
 #include "chat-style/chat-style-manager.h"
 #include "chat-style/engine/chat-style-engine.h"

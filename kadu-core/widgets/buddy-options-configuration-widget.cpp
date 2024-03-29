@@ -31,7 +31,7 @@
 #include "protocols/protocol.h"
 
 #include "buddy-options-configuration-widget.h"
-#include "buddy-options-configuration-widget.moc"
+#include "moc_buddy-options-configuration-widget.cpp"
 
 BuddyOptionsConfigurationWidget::BuddyOptionsConfigurationWidget(const Buddy &buddy, QWidget *parent)
         : QWidget(parent), MyBuddy(buddy)

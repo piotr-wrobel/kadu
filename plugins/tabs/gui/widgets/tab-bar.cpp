@@ -20,7 +20,7 @@
  */
 
 #include "tab-bar.h"
-#include "tab-bar.moc"
+#include "moc_tab-bar.cpp"
 
 TabBar::TabBar(QWidget *parent) : QTabBar(parent)
 {

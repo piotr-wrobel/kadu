@@ -18,7 +18,7 @@
  */
 
 #include "jabber-stream-incoming-file-transfer-handler.h"
-#include "jabber-stream-incoming-file-transfer-handler.moc"
+#include "moc_jabber-stream-incoming-file-transfer-handler.cpp"
 
 #include "jabber-protocol.h"
 

@@ -18,7 +18,7 @@
  */
 
 #include "status-notifier-item-attention-static.h"
-#include "status-notifier-item-attention-static.moc"
+#include "moc_status-notifier-item-attention-static.cpp"
 
 #include <QtWidgets/QSystemTrayIcon>
 

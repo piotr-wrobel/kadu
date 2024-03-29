@@ -20,7 +20,7 @@
  */
 
 #include "jabber-subscription-service.h"
-#include "jabber-subscription-service.moc"
+#include "moc_jabber-subscription-service.cpp"
 
 #include "jabber-protocol.h"
 #include "plugin/plugin-injected-factory.h"

@@ -21,7 +21,7 @@
  */
 
 #include "exec-notifier.h"
-#include "exec-notifier.moc"
+#include "moc_exec-notifier.cpp"
 
 #include "exec-configuration-widget.h"
 

@@ -48,7 +48,7 @@
 #include "windows/message-dialog.h"
 
 #include "jabber-create-account-widget.h"
-#include "jabber-create-account-widget.moc"
+#include "moc_jabber-create-account-widget.cpp"
 
 JabberCreateAccountWidget::JabberCreateAccountWidget(bool showButtons, QWidget *parent)
         : AccountCreateWidget{parent}, m_showButtons{showButtons}

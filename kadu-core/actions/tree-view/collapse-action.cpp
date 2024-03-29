@@ -18,7 +18,7 @@
  */
 
 #include "collapse-action.h"
-#include "collapse-action.moc"
+#include "moc_collapse-action.cpp"
 
 #include "actions/action-context.h"
 #include "actions/action.h"

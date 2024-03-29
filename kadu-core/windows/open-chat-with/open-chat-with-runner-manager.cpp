@@ -19,7 +19,7 @@
  */
 
 #include "open-chat-with-runner-manager.h"
-#include "open-chat-with-runner-manager.moc"
+#include "moc_open-chat-with-runner-manager.cpp"
 
 #include "buddies/buddy.h"
 #include "configuration/configuration.h"

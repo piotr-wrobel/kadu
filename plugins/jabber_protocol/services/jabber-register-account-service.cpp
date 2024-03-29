@@ -18,7 +18,7 @@
  */
 
 #include "jabber-register-account-service.h"
-#include "jabber-register-account-service.moc"
+#include "moc_jabber-register-account-service.cpp"
 
 #include "services/jabber-error-service.h"
 #include "services/jabber-register-account.h"

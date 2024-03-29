@@ -20,7 +20,7 @@
  */
 
 #include "leave-chat-action.h"
-#include "leave-chat-action.moc"
+#include "moc_leave-chat-action.cpp"
 
 #include "actions/action-context.h"
 #include "chat/chat-service-repository.h"

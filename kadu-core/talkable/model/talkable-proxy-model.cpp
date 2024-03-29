@@ -24,7 +24,7 @@
  */
 
 #include "talkable-proxy-model.h"
-#include "talkable-proxy-model.moc"
+#include "moc_talkable-proxy-model.cpp"
 
 #include "buddies/buddy-preferred-manager.h"
 #include "buddies/buddy.h"

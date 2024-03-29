@@ -18,7 +18,7 @@
  */
 
 #include "roster-notifier.h"
-#include "roster-notifier.moc"
+#include "moc_roster-notifier.cpp"
 
 #include "accounts/account.h"
 #include "html/html-conversion.h"

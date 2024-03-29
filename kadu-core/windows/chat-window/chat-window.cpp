@@ -19,7 +19,7 @@
  */
 
 #include "chat-window.h"
-#include "chat-window.moc"
+#include "moc_chat-window.cpp"
 
 #include <QtCore/QDateTime>
 #include <QtCore/QTimer>

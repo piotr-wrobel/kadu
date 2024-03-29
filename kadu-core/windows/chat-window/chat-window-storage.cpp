@@ -18,7 +18,7 @@
  */
 
 #include "chat-window-storage.h"
-#include "chat-window-storage.moc"
+#include "moc_chat-window-storage.cpp"
 
 #include "chat/chat-manager.h"
 #include "storage/chat-list-storage.h"

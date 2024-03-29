@@ -32,7 +32,7 @@
 #include "windows/kadu-window.h"
 
 #include "kadu-menu.h"
-#include "kadu-menu.moc"
+#include "moc_kadu-menu.cpp"
 
 KaduMenu::KaduMenu(const QString &category, KaduMenu *parent) : QObject{parent}, Category{category}, IsSorted{true}
 {

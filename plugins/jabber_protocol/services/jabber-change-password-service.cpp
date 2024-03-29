@@ -18,7 +18,7 @@
  */
 
 #include "jabber-change-password-service.h"
-#include "jabber-change-password-service.moc"
+#include "moc_jabber-change-password-service.cpp"
 
 #include "qxmpp/jabber-register-extension.h"
 #include "services/jabber-change-password.h"

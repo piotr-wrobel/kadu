@@ -19,7 +19,7 @@
  */
 
 #include "autoresponder-configuration-ui-handler.h"
-#include "autoresponder-configuration-ui-handler.moc"
+#include "moc_autoresponder-configuration-ui-handler.cpp"
 
 #include "widgets/configuration/configuration-widget.h"
 #include "windows/main-configuration-window.h"

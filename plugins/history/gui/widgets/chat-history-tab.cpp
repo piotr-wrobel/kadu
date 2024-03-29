@@ -19,7 +19,7 @@
  */
 
 #include "chat-history-tab.h"
-#include "chat-history-tab.moc"
+#include "moc_chat-history-tab.cpp"
 
 #include "gui/widgets/timeline-chat-messages-view.h"
 #include "storage/history-messages-storage.h"

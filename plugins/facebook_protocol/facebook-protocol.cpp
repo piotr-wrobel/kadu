@@ -18,7 +18,7 @@
  */
 
 #include "facebook-protocol.h"
-#include "facebook-protocol.moc"
+#include "moc_facebook-protocol.cpp"
 
 #include "facebook-account-data.h"
 #include "facebook-services.h"

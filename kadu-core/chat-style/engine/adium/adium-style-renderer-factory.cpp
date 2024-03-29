@@ -18,7 +18,7 @@
  */
 
 #include "adium-style-renderer-factory.h"
-#include "adium-style-renderer-factory.moc"
+#include "moc_adium-style-renderer-factory.cpp"
 
 #include "chat-style/engine/adium/adium-style-renderer.h"
 #include "core/core.h"

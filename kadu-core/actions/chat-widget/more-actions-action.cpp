@@ -18,7 +18,7 @@
  */
 
 #include "more-actions-action.h"
-#include "more-actions-action.moc"
+#include "moc_more-actions-action.cpp"
 
 #include "actions/action.h"
 #include "actions/actions.h"

@@ -31,7 +31,7 @@
 #include "mpris_controller.h"
 
 #include "mpris_mediaplayer.h"
-#include "mpris_mediaplayer.moc"
+#include "moc_mpris_mediaplayer.cpp"
 
 MPRISMediaPlayer::MPRISMediaPlayer(QObject *parent) : QObject(parent)
 {

@@ -37,7 +37,7 @@
 
 #include "buddy-data-extractor.h"
 #include "buddy-list-model.h"
-#include "buddy-list-model.moc"
+#include "moc_buddy-list-model.cpp"
 
 #include <QtCore/QMimeData>
 

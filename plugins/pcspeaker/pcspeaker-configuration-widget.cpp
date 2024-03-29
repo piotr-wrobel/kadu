@@ -33,7 +33,7 @@
 #include "pcspeaker-notifier.h"
 
 #include "pcspeaker-configuration-widget.h"
-#include "pcspeaker-configuration-widget.moc"
+#include "moc_pcspeaker-configuration-widget.cpp"
 
 PCSpeakerConfigurationWidget::PCSpeakerConfigurationWidget(PCSpeakerNotifier *notifier, QWidget *parent)
         : NotifierConfigurationWidget{parent}, m_notifier{notifier}

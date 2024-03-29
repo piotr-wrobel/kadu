@@ -22,7 +22,7 @@
  */
 
 #include "buddy-info-panel.h"
-#include "buddy-info-panel.moc"
+#include "moc_buddy-info-panel.cpp"
 
 #include "accounts/account.h"
 #include "avatars/avatar-id.h"

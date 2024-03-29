@@ -18,7 +18,7 @@
  */
 
 #include "antistring-plugin-modules-factory.h"
-#include "antistring-plugin-modules-factory.moc"
+#include "moc_antistring-plugin-modules-factory.cpp"
 
 #include "antistring-module.h"
 

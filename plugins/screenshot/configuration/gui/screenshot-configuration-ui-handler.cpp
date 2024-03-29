@@ -30,7 +30,7 @@
 #include "windows/main-configuration-window.h"
 
 #include "screenshot-configuration-ui-handler.h"
-#include "screenshot-configuration-ui-handler.moc"
+#include "moc_screenshot-configuration-ui-handler.cpp"
 
 ScreenShotConfigurationUiHandler::ScreenShotConfigurationUiHandler(QObject *parent) : QObject{parent}
 {

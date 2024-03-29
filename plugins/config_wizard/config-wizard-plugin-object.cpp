@@ -18,7 +18,7 @@
  */
 
 #include "config-wizard-plugin-object.h"
-#include "config-wizard-plugin-object.moc"
+#include "moc_config-wizard-plugin-object.cpp"
 
 #include "config-wizard-actions.h"
 #include "show-config-wizard-action.h"

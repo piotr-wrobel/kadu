@@ -18,7 +18,7 @@
  */
 
 #include "ssl-certificate-repository.h"
-#include "ssl-certificate-repository.moc"
+#include "moc_ssl-certificate-repository.cpp"
 
 #include "ssl/ssl-certificate.h"
 

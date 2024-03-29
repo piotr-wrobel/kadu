@@ -24,7 +24,7 @@
 #include <QtWidgets/QLabel>
 
 #include "config-color-button.h"
-#include "config-color-button.moc"
+#include "moc_config-color-button.cpp"
 
 #include "widgets/configuration/config-group-box.h"
 #include "widgets/configuration/config-widget-value.h"

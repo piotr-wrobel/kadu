@@ -18,7 +18,7 @@
  */
 
 #include "gadu-contact-avatar-service.h"
-#include "gadu-contact-avatar-service.moc"
+#include "moc_gadu-contact-avatar-service.cpp"
 
 #include "avatars/contact-avatar-id.h"
 #include "avatars/http-avatar-downloader.h"

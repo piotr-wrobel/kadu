@@ -21,7 +21,7 @@
  */
 
 #include "qmqtt-connection.h"
-#include "qmqtt-connection.moc"
+#include "moc_qmqtt-connection.cpp"
 
 #include "qmqtt/qmqtt-error.h"
 #include "qmqtt/qmqtt-exception.h"

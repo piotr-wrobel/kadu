@@ -28,7 +28,7 @@
 #include "widgets/status-button.h"
 
 #include "status-buttons.h"
-#include "status-buttons.moc"
+#include "moc_status-buttons.cpp"
 
 StatusButtons::StatusButtons(QWidget *parent) : QToolBar(parent)   //, Layout(0), HasStretch(0)
 {

@@ -18,7 +18,7 @@
  */
 
 #include "firewall-plugin-object.h"
-#include "firewall-plugin-object.moc"
+#include "moc_firewall-plugin-object.cpp"
 
 #include "firewall-configuration-ui-handler.h"
 #include "firewall-message-filter.h"

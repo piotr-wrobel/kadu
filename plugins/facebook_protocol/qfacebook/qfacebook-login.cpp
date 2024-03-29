@@ -21,7 +21,7 @@
  */
 
 #include "qfacebook-login.h"
-#include "qfacebook-login.moc"
+#include "moc_qfacebook-login.cpp"
 
 #include "qfacebook/http/qfacebook-http-api.h"
 #include "qfacebook/http/qfacebook-login-job.h"

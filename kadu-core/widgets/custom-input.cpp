@@ -46,7 +46,7 @@
 
 #include "custom-input-menu-manager.h"
 #include "custom-input.h"
-#include "custom-input.moc"
+#include "moc_custom-input.cpp"
 
 CustomInput::CustomInput(Chat chat, QWidget *parent)
         : QTextEdit(parent), CurrentChat(chat), CopyPossible(false), autosend_enabled(true)

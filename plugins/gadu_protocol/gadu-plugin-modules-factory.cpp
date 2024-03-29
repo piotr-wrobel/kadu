@@ -18,7 +18,7 @@
  */
 
 #include "gadu-plugin-modules-factory.h"
-#include "gadu-plugin-modules-factory.moc"
+#include "moc_gadu-plugin-modules-factory.cpp"
 
 #include "gadu-module.h"
 

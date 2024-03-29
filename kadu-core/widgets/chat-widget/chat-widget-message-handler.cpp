@@ -19,7 +19,7 @@
  */
 
 #include "chat-widget-message-handler.h"
-#include "chat-widget-message-handler.moc"
+#include "moc_chat-widget-message-handler.cpp"
 
 #include "chat/buddy-chat-manager.h"
 #include "configuration/configuration-api.h"

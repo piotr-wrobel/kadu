@@ -18,7 +18,7 @@
  */
 
 #include "show-blocked-buddies-action.h"
-#include "show-blocked-buddies-action.moc"
+#include "moc_show-blocked-buddies-action.cpp"
 
 #include "actions/action.h"
 #include "configuration/configuration.h"

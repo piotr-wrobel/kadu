@@ -18,7 +18,7 @@
  */
 
 #include "otr-plugin-object.h"
-#include "otr-plugin-object.moc"
+#include "moc_otr-plugin-object.cpp"
 
 #include "gui/widgets/otr-account-configuration-widget-factory.h"
 #include "gui/widgets/otr-buddy-configuration-widget-factory.h"

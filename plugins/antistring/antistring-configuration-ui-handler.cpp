@@ -36,7 +36,7 @@
 #include "antistring-configuration.h"
 
 #include "antistring-configuration-ui-handler.h"
-#include "antistring-configuration-ui-handler.moc"
+#include "moc_antistring-configuration-ui-handler.cpp"
 
 AntistringConfigurationUiHandler::AntistringConfigurationUiHandler(QObject *parent)
         : QObject{parent}, ConditionListWidget{}, ConditionWidget{}, FactorWidget{}

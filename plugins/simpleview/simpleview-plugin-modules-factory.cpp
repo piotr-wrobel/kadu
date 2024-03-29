@@ -18,7 +18,7 @@
  */
 
 #include "simpleview-plugin-modules-factory.h"
-#include "simpleview-plugin-modules-factory.moc"
+#include "moc_simpleview-plugin-modules-factory.cpp"
 
 #include "simpleview-module.h"
 

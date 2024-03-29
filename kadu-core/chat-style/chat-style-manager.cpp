@@ -18,7 +18,7 @@
  */
 
 #include "chat-style-manager.h"
-#include "chat-style-manager.moc"
+#include "moc_chat-style-manager.cpp"
 
 #include "chat-style/chat-style-configuration-ui-handler.h"
 #include "chat-style/engine/adium/adium-style-engine.h"

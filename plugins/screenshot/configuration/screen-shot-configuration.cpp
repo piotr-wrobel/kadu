@@ -20,7 +20,7 @@
  */
 
 #include "screen-shot-configuration.h"
-#include "screen-shot-configuration.moc"
+#include "moc_screen-shot-configuration.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

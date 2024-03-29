@@ -19,7 +19,7 @@
  */
 
 #include "jabber-open-chat-with-runner.h"
-#include "jabber-open-chat-with-runner.moc"
+#include "moc_jabber-open-chat-with-runner.cpp"
 
 #include "jabber-id-validator.h"
 

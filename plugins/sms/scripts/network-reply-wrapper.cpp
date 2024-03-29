@@ -21,7 +21,7 @@
 #include <QtNetwork/QNetworkReply>
 
 #include "network-reply-wrapper.h"
-#include "network-reply-wrapper.moc"
+#include "moc_network-reply-wrapper.cpp"
 
 NetworkReplyWrapper::NetworkReplyWrapper(QNetworkReply *reply) : QObject(reply), Reply(reply)
 {

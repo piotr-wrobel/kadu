@@ -27,7 +27,7 @@
 #include "identities/identity-storage.h"
 
 #include "identity-manager.h"
-#include "identity-manager.moc"
+#include "moc_identity-manager.cpp"
 
 IdentityManager::IdentityManager(QObject *parent) : Manager<Identity>{parent}
 {

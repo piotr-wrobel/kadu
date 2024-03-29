@@ -71,7 +71,7 @@
 #include "languages-manager.h"
 
 #include "main-configuration-window.h"
-#include "main-configuration-window.moc"
+#include "moc_main-configuration-window.cpp"
 
 #if defined(Q_OS_UNIX)
 #include "os/x11/x11tools.h"   // this should be included as last one,

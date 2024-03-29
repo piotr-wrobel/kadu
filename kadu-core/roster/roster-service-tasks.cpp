@@ -18,7 +18,7 @@
  */
 
 #include "roster-service-tasks.h"
-#include "roster-service-tasks.moc"
+#include "moc_roster-service-tasks.cpp"
 
 #include "contacts/contact.h"
 #include "roster/roster-entry-state.h"

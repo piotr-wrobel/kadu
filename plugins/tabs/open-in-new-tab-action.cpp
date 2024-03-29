@@ -18,7 +18,7 @@
  */
 
 #include "open-in-new-tab-action.h"
-#include "open-in-new-tab-action.moc"
+#include "moc_open-in-new-tab-action.cpp"
 
 #include "actions/action-context.h"
 #include "actions/action.h"

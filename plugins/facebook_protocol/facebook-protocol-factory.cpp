@@ -89,4 +89,4 @@ bool FacebookProtocolFactory::canRegister()
     return false;
 }
 
-#include "facebook-protocol-factory.moc"
+#include "moc_facebook-protocol-factory.cpp"

@@ -18,7 +18,7 @@
  */
 
 #include "sound-plugin-object.h"
-#include "sound-plugin-object.moc"
+#include "moc_sound-plugin-object.cpp"
 
 #include "gui/sound-actions.h"
 #include "gui/sound-buddy-configuration-widget-factory.h"

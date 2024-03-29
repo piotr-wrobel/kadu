@@ -19,7 +19,7 @@
  */
 
 #include "chat-details-contact.h"
-#include "chat-details-contact.moc"
+#include "moc_chat-details-contact.cpp"
 
 #include "buddies/buddy-manager.h"
 #include "buddies/buddy-set.h"

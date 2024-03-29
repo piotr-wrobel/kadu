@@ -18,7 +18,7 @@
  */
 
 #include "simpleview-plugin-object.h"
-#include "simpleview-plugin-object.moc"
+#include "moc_simpleview-plugin-object.cpp"
 
 #include "simpleview.h"
 

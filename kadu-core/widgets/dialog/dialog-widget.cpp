@@ -18,4 +18,4 @@
  */
 
 #include "dialog-widget.h"
-#include "dialog-widget.moc"
+#include "moc_dialog-widget.cpp"

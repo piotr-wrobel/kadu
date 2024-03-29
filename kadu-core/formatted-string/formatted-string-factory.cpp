@@ -34,7 +34,7 @@
 #include "services/image-storage-service.h"
 
 #include "formatted-string-factory.h"
-#include "formatted-string-factory.moc"
+#include "moc_formatted-string-factory.cpp"
 
 #include <QtXml/QDomDocument>
 #include <memory>

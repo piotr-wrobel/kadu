@@ -40,7 +40,7 @@ extern "C" {
 #include "otr-user-state-service.h"
 
 #include "otr-session-service.h"
-#include "otr-session-service.moc"
+#include "moc_otr-session-service.cpp"
 
 void OtrSessionService::wrapperOtrGoneSecure(void *data, ConnContext *context)
 {

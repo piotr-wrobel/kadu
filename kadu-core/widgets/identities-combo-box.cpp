@@ -20,7 +20,7 @@
  */
 
 #include "identities-combo-box.h"
-#include "identities-combo-box.moc"
+#include "moc_identities-combo-box.cpp"
 
 #include "core/injected-factory.h"
 #include "identities/identity-manager.h"

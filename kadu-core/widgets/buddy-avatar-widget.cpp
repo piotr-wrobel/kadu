@@ -22,7 +22,7 @@
  */
 
 #include "buddy-avatar-widget.h"
-#include "buddy-avatar-widget.moc"
+#include "moc_buddy-avatar-widget.cpp"
 
 #include "avatars/avatar-id.h"
 #include "avatars/avatars.h"

@@ -19,7 +19,7 @@
  */
 
 #include "message-html-renderer-service.h"
-#include "message-html-renderer-service.moc"
+#include "moc_message-html-renderer-service.cpp"
 
 #include "dom/dom-processor-service.h"
 #include "html/normalized-html-string.h"

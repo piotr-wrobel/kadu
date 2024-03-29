@@ -18,7 +18,7 @@
  */
 
 #include "autoresponder-plugin-object.h"
-#include "autoresponder-plugin-object.moc"
+#include "moc_autoresponder-plugin-object.cpp"
 
 #include "autoresponder-configuration-ui-handler.h"
 #include "autoresponder-message-filter.h"

@@ -18,7 +18,7 @@
  */
 
 #include "docking-notify-plugin-object.h"
-#include "docking-notify-plugin-object.moc"
+#include "moc_docking-notify-plugin-object.cpp"
 
 #include "docking-notifier.h"
 

@@ -18,7 +18,7 @@
  */
 
 #include "adium-style-engine.h"
-#include "adium-style-engine.moc"
+#include "moc_adium-style-engine.cpp"
 
 #include "chat-style/chat-style.h"
 #include "chat-style/engine/adium/adium-style-renderer-factory.h"

@@ -18,7 +18,7 @@
  */
 
 #include "pcspeaker-plugin-object.h"
-#include "pcspeaker-plugin-object.moc"
+#include "moc_pcspeaker-plugin-object.cpp"
 
 #include "pcspeaker-notifier.h"
 

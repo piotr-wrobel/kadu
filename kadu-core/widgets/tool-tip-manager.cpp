@@ -19,7 +19,7 @@
  */
 
 #include "tool-tip-manager.h"
-#include "tool-tip-manager.moc"
+#include "moc_tool-tip-manager.cpp"
 
 #include "core/injected-factory.h"
 #include "talkable/talkable.h"

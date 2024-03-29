@@ -20,7 +20,7 @@
  */
 
 #include "roster-widget.h"
-#include "roster-widget.moc"
+#include "moc_roster-widget.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

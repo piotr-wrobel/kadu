@@ -18,7 +18,7 @@
  */
 
 #include "hints-plugin-modules-factory.h"
-#include "hints-plugin-modules-factory.moc"
+#include "moc_hints-plugin-modules-factory.cpp"
 
 #include "hints-module.h"
 

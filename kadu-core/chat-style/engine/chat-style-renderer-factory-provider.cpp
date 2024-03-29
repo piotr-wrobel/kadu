@@ -18,7 +18,7 @@
  */
 
 #include "chat-style-renderer-factory-provider.h"
-#include "chat-style-renderer-factory-provider.moc"
+#include "moc_chat-style-renderer-factory-provider.cpp"
 
 ChatStyleRendererFactoryProvider::ChatStyleRendererFactoryProvider(QObject *parent) : QObject{parent}
 {

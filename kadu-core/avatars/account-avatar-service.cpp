@@ -19,4 +19,4 @@
  */
 
 #include "account-avatar-service.h"
-#include "account-avatar-service.moc"
+#include "moc_account-avatar-service.cpp"

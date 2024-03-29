@@ -18,7 +18,7 @@
  */
 
 #include "screenshot-plugin-modules-factory.h"
-#include "screenshot-plugin-modules-factory.moc"
+#include "moc_screenshot-plugin-modules-factory.cpp"
 
 #include "screenshot-module.h"
 

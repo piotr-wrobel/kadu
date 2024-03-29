@@ -20,7 +20,7 @@
  */
 
 #include "group-event-listener.h"
-#include "group-event-listener.moc"
+#include "moc_group-event-listener.cpp"
 
 #include "buddies/buddy-manager.h"
 #include "buddies/group-manager.h"

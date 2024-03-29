@@ -21,7 +21,7 @@
  */
 
 #include "description-manager.h"
-#include "description-manager.moc"
+#include "moc_description-manager.cpp"
 
 #include "configuration/configuration-manager.h"
 #include "configuration/configuration.h"

@@ -20,7 +20,7 @@
  */
 
 #include "timeline-chat-messages-view.h"
-#include "timeline-chat-messages-view.moc"
+#include "moc_timeline-chat-messages-view.cpp"
 
 #include "history-query-result.h"
 #include "model/history-query-results-model.h"

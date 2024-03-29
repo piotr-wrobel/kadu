@@ -18,7 +18,7 @@
  */
 
 #include "jabber-ssl-handler.h"
-#include "jabber-ssl-handler.moc"
+#include "moc_jabber-ssl-handler.cpp"
 
 #include "ssl/ssl-certificate-manager.h"
 

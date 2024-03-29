@@ -20,7 +20,7 @@
  */
 
 #include "jabber-roster-service.h"
-#include "jabber-roster-service.moc"
+#include "moc_jabber-roster-service.cpp"
 
 #include "jabber-protocol.h"
 #include "jid.h"

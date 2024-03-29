@@ -18,7 +18,7 @@
  */
 
 #include "buddy-configuration-widget-group-boxes-adapter.h"
-#include "buddy-configuration-widget-group-boxes-adapter.moc"
+#include "moc_buddy-configuration-widget-group-boxes-adapter.cpp"
 
 #include "widgets/buddy-configuration-widget.h"
 #include "windows/buddy-data-window.h"

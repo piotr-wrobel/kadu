@@ -18,7 +18,7 @@
  */
 
 #include "sound-player.h"
-#include "sound-player.moc"
+#include "moc_sound-player.cpp"
 
 SoundPlayer::SoundPlayer(QObject *parent) : QObject{parent}
 {

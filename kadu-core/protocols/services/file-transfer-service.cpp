@@ -18,4 +18,4 @@
  */
 
 #include "file-transfer-service.h"
-#include "file-transfer-service.moc"
+#include "moc_file-transfer-service.cpp"

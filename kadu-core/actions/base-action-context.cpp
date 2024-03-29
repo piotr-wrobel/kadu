@@ -19,7 +19,7 @@
  */
 
 #include "base-action-context.h"
-#include "base-action-context.moc"
+#include "moc_base-action-context.cpp"
 
 BaseActionContext::BaseActionContext(QWidget *widget) : Widget{widget}, CurrentStatusContainer{nullptr}
 {

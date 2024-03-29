@@ -18,7 +18,7 @@
  */
 
 #include "sms-plugin-object.h"
-#include "sms-plugin-object.moc"
+#include "moc_sms-plugin-object.cpp"
 
 #include "scripts/sms-script-manager.h"
 #include "sms-actions.h"

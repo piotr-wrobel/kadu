@@ -21,7 +21,7 @@
  */
 
 #include "buddy-delete-window.h"
-#include "buddy-delete-window.moc"
+#include "moc_buddy-delete-window.cpp"
 
 #include "buddies/buddy-additional-data-delete-handler-manager.h"
 #include "buddies/buddy-additional-data-delete-handler.h"

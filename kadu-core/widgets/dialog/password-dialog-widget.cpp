@@ -29,7 +29,7 @@
 #include "icons/kadu-icon.h"
 
 #include "password-dialog-widget.h"
-#include "password-dialog-widget.moc"
+#include "moc_password-dialog-widget.cpp"
 
 PasswordDialogWidget::PasswordDialogWidget(const QString &message, QVariant data, QWidget *parent)
         : DialogWidget(tr("Incorrect password"), message, QPixmap(), parent), Data(data)

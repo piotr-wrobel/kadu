@@ -18,7 +18,7 @@
  */
 
 #include "show-about-window-action.h"
-#include "show-about-window-action.moc"
+#include "moc_show-about-window-action.cpp"
 
 #include "core/injected-factory.h"
 #include "windows/about.h"

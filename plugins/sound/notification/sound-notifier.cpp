@@ -20,7 +20,7 @@
  */
 
 #include "sound-notifier.h"
-#include "sound-notifier.moc"
+#include "moc_sound-notifier.cpp"
 
 #include "gui/sound-configuration-ui-handler.h"
 #include "sound-manager.h"

@@ -30,7 +30,7 @@
   */
 
 #include "categorized-list-view.h"
-#include "categorized-list-view.moc"
+#include "moc_categorized-list-view.cpp"
 
 #include <math.h>   // trunc on C99 compliant systems
 

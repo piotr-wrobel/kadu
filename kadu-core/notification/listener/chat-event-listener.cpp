@@ -28,7 +28,7 @@
 #include "widgets/chat-widget/chat-widget.h"
 
 #include "chat-event-listener.h"
-#include "chat-event-listener.moc"
+#include "moc_chat-event-listener.cpp"
 
 ChatEventListener::ChatEventListener(QObject *parent) : QObject{parent}
 {

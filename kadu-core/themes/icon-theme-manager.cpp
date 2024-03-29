@@ -21,7 +21,7 @@
  */
 
 #include "icon-theme-manager.h"
-#include "icon-theme-manager.moc"
+#include "moc_icon-theme-manager.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

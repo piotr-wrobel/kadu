@@ -18,7 +18,7 @@
  */
 
 #include "plugin-modules-factory.h"
-#include "plugin-modules-factory.moc"
+#include "moc_plugin-modules-factory.cpp"
 
 PluginModulesFactory::PluginModulesFactory(QObject *parent) : QObject{parent}
 {

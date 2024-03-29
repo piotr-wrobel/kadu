@@ -18,7 +18,7 @@
  */
 
 #include "sound-actions.h"
-#include "sound-actions.moc"
+#include "moc_sound-actions.cpp"
 
 #include "gui/sound-mute-action.h"
 

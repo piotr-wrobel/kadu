@@ -18,7 +18,7 @@
  */
 
 #include "exec-notify-plugin-modules-factory.h"
-#include "exec-notify-plugin-modules-factory.moc"
+#include "moc_exec-notify-plugin-modules-factory.cpp"
 
 #include "exec-notify-module.h"
 

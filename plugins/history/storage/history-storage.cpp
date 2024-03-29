@@ -19,7 +19,7 @@
  */
 
 #include "history-storage.h"
-#include "history-storage.moc"
+#include "moc_history-storage.cpp"
 
 HistoryStorage::HistoryStorage(QObject *parent) : QObject{parent}
 {

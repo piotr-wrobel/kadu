@@ -18,7 +18,7 @@
  */
 
 #include "buddy-configuration-widget.h"
-#include "buddy-configuration-widget.moc"
+#include "moc_buddy-configuration-widget.cpp"
 
 BuddyConfigurationWidget::BuddyConfigurationWidget(const Buddy &buddy, QWidget *parent)
         : ModalConfigurationWidget(parent), MyBuddy(buddy)

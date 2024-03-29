@@ -23,7 +23,7 @@
 #include "scripts/sms-script-manager.h"
 
 #include "sms-gateway-query.h"
-#include "sms-gateway-query.moc"
+#include "moc_sms-gateway-query.cpp"
 
 SmsGatewayQuery::SmsGatewayQuery(SmsScriptsManager *smsScriptsManager, QObject *parent)
         : QObject{parent}, m_smsScriptsManager{smsScriptsManager}

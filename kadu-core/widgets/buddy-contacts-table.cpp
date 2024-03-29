@@ -38,7 +38,7 @@
 #include "windows/message-dialog.h"
 
 #include "buddy-contacts-table.h"
-#include "buddy-contacts-table.moc"
+#include "moc_buddy-contacts-table.cpp"
 
 BuddyContactsTable::BuddyContactsTable(Buddy buddy, QWidget *parent) : QWidget(parent), MyBuddy(buddy)
 {

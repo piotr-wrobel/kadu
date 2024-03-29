@@ -18,7 +18,7 @@
  */
 
 #include "copy-personal-info-action.h"
-#include "copy-personal-info-action.moc"
+#include "moc_copy-personal-info-action.cpp"
 
 #include "actions/action-context.h"
 #include "actions/action.h"

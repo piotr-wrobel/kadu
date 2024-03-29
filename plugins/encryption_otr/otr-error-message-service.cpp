@@ -20,7 +20,7 @@
 #include "otr-op-data.h"
 
 #include "otr-error-message-service.h"
-#include "otr-error-message-service.moc"
+#include "moc_otr-error-message-service.cpp"
 
 const char *OtrErrorMessageService::wrapperOtrErrorMessage(void *data, ConnContext *context, OtrlErrorCode errorCode)
 {

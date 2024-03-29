@@ -38,7 +38,7 @@
 #include "theme/gadu-emoticon-theme-loader.h"
 
 #include "emoticons-configuration-ui-handler.h"
-#include "emoticons-configuration-ui-handler.moc"
+#include "moc_emoticons-configuration-ui-handler.cpp"
 
 EmoticonsConfigurationUiHandler::EmoticonsConfigurationUiHandler(QObject *parent) : QObject(parent)
 {

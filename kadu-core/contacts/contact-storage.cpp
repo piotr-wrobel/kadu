@@ -18,7 +18,7 @@
  */
 
 #include "contact-storage.h"
-#include "contact-storage.moc"
+#include "moc_contact-storage.cpp"
 
 #include "contacts/contact-shared.h"
 #include "contacts/contact.h"

@@ -18,4 +18,4 @@
  */
 
 #include "idle.h"
-#include "idle.moc"
+#include "moc_idle.cpp"

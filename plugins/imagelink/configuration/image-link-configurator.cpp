@@ -27,7 +27,7 @@
 #include "video-expander-dom-visitor-provider.h"
 
 #include "image-link-configurator.h"
-#include "image-link-configurator.moc"
+#include "moc_image-link-configurator.cpp"
 
 ImageLinkConfigurator::ImageLinkConfigurator(QObject *parent)
 {

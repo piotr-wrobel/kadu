@@ -18,7 +18,7 @@
  */
 
 #include "open-chat-with-action.h"
-#include "open-chat-with-action.moc"
+#include "moc_open-chat-with-action.cpp"
 
 #include "actions/action.h"
 #include "windows/open-chat-with/open-chat-with-service.h"

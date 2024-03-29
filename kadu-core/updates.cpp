@@ -41,7 +41,7 @@
 #include "windows/updates-dialog.h"
 
 #include "updates.h"
-#include "updates.moc"
+#include "moc_updates.cpp"
 
 Updates::Updates(QObject *parent) : QObject(parent), UpdateChecked{false}
 {

@@ -18,7 +18,7 @@
  */
 
 #include "chat-notify-plugin-object.h"
-#include "chat-notify-plugin-object.moc"
+#include "moc_chat-notify-plugin-object.cpp"
 
 #include "chat-notifier.h"
 

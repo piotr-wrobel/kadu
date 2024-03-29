@@ -18,7 +18,7 @@
  */
 
 #include "config-wizard-plugin-modules-factory.h"
-#include "config-wizard-plugin-modules-factory.moc"
+#include "moc_config-wizard-plugin-modules-factory.cpp"
 
 #include "config-wizard-module.h"
 

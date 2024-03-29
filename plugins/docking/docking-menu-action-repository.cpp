@@ -18,7 +18,7 @@
  */
 
 #include "docking-menu-action-repository.h"
-#include "docking-menu-action-repository.moc"
+#include "moc_docking-menu-action-repository.cpp"
 
 #include <QtWidgets/QAction>
 

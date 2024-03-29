@@ -18,7 +18,7 @@
  */
 
 #include "stream-incoming-file-transfer-handler.h"
-#include "stream-incoming-file-transfer-handler.moc"
+#include "moc_stream-incoming-file-transfer-handler.cpp"
 
 StreamIncomingFileTransferHandler::StreamIncomingFileTransferHandler(FileTransfer transfer, QObject *parent)
         : FileTransferHandler{transfer, parent}

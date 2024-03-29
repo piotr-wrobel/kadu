@@ -19,7 +19,7 @@
  */
 
 #include "jabber-chat-state-service.h"
-#include "jabber-chat-state-service.moc"
+#include "moc_jabber-chat-state-service.cpp"
 
 #include "jabber-protocol.h"
 #include "jid.h"

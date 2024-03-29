@@ -18,7 +18,7 @@
  */
 
 #include "gadu-notify-service.h"
-#include "gadu-notify-service.moc"
+#include "moc_gadu-notify-service.cpp"
 
 #include "helpers/gadu-protocol-helper.h"
 #include "server/gadu-connection.h"

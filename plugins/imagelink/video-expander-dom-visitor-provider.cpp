@@ -19,7 +19,7 @@
  */
 
 #include "video-expander-dom-visitor-provider.h"
-#include "video-expander-dom-visitor-provider.moc"
+#include "moc_video-expander-dom-visitor-provider.cpp"
 
 #include "video-expander.h"
 

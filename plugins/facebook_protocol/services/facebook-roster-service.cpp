@@ -17,8 +17,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "services/facebook-roster-service.h"
-#include "services/facebook-roster-service.moc"
+facebook-roster-service.moc"/facebook-roster-service.h"
+facebook-roster-service.moc"/facebook-roster-service.moc"
 
 #include "facebook-account-data.h"
 #include "facebook-protocol.h"

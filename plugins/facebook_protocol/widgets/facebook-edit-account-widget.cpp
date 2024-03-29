@@ -254,4 +254,4 @@ void FacebookEditAccountWidget::removeAccount()
     }
 }
 
-#include "facebook-edit-account-widget.moc"
+#include "moc_facebook-edit-account-widget.cpp"

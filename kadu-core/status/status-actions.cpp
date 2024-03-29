@@ -22,7 +22,7 @@
  */
 
 #include "status-actions.h"
-#include "status-actions.moc"
+#include "moc_status-actions.cpp"
 
 #include "accounts/account-manager.h"
 #include "configuration/configuration.h"

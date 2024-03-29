@@ -18,7 +18,7 @@
  */
 
 #include "auto-send-action.h"
-#include "auto-send-action.moc"
+#include "moc_auto-send-action.cpp"
 
 #include "actions/action.h"
 #include "configuration/configuration.h"

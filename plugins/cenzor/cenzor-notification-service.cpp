@@ -18,7 +18,7 @@
  */
 
 #include "cenzor-notification-service.h"
-#include "cenzor-notification-service.moc"
+#include "moc_cenzor-notification-service.cpp"
 
 #include "accounts/account.h"
 #include "chat/chat.h"

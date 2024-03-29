@@ -26,7 +26,7 @@
 #include "services/jabber-resource-service.h"
 
 #include "jabber-outgoing-file-transfer-handler.h"
-#include "jabber-outgoing-file-transfer-handler.moc"
+#include "moc_jabber-outgoing-file-transfer-handler.cpp"
 
 JabberOutgoingFileTransferHandler::JabberOutgoingFileTransferHandler(
     QXmppTransferManager *transferManager, FileTransfer transfer)

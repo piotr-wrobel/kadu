@@ -18,7 +18,7 @@
  */
 
 #include "jabber-resource-service.h"
-#include "jabber-resource-service.moc"
+#include "moc_jabber-resource-service.cpp"
 
 #include "chat/chat-details-room.h"
 #include "chat/chat.h"

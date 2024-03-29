@@ -18,7 +18,7 @@
  */
 
 #include "clear-results-action.h"
-#include "clear-results-action.moc"
+#include "moc_clear-results-action.cpp"
 
 #include "windows/search-window.h"
 

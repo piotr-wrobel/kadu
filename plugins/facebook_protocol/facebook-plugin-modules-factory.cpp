@@ -39,4 +39,4 @@ std::vector<std::unique_ptr<injeqt::module>> FacebookPluginModulesFactory::creat
     return modules;
 }
 
-#include "facebook-plugin-modules-factory.moc"
+#include "moc_facebook-plugin-modules-factory.cpp"

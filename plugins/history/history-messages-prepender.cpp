@@ -19,7 +19,7 @@
  */
 
 #include "history-messages-prepender.h"
-#include "history-messages-prepender.moc"
+#include "moc_history-messages-prepender.cpp"
 
 #include "message/sorted-messages.h"
 #include "widgets/webkit-messages-view/webkit-messages-view.h"

@@ -20,7 +20,7 @@
  */
 
 #include "storable-object.h"
-#include "storable-object.moc"
+#include "moc_storable-object.cpp"
 
 #include "storage/custom-properties.h"
 #include "storage/storage-point-factory.h"

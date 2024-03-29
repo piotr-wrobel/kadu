@@ -19,7 +19,7 @@
  */
 
 #include "history-query-results-proxy-model.h"
-#include "history-query-results-proxy-model.moc"
+#include "moc_history-query-results-proxy-model.cpp"
 
 HistoryQueryResultsProxyModel::HistoryQueryResultsProxyModel(QObject *parent)
         : QSortFilterProxyModel(parent), TalkableVisible(true), TitleVisible(true)

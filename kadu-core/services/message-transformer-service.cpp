@@ -19,7 +19,7 @@
  */
 
 #include "message-transformer-service.h"
-#include "message-transformer-service.moc"
+#include "moc_message-transformer-service.cpp"
 
 MessageTransformerService::MessageTransformerService(QObject *parent) : QObject(parent)
 {

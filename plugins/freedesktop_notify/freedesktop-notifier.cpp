@@ -42,7 +42,7 @@
 #include "url-handlers/url-handler-manager.h"
 
 #include "freedesktop-notifier.h"
-#include "freedesktop-notifier.moc"
+#include "moc_freedesktop-notifier.cpp"
 
 FreedesktopNotifier::FreedesktopNotifier(QObject *parent)
         : QObject{parent}, Notifier(

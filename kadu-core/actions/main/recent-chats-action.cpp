@@ -20,7 +20,7 @@
  */
 
 #include "recent-chats-action.h"
-#include "recent-chats-action.moc"
+#include "moc_recent-chats-action.cpp"
 
 #include "accounts/account-manager.h"
 #include "accounts/account.h"

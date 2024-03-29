@@ -21,7 +21,7 @@
  */
 
 #include "spellchecker-configuration.h"
-#include "spellchecker-configuration.moc"
+#include "moc_spellchecker-configuration.cpp"
 
 #include "spellchecker.h"
 

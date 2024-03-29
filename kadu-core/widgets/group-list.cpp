@@ -20,7 +20,7 @@
  */
 
 #include "group-list.h"
-#include "group-list.moc"
+#include "moc_group-list.cpp"
 
 #include "buddies/group-manager.h"
 

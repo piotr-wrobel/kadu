@@ -25,7 +25,7 @@
  */
 
 #include "add-buddy-window.h"
-#include "add-buddy-window.moc"
+#include "moc_add-buddy-window.cpp"
 
 #include "accounts/account-manager.h"
 #include "accounts/account.h"

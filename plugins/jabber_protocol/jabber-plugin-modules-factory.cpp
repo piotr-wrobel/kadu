@@ -18,7 +18,7 @@
  */
 
 #include "jabber-plugin-modules-factory.h"
-#include "jabber-plugin-modules-factory.moc"
+#include "moc_jabber-plugin-modules-factory.cpp"
 
 #include "jabber-module.h"
 

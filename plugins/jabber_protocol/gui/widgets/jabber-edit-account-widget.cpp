@@ -20,7 +20,7 @@
  */
 
 #include "jabber-edit-account-widget.h"
-#include "jabber-edit-account-widget.moc"
+#include "moc_jabber-edit-account-widget.cpp"
 
 #include "gui/windows/jabber-change-password-window.h"
 #include "jabber-protocol.h"

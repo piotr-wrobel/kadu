@@ -19,7 +19,7 @@
  */
 
 #include "gtalk-protocol-factory.h"
-#include "gtalk-protocol-factory.moc"
+#include "moc_gtalk-protocol-factory.cpp"
 
 #include "icons/kadu-icon.h"
 #include "misc/misc.h"

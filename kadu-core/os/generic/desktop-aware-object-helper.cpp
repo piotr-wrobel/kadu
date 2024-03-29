@@ -20,7 +20,7 @@
  */
 
 #include "desktop-aware-object-helper.h"
-#include "desktop-aware-object-helper.moc"
+#include "moc_desktop-aware-object-helper.cpp"
 
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDesktopWidget>

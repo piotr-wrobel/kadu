@@ -49,7 +49,7 @@
 #include "tabs.h"
 
 #include "tab-widget.h"
-#include "tab-widget.moc"
+#include "moc_tab-widget.cpp"
 
 TabWidget::TabWidget(TabsManager *manager) : Manager(manager)
 {

@@ -28,7 +28,7 @@
 #include "protocols/protocol.h"
 
 #include "protocols-model-proxy.h"
-#include "protocols-model-proxy.moc"
+#include "moc_protocols-model-proxy.cpp"
 #include "protocols-model.h"
 
 ProtocolsModelProxy::ProtocolsModelProxy(QObject *parent) : QSortFilterProxyModel(parent)

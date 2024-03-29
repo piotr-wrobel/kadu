@@ -19,7 +19,7 @@
  */
 
 #include "add-conference-window.h"
-#include "add-conference-window.moc"
+#include "moc_add-conference-window.cpp"
 
 #include "accounts/filter/protocol-filter.h"
 #include "buddies/model/buddy-list-model.h"

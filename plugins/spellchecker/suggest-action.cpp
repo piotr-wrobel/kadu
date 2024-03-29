@@ -18,7 +18,7 @@
  */
 
 #include "suggest-action.h"
-#include "suggest-action.moc"
+#include "moc_suggest-action.cpp"
 
 #include "suggester.h"
 

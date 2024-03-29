@@ -18,7 +18,7 @@
  */
 
 #include "sms-plugin-modules-factory.h"
-#include "sms-plugin-modules-factory.moc"
+#include "moc_sms-plugin-modules-factory.cpp"
 
 #include "sms-module.h"
 

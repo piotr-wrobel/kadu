@@ -32,7 +32,7 @@
 #include "windows/message-dialog.h"
 
 #include "syntax-editor.h"
-#include "syntax-editor.moc"
+#include "moc_syntax-editor.cpp"
 
 SyntaxEditor::SyntaxEditor(QWidget *parent) : QWidget(parent)
 {

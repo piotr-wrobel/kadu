@@ -19,7 +19,7 @@
  */
 
 #include "status-notifier-item.h"
-#include "status-notifier-item.moc"
+#include "moc_status-notifier-item.cpp"
 
 #include "status-notifier-item-attention-animator.h"
 #include "status-notifier-item-attention-blinker.h"

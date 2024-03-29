@@ -18,7 +18,7 @@
  */
 
 #include "toggle-mediaplayer-statuses-action.h"
-#include "toggle-mediaplayer-statuses-action.moc"
+#include "moc_toggle-mediaplayer-statuses-action.cpp"
 
 #include "mediaplayer.h"
 

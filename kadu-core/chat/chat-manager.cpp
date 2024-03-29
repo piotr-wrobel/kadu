@@ -23,7 +23,7 @@
  */
 
 #include "chat-manager.h"
-#include "chat-manager.moc"
+#include "moc_chat-manager.cpp"
 
 ChatManager::ChatManager(QObject *parent) : Manager<Chat>{parent}
 {

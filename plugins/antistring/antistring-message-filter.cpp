@@ -19,7 +19,7 @@
  */
 
 #include "antistring-message-filter.h"
-#include "antistring-message-filter.moc"
+#include "moc_antistring-message-filter.cpp"
 
 #include "antistring-configuration.h"
 #include "antistring-notification-service.h"

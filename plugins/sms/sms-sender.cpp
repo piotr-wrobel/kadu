@@ -19,7 +19,7 @@
  */
 
 #include "sms-sender.h"
-#include "sms-sender.moc"
+#include "moc_sms-sender.cpp"
 
 SmsSender::SmsSender(const QString &number, QObject *parent) : QObject(parent), Number(number)
 {

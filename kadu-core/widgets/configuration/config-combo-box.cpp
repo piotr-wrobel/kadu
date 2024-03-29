@@ -25,7 +25,7 @@
 #include <QtXml/QDomElement>
 
 #include "config-combo-box.h"
-#include "config-combo-box.moc"
+#include "moc_config-combo-box.cpp"
 
 #include "widgets/configuration/config-group-box.h"
 

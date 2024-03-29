@@ -34,7 +34,7 @@
 #include "plugins/mediaplayer/mediaplayer.h"
 
 #include "mpris-player.h"
-#include "mpris-player.moc"
+#include "moc_mpris-player.cpp"
 
 const QString MPRISPlayer::UserPlayersListFile = "mprisplayer-players.data";
 const QString MPRISPlayer::GlobalPlayersListFile =

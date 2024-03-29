@@ -21,7 +21,7 @@
  */
 
 #include "hint.h"
-#include "hint.moc"
+#include "moc_hint.cpp"
 
 #include "hints-configuration.h"
 

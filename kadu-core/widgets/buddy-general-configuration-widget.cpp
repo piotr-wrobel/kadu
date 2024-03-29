@@ -22,7 +22,7 @@
  */
 
 #include "buddy-general-configuration-widget.h"
-#include "buddy-general-configuration-widget.moc"
+#include "moc_buddy-general-configuration-widget.cpp"
 
 #include "accounts/account-manager.h"
 #include "accounts/account.h"

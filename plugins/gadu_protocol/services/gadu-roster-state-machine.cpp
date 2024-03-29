@@ -18,7 +18,7 @@
  */
 
 #include "gadu-roster-state-machine.h"
-#include "gadu-roster-state-machine.moc"
+#include "moc_gadu-roster-state-machine.cpp"
 
 #include "services/gadu-roster-service.h"
 

@@ -18,7 +18,7 @@
  */
 
 #include "antistring-notification-service.h"
-#include "antistring-notification-service.moc"
+#include "moc_antistring-notification-service.cpp"
 
 #include "accounts/account.h"
 #include "chat/chat.h"

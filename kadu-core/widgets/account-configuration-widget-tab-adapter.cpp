@@ -23,7 +23,7 @@
 #include "widgets/account-edit-widget.h"
 
 #include "account-configuration-widget-tab-adapter.h"
-#include "account-configuration-widget-tab-adapter.moc"
+#include "moc_account-configuration-widget-tab-adapter.cpp"
 
 AccountConfigurationWidgetTabAdapter::AccountConfigurationWidgetTabAdapter(
     AccountEditWidget *accountEditWidget, QTabWidget *tabWidget, QObject *parent)

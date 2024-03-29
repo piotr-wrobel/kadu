@@ -18,7 +18,7 @@
  */
 
 #include "identity-storage.h"
-#include "identity-storage.moc"
+#include "moc_identity-storage.cpp"
 
 #include "core/injected-factory.h"
 #include "identities/identity-shared.h"

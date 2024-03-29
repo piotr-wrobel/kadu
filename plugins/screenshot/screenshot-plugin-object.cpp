@@ -18,7 +18,7 @@
  */
 
 #include "screenshot-plugin-object.h"
-#include "screenshot-plugin-object.moc"
+#include "moc_screenshot-plugin-object.cpp"
 
 #include "configuration/gui/screenshot-configuration-ui-handler.h"
 #include "configuration/screen-shot-configuration.h"

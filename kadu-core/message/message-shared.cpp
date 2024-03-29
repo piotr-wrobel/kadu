@@ -31,7 +31,7 @@
 #include "misc/change-notifier.h"
 
 #include "message-shared.h"
-#include "message-shared.moc"
+#include "moc_message-shared.cpp"
 
 MessageShared::MessageShared(const QUuid &uuid) : Shared(uuid), Status(MessageStatusUnknown), Type(MessageTypeUnknown)
 {

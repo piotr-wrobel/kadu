@@ -26,7 +26,7 @@
 #include "widgets/filter-widget.h"
 
 #include "filtered-tree-view.h"
-#include "filtered-tree-view.moc"
+#include "moc_filtered-tree-view.cpp"
 
 bool FilteredTreeView::shouldEventGoToFilter(QKeyEvent *event)
 {

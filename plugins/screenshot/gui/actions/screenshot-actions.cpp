@@ -19,7 +19,7 @@
  */
 
 #include "screenshot-actions.h"
-#include "screenshot-actions.moc"
+#include "moc_screenshot-actions.cpp"
 
 #include "actions/actions.h"
 #include "configuration/screen-shot-configuration.h"

@@ -18,7 +18,7 @@
  */
 
 #include "auto-hide-plugin-object.h"
-#include "auto-hide-plugin-object.moc"
+#include "moc_auto-hide-plugin-object.cpp"
 
 #include "auto-hide-configuration-ui-handler.h"
 #include "auto-hide.h"

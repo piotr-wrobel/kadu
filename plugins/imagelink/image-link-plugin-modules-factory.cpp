@@ -18,7 +18,7 @@
  */
 
 #include "image-link-plugin-modules-factory.h"
-#include "image-link-plugin-modules-factory.moc"
+#include "moc_image-link-plugin-modules-factory.cpp"
 
 #include "image-link-module.h"
 

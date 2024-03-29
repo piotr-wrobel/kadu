@@ -21,7 +21,7 @@
 #include "windows/chat-data-window.h"
 
 #include "chat-data-window-repository.h"
-#include "chat-data-window-repository.moc"
+#include "moc_chat-data-window-repository.cpp"
 
 ChatDataWindowRepository::ChatDataWindowRepository(QObject *parent) : QObject(parent)
 {

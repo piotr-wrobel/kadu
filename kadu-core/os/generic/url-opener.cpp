@@ -20,7 +20,7 @@
  */
 
 #include "url-opener.h"
-#include "url-opener.moc"
+#include "moc_url-opener.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

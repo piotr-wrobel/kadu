@@ -18,7 +18,7 @@
  */
 
 #include "file-transfer-handler.h"
-#include "file-transfer-handler.moc"
+#include "moc_file-transfer-handler.cpp"
 
 FileTransferHandler::FileTransferHandler(FileTransfer transfer, QObject *parent) : QObject{parent}
 {

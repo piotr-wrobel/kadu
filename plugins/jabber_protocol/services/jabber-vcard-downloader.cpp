@@ -20,7 +20,7 @@
  */
 
 #include "jabber-vcard-downloader.h"
-#include "jabber-vcard-downloader.moc"
+#include "moc_jabber-vcard-downloader.cpp"
 
 #include "jabber-protocol.h"
 

@@ -18,7 +18,7 @@
  */
 
 #include "add-found-buddy-action.h"
-#include "add-found-buddy-action.moc"
+#include "moc_add-found-buddy-action.cpp"
 
 #include "windows/search-window.h"
 

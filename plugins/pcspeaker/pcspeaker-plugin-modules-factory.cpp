@@ -18,7 +18,7 @@
  */
 
 #include "pcspeaker-plugin-modules-factory.h"
-#include "pcspeaker-plugin-modules-factory.moc"
+#include "moc_pcspeaker-plugin-modules-factory.cpp"
 
 #include "pcspeaker-module.h"
 

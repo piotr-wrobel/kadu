@@ -25,7 +25,7 @@
 #include "server/gadu-writable-session-token.h"
 
 #include "gadu-multilogon-service.h"
-#include "gadu-multilogon-service.moc"
+#include "moc_gadu-multilogon-service.cpp"
 
 // for Q_OS_WIN macro
 #include <QtCore/QDataStream>

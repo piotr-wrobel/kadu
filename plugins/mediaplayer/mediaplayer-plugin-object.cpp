@@ -18,7 +18,7 @@
  */
 
 #include "mediaplayer-plugin-object.h"
-#include "mediaplayer-plugin-object.moc"
+#include "moc_mediaplayer-plugin-object.cpp"
 
 #include "mediaplayer-configuration-ui-handler.h"
 #include "mediaplayer.h"

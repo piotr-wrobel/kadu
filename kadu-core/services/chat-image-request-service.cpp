@@ -29,7 +29,7 @@
 #include "windows/message-dialog.h"
 
 #include "chat-image-request-service.h"
-#include "chat-image-request-service.moc"
+#include "moc_chat-image-request-service.cpp"
 
 ChatImageRequestService::ChatImageRequestService(QObject *parent) : QObject(parent), ReceivedImageKeysCount(0)
 {

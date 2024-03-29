@@ -18,7 +18,7 @@
  */
 
 #include "account-configuration-widget.h"
-#include "account-configuration-widget.moc"
+#include "moc_account-configuration-widget.cpp"
 
 AccountConfigurationWidget::AccountConfigurationWidget(const Account &account, QWidget *parent)
         : ModalConfigurationWidget(parent), MyAccount(account)

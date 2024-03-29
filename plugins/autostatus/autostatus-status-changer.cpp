@@ -21,7 +21,7 @@
 #include "status/status.h"
 
 #include "autostatus-status-changer.h"
-#include "autostatus-status-changer.moc"
+#include "moc_autostatus-status-changer.cpp"
 
 AutostatusStatusChanger::AutostatusStatusChanger(QObject *parent)
         : StatusChanger{200, parent}, Enabled{false}, StatusIndex{}

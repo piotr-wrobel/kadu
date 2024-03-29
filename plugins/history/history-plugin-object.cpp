@@ -18,7 +18,7 @@
  */
 
 #include "history-plugin-object.h"
-#include "history-plugin-object.moc"
+#include "moc_history-plugin-object.cpp"
 
 #include "buddy-history-delete-handler.h"
 #include "gui/widgets/history-buddy-configuration-widget-factory.h"

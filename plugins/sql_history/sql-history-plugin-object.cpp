@@ -18,7 +18,7 @@
  */
 
 #include "sql-history-plugin-object.h"
-#include "sql-history-plugin-object.moc"
+#include "moc_sql-history-plugin-object.cpp"
 
 #include "storage/history-sql-storage.h"
 

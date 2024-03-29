@@ -19,7 +19,7 @@
  */
 
 #include "storable-status-container.h"
-#include "storable-status-container.moc"
+#include "moc_storable-status-container.cpp"
 
 #include "configuration/configuration-manager.h"
 #include "configuration/configuration.h"

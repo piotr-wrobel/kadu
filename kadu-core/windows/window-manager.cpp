@@ -19,7 +19,7 @@
  */
 
 #include "window-manager.h"
-#include "window-manager.moc"
+#include "moc_window-manager.cpp"
 
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDesktopWidget>

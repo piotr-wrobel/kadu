@@ -63,7 +63,7 @@
 #include "player-info.h"
 
 #include "mediaplayer.h"
-#include "mediaplayer.moc"
+#include "moc_mediaplayer.cpp"
 
 #define MODULE_MEDIAPLAYER_VERSION 1.3
 #define CHECK_STATUS_INTERVAL 1 * 1000 /* 1s */

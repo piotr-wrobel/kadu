@@ -19,7 +19,7 @@
  */
 
 #include "chat-edit-box-size-manager.h"
-#include "chat-edit-box-size-manager.moc"
+#include "moc_chat-edit-box-size-manager.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

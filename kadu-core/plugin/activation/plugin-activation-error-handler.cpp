@@ -20,7 +20,7 @@
  */
 
 #include "plugin-activation-error-handler.h"
-#include "plugin-activation-error-handler.moc"
+#include "moc_plugin-activation-error-handler.cpp"
 
 #include "core/injected-factory.h"
 #include "plugin/activation/plugin-activation-service.h"

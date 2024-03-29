@@ -27,7 +27,7 @@
 #include <QtWidgets/QStyle>
 
 #include "token-window.h"
-#include "token-window.moc"
+#include "moc_token-window.cpp"
 
 TokenWindow::TokenWindow(const QPixmap &tokenPixmap, QWidget *parent) : QDialog(parent)
 {

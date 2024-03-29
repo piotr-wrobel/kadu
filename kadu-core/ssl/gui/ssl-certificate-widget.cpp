@@ -18,7 +18,7 @@
  */
 
 #include "ssl-certificate-widget.h"
-#include "ssl-certificate-widget.moc"
+#include "moc_ssl-certificate-widget.cpp"
 
 #include <QtNetwork/QSslCertificate>
 #include <QtWidgets/QDialogButtonBox>

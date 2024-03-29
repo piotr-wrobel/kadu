@@ -20,7 +20,7 @@
  */
 
 #include "action-description.h"
-#include "action-description.moc"
+#include "moc_action-description.cpp"
 
 #include "actions/action.h"
 #include "configuration/configuration.h"

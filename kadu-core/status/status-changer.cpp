@@ -20,7 +20,7 @@
  */
 
 #include "status-changer.h"
-#include "status-changer.moc"
+#include "moc_status-changer.cpp"
 
 StatusChanger::StatusChanger(int priority, QObject *parent) : QObject(parent), Priority(priority)
 {

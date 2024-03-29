@@ -18,7 +18,7 @@
  */
 
 #include "group-storage.h"
-#include "group-storage.moc"
+#include "moc_group-storage.cpp"
 
 #include "buddies/group-shared.h"
 #include "buddies/group.h"

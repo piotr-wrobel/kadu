@@ -38,7 +38,7 @@
 #include "windows/main-configuration-window.h"
 
 #include "speech-configuration-ui-handler.h"
-#include "speech-configuration-ui-handler.moc"
+#include "moc_speech-configuration-ui-handler.cpp"
 
 SpeechConfigurationUiHandler::SpeechConfigurationUiHandler(QObject *parent)
         : QObject{parent}, frequencySlider{}, tempoSlider{}, baseFrequencySlider{}, dspDeviceLineEdit{},

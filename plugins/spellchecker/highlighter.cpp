@@ -21,7 +21,7 @@
 #include "spellchecker.h"
 
 #include "highlighter.h"
-#include "highlighter.moc"
+#include "moc_highlighter.cpp"
 
 QList<Highlighter *> Highlighter::Highlighters;
 QTextCharFormat Highlighter::HighlightFormat;

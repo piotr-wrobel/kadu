@@ -23,7 +23,7 @@
 #include "contacts/contact.h"
 
 #include "blocked-talkable-filter.h"
-#include "blocked-talkable-filter.moc"
+#include "moc_blocked-talkable-filter.cpp"
 
 BlockedTalkableFilter::BlockedTalkableFilter(QObject *parent) : TalkableFilter(parent), Enabled(false)
 {

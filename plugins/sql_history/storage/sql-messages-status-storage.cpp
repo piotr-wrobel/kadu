@@ -22,7 +22,7 @@
 #include "storage/history-sql-storage.h"
 
 #include "sql-messages-status-storage.h"
-#include "sql-messages-status-storage.moc"
+#include "moc_sql-messages-status-storage.cpp"
 
 SqlMessagesStatusStorage::SqlMessagesStatusStorage(HistorySqlStorage *sqlStorage)
         : HistoryMessagesStorage(sqlStorage), SqlStorage(sqlStorage)

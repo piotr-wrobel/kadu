@@ -18,7 +18,7 @@
  */
 
 #include "notification-event-repository.h"
-#include "notification-event-repository.moc"
+#include "moc_notification-event-repository.cpp"
 
 #include "notification/notification-event.h"
 

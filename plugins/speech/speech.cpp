@@ -34,7 +34,7 @@
 #include "speech-configuration-widget.h"
 
 #include "speech.h"
-#include "speech.moc"
+#include "moc_speech.cpp"
 
 /**
  * @ingroup speech

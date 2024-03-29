@@ -39,7 +39,7 @@
 #include "gui/widgets/screenshot-tool-box.h"
 
 #include "screenshot-widget.h"
-#include "screenshot-widget.moc"
+#include "moc_screenshot-widget.cpp"
 
 ScreenshotWidget::ScreenshotWidget(QWidget *parent)
         : QWidget(

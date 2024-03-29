@@ -24,7 +24,7 @@
  */
 
 #include "message-dialog.h"
-#include "message-dialog.moc"
+#include "moc_message-dialog.cpp"
 
 #include <QtGui/QPixmap>
 #include <QtWidgets/QStyle>

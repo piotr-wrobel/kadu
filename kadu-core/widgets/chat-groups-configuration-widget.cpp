@@ -20,7 +20,7 @@
  */
 
 #include "chat-groups-configuration-widget.h"
-#include "chat-groups-configuration-widget.moc"
+#include "moc_chat-groups-configuration-widget.cpp"
 
 #include "buddies/group.h"
 #include "contacts/contact.h"

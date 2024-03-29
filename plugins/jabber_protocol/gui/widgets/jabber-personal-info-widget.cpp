@@ -19,7 +19,7 @@
  */
 
 #include "jabber-personal-info-widget.h"
-#include "jabber-personal-info-widget.moc"
+#include "moc_jabber-personal-info-widget.cpp"
 
 #include "accounts/account.h"
 #include "buddies/buddy-storage.h"

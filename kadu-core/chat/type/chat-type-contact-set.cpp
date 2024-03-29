@@ -19,7 +19,7 @@
  */
 
 #include "chat-type-contact-set.h"
-#include "chat-type-contact-set.moc"
+#include "moc_chat-type-contact-set.cpp"
 
 #include "chat/chat-details-contact-set.h"
 #include "chat/chat-manager.h"

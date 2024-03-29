@@ -26,7 +26,7 @@
 #include "widgets/categorized-list-view.h"
 
 #include "categorized-list-view-painter.h"
-#include "categorized-list-view-painter.moc"
+#include "moc_categorized-list-view-painter.cpp"
 
 #define HORIZONTAL_HINT 3
 

@@ -18,7 +18,7 @@
  */
 
 #include "windows-taskbar-progress.h"
-#include "windows-taskbar-progress.moc"
+#include "moc_windows-taskbar-progress.cpp"
 
 #include "file-transfer/file-transfer-manager.h"
 

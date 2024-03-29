@@ -18,7 +18,7 @@
  */
 
 #include "show-infos-window-action.h"
-#include "show-infos-window-action.moc"
+#include "moc_show-infos-window-action.cpp"
 
 #include "infos.h"
 

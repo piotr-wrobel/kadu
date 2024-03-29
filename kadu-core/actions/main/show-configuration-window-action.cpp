@@ -18,7 +18,7 @@
  */
 
 #include "show-configuration-window-action.h"
-#include "show-configuration-window-action.moc"
+#include "moc_show-configuration-window-action.cpp"
 
 #include "windows/main-configuration-window-service.h"
 

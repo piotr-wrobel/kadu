@@ -18,7 +18,7 @@
  */
 
 #include "chat-window-manager.h"
-#include "chat-window-manager.moc"
+#include "moc_chat-window-manager.cpp"
 
 #include "chat/chat.h"
 #include "widgets/chat-widget/chat-widget-manager.h"

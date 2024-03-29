@@ -18,7 +18,7 @@
  */
 
 #include "show-myself-action.h"
-#include "show-myself-action.moc"
+#include "moc_show-myself-action.cpp"
 
 #include "actions/action.h"
 #include "configuration/configuration.h"

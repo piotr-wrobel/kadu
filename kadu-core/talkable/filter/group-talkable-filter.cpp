@@ -23,7 +23,7 @@
 #include "chat/chat.h"
 
 #include "group-talkable-filter.h"
-#include "group-talkable-filter.moc"
+#include "moc_group-talkable-filter.cpp"
 
 GroupTalkableFilter::GroupTalkableFilter(QObject *parent) : TalkableFilter(parent)
 {

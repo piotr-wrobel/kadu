@@ -29,7 +29,7 @@
  */
 
 #include "core.h"
-#include "core.moc"
+#include "moc_core.cpp"
 
 #include "actions/actions.h"
 #include "activate.h"

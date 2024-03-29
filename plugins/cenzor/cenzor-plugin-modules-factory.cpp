@@ -18,7 +18,7 @@
  */
 
 #include "cenzor-plugin-modules-factory.h"
-#include "cenzor-plugin-modules-factory.moc"
+#include "moc_cenzor-plugin-modules-factory.cpp"
 
 #include "cenzor-module.h"
 

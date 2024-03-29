@@ -18,7 +18,7 @@
  */
 
 #include "jabber-roster-extension.h"
-#include "jabber-roster-extension.moc"
+#include "moc_jabber-roster-extension.cpp"
 
 #include "jid.h"
 #include "services/jabber-error-service.h"

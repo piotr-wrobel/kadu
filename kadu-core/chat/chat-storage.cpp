@@ -18,7 +18,7 @@
  */
 
 #include "chat-storage.h"
-#include "chat-storage.moc"
+#include "moc_chat-storage.cpp"
 
 #include "chat/chat-shared.h"
 #include "chat/chat.h"

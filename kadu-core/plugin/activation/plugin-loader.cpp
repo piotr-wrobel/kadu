@@ -19,7 +19,7 @@
  */
 
 #include "plugin-loader.h"
-#include "plugin-loader.moc"
+#include "moc_plugin-loader.cpp"
 
 #include "actions/actions.h"
 #include "injeqt-type-roles.h"

@@ -22,7 +22,7 @@
 #include "widgets/chat-widget/chat-widget-title-composing-state-position.h"
 
 #include "chat-configuration-holder.h"
-#include "chat-configuration-holder.moc"
+#include "moc_chat-configuration-holder.cpp"
 
 ChatConfigurationHolder::ChatConfigurationHolder(QObject *parent)
         : ConfigurationHolder{parent}, AutoSend{}, NiceDateFormat{}, ChatTextCustomColors{}, ForceCustomChatFont{},

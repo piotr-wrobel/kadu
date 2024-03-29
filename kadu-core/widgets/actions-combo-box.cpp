@@ -27,7 +27,7 @@
 #include "model/roles.h"
 
 #include "actions-combo-box.h"
-#include "actions-combo-box.moc"
+#include "moc_actions-combo-box.cpp"
 
 ActionsComboBox::ActionsComboBox(QWidget *parent) : QComboBox(parent), KaduModel(0), DataRole(0), LastIndex(-1)
 {

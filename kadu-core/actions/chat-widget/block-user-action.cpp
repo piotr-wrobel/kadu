@@ -18,7 +18,7 @@
  */
 
 #include "block-user-action.h"
-#include "block-user-action.moc"
+#include "moc_block-user-action.cpp"
 
 #include "actions/action.h"
 #include "buddies/buddy-set.h"

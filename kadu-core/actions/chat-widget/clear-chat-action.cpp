@@ -18,7 +18,7 @@
  */
 
 #include "clear-chat-action.h"
-#include "clear-chat-action.moc"
+#include "moc_clear-chat-action.cpp"
 
 #include "actions/action.h"
 #include "widgets/chat-edit-box.h"

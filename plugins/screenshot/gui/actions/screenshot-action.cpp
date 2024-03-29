@@ -34,7 +34,7 @@
 #include "screenshot.h"
 
 #include "screenshot-action.h"
-#include "screenshot-action.moc"
+#include "moc_screenshot-action.cpp"
 
 ScreenshotAction::ScreenshotAction(ScreenShotConfiguration *screenShotConfiguration, QObject *parent)
         : ActionDescription(parent), m_screenShotConfiguration{screenShotConfiguration}

@@ -20,7 +20,7 @@
  */
 
 #include "buddy-list-mime-data-service.h"
-#include "buddy-list-mime-data-service.moc"
+#include "moc_buddy-list-mime-data-service.cpp"
 
 #include "buddies/buddy-manager.h"
 #include "buddies/buddy.h"

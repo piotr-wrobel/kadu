@@ -27,7 +27,7 @@
 #include "otr-policy.h"
 
 #include "otr-chat-top-bar-widget.h"
-#include "otr-chat-top-bar-widget.moc"
+#include "moc_otr-chat-top-bar-widget.cpp"
 
 OtrChatTopBarWidget::OtrChatTopBarWidget(const Contact &contact, QWidget *parent) : QWidget(parent), MyContact(contact)
 {

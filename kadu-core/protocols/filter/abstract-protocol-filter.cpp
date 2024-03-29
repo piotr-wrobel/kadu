@@ -18,4 +18,4 @@
  */
 
 #include "abstract-protocol-filter.h"
-#include "abstract-protocol-filter.moc"
+#include "moc_abstract-protocol-filter.cpp"

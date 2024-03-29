@@ -40,7 +40,7 @@ Nowa funkcjonalnosc - Dorregaray
 #include <QtWidgets/QMessageBox>
 
 #include "firewall-message-filter.h"
-#include "firewall-message-filter.moc"
+#include "moc_firewall-message-filter.cpp"
 
 #include "firewall-notification-service.h"
 

@@ -21,7 +21,7 @@
  */
 
 #include "jabber-stream-debug-service.h"
-#include "jabber-stream-debug-service.moc"
+#include "moc_jabber-stream-debug-service.cpp"
 
 #include <QXmppQt5/QXmppClient.h>
 

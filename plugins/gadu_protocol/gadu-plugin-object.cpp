@@ -18,7 +18,7 @@
  */
 
 #include "gadu-plugin-object.h"
-#include "gadu-plugin-object.moc"
+#include "moc_gadu-plugin-object.cpp"
 
 #include "gadu-protocol-factory.h"
 #include "gadu-url-dom-visitor-provider.h"

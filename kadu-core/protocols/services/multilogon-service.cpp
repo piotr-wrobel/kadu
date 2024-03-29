@@ -18,7 +18,7 @@
  */
 
 #include "multilogon-service.h"
-#include "multilogon-service.moc"
+#include "moc_multilogon-service.cpp"
 
 #include "multilogon/multilogon-session.h"
 

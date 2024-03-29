@@ -20,7 +20,7 @@
  */
 
 #include "account-avatar-widget.h"
-#include "account-avatar-widget.moc"
+#include "moc_account-avatar-widget.cpp"
 
 #include "avatars/aggregated-account-avatar-service.h"
 #include "avatars/avatar-id.h"

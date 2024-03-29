@@ -19,7 +19,7 @@
  */
 
 #include "group-tab-bar.h"
-#include "group-tab-bar.moc"
+#include "moc_group-tab-bar.cpp"
 
 #include "group-filter-tab-data.h"
 

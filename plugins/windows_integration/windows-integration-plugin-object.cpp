@@ -18,7 +18,7 @@
  */
 
 #include "windows-integration-plugin-object.h"
-#include "windows-integration-plugin-object.moc"
+#include "moc_windows-integration-plugin-object.cpp"
 
 #include "windows-integration.h"
 

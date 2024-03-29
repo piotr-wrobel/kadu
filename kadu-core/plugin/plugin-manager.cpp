@@ -19,7 +19,7 @@
  */
 
 #include "plugin-manager.h"
-#include "plugin-manager.moc"
+#include "moc_plugin-manager.cpp"
 
 #include "misc/algorithm.h"
 #include "plugin/activation/plugin-activation-service.h"

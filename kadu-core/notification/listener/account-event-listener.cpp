@@ -34,7 +34,7 @@
 #include "status/status-type-manager.h"
 
 #include "account-event-listener.h"
-#include "account-event-listener.moc"
+#include "moc_account-event-listener.cpp"
 
 AccountEventListener::AccountEventListener(QObject *parent) : QObject(parent)
 {

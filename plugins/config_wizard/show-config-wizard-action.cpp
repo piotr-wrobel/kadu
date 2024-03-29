@@ -18,7 +18,7 @@
  */
 
 #include "show-config-wizard-action.h"
-#include "show-config-wizard-action.moc"
+#include "moc_show-config-wizard-action.cpp"
 
 #include "gui/windows/config-wizard-window.h"
 

@@ -21,7 +21,7 @@
  */
 
 #include "groups-model.h"
-#include "groups-model.moc"
+#include "moc_groups-model.cpp"
 
 #include "buddies/group-manager.h"
 #include "buddies/group.h"

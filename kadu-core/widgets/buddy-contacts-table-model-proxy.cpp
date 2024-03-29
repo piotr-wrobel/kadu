@@ -24,7 +24,7 @@
 #include "widgets/buddy-contacts-table-model.h"
 
 #include "buddy-contacts-table-model-proxy.h"
-#include "buddy-contacts-table-model-proxy.moc"
+#include "moc_buddy-contacts-table-model-proxy.cpp"
 
 BuddyContactsTableModelProxy::BuddyContactsTableModelProxy(QObject *parent) : QSortFilterProxyModel(parent)
 {

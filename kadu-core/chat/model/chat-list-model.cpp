@@ -19,7 +19,7 @@
  */
 
 #include "chat-list-model.h"
-#include "chat-list-model.moc"
+#include "moc_chat-list-model.cpp"
 
 #include "chat/chat-list-mime-data-service.h"
 #include "chat/model/chat-data-extractor.h"

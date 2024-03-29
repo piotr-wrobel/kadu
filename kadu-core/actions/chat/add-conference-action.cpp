@@ -27,7 +27,7 @@
 #include "windows/add-conference-window.h"
 
 #include "add-conference-action.h"
-#include "add-conference-action.moc"
+#include "moc_add-conference-action.cpp"
 
 AddConferenceAction::AddConferenceAction(QObject *parent) : ActionDescription(parent)
 {

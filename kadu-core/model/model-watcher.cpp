@@ -21,7 +21,7 @@
 #include <stdio.h>
 
 #include "model-watcher.h"
-#include "model-watcher.moc"
+#include "moc_model-watcher.cpp"
 
 ModelWatcher::ModelWatcher(const QString &name, QAbstractItemModel *model) : QObject(model), Name(name)
 {

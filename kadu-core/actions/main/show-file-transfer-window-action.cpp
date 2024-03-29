@@ -18,7 +18,7 @@
  */
 
 #include "show-file-transfer-window-action.h"
-#include "show-file-transfer-window-action.moc"
+#include "moc_show-file-transfer-window-action.cpp"
 
 #include "file-transfer/file-transfer-manager.h"
 

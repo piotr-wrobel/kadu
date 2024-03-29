@@ -27,7 +27,7 @@
 #include <QtWidgets/QLineEdit>
 
 #include "mpris-player-dialog.h"
-#include "mpris-player-dialog.moc"
+#include "moc_mpris-player-dialog.cpp"
 
 MPRISPlayerDialog::MPRISPlayerDialog(bool isEdit, QWidget *parent) : QDialog(parent, Qt::Dialog), IsEdit(isEdit)
 {

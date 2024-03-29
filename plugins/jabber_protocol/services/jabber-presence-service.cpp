@@ -18,7 +18,7 @@
  */
 
 #include "jabber-presence-service.h"
-#include "jabber-presence-service.moc"
+#include "moc_jabber-presence-service.cpp"
 
 #include "status/status-type.h"
 #include "status/status.h"

@@ -18,7 +18,7 @@
  */
 
 #include "open-search-action.h"
-#include "open-search-action.moc"
+#include "moc_open-search-action.cpp"
 
 #include "accounts/account-manager.h"
 #include "core/injected-factory.h"

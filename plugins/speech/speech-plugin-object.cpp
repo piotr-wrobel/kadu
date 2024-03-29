@@ -18,7 +18,7 @@
  */
 
 #include "speech-plugin-object.h"
-#include "speech-plugin-object.moc"
+#include "moc_speech-plugin-object.cpp"
 
 #include "speech-configuration-ui-handler.h"
 #include "speech.h"

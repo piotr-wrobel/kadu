@@ -18,7 +18,7 @@
  */
 
 #include "show-only-buddies-with-description-or-online-action.h"
-#include "show-only-buddies-with-description-or-online-action.moc"
+#include "moc_show-only-buddies-with-description-or-online-action.cpp"
 
 #include "actions/action.h"
 #include "configuration/configuration.h"

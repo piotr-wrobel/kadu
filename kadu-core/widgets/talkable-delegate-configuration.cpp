@@ -19,7 +19,7 @@
  */
 
 #include "talkable-delegate-configuration.h"
-#include "talkable-delegate-configuration.moc"
+#include "moc_talkable-delegate-configuration.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

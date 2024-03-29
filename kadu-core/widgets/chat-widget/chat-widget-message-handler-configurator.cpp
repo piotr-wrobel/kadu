@@ -18,7 +18,7 @@
  */
 
 #include "chat-widget-message-handler-configurator.h"
-#include "chat-widget-message-handler-configurator.moc"
+#include "moc_chat-widget-message-handler-configurator.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

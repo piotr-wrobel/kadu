@@ -18,7 +18,7 @@
  */
 
 #include "mpris-player-plugin-object.h"
-#include "mpris-player-plugin-object.moc"
+#include "moc_mpris-player-plugin-object.cpp"
 
 #include "mpris-player-configuration-ui-handler.h"
 #include "mpris-player.h"

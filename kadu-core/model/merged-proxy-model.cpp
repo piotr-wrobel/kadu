@@ -23,7 +23,7 @@
 #include <QtCore/QStringList>
 
 #include "merged-proxy-model.h"
-#include "merged-proxy-model.moc"
+#include "moc_merged-proxy-model.cpp"
 
 MergedProxyModel::MergedProxyModel(QObject *parent) : QAbstractItemModel(parent)
 {

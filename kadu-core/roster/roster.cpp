@@ -18,7 +18,7 @@
  */
 
 #include "roster.h"
-#include "roster.moc"
+#include "moc_roster.cpp"
 
 #include "accounts/account.h"
 #include "protocols/protocol.h"

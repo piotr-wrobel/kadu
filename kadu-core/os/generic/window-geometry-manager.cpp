@@ -51,7 +51,7 @@
 #include "misc/variant-wrapper.h"
 
 #include "window-geometry-manager.h"
-#include "window-geometry-manager.moc"
+#include "moc_window-geometry-manager.cpp"
 
 static const int NormalGeometryIndex = 0;
 static const int FrameGeometryIndex = 1;

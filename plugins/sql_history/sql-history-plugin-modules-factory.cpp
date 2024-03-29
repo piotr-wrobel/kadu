@@ -18,7 +18,7 @@
  */
 
 #include "sql-history-plugin-modules-factory.h"
-#include "sql-history-plugin-modules-factory.moc"
+#include "moc_sql-history-plugin-modules-factory.cpp"
 
 #include "sql-history-module.h"
 

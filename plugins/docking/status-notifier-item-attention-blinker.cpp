@@ -18,7 +18,7 @@
  */
 
 #include "status-notifier-item-attention-blinker.h"
-#include "status-notifier-item-attention-blinker.moc"
+#include "moc_status-notifier-item-attention-blinker.cpp"
 
 #include <QtCore/QTimer>
 #include <QtWidgets/QSystemTrayIcon>

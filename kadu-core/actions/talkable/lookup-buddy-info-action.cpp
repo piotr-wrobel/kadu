@@ -18,7 +18,7 @@
  */
 
 #include "lookup-buddy-info-action.h"
-#include "lookup-buddy-info-action.moc"
+#include "moc_lookup-buddy-info-action.cpp"
 
 #include "actions/action-context.h"
 #include "actions/action.h"

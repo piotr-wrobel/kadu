@@ -30,7 +30,7 @@
 #include "theme/gadu-emoticon-theme-loader.h"
 
 #include "emoticon-configurator.h"
-#include "emoticon-configurator.moc"
+#include "moc_emoticon-configurator.cpp"
 
 EmoticonConfigurator::EmoticonConfigurator(QObject *parent) : ConfigurationHolder{parent}
 {

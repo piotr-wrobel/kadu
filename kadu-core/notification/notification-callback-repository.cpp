@@ -18,7 +18,7 @@
  */
 
 #include "notification-callback-repository.h"
-#include "notification-callback-repository.moc"
+#include "moc_notification-callback-repository.cpp"
 
 #include "notification/notification-callback.h"
 

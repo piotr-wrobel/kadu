@@ -18,7 +18,7 @@
  */
 
 #include "toggle-autostatus-action.h"
-#include "toggle-autostatus-action.moc"
+#include "moc_toggle-autostatus-action.cpp"
 
 #include "autostatus-service.h"
 

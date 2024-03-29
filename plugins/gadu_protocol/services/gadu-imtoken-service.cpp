@@ -18,7 +18,7 @@
  */
 
 #include "gadu-imtoken-service.h"
-#include "gadu-imtoken-service.moc"
+#include "moc_gadu-imtoken-service.cpp"
 
 GaduIMTokenService::GaduIMTokenService(QObject *parent) : QObject{parent}
 {

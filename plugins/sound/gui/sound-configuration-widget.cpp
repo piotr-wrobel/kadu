@@ -18,7 +18,7 @@
  */
 
 #include "sound-configuration-widget.h"
-#include "sound-configuration-widget.moc"
+#include "moc_sound-configuration-widget.cpp"
 
 #include "gui/sound-select-file.h"
 #include "sound-manager.h"

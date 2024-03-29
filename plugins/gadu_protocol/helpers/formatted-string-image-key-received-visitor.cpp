@@ -21,7 +21,7 @@
 #include "formatted-string/formatted-string-image-block.h"
 
 #include "formatted-string-image-key-received-visitor.h"
-#include "formatted-string-image-key-received-visitor.moc"
+#include "moc_formatted-string-image-key-received-visitor.cpp"
 
 FormattedStringImageKeyReceivedVisitor::FormattedStringImageKeyReceivedVisitor(const QString &id, QObject *parent)
         : QObject(parent), Id(id)

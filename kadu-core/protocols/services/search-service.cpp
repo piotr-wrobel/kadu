@@ -18,4 +18,4 @@
  */
 
 #include "search-service.h"
-#include "search-service.moc"
+#include "moc_search-service.cpp"

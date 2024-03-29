@@ -20,7 +20,7 @@
  */
 
 #include "jabber-chat-service.h"
-#include "jabber-chat-service.moc"
+#include "moc_jabber-chat-service.cpp"
 
 #include "jabber-protocol.h"
 #include "jid.h"

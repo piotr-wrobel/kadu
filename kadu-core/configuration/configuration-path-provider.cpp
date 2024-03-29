@@ -18,7 +18,7 @@
  */
 
 #include "configuration-path-provider.h"
-#include "configuration-path-provider.moc"
+#include "moc_configuration-path-provider.cpp"
 
 #include "misc/paths-provider.h"
 

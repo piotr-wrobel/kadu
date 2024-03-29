@@ -25,7 +25,7 @@
 #include "windows/main-window.h"
 
 #include "actions.h"
-#include "actions.moc"
+#include "moc_actions.cpp"
 
 Actions::Actions(QObject *parent) : QObject{parent}, BlockSignals{false}
 {

@@ -19,7 +19,7 @@
  */
 
 #include "chat-type.h"
-#include "chat-type.moc"
+#include "moc_chat-type.cpp"
 
 /**
  * @short Creates empty ChatType object.

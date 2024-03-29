@@ -24,7 +24,7 @@
 #include "core/core.h"
 
 #include "config-file-data-manager.h"
-#include "config-file-data-manager.moc"
+#include "moc_config-file-data-manager.cpp"
 
 void ConfigFileDataManager::setConfiguration(Configuration *configuration)
 {

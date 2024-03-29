@@ -18,7 +18,7 @@
  */
 
 #include "gadu-outgoing-file-transfer-handler.h"
-#include "gadu-outgoing-file-transfer-handler.moc"
+#include "moc_gadu-outgoing-file-transfer-handler.cpp"
 
 #include "gadu-protocol.h"
 #include "services/drive/gadu-drive-put-transfer.h"

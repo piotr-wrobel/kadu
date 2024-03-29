@@ -18,7 +18,7 @@
  */
 
 #include "kadu-style-renderer.h"
-#include "kadu-style-renderer.moc"
+#include "moc_kadu-style-renderer.cpp"
 
 #include "chat-style/chat-style-manager.h"
 #include "chat-style/engine/kadu/kadu-chat-syntax.h"

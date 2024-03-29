@@ -54,7 +54,7 @@
 #include "server/gadu-writable-session-token.h"
 
 #include "gadu-chat-service.h"
-#include "gadu-chat-service.moc"
+#include "moc_gadu-chat-service.cpp"
 
 #include <QtGui/QTextDocument>
 

@@ -19,7 +19,7 @@
  */
 
 #include "modal-configuration-widget.h"
-#include "modal-configuration-widget.moc"
+#include "moc_modal-configuration-widget.cpp"
 
 ModalConfigurationWidget::ModalConfigurationWidget(QWidget *parent) : QWidget(parent)
 {

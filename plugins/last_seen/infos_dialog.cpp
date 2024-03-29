@@ -20,7 +20,7 @@
  */
 
 #include "infos_dialog.h"
-#include "infos_dialog.moc"
+#include "moc_infos_dialog.cpp"
 
 #include "infos.h"
 

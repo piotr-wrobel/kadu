@@ -20,7 +20,7 @@
  */
 
 #include "contact-list-model.h"
-#include "contact-list-model.moc"
+#include "moc_contact-list-model.cpp"
 
 #include "avatars/avatar-id.h"
 #include "avatars/avatars.h"

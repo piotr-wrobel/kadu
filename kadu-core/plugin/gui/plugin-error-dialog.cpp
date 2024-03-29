@@ -18,7 +18,7 @@
  */
 
 #include "plugin-error-dialog.h"
-#include "plugin-error-dialog.moc"
+#include "moc_plugin-error-dialog.cpp"
 
 #include "icons/icons-manager.h"
 #include "icons/kadu-icon.h"

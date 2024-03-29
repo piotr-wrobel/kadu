@@ -23,7 +23,7 @@
 #include <QtWidgets/QGraphicsSceneMouseEvent>
 
 #include "handler-rect-item.h"
-#include "handler-rect-item.moc"
+#include "moc_handler-rect-item.cpp"
 
 HandlerRectItem::HandlerRectItem(HandlerType type, int size, QGraphicsItem *parent)
         : QGraphicsWidget(parent), Type(type), Size(size), IsMouseButtonPressed(false)

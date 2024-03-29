@@ -18,7 +18,7 @@
  */
 
 #include "jabber-error-service.h"
-#include "jabber-error-service.moc"
+#include "moc_jabber-error-service.cpp"
 
 #include <QXmppQt5/QXmppIq.h>
 #include <QXmppQt5/QXmppStanza.h>

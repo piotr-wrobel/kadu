@@ -20,7 +20,7 @@
  */
 
 #include "autoaway.h"
-#include "autoaway.moc"
+#include "moc_autoaway.cpp"
 
 #include "plugins/idle/idle-plugin-object.h"
 #include "plugins/idle/idle.h"

@@ -36,7 +36,7 @@
 #include "windows/message-dialog.h"
 
 #include "progress-window.h"
-#include "progress-window.moc"
+#include "moc_progress-window.cpp"
 
 ProgressWindow::ProgressWindow(const QString &label, QWidget *parent)
         : QDialog(parent), Label(label), Finished(false), Cancellable(false)

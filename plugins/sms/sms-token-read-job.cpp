@@ -26,7 +26,7 @@
 #include "windows/token-window.h"
 
 #include "sms-token-read-job.h"
-#include "sms-token-read-job.moc"
+#include "moc_sms-token-read-job.cpp"
 
 SmsTokenReadJob::SmsTokenReadJob(QObject *parent) : QObject{parent}, TokenNetworkReply{}
 {

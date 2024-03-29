@@ -18,7 +18,7 @@
  */
 
 #include "sound-plugin-modules-factory.h"
-#include "sound-plugin-modules-factory.moc"
+#include "moc_sound-plugin-modules-factory.cpp"
 
 #include "sound-module.h"
 

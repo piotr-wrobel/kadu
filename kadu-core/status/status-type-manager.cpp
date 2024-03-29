@@ -23,7 +23,7 @@
  */
 
 #include "status-type-manager.h"
-#include "status-type-manager.moc"
+#include "moc_status-type-manager.cpp"
 
 #include "icons/kadu-icon.h"
 #include "status/status-type-data.h"

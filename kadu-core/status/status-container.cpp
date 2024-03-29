@@ -19,7 +19,7 @@
  */
 
 #include "status-container.h"
-#include "status-container.moc"
+#include "moc_status-container.cpp"
 
 StatusContainer::StatusContainer(QObject *parent) : QObject(parent)
 {

@@ -31,7 +31,7 @@
 #include "widgets/filtered-tree-view.h"
 
 #include "kadu-tree-view.h"
-#include "kadu-tree-view.moc"
+#include "moc_kadu-tree-view.cpp"
 
 KaduTreeView::KaduTreeView(QWidget *parent)
         : QTreeView(parent), BackgroundImageMode(BackgroundNone), BackgroundTemporaryFile(0)

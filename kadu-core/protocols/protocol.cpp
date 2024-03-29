@@ -23,7 +23,7 @@
  */
 
 #include "protocol.h"
-#include "protocol.moc"
+#include "moc_protocol.cpp"
 
 #include "accounts/account-manager.h"
 #include "buddies/buddy-manager.h"

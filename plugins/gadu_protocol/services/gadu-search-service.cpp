@@ -27,7 +27,7 @@
 #include "server/gadu-writable-session-token.h"
 
 #include "gadu-search-service.h"
-#include "gadu-search-service.moc"
+#include "moc_gadu-search-service.cpp"
 
 GaduSearchService::GaduSearchService(Account account, QObject *parent)
         : SearchService(account, parent), SearchSeq(0), From(0), Stopped(false)

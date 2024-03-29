@@ -19,7 +19,7 @@
  */
 
 #include "config-wizard-set-up-account-page.h"
-#include "config-wizard-set-up-account-page.moc"
+#include "moc_config-wizard-set-up-account-page.cpp"
 
 #include "accounts/account-manager.h"
 #include "configuration/configuration-manager.h"

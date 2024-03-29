@@ -18,7 +18,7 @@
  */
 
 #include "emoticons-plugin-modules-factory.h"
-#include "emoticons-plugin-modules-factory.moc"
+#include "moc_emoticons-plugin-modules-factory.cpp"
 
 #include "emoticons-module.h"
 

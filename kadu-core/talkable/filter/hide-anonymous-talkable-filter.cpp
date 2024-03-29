@@ -23,7 +23,7 @@
 #include "contacts/contact.h"
 
 #include "hide-anonymous-talkable-filter.h"
-#include "hide-anonymous-talkable-filter.moc"
+#include "moc_hide-anonymous-talkable-filter.cpp"
 
 HideAnonymousTalkableFilter::HideAnonymousTalkableFilter(QObject *parent) : TalkableFilter(parent), Enabled(true)
 {

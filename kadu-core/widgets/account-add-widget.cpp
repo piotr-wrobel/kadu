@@ -18,7 +18,7 @@
  */
 
 #include "account-add-widget.h"
-#include "account-add-widget.moc"
+#include "moc_account-add-widget.cpp"
 
 #include "widgets/simple-configuration-value-state-notifier.h"
 

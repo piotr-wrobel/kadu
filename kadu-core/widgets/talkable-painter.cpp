@@ -38,7 +38,7 @@
 #include "widgets/talkable-delegate-configuration.h"
 
 #include "talkable-painter.h"
-#include "talkable-painter.moc"
+#include "moc_talkable-painter.cpp"
 
 #ifdef Q_OS_WIN
 #include <windows.h>

@@ -19,7 +19,7 @@
  */
 
 #include "talkable-delegate.h"
-#include "talkable-delegate.moc"
+#include "moc_talkable-delegate.cpp"
 
 #include "accounts/account.h"
 #include "buddies/buddy-preferred-manager.h"

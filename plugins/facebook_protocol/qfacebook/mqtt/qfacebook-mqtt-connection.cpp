@@ -21,7 +21,7 @@
  */
 
 #include "qfacebook-mqtt-connection.h"
-#include "qfacebook-mqtt-connection.moc"
+#include "moc_qfacebook-mqtt-connection.cpp"
 
 #include "qfacebook/messages/qfacebook-connect-ack.h"
 #include "qfacebook/messages/qfacebook-connect.h"

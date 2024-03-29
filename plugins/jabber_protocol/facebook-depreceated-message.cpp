@@ -18,7 +18,7 @@
  */
 
 #include "facebook-depreceated-message.h"
-#include "facebook-depreceated-message.moc"
+#include "moc_facebook-depreceated-message.cpp"
 
 #include "configuration/configuration.h"
 #include "configuration/deprecated-configuration-api.h"

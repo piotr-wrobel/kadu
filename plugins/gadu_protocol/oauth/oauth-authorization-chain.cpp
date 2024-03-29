@@ -22,7 +22,7 @@
 #include "oauth/oauth-token-fetcher.h"
 
 #include "oauth-authorization-chain.h"
-#include "oauth-authorization-chain.moc"
+#include "moc_oauth-authorization-chain.cpp"
 
 OAuthAuthorizationChain::OAuthAuthorizationChain(
     OAuthConsumer consumer, QNetworkAccessManager *networkAccessManager, QObject *parent)

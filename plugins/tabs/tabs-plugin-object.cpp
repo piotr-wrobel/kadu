@@ -18,7 +18,7 @@
  */
 
 #include "tabs-plugin-object.h"
-#include "tabs-plugin-object.moc"
+#include "moc_tabs-plugin-object.cpp"
 
 #include "tabs-chat-widget-container-handler.h"
 

@@ -27,7 +27,7 @@
 #include "services/gadu-chat-service.h"
 
 #include "gadu-chat-image-service.h"
-#include "gadu-chat-image-service.moc"
+#include "moc_gadu-chat-image-service.cpp"
 
 GaduChatImageService::GaduChatImageService(Account account, QObject *parent)
         : ChatImageService(account, parent), ReceiveImages(false)

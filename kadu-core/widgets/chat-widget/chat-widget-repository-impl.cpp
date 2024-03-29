@@ -18,7 +18,7 @@
  */
 
 #include "chat-widget-repository-impl.h"
-#include "chat-widget-repository-impl.moc"
+#include "moc_chat-widget-repository-impl.cpp"
 
 #include "widgets/chat-widget/chat-widget.h"
 

@@ -36,7 +36,7 @@
 #include "protocols/services/contact-personal-info-service.h"
 
 #include "jabber-contact-personal-info-widget.h"
-#include "jabber-contact-personal-info-widget.moc"
+#include "moc_jabber-contact-personal-info-widget.cpp"
 
 JabberContactPersonalInfoWidget::JabberContactPersonalInfoWidget(const Contact &contact, QWidget *parent)
         : QWidget(parent), MyContact(contact)
