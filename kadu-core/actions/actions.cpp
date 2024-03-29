@@ -56,7 +56,7 @@ void Actions::remove(ActionDescription *action)
 {
     QMap<QString, ActionDescription *>::remove(action->name());
 
-    if (!m_sessionService->isClosing())
+    if (m_sessionService && !m_sessionService->isClosing())
         emit actionUnloaded(action);
 }
 
