@@ -20,7 +20,7 @@ if (GIT_FOUND)
 		)
 
 		if (result STREQUAL 0)
-			set (KADU_VERSION "${KADU_VERSION}-g${git_commit}")
+			set (KADU_VERSION "${KADU_VERSION}-git#${git_commit}")
 		endif ()
 	endif ()
 endif ()

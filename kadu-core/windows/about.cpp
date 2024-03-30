@@ -136,6 +136,9 @@ void About::init()
     about_layout->addSpacing(20);
     about_layout->addWidget(new QLabel("(C) 2001-2015 Kadu Team", wb_about));
     about_layout->addWidget(new KaduLink(m_urlOpener, "http://www.kadu.im/", wb_about));
+    about_layout->addSpacing(10);
+    about_layout->addWidget(new QLabel("(C) 2024 pvg", wb_about));
+    about_layout->addWidget(new KaduLink(m_urlOpener, "https://github.com/piotr-wrobel/kadu/", wb_about));
     about_layout->addStretch(100);
 
     // create our info widgets
