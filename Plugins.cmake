@@ -80,7 +80,7 @@ set (DEFAULT_PLUGINS
 	# Sms gateway support
 	sms
 	# Spellchecking in chat window
-	spellchecker
+	#spellchecker
 	# Tabbed chat dialog
 	tabs
 	# Automatic mispelled word replacement
