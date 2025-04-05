@@ -1,6 +1,6 @@
 project (indicator_docking)
 
-cmake_minimum_required (VERSION 3.0)
+cmake_minimum_required (VERSION 3.5)
 
 find_package (Kadu REQUIRED CONFIG)
 find_package (PkgConfig)

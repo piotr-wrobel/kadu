@@ -1,6 +1,6 @@
 project (windows_integration)
 
-cmake_minimum_required (VERSION 3.0)
+cmake_minimum_required (VERSION 3.5)
 
 find_package (Kadu REQUIRED CONFIG)
 
