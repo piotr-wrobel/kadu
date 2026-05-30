@@ -68,7 +68,7 @@ protected:
 public:
     static bool shouldEventGoToFilter(QKeyEvent *event);
 
-    explicit FilteredTreeView(FilterPosition filterPosition, QWidget *parent = nullptr, Qt::WindowFlags f = 0);
+    explicit FilteredTreeView(FilterPosition filterPosition, QWidget *parent = nullptr, Qt::WindowFlags f = {});
     virtual ~FilteredTreeView();
 
     FilterWidget *filterWidget()

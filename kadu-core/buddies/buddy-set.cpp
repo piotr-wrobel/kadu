@@ -56,7 +56,7 @@ bool BuddySet::isAnyTemporary() const
 
 BuddyList BuddySet::toBuddyList() const
 {
-    return toList();
+    return values();
 }
 
 Buddy BuddySet::toBuddy() const

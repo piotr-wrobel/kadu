@@ -97,7 +97,7 @@ QString pwHash(const QString &text)
 QList<int> stringToIntList(const QString &in)
 {
     QList<int> out;
-    for (auto const &it : in.split(';', QString::SkipEmptyParts))
+    for (auto const &it : in.split(';', Qt::SkipEmptyParts))
         out.append(it.toInt());
     return out;
 }
@@ -117,7 +117,7 @@ QRect stringToRect(const QString &value, const QRect *def)
     int l, t, w, h;
     bool ok;
 
-    stringlist = value.split(',', QString::SkipEmptyParts);
+    stringlist = value.split(',', Qt::SkipEmptyParts);
     if (stringlist.count() != 4)
         return rect;
     l = stringlist.at(0).toInt(&ok);

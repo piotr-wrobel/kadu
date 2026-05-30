@@ -82,7 +82,7 @@ void CenzorConfiguration::setSwearList(const QList<QRegExp> &swearList)
 QList<QRegExp> CenzorConfiguration::loadRegExpList(const QString &itemName, const QString &fileName)
 {
     QList<QRegExp> result = toRegExpList(
-        m_configuration->deprecatedApi()->readEntry("PowerKadu", itemName).split('\t', QString::SkipEmptyParts));
+        m_configuration->deprecatedApi()->readEntry("PowerKadu", itemName).split('\t', Qt::SkipEmptyParts));
 
     if (!result.empty())
         return result;

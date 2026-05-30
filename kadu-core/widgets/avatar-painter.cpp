@@ -34,7 +34,7 @@
 #include "avatar-painter.h"
 
 AvatarPainter::AvatarPainter(
-    TalkableDelegateConfiguration *configuration, const QStyleOptionViewItemV4 &option, const QRect &avatarRect,
+    TalkableDelegateConfiguration *configuration, const QStyleOptionViewItem &option, const QRect &avatarRect,
     const QModelIndex &index)
         : Configuration(configuration), Option(option), AvatarRect(avatarRect), Index(index)
 {

@@ -112,9 +112,9 @@ bool CategorizedListViewPrivate::isCategorized() const
     return proxyModel && categoryDrawer && proxyModel->isCategorizedModel();
 }
 
-QStyleOptionViewItemV4 CategorizedListViewPrivate::blockRect(const QModelIndex &representative)
+QStyleOptionViewItem CategorizedListViewPrivate::blockRect(const QModelIndex &representative)
 {
-    QStyleOptionViewItemV4 option(q->viewOptions());
+    QStyleOptionViewItem option(q->viewOptions());
     const int height = categoryDrawer->categoryHeight(representative, option);
     const QString categoryDisplay =
         representative.data(CategorizedSortFilterProxyModel::CategoryDisplayRole).toString();
@@ -981,9 +981,9 @@ void CategorizedListView::paintEvent(QPaintEvent *event)
         const CategorizedListViewPrivate::Block &block = *it;
         const QModelIndex categoryIndex =
             d->proxyModel->index(block.firstIndex.row(), d->proxyModel->sortColumn(), rootIndex());
-        QStyleOptionViewItemV4 option(viewOptions());
-        option.features |= d->alternatingBlockColors && block.alternate ? QStyleOptionViewItemV4::Alternate
-                                                                        : QStyleOptionViewItemV4::None;
+        QStyleOptionViewItem option(viewOptions());
+        option.features |= d->alternatingBlockColors && block.alternate ? QStyleOptionViewItem::Alternate
+                                                                        : QStyleOptionViewItem::None;
         option.state |= !d->collapsibleBlocks || !block.collapsed ? QStyle::State_Open : QStyle::State_None;
         const int height = d->categoryDrawer->categoryHeight(categoryIndex, option);
         QPoint pos = d->blockPosition(it.key());
@@ -1042,7 +1042,7 @@ void CategorizedListView::paintEvent(QPaintEvent *event)
 
             const Qt::ItemFlags flags = d->proxyModel->flags(index);
 
-            QStyleOptionViewItemV4 option(viewOptions());
+            QStyleOptionViewItem option(viewOptions());
 
             option.rect = visualRect(index);
 
@@ -1050,8 +1050,8 @@ void CategorizedListView::paintEvent(QPaintEvent *event)
 
             option.features |= wordWrap() ? QStyleOptionViewItemV2::WrapText : QStyleOptionViewItemV2::None;
 
-            option.features |= alternatingRowColors() && alternateItem ? QStyleOptionViewItemV4::Alternate
-                                                                       : QStyleOptionViewItemV4::None;
+            option.features |= alternatingRowColors() && alternateItem ? QStyleOptionViewItem::Alternate
+                                                                       : QStyleOptionViewItem::None;
 
             if (flags & Qt::ItemIsSelectable)
             {
@@ -1190,7 +1190,7 @@ void CategorizedListView::mouseMoveEvent(QMouseEvent *event)
         const CategorizedListViewPrivate::Block &block = *it;
         const QModelIndex categoryIndex =
             d->proxyModel->index(block.firstIndex.row(), d->proxyModel->sortColumn(), rootIndex());
-        QStyleOptionViewItemV4 option(viewOptions());
+        QStyleOptionViewItem option(viewOptions());
         const int height = d->categoryDrawer->categoryHeight(categoryIndex, option);
         QPoint pos = d->blockPosition(it.key());
         pos.ry() -= height;
@@ -1206,7 +1206,7 @@ void CategorizedListView::mouseMoveEvent(QMouseEvent *event)
             {
                 const QModelIndex categoryIndex =
                     d->proxyModel->index(d->hoveredBlock->firstIndex.row(), d->proxyModel->sortColumn(), rootIndex());
-                const QStyleOptionViewItemV4 option = d->blockRect(categoryIndex);
+                const QStyleOptionViewItem option = d->blockRect(categoryIndex);
                 d->categoryDrawer->mouseLeft(categoryIndex, option.rect);
                 *d->hoveredBlock = block;
                 d->hoveredCategory = it.key();
@@ -1234,7 +1234,7 @@ void CategorizedListView::mouseMoveEvent(QMouseEvent *event)
     {
         const QModelIndex categoryIndex =
             d->proxyModel->index(d->hoveredBlock->firstIndex.row(), d->proxyModel->sortColumn(), rootIndex());
-        const QStyleOptionViewItemV4 option = d->blockRect(categoryIndex);
+        const QStyleOptionViewItem option = d->blockRect(categoryIndex);
         d->categoryDrawer->mouseLeft(categoryIndex, option.rect);
         *d->hoveredBlock = CategorizedListViewPrivate::Block();
         d->hoveredCategory = QString();
@@ -1264,7 +1264,7 @@ void CategorizedListView::mousePressEvent(QMouseEvent *event)
         const CategorizedListViewPrivate::Block &block = *it;
         const QModelIndex categoryIndex =
             d->proxyModel->index(block.firstIndex.row(), d->proxyModel->sortColumn(), rootIndex());
-        const QStyleOptionViewItemV4 option = d->blockRect(categoryIndex);
+        const QStyleOptionViewItem option = d->blockRect(categoryIndex);
         const QPoint mousePos = viewport()->mapFromGlobal(QCursor::pos());
 
         if (option.rect.contains(mousePos))
@@ -1308,7 +1308,7 @@ void CategorizedListView::mouseReleaseEvent(QMouseEvent *event)
         const CategorizedListViewPrivate::Block &block = *it;
         const QModelIndex categoryIndex =
             d->proxyModel->index(block.firstIndex.row(), d->proxyModel->sortColumn(), rootIndex());
-        const QStyleOptionViewItemV4 option = d->blockRect(categoryIndex);
+        const QStyleOptionViewItem option = d->blockRect(categoryIndex);
         const QPoint mousePos = viewport()->mapFromGlobal(QCursor::pos());
 
         if (option.rect.contains(mousePos))
@@ -1348,7 +1348,7 @@ void CategorizedListView::leaveEvent(QEvent *event)
     {
         const QModelIndex categoryIndex =
             d->proxyModel->index(d->hoveredBlock->firstIndex.row(), d->proxyModel->sortColumn(), rootIndex());
-        const QStyleOptionViewItemV4 option = d->blockRect(categoryIndex);
+        const QStyleOptionViewItem option = d->blockRect(categoryIndex);
         d->categoryDrawer->mouseLeft(categoryIndex, option.rect);
         *d->hoveredBlock = CategorizedListViewPrivate::Block();
         d->hoveredCategory = QString();

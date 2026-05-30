@@ -77,7 +77,7 @@ void PluginListWidgetDelegate::_k_slotDataChanged(const QModelIndex &topLeft, co
         for (int j = topLeft.column(); j <= bottomRight.column(); ++j)
         {
             const QModelIndex index = model->index(i, j, topLeft.parent());
-            QStyleOptionViewItemV4 optionView;
+            QStyleOptionViewItem optionView;
             optionView.initFrom(ItemView->viewport());
             optionView.rect = ItemView->visualRect(index);
             widgetPool->findWidgets(index, optionView);
@@ -108,7 +108,7 @@ void PluginListWidgetDelegate::updateRowRange(const QModelIndex &parent, int sta
         for (int j = 0; j < model->columnCount(parent); ++j)
         {
             const QModelIndex index = model->index(i, j, parent);
-            QStyleOptionViewItemV4 optionView;
+            QStyleOptionViewItem optionView;
             optionView.initFrom(ItemView->viewport());
             optionView.rect = ItemView->visualRect(index);
 
@@ -149,7 +149,7 @@ void PluginListWidgetDelegate::initializeModel(const QModelIndex &parent)
 
             if (index.isValid())
             {
-                QStyleOptionViewItemV4 optionView;
+                QStyleOptionViewItem optionView;
                 optionView.initFrom(ItemView->viewport());
                 optionView.rect = ItemView->visualRect(index);
                 widgetPool->findWidgets(index, optionView);

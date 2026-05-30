@@ -51,7 +51,7 @@ public:
     virtual void paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const;
 
 protected:
-    QStyleOptionViewItemV4 getOptions(const QModelIndex &index, const QStyleOptionViewItem &option) const;
+    QStyleOptionViewItem getOptions(const QModelIndex &index, const QStyleOptionViewItem &option) const;
 
 private:
     QPointer<AccountManager> m_accountManager;

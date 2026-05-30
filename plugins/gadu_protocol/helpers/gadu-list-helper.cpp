@@ -369,7 +369,7 @@ Buddy GaduListHelper::line70ToBuddy(Account account, QStringList &sections)
 
     if (!sections[5].isEmpty())
     {
-        for (auto const &group : sections[5].split(',', QString::SkipEmptyParts))
+        for (auto const &group : sections[5].split(',', Qt::SkipEmptyParts))
             groups.insert(m_groupManager->byName(group));
 
         buddy.setGroups(groups);

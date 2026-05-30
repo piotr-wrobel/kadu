@@ -324,7 +324,7 @@ static bool contactPriorityLessThan(const Contact &c1, const Contact &c2)
 
 void BuddyShared::sortContacts()
 {
-    qStableSort(Contacts.begin(), Contacts.end(), contactPriorityLessThan);
+    std::stable_sort(Contacts.begin(), Contacts.end(), contactPriorityLessThan);
 }
 
 void BuddyShared::normalizePriorities()

@@ -74,7 +74,7 @@ void SoundThemeManager::loadThemes()
 {
     m_themes = m_pluginInjectedFactory->makeUnique<Themes>("sounds", "sound.conf");
     m_themes->setPaths(
-        m_configuration->deprecatedApi()->readEntry("Sounds", "SoundPaths").split('&', QString::SkipEmptyParts));
+        m_configuration->deprecatedApi()->readEntry("Sounds", "SoundPaths").split('&', Qt::SkipEmptyParts));
 
     auto soundThemes = themes()->themes();
     auto soundTheme = m_configuration->deprecatedApi()->readEntry("Sounds", "SoundTheme");

@@ -46,7 +46,7 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QStyleOptionViewItemV4>
+#include <QtWidgets/QStyleOptionViewItem>
 
 #define MARGIN 5
 

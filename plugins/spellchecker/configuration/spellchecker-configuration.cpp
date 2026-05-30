@@ -75,7 +75,7 @@ void SpellcheckerConfiguration::configurationUpdated()
     auto color = m_configuration->deprecatedApi()->readColorEntry("ASpell", "Color", &colorMark);
     auto checkedEntry = m_configuration->deprecatedApi()->readEntry(
         "ASpell", "Checked", m_configuration->deprecatedApi()->readEntry("General", "Language"));
-    auto checked = checkedEntry == "empty" ? QStringList{} : checkedEntry.split(',', QString::SkipEmptyParts);
+    auto checked = checkedEntry == "empty" ? QStringList{} : checkedEntry.split(',', Qt::SkipEmptyParts);
     int suggesterWordCount = m_configuration->deprecatedApi()->readNumEntry("ASpell", "SuggesterWordCount");
 
     if (bold == Bold && italic == Italic && underline == Underline && accents == Accents && caseSensivity == Case &&

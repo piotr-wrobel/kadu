@@ -71,9 +71,9 @@ void FirewallNotificationService::done()
 void FirewallNotificationService::notifyBlockedMessage(const Chat &chat, const Contact &sender, const QString &message)
 {
     auto data = QVariantMap{};
-    data.insert(QStringLiteral("account"), qVariantFromValue(chat.chatAccount()));
-    data.insert(QStringLiteral("chat"), qVariantFromValue(chat));
-    data.insert(QStringLiteral("contact"), qVariantFromValue(sender));
+    data.insert(QStringLiteral("account"), QVariant::fromValue(chat.chatAccount()));
+    data.insert(QStringLiteral("chat"), QVariant::fromValue(chat));
+    data.insert(QStringLiteral("contact"), QVariant::fromValue(sender));
 
     auto notification = Notification{};
     notification.type = m_blockedMessageEvent.name();

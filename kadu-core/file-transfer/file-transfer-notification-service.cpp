@@ -121,8 +121,8 @@ void FileTransferNotificationService::notifyIncomingFileTransfer(const FileTrans
     auto chat = ChatTypeContact::findChat(m_chatManager, m_chatStorage, fileTransfer.peer(), ActionCreateAndAdd);
 
     auto data = QVariantMap{};
-    data.insert(QStringLiteral("file-transfer"), qVariantFromValue(fileTransfer));
-    data.insert(QStringLiteral("chat"), qVariantFromValue(chat));
+    data.insert(QStringLiteral("file-transfer"), QVariant::fromValue(fileTransfer));
+    data.insert(QStringLiteral("chat"), QVariant::fromValue(chat));
 
     auto notification = Notification{};
     notification.type = QStringLiteral("FileTransfer/IncomingFile");

@@ -68,7 +68,7 @@ void ConfigPathListEdit::loadConfiguration()
 {
     if (!dataManager)
         return;
-    setPathList(dataManager->readEntry(section, item).toString().split(QRegExp("&"), QString::SkipEmptyParts));
+    setPathList(dataManager->readEntry(section, item).toString().split(QRegExp("&"), Qt::SkipEmptyParts));
 }
 
 void ConfigPathListEdit::saveConfiguration()

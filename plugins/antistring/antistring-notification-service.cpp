@@ -64,8 +64,8 @@ void AntistringNotificationService::done()
 void AntistringNotificationService::notifyStringReceived(const Chat &chat)
 {
     auto data = QVariantMap{};
-    data.insert(QStringLiteral("account"), qVariantFromValue(chat.chatAccount()));
-    data.insert(QStringLiteral("chat"), qVariantFromValue(chat));
+    data.insert(QStringLiteral("account"), QVariant::fromValue(chat.chatAccount()));
+    data.insert(QStringLiteral("chat"), QVariant::fromValue(chat));
 
     auto notification = Notification{};
     notification.type = m_stringReceivedEvent.name();

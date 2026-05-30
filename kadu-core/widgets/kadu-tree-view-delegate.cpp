@@ -100,10 +100,10 @@ void KaduTreeViewDelegate::setUseConfigurationColors(bool use)
     Configuration->setUseConfigurationColors(use);
 }
 
-QStyleOptionViewItemV4
+QStyleOptionViewItem
 KaduTreeViewDelegate::getOptions(const QModelIndex &index, const QStyleOptionViewItem &option) const
 {
-    QStyleOptionViewItemV4 opt = setOptions(index, option);
+    QStyleOptionViewItem opt = setOptions(index, option);
 
     const QStyleOptionViewItemV2 *v2 = qstyleoption_cast<const QStyleOptionViewItemV2 *>(&option);
     opt.features = v2 ? v2->features : QStyleOptionViewItemV2::ViewItemFeatures(QStyleOptionViewItemV2::None);
@@ -122,7 +122,7 @@ QSize KaduTreeViewDelegate::sizeHint(const QStyleOptionViewItem &option, const Q
 
 void KaduTreeViewDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const
 {
-    QStyleOptionViewItemV4 options = getOptions(index, option);
+    QStyleOptionViewItem options = getOptions(index, option);
 
     const QAbstractItemView *widget = qobject_cast<const QAbstractItemView *>(options.widget);
     if (!widget)

@@ -78,7 +78,7 @@ bool CenzorMessageFilter::acceptMessage(const Message &message)
 
 bool CenzorMessageFilter::shouldIgnore(const QString &message)
 {
-    QStringList words = message.split(' ', QString::SkipEmptyParts);
+    QStringList words = message.split(' ', Qt::SkipEmptyParts);
 
     for (const QString &word : words)
     {

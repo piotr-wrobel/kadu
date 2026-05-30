@@ -38,13 +38,13 @@ PluginStateStorage09::load(Configuration *configuration, const ::std::set<QStrin
     auto result = QMap<QString, PluginState>{};
 
     auto everLoaded =
-        configuration->deprecatedApi()->readEntry("General", "EverLoaded").split(',', QString::SkipEmptyParts).toSet();
+        configuration->deprecatedApi()->readEntry("General", "EverLoaded").split(',', Qt::SkipEmptyParts).toSet();
     auto loaded = configuration->deprecatedApi()->readEntry("General", "LoadedModules");
 
-    auto loadedPlugins = loaded.split(',', QString::SkipEmptyParts).toSet();
+    auto loadedPlugins = loaded.split(',', Qt::SkipEmptyParts).toSet();
     everLoaded += loadedPlugins;
     auto unloaded_str = configuration->deprecatedApi()->readEntry("General", "UnloadedModules");
-    auto unloadedPlugins = unloaded_str.split(',', QString::SkipEmptyParts).toSet();
+    auto unloadedPlugins = unloaded_str.split(',', Qt::SkipEmptyParts).toSet();
 
     auto allPlugins = everLoaded + unloadedPlugins;   // just in case...
     QSet<QString> oldPlugins;

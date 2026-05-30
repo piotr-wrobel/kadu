@@ -92,7 +92,7 @@ void GroupManager::importConfiguration()
 
     QVector<QDomElement> contactsElements = configurationStorage->getNodes(contactsNode, "Contact");
     for (auto const &contactElement : contactsElements)
-        for (auto const newGroup : contactElement.attribute("groups").split(',', QString::SkipEmptyParts))
+        for (auto const newGroup : contactElement.attribute("groups").split(',', Qt::SkipEmptyParts))
             groups << newGroup;
 
     for (auto const &groupName : groups)

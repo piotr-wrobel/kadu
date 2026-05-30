@@ -156,7 +156,7 @@ void StatusNotificationService::notifyStatusChanged(Contact contact, Status oldS
 
     auto chat = ChatTypeContact::findChat(m_chatManager, m_chatStorage, contact, ActionCreateAndAdd);
     auto data = QVariantMap{};
-    data.insert(QStringLiteral("chat"), qVariantFromValue(chat));
+    data.insert(QStringLiteral("chat"), QVariant::fromValue(chat));
 
     auto icon = contact.contactAccount().protocolHandler()->statusIcon(Status{contact.currentStatus().type()});
 

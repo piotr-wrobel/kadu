@@ -79,7 +79,7 @@ QList<NotificationEvent> OtrNotifier::notifyEvents()
 void OtrNotifier::notify(const QString &topic, const Account &account, const NormalizedHtmlString &message)
 {
     auto data = QVariantMap{};
-    data.insert("account", qVariantFromValue(account));
+    data.insert("account", QVariant::fromValue(account));
 
     auto notification = Notification{};
     notification.type = topic;

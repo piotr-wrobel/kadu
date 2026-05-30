@@ -90,8 +90,8 @@ void MultilogonNotificationService::done()
 void MultilogonNotificationService::notifyMultilogonSessionConnected(const MultilogonSession &session)
 {
     auto data = QVariantMap{};
-    data.insert(QStringLiteral("account"), qVariantFromValue(session.account));
-    data.insert(QStringLiteral("multilogon-session"), qVariantFromValue(session));
+    data.insert(QStringLiteral("account"), QVariant::fromValue(session.account));
+    data.insert(QStringLiteral("multilogon-session"), QVariant::fromValue(session));
 
     auto notification = Notification{};
     notification.type = m_multilogonConnectedEvent.name();
@@ -110,7 +110,7 @@ void MultilogonNotificationService::notifyMultilogonSessionConnected(const Multi
 void MultilogonNotificationService::notifyMultilogonSessionDisonnected(const MultilogonSession &session)
 {
     auto data = QVariantMap{};
-    data.insert(QStringLiteral("account"), qVariantFromValue(session.account));
+    data.insert(QStringLiteral("account"), QVariant::fromValue(session.account));
 
     auto notification = Notification{};
     notification.type = m_multilogonDisconnectedEvent.name();

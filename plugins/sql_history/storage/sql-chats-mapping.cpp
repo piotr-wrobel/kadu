@@ -201,7 +201,7 @@ Chat SqlChatsMapping::stringToChat(const Account &account, const QString &string
     if (!account)
         return m_chatStorage->create("");
 
-    QStringList items = string.split(";", QString::SkipEmptyParts);
+    QStringList items = string.split(";", Qt::SkipEmptyParts);
     int len = items.length();
 
     if (len < 2)

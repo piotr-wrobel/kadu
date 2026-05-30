@@ -67,8 +67,8 @@ PluginMetadataReader::readPluginMetadata(const QString &pluginName, const QStrin
     result.version = file.value("Module/Version").toString() == "core" ? m_versionService->version()
                                                                        : file.value("Module/Version").toString();
     result.provides = file.value("Module/Provides").toString();
-    result.dependencies = file.value("Module/Dependencies").toString().split(' ', QString::SkipEmptyParts);
-    result.replaces = file.value("Module/Replaces").toString().split(' ', QString::SkipEmptyParts);
+    result.dependencies = file.value("Module/Dependencies").toString().split(' ', Qt::SkipEmptyParts);
+    result.replaces = file.value("Module/Replaces").toString().split(' ', Qt::SkipEmptyParts);
     result.loadByDefault = file.value("Module/LoadByDefault").toBool();
     result.internal = file.value("Module/Internal").toBool();
 

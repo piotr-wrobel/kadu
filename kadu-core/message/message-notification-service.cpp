@@ -88,8 +88,8 @@ void MessageNotificationService::done()
 void MessageNotificationService::notifyNewChat(const Message &message)
 {
     auto data = QVariantMap{};
-    data.insert(QStringLiteral("account"), qVariantFromValue(message.messageChat().chatAccount()));
-    data.insert(QStringLiteral("chat"), qVariantFromValue(message.messageChat()));
+    data.insert(QStringLiteral("account"), QVariant::fromValue(message.messageChat().chatAccount()));
+    data.insert(QStringLiteral("chat"), QVariant::fromValue(message.messageChat()));
 
     auto notification = Notification{};
     notification.type = m_newChatEvent.name();
@@ -107,8 +107,8 @@ void MessageNotificationService::notifyNewChat(const Message &message)
 void MessageNotificationService::notifyNewMessage(const Message &message)
 {
     auto data = QVariantMap{};
-    data.insert(QStringLiteral("account"), qVariantFromValue(message.messageChat().chatAccount()));
-    data.insert(QStringLiteral("chat"), qVariantFromValue(message.messageChat()));
+    data.insert(QStringLiteral("account"), QVariant::fromValue(message.messageChat().chatAccount()));
+    data.insert(QStringLiteral("chat"), QVariant::fromValue(message.messageChat()));
 
     auto notification = Notification{};
     notification.type = m_newMessageEvent.name();

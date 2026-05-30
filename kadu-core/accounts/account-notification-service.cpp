@@ -122,7 +122,7 @@ void AccountNotificationService::notifyConnectionError(
         QStringLiteral("notify:last-connection-error"), QDateTime::currentDateTime(), CustomProperties::NonStorable);
 
     auto data = QVariantMap{};
-    data.insert(QStringLiteral("account"), qVariantFromValue(account));
+    data.insert(QStringLiteral("account"), QVariant::fromValue(account));
     data.insert(QStringLiteral("error-server"), errorServer);
     data.insert(QStringLiteral("error-message"), errorMessage);
 
