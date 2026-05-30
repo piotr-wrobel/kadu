@@ -273,7 +273,7 @@ bool TalkablePainter::drawDisabled() const
 
 QTextDocument *TalkablePainter::createDescriptionDocument(const QString &text, int width, QColor color) const
 {
-    QString description = Qt::escape(text).replace(
+    QString description = text.toHtmlEscaped().replace(
         '\n', Configuration->showMultiLineDescription() ? QStringLiteral("<br/>") : QStringLiteral(" "));
 
     QTextDocument *const doc = new QTextDocument();

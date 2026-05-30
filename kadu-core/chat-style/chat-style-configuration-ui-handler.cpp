@@ -37,6 +37,7 @@
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QSizePolicy>
+#include <algorithm>
 
 ChatStyleConfigurationUiHandler::ChatStyleConfigurationUiHandler(QObject *parent)
         : QObject{parent}, m_compositingEnabled{false}, m_syntaxListCombo{nullptr}, m_variantListCombo{nullptr},
@@ -80,9 +81,10 @@ void ChatStyleConfigurationUiHandler::mainConfigurationWindowCreated(MainConfigu
 
     m_syntaxListCombo = new QComboBox(editor);
     auto styleNames = m_chatStyleManager->availableStyles().keys();
-    qSort(styleNames.begin(), styleNames.end(), [](const QString &s1, const QString &s2) {
-        return s1.toLower() < s2.toLower();
-    });
+    std::sort(styleNames.begin(), styleNames.end(),
+          [](const QString &s1, const QString &s2) {
+              return s1.toLower() < s2.toLower();
+          });
     m_syntaxListCombo->addItems(styleNames);
     m_syntaxListCombo->setCurrentIndex(m_syntaxListCombo->findText(m_chatStyleManager->currentChatStyle().name()));
     connect(m_syntaxListCombo, SIGNAL(activated(const QString &)), this, SLOT(styleChangedSlot(const QString &)));

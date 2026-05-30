@@ -71,7 +71,7 @@ void KaduStyleRenderer::init()
         "</html>"};
 
     configuration().webFrame().setHtml(
-        html.arg(Qt::escape(m_chatStyleManager->mainStyle())).arg(configuration().javaScript()).arg(top));
+        html.arg(m_chatStyleManager->mainStyle().toHtmlEscaped()).arg(configuration().javaScript()).arg(top));
 
     setReady();
 }
@@ -92,7 +92,7 @@ void KaduStyleRenderer::appendChatMessage(const Message &message, const MessageR
     html.replace('\\', QStringLiteral("\\\\"));
     html.replace('\'', QStringLiteral("\\'"));
     if (!message.id().isEmpty())
-        html.prepend(QString("<span class=\"kadu_message\" id=\"message_%1\">").arg(Qt::escape(message.id())));
+        html.prepend(QString("<span class=\"kadu_message\" id=\"message_%1\">").arg(message.id().toHtmlEscaped()));
     else
         html.prepend("<span class=\"kadu_message\">");
     html.append("</span>");
@@ -103,21 +103,21 @@ void KaduStyleRenderer::appendChatMessage(const Message &message, const MessageR
 void KaduStyleRenderer::displayMessageStatus(const QString &id, MessageStatus status)
 {
     configuration().webFrame().evaluateJavaScript(
-        QString("kadu_messageStatusChanged(\"%1\", %2);").arg(Qt::escape(id)).arg(static_cast<int>(status)));
+        QString("kadu_messageStatusChanged(\"%1\", %2);").arg(id.toHtmlEscaped()).arg(static_cast<int>(status)));
 }
 
 void KaduStyleRenderer::displayChatState(ChatState state, const QString &message, const QString &name)
 {
     configuration().webFrame().evaluateJavaScript(QString("kadu_contactActivityChanged(%1, \"%2\", \"%3\");")
                                                       .arg(static_cast<int>(state))
-                                                      .arg(Qt::escape(message))
-                                                      .arg(Qt::escape(name)));
+                                                      .arg(message.toHtmlEscaped())
+                                                      .arg(name.toHtmlEscaped()));
 }
 
 void KaduStyleRenderer::displayChatImage(const ChatImage &chatImage, const QString &fileName)
 {
     configuration().webFrame().evaluateJavaScript(
-        QString("kadu_chatImageAvailable(\"%1\", \"%2\");").arg(Qt::escape(chatImage.key())).arg(Qt::escape(fileName)));
+        QString("kadu_chatImageAvailable(\"%1\", \"%2\");").arg(chatImage.key().toHtmlEscaped()).arg(fileName.toHtmlEscaped()));
 }
 
 QString KaduStyleRenderer::formatMessage(const Message &message, const MessageRenderInfo &messageRenderInfo)

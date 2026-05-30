@@ -290,7 +290,7 @@ ParserToken Parser::parsePercentSyntax(const QString &s, int &idx, const Talkabl
         {
             QString description = contact.currentStatus().description();
             if (escape == ParserEscape::HtmlEscape)
-                description = Qt::escape(description);
+                description = description.toHtmlEscaped();
 
             pe.setContent(description);
 
@@ -331,7 +331,7 @@ ParserToken Parser::parsePercentSyntax(const QString &s, int &idx, const Talkabl
 
         QString nickName = chat ? m_chatDataExtractor->data(chat, Qt::DisplayRole).toString() : buddy.nickName();
         if (escape == ParserEscape::HtmlEscape)
-            nickName = Qt::escape(nickName);
+            nickName = nickName.toHtmlEscaped();
 
         pe.setContent(nickName);
 
@@ -343,7 +343,7 @@ ParserToken Parser::parsePercentSyntax(const QString &s, int &idx, const Talkabl
 
         QString display = chat ? m_chatDataExtractor->data(chat, Qt::DisplayRole).toString() : buddy.display();
         if (escape == ParserEscape::HtmlEscape)
-            display = Qt::escape(display);
+            display = display.toHtmlEscaped();
 
         pe.setContent(display);
 
@@ -355,7 +355,7 @@ ParserToken Parser::parsePercentSyntax(const QString &s, int &idx, const Talkabl
 
         QString firstName = buddy.firstName();
         if (escape == ParserEscape::HtmlEscape)
-            firstName = Qt::escape(firstName);
+            firstName = firstName.toHtmlEscaped();
 
         pe.setContent(firstName);
 
@@ -367,7 +367,7 @@ ParserToken Parser::parsePercentSyntax(const QString &s, int &idx, const Talkabl
 
         QString lastName = buddy.lastName();
         if (escape == ParserEscape::HtmlEscape)
-            lastName = Qt::escape(lastName);
+            lastName = lastName.toHtmlEscaped();
 
         pe.setContent(lastName);
 

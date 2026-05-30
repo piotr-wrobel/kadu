@@ -155,7 +155,7 @@ void About::init()
     tb_thanks->setReadOnly(true);
     tb_thanks->setFrameStyle(QFrame::NoFrame);
     tb_thanks->viewport()->setAutoFillBackground(false);
-    QString thanks = Qt::escape(loadFile("THANKS"));
+    QString thanks = loadFile("THANKS").toHtmlEscaped();
     thanks.prepend("<b>");
     thanks.replace("\n\n", QStringLiteral("</b><br/><br/>"));
     thanks.replace("\n", "<br/>");
@@ -181,7 +181,7 @@ void About::init()
     tb_changelog->setOpenLinks(false);
     tb_changelog->setFrameStyle(QFrame::NoFrame);
     tb_changelog->viewport()->setAutoFillBackground(false);
-    QString changelog = Qt::escape(loadFile("ChangeLog"));
+    QString changelog = loadFile("ChangeLog").toHtmlEscaped();
     changelog.replace('\n', "<br/>");
     // #bug_no -> Redmine URL
     changelog.replace(QRegExp("#(\\d+)"), "<a href=\"http://www.kadu.im/redmine/issues/\\1\">#\\1</a>");

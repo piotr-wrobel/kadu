@@ -233,6 +233,7 @@ signals:
     void checkedBuddiesChanged(const BuddySet &checkedBuddies);
 
 protected:
+    QHash<int, QByteArray> roleNames() const override;
     /**
      * @short Method called every time a new account is registerd.
      * @param account just registered account
@@ -257,6 +258,7 @@ private:
     QPointer<ContactDataExtractor> m_contactDataExtractor;
     QPointer<ContactManager> m_contactManager;
     QPointer<TalkableConverter> m_talkableConverter;
+    QHash<int, QByteArray> m_roles;
 
     bool Checkable;
     BuddyList List;

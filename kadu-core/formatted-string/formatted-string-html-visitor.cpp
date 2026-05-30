@@ -48,7 +48,7 @@ void FormattedStringHtmlVisitor::endVisit(const CompositeFormattedString *const 
 void FormattedStringHtmlVisitor::visit(const FormattedStringImageBlock *const formattedStringImageBlock)
 {
     auto imagePath = formattedStringImageBlock->imagePath();
-    auto escapedImagePath = Qt::escape(imagePath);
+    auto escapedImagePath = imagePath.toHtmlEscaped();
     auto imageKey = formattedStringImageBlock->image().key();
     auto escapedImageKey = imageKey;
 
@@ -64,7 +64,7 @@ void FormattedStringHtmlVisitor::visit(const FormattedStringImageBlock *const fo
 
 void FormattedStringHtmlVisitor::visit(const FormattedStringTextBlock *const formattedStringTextBlock)
 {
-    QString content(replacedNewLine(Qt::escape(formattedStringTextBlock->content()), QStringLiteral("<br/>")));
+    QString content(replacedNewLine(formattedStringTextBlock->content().toHtmlEscaped(), QStringLiteral("<br/>")));
 
     if (!formattedStringTextBlock->bold() && !formattedStringTextBlock->italic() &&
         !formattedStringTextBlock->underline())
