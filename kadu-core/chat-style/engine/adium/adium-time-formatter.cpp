@@ -138,11 +138,11 @@ static void finishStr(
         if (length < 3)
             appendInt(str, date.month(), length);
         else if (length == 3)
-            str += QDate::shortMonthName(date.month());
+            str += QLocale::system().monthName(date.month(), QLocale::ShortFormat);
         else if (length == 4)
-            str += QDate::longMonthName(date.month());
+            str += QLocale::system().monthName(date.month(), QLocale::LongFormat);
         else
-            str += QDate::shortMonthName(date.month()).at(0);
+            str += QLocale::system().monthName(date.month(), QLocale::ShortFormat).at(0);
         break;
     case L'w':
         TRIM_LENGTH(2);
@@ -174,14 +174,21 @@ static void finishStr(
             appendInt(str, date.dayOfWeek(), length);
             break;
         }
-    case L'E':
-        if (length < 4)
-            str += QDate::shortDayName(date.dayOfWeek());
-        else if (length == 4)
-            str += QDate::longDayName(date.dayOfWeek());
-        else
-            str += QDate::shortDayName(date.dayOfWeek()).at(0);
-        break;
+	case L'E':
+	{
+		const auto locale = QLocale::system();
+		if (length < 4)
+			str += locale.dayName(date.dayOfWeek(), QLocale::ShortFormat);
+		else if (length == 4)
+			str += locale.dayName(date.dayOfWeek(), QLocale::LongFormat);
+		else {
+			const auto narrow = locale.dayName(date.dayOfWeek(), QLocale::NarrowFormat);
+			str += narrow.isEmpty()
+				? locale.dayName(date.dayOfWeek(), QLocale::ShortFormat).left(1)
+				: narrow;
+		}
+		break;
+	}
     case L'a':
         str += time.hour() < 12 ? "AM" : "PM";
         break;
@@ -263,18 +270,18 @@ QString convertTimeDate(SystemInfo *systemInfo, const QString &mac_format, const
                 case L'%':
                     str += *chars;
                     break;
-                case L'a':
-                    appendStr(str, QDate::shortDayName(date.dayOfWeek()), length);
-                    break;
-                case L'A':
-                    appendStr(str, QDate::longDayName(date.dayOfWeek()), length);
-                    break;
-                case L'b':
-                    appendStr(str, QDate::shortMonthName(date.day()), length);
-                    break;
-                case L'B':
-                    appendStr(str, QDate::longMonthName(date.day()), length);
-                    break;
+				case L'a':
+					appendStr(str, QLocale::system().dayName(date.dayOfWeek(), QLocale::ShortFormat), length);
+					break;
+				case L'A':
+					appendStr(str, QLocale::system().dayName(date.dayOfWeek(), QLocale::LongFormat), length);
+					break;
+				case L'b':
+					appendStr(str, QLocale::system().monthName(date.month(), QLocale::ShortFormat), length);
+					break;
+				case L'B':
+					appendStr(str, QLocale::system().monthName(date.month(), QLocale::LongFormat), length);
+					break;
                 case L'c':
                     appendStr(str, QLocale::system().toString(datetime), length);
                     break;

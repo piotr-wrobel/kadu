@@ -112,7 +112,7 @@ void WebViewHighlighter::selectPrevious(const QString &select)
 
 void WebViewHighlighter::clearSelect()
 {
-    chatMessagesView()->findText(QString(), 0);
+    chatMessagesView()->findText(QString(), QWebPage::FindFlags());
     chatMessagesView()->updateAtBottom();
 
     emit somethingFound(true);

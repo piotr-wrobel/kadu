@@ -27,7 +27,7 @@
 
 MergedProxyModel::MergedProxyModel(QObject *parent) : QAbstractItemModel(parent)
 {
-    setSupportedDragActions(Qt::LinkAction);
+    //setSupportedDragActions(Qt::LinkAction);
 }
 
 MergedProxyModel::~MergedProxyModel()
@@ -443,4 +443,9 @@ QMimeData *MergedProxyModel::mimeData(const QModelIndexList &proxyIndexes) const
     }
 
     return mergedMimeData;
+}
+
+Qt::DropActions MergedProxyModel::supportedDragActions() const
+{
+    return Qt::LinkAction;
 }

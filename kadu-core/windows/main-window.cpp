@@ -190,7 +190,7 @@ void MainWindow::loadToolBarsFromConfigNode(QDomElement dockareaConfig, Qt::Tool
     int currentLine = 0;
     if (area == Qt::LeftToolBarArea || area == Qt::RightToolBarArea)
     {
-        qSort(toolBars.begin(), toolBars.end(), verticalToolbarComparator);
+        std::sort(toolBars.begin(), toolBars.end(), verticalToolbarComparator);
         for (auto toolBar : toolBars)
         {
             if (toolBar->xOffset() != currentLine)
@@ -202,7 +202,7 @@ void MainWindow::loadToolBarsFromConfigNode(QDomElement dockareaConfig, Qt::Tool
     }
     else
     {
-        qSort(toolBars.begin(), toolBars.end(), horizontalToolbarComparator);
+        std::sort(toolBars.begin(), toolBars.end(), horizontalToolbarComparator);
         for (auto toolBar : toolBars)
         {
             if (toolBar->yOffset() != currentLine)

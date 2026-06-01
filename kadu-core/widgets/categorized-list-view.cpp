@@ -352,7 +352,7 @@ void CategorizedListViewPrivate::rowsInserted(const QModelIndex &parent, int sta
         const QModelIndex firstAffectedCategory = blocks[category].firstIndex;
         // BEGIN: order for marking as alternate those blocks that are alternate
         QList<Block> blockList = blocks.values();
-        qSort(blockList.begin(), blockList.end(), Block::lessThan);
+       std::sort(blockList.begin(), blockList.end(), Block::lessThan);
         QList<int> firstIndexesRows;
         for (auto const &block : blockList)
         {
@@ -1653,7 +1653,7 @@ void CategorizedListView::rowsAboutToBeRemoved(const QModelIndex &parent, int st
     {
         // BEGIN: order for marking as alternate those blocks that are alternate
         QList<CategorizedListViewPrivate::Block> blockList = d->blocks.values();
-        qSort(blockList.begin(), blockList.end(), CategorizedListViewPrivate::Block::lessThan);
+        std::sort(blockList.begin(), blockList.end(), CategorizedListViewPrivate::Block::lessThan);
         QList<int> firstIndexesRows;
         for (auto const &block : blockList)
         {

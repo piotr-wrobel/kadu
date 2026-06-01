@@ -215,6 +215,7 @@ public:
 
     virtual QStringList mimeTypes() const;
     virtual QMimeData *mimeData(const QModelIndexList &proxyIndexes) const;
+    Qt::DropActions supportedDragActions() const override;
 };
 
 /**

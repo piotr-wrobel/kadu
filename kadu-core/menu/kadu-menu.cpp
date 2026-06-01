@@ -118,7 +118,7 @@ void KaduMenu::sort()
     if (IsSorted)
         return;
 
-    qSort(Items.begin(), Items.end(), lessThan);
+    std::sort(Items.begin(), Items.end(), lessThan);
     IsSorted = true;
 }
 

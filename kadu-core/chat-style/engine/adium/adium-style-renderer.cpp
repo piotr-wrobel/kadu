@@ -358,7 +358,7 @@ QString AdiumStyleRenderer::replaceKeywords(
             light = senderColorRegExp.cap(1).toInt(&doLight);
 
         if (doLight && lightColorName.isNull())
-            lightColorName = QColor(nickColor).light(light).name();
+            lightColorName = QColor(nickColor).lighter(light).name();
 
         result.replace(textPos, senderColorRegExp.cap(0).length(), (doLight ? lightColorName : nickColor).toHtmlEscaped());
     }

@@ -31,6 +31,8 @@
 #include <QtGui/QDesktopServices>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDesktopWidget>
+#include <QGuiApplication>
+#include <QScreen>
 #include <assert.h>
 
 #include "accounts/account-manager.h"
@@ -54,7 +56,10 @@ QString replacedNewLine(const QString &text, const QString &newLineText)
 QRect properGeometry(const QRect &rect)
 {
     QRect geometry(rect.normalized());
-    QRect availableGeometry = QApplication::desktop()->availableGeometry(geometry.center());
+    QScreen *screen = QGuiApplication::screenAt(geometry.center());
+	QRect availableGeometry = screen
+		? screen->availableGeometry()
+		: QGuiApplication::primaryScreen()->availableGeometry();
 
     // correct size
     if (geometry.width() > availableGeometry.width())

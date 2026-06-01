@@ -750,7 +750,7 @@ QMenu *ToolBar::createContextMenu(QWidget *widget)
             }
         }
 
-        qSort(actions.begin(), actions.end(), actionTextLessThan);
+       std::sort(actions.begin(), actions.end(), actionTextLessThan);
         for (auto action : actions)
             actionsMenu->addAction(action);
 
