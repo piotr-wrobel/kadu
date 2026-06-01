@@ -199,7 +199,7 @@ void Hint::mouseReleaseEvent(QMouseEvent *event)
         emit rightButtonClicked(this);
         break;
 
-    case Qt::MidButton:
+    case Qt::MiddleButton:
         emit midButtonClicked(this);
         break;
 

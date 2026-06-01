@@ -225,7 +225,7 @@ void WordFixConfigurationUiHandler::addNew()
     if (wordStr.isEmpty())
         return;
 
-    if (m_list->findItems(wordStr, 0, Qt::MatchExactly).isEmpty())
+    if (m_list->findItems(wordStr, Qt::MatchExactly, 0).isEmpty())
     {
         QTreeWidgetItem *item = new QTreeWidgetItem(m_list);
         item->setText(0, wordStr);
@@ -244,7 +244,7 @@ void WordFixConfigurationUiHandler::addNew()
 void WordFixConfigurationUiHandler::moveToNewValue()
 {
     // sprawdz czy podane slowo znajduje sie na liscie i jesli tak to umozliw edycje
-    QList<QTreeWidgetItem *> items = m_list->findItems(m_wordEdit->text(), 0, Qt::MatchExactly);
+   QList<QTreeWidgetItem *> items = m_list->findItems(m_wordEdit->text(), Qt::MatchExactly, 0);
     if (!items.isEmpty())
     {
         QTreeWidgetItem *item = items.at(0);

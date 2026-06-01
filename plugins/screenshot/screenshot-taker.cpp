@@ -29,6 +29,8 @@
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStyle>
 #include <QtWidgets/QVBoxLayout>
+#include <QGuiApplication>
+#include <QScreen>
 
 #include "icons/icons-manager.h"
 #include "icons/kadu-icon.h"
@@ -160,7 +162,8 @@ void ScreenshotTaker::mouseReleaseEvent(QMouseEvent *e)
 
 void ScreenshotTaker::takeShot()
 {
-    QPixmap pixmap = QPixmap::grabWindow(QApplication::desktop()->winId());
+	QScreen *screen = QGuiApplication::primaryScreen();
+	QPixmap pixmap = screen ? screen->grabWindow(0) : QPixmap();
 
     hide();
     CurrentChatWidget->window()->show();

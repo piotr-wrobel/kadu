@@ -25,6 +25,7 @@
 #include <QtCore/QObject>
 #include <QtCore/QPointer>
 #include <QtCore/QTime>
+#include <QElapsedTimer>
 #include <injeqt/injeqt.h>
 
 class Configuration;
@@ -40,7 +41,7 @@ class Speech : public QObject, public Notifier
 {
     Q_OBJECT
 
-    QTime lastSpeech;
+    QElapsedTimer lastSpeech;
 
 public:
     Q_INVOKABLE explicit Speech(QObject *parent = nullptr);

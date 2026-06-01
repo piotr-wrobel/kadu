@@ -125,6 +125,9 @@ void Speech::say(
 
 void Speech::notify(const Notification &notification)
 {
+    if (!lastSpeech.isValid())
+		lastSpeech.start();
+    
     if (lastSpeech.elapsed() < 1500)
     {
         return;

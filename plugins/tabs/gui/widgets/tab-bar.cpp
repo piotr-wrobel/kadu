@@ -36,7 +36,7 @@ void TabBar::mousePressEvent(QMouseEvent *e)
 
 void TabBar::mouseReleaseEvent(QMouseEvent *e)
 {
-    if (tabAt(e->pos()) != -1 && e->button() == Qt::MidButton)
+    if (tabAt(e->pos()) != -1 && e->button() == Qt::MiddleButton)
         emit tabCloseRequested(tabAt(e->pos()));
     QTabBar::mouseReleaseEvent(e);
 }

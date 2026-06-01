@@ -123,7 +123,7 @@ bool LineEditWithClearButton::canShowClearButton()
 
 void LineEditWithClearButton::mousePressEvent(QMouseEvent *e)
 {
-    if ((e->button() == Qt::LeftButton || e->button() == Qt::MidButton) && ClearButton)
+    if ((e->button() == Qt::LeftButton || e->button() == Qt::MiddleButton) && ClearButton)
         ClickInClear = ClearButton->underMouse();
     QLineEdit::mousePressEvent(e);
 }

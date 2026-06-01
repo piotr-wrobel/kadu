@@ -26,6 +26,8 @@
 #include <QtGui/QBitmap>
 #include <QtGui/QPainter>
 #include <QtGui/QPixmap>
+#include <QGuiApplication>
+#include <QScreen>
 #if defined(Q_OS_UNIX)
 #include <QtX11Extras/QX11Info>
 #else
@@ -104,7 +106,13 @@ Window PixmapGrabber::windowUnderCursor(bool includeDecorations)
 
 QPixmap PixmapGrabber::grabWindow(Window child, int x, int y, uint w, uint h, uint border)
 {
-    QPixmap pm(QPixmap::grabWindow(QX11Info::appRootWindow(), x, y, static_cast<int>(w), static_cast<int>(h)));
+    QScreen *screen = QGuiApplication::primaryScreen();
+	QPixmap pm = screen
+		? screen->grabWindow(QX11Info::appRootWindow(),
+                         x, y,
+                         static_cast<int>(w),
+                         static_cast<int>(h))
+		: QPixmap();
 
     int tmp1, tmp2;
     // Check whether the extension is available
@@ -140,8 +148,11 @@ QPixmap PixmapGrabber::grabWindow(Window child, int x, int y, uint w, uint h, ui
 
             // Get the masked away area.
             QRegion maskedAway = bbox - contents;
-            QVector<QRect> maskedAwayRects = maskedAway.rects();
+			QVector<QRect> maskedAwayRects;
+			maskedAwayRects.reserve(maskedAway.rectCount());
 
+			for (const QRect &rect : maskedAway)
+				maskedAwayRects.append(rect);
             // Construct a bitmap mask from the rectangles
             QPainter p(&mask);
             p.fillRect(0, 0, static_cast<int>(w), static_cast<int>(h), Qt::color1);
