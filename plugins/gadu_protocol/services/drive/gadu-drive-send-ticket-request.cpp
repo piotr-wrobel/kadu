@@ -75,7 +75,7 @@ void GaduDriveSendTicketRequest::sendRequest()
     request.setUrl(QUrl{"https://drive.mpa.gg.pl/send_ticket"});
     request.setRawHeader("Connection", "keep-alive");
     request.setRawHeader("X-gged-api-version", "6");
-    request.setRawHeader("X-gged-security-token", m_sessionToken.securityToken().toAscii());
+    request.setRawHeader("X-gged-security-token", m_sessionToken.securityToken().toLatin1());
 
     m_reply = m_networkAccessManager->put(request, QJsonDocument{requestContent}.toJson());
     connect(m_reply, SIGNAL(finished()), this, SLOT(requestFinished()));

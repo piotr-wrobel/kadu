@@ -56,10 +56,10 @@ void GaduDriveAuthorization::authorize()
 
     QNetworkRequest request;
     request.setUrl(QUrl{"https://drive.mpa.gg.pl/signin"});
-    request.setRawHeader("Authorization", QString{"IMToken %1"}.arg(m_imToken).toAscii());
+    request.setRawHeader("Authorization", QString{"IMToken %1"}.arg(m_imToken).toLatin1());
     request.setRawHeader("Connection", "keep-alive");
     request.setRawHeader("X-gged-api-version", "6");
-    request.setRawHeader("X-gged-user", QString{"gg/pl:%1"}.arg(m_accountId).toAscii());
+    request.setRawHeader("X-gged-user", QString{"gg/pl:%1"}.arg(m_accountId).toLatin1());
     request.setRawHeader("X-gged-client-metadata", QJsonDocument{metadata}.toJson(QJsonDocument::Compact).data());
 
     m_reply = m_networkAccessManager->put(request, QByteArray{});

@@ -47,7 +47,7 @@ GaduDrivePutTransfer::GaduDrivePutTransfer(
     request.setRawHeader("X-gged-api-version", "6");
     request.setRawHeader("X-gged-local-revision", "0");
     request.setRawHeader("X-gged-metadata", QJsonDocument{metadata}.toJson(QJsonDocument::Compact).data());
-    request.setRawHeader("X-gged-security-token", sessionToken.securityToken().toAscii());
+    request.setRawHeader("X-gged-security-token", sessionToken.securityToken().toLatin1());
 
     m_reply = networkAccessManager->put(request, source);
     connect(m_reply, SIGNAL(finished()), this, SLOT(requestFinished()));

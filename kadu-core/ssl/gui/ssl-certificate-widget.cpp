@@ -55,13 +55,16 @@ void SslCertificateWidget::createGui()
 
 void SslCertificateWidget::fillGui(QSslCertificate certificate)
 {
-    addItem(tr("Valid"), certificate.isValid(), certificate.isValid());
-    addItem(tr("Blacklisted"), certificate.isBlacklisted(), !certificate.isBlacklisted());
-    addItem(
-        tr("Valid from"), certificate.effectiveDate().toString(),
-        certificate.effectiveDate() <= QDateTime::currentDateTime());
-    addItem(
-        tr("Valid to"), certificate.expiryDate().toString(), certificate.expiryDate() >= QDateTime::currentDateTime());
+    const QDateTime now = QDateTime::currentDateTime();
+    const bool blacklisted = certificate.isBlacklisted();
+    const bool validFrom = certificate.effectiveDate() <= now;
+    const bool validTo = certificate.expiryDate() >= now;
+    const bool valid = !certificate.isNull() && !blacklisted && validFrom && validTo;
+
+    addItem(tr("Valid"), valid, valid);
+    addItem(tr("Blacklisted"), blacklisted, !blacklisted);
+    addItem(tr("Valid from"), certificate.effectiveDate().toString(), validFrom);
+    addItem(tr("Valid to"), certificate.expiryDate().toString(), validTo);
     addItem(tr("Digest (Md5)"), asHex(certificate.digest(QCryptographicHash::Algorithm::Md5)));
     addItem(tr("Digest (Sha1)"), asHex(certificate.digest(QCryptographicHash::Algorithm::Sha1)));
     addItem(tr("Serial number"), certificate.serialNumber());
@@ -74,7 +77,8 @@ void SslCertificateWidget::fillGui(QSslCertificate certificate)
         certificate.issuerInfo(QSslCertificate::SubjectInfo::OrganizationalUnitName));
     addItem(tr("Issuer country name"), certificate.issuerInfo(QSslCertificate::SubjectInfo::CountryName));
     addItem(
-        tr("Issuer state or province name"), certificate.issuerInfo(QSslCertificate::SubjectInfo::StateOrProvinceName));
+        tr("Issuer state or province name"),
+        certificate.issuerInfo(QSslCertificate::SubjectInfo::StateOrProvinceName));
     addItem(
         tr("Issuer distinguished name qualifier"),
         certificate.issuerInfo(QSslCertificate::SubjectInfo::DistinguishedNameQualifier));
@@ -84,7 +88,7 @@ void SslCertificateWidget::fillGui(QSslCertificate certificate)
     addItem(tr("Subject organization"), certificate.subjectInfo(QSslCertificate::SubjectInfo::Organization));
     addItem(tr("Subject common name"), certificate.subjectInfo(QSslCertificate::SubjectInfo::CommonName));
     for (auto &&subjectAlternativeName : certificate.subjectAlternativeNames())
-        addItem(tr("Subject alernative name"), subjectAlternativeName);
+        addItem(tr("Subject alternative name"), subjectAlternativeName);
     addItem(tr("Subject locality name"), certificate.subjectInfo(QSslCertificate::SubjectInfo::LocalityName));
     addItem(
         tr("Subject organizational unit name"),
@@ -115,8 +119,8 @@ void SslCertificateWidget::addItem(const QString &name, const QString &value, bo
     auto item = new QTreeWidgetItem{m_dataWidget, {name, value}};
     if (!valid)
     {
-        item->setTextColor(0, Qt::red);
-        item->setTextColor(1, Qt::red);
+		item->setForeground(0, QBrush(Qt::red));
+		item->setForeground(1, QBrush(Qt::red));
     }
 
     m_dataWidget->addTopLevelItem(item);

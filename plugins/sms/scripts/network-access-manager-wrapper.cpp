@@ -92,7 +92,7 @@ void NetworkAccessManagerWrapper::setHeader(const QString &headerName, const QSt
 {
     // Note that QtScript by default doesn't support conversion to QByteArray,
     // so we cannot simply convert arguments to QByteArray.
-    Headers.insert(headerName.toAscii(), headerValue.toAscii());
+    Headers.insert(headerName.toLatin1(), headerValue.toLatin1());
 }
 
 void NetworkAccessManagerWrapper::clearHeaders()
@@ -111,7 +111,7 @@ QScriptValue NetworkAccessManagerWrapper::post(const QString &url, const QString
     if (Utf8)
         requestData = data.toUtf8();
     else
-        requestData = data.toAscii();
+        requestData = data.toLatin1();
 
     return Engine->newQObject(new NetworkReplyWrapper(QNetworkAccessManager::post(request, requestData)));
 }

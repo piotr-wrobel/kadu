@@ -137,8 +137,8 @@ QSize PluginListWidgetItemDelegate::sizeHint(const QStyleOptionViewItem &option,
 
     return QSize(
         qMax(
-            fmTitle.width(index.model()->data(index, Qt::DisplayRole).toString()),
-            option.fontMetrics.width(index.model()->data(index, PluginModel::CommentRole).toString())) +
+            fmTitle.horizontalAdvance(index.model()->data(index, Qt::DisplayRole).toString()),
+            option.fontMetrics.horizontalAdvance(index.model()->data(index, PluginModel::CommentRole).toString())) +
             +MARGIN * i + m_pushButton->sizeHint().width() * j,
         qMax(MARGIN * 2, fmTitle.height() * 2 + option.fontMetrics.height() + MARGIN * 2));
 }

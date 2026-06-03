@@ -85,7 +85,7 @@ QString SystemInfo::linuxHeuristicDetect()
 
     struct utsname u;
     uname(&u);
-    ret.sprintf("%s", u.sysname);
+    ret = QString::fromLocal8Bit(u.sysname);
 
     // get description about os
     enum LinuxName

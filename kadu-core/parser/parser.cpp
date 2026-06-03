@@ -180,16 +180,19 @@ bool Parser::unregisterObjectTag(const QString &name)
 QString Parser::executeCmd(const QString &cmd)
 {
     QString s(cmd);
-    // TODO: check if Qt escapes these
     s.remove(QRegExp("`|>|<"));
 
+    const QStringList parts = QProcess::splitCommand(s);
+    if (parts.isEmpty())
+        return QString();
+
     QProcess executor;
-    executor.start(s);
+    executor.start(parts.at(0), parts.mid(1));
     executor.closeWriteChannel();
 
     QString ret;
     if (executor.waitForFinished())
-        ret = executor.readAll();
+        ret = QString::fromLocal8Bit(executor.readAll());
 
     return ret;
 }
@@ -230,7 +233,7 @@ ParserToken Parser::parsePercentSyntax(const QString &s, int &idx, const Talkabl
     Buddy buddy = m_talkableConverter->toBuddy(talkable);
     Contact contact = m_talkableConverter->toContact(talkable);
 
-    switch (s.at(idx).toAscii())
+    switch (s.at(idx).toLatin1())
     {
     // 'o' does not work so we should just ignore it
     // see bug #2199

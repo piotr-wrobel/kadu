@@ -55,17 +55,26 @@ bool UrlOpener::openUrl(
 {
     if (!application.isEmpty())
     {
-        QProcess *process = new QProcess(qApp);
-
         QString launchLine = application;
         if (!launchLine.contains("%1"))
-            launchLine.append(" \"" + QString::fromUtf8(urlForApplication) + '"');
+            launchLine.append(QStringLiteral(" \"") + QString::fromUtf8(urlForApplication) + QLatin1Char('"'));
         else
-            launchLine.replace("%1", QString::fromUtf8(urlForApplication));
+            launchLine.replace(QStringLiteral("%1"), QString::fromUtf8(urlForApplication));
 
-        process->start(launchLine);
-        if (process->waitForStarted())
-            return true;
+        const QStringList parts = QProcess::splitCommand(launchLine);
+        if (!parts.isEmpty())
+        {
+            QProcess *process = new QProcess(qApp);
+            process->start(parts.at(0), parts.mid(1));
+
+            if (process->waitForStarted())
+            {
+                process->deleteLater();
+                return true;
+            }
+
+            process->deleteLater();
+        }
     }
 
     return QDesktopServices::openUrl(QUrl::fromEncoded(urlForDesktopServices));

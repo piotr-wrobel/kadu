@@ -33,7 +33,7 @@ static void status_changed(MessagingMenuApp *app, MessagingMenuStatus status, gp
 
 QMessagingMenuApp::QMessagingMenuApp(const QString &desktopId, QObject *parent) : QObject{parent}, m_app{nullptr}
 {
-    m_app = messaging_menu_app_new(desktopId.toAscii());
+    m_app = messaging_menu_app_new(desktopId.toLatin1());
     g_object_ref(m_app);
 
     g_signal_connect(m_app, "activate-source", G_CALLBACK(source_activated), this);

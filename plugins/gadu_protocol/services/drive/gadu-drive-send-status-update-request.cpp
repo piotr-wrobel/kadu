@@ -58,7 +58,7 @@ void GaduDriveSendStatusUpdateRequest::sendRequest()
     request.setUrl(QUrl{QString{"https://drive.mpa.gg.pl/send_ticket/%1"}.arg(m_ticketId)});
     request.setRawHeader("Connection", "keep-alive");
     request.setRawHeader("X-gged-api-version", "6");
-    request.setRawHeader("X-gged-security-token", m_sessionToken.securityToken().toAscii());
+    request.setRawHeader("X-gged-security-token", m_sessionToken.securityToken().toLatin1());
 
     m_reply = m_networkAccessManager->get(request);
     connect(m_reply, SIGNAL(finished()), this, SLOT(requestFinished()));
