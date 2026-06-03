@@ -83,7 +83,7 @@ void LineEditWithClearButton::updateClearButton()
     const int buttonWidth = ClearButton->sizeHint().width();
     const QSize newButtonSize(buttonWidth, geom.height());
     const QFontMetrics fm(font());
-    const int em = fm.width("m");
+    const int em = fm.horizontalAdvance(QStringLiteral("m"));
 
     // make sure we have enough room for the clear button
     // no point in showing it if we can't also see a few characters

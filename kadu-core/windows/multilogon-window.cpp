@@ -100,7 +100,7 @@ void MultilogonWindow::createGui()
     SessionsTable->setSelectionBehavior(QAbstractItemView::SelectRows);
     SessionsTable->setSelectionMode(QAbstractItemView::SingleSelection);
     SessionsTable->setSortingEnabled(true);
-    SessionsTable->horizontalHeader()->setResizeMode(QHeaderView::ResizeToContents);
+    SessionsTable->horizontalHeader()->setSectionResizeMode(QHeaderView::ResizeToContents);
     SessionsTable->horizontalHeader()->setStretchLastSection(true);
     layout->addWidget(SessionsTable);
 

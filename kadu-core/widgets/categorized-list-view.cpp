@@ -1048,7 +1048,7 @@ void CategorizedListView::paintEvent(QPaintEvent *event)
 
             option.widget = this;
 
-            option.features |= wordWrap() ? QStyleOptionViewItemV2::WrapText : QStyleOptionViewItemV2::None;
+            option.features |= wordWrap() ? QStyleOptionViewItem::WrapText : QStyleOptionViewItem::None;
 
             option.features |= alternatingRowColors() && alternateItem ? QStyleOptionViewItem::Alternate
                                                                        : QStyleOptionViewItem::None;

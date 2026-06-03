@@ -43,7 +43,7 @@ void CustomInputMenuManager::sortInputContextMenu()
 {
     if (!InputContextMenuSorted)
     {
-        qSort(InputContextMenu);
+        std::sort(InputContextMenu.begin(), InputContextMenu.end());
         InputContextMenuSorted = true;
     }
 }

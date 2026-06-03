@@ -42,7 +42,7 @@ void LineEditClearButton::setUpTimeLine()
 {
     Timeline = new QTimeLine(200, this);
     Timeline->setFrameRange(0, ANIMATION_FRAMES_COUNT);
-    Timeline->setCurveShape(QTimeLine::EaseInOutCurve);
+    Timeline->setEasingCurve(QEasingCurve::InOutSine);
     Timeline->setDirection(QTimeLine::Backward);
     connect(Timeline, SIGNAL(finished()), this, SLOT(animationFinished()));
     connect(Timeline, SIGNAL(frameChanged(int)), this, SLOT(update()));

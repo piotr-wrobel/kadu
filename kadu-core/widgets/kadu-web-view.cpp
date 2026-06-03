@@ -72,11 +72,11 @@ KaduWebView::KaduWebView(QWidget *parent)
     QWebSettings::setMaximumPagesInCache(0);
     QWebSettings::setObjectCacheCapacities(0, 0, 0);
 
-    setAttribute(Qt::WA_NoBackground);
+    setAttribute(Qt::WA_OpaquePaintEvent);
     setAcceptDrops(false);
     setRenderHints(
         QPainter::Antialiasing | QPainter::TextAntialiasing | QPainter::SmoothPixmapTransform |
-        QPainter::HighQualityAntialiasing);
+        QPainter::Antialiasing);
 
     page()->setLinkDelegationPolicy(QWebPage::DelegateAllLinks);
 

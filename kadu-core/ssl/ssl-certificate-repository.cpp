@@ -66,7 +66,7 @@ bool SslCertificateRepository::containsCertificate(const SslCertificate &certifi
 
 bool SslCertificateRepository::containsCertificateFor(const QString &hostName, QList<QString> hostNames) const
 {
-    qSort(hostNames);
+    std::sort(hostNames.begin(), hostNames.end());
     for (auto const& c : m_certificates)
     {
         if (c.hostName() != hostName)
@@ -77,7 +77,7 @@ bool SslCertificateRepository::containsCertificateFor(const QString &hostName, Q
             continue;
 
         auto sslHostnames = ssl[0].subjectAlternativeNames().values(QSsl::DnsEntry);
-        qSort(sslHostnames);
+        std::sort(sslHostnames.begin(), sslHostnames.end());
 
         if (hostNames == sslHostnames)
             return true;

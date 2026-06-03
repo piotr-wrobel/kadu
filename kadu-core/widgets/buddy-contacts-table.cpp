@@ -82,7 +82,7 @@ void BuddyContactsTable::createGui()
     View->setSelectionBehavior(QAbstractItemView::SelectRows);
     View->setVerticalHeader(0);
 
-    View->horizontalHeader()->setResizeMode(QHeaderView::Stretch);
+    View->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
     View->horizontalHeader()->setStretchLastSection(true);
 
     connect(

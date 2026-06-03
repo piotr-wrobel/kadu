@@ -70,7 +70,7 @@ void FilterWidget::filterTextChanged(const QString &s)
         QModelIndexList selection = View->selectionModel()->selectedIndexes();
         if (!selection.isEmpty())
         {
-            qSort(selection);
+            std::sort(selection.begin(), selection.end());
             View->scrollTo(selection.at(0));
         }
     }

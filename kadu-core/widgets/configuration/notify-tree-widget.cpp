@@ -134,8 +134,8 @@ void NotifyTreeWidget::init()
 
     setIconSize(QSize(IconWidth, IconWidth));
 
-    header()->setResizeMode(0, QHeaderView::Fixed);
-    header()->setResizeMode(1, QHeaderView::Fixed);
+    header()->setSectionResizeMode(0, QHeaderView::Fixed);
+    header()->setSectionResizeMode(1, QHeaderView::Fixed);
 
     refresh();
 }

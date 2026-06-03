@@ -377,7 +377,7 @@ QVariant BuddyContactsTableModel::data(const QModelIndex &index, int role) const
     case BuddyContactsTableItemRole:
         return QVariant::fromValue<BuddyContactsTableItem *>(item);
 
-    case Qt::BackgroundColorRole:
+    case Qt::BackgroundRole:
         return item->isValid() ? QVariant() : QColor(255, 0, 0, 25);
     }
 
