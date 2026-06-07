@@ -76,8 +76,8 @@ void PluginDependencyGraphBuilderTest::verifyDependencies(
     auto graphDependencies = graph.directDependencies(pluginName);
     auto graphDependents = graph.directDependents(pluginName);
 
-    QCOMPARE(graphDependencies.toList().toSet(), dependencies.toSet());
-    QCOMPARE(graphDependents.toList().toSet(), dependents.toSet());
+    QCOMPARE(graphDependencies.values().toSet(), dependencies.toSet());
+    QCOMPARE(graphDependents.values().toSet(), dependents.toSet());
     QCOMPARE(graphDependencies.size(), dependencies.size());
     QCOMPARE(graphDependents.size(), dependents.size());
 }

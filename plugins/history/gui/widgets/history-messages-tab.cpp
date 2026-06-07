@@ -241,8 +241,8 @@ void HistoryMessagesTab::setTalkables(const QVector<Talkable> &talkables)
 {
     auto chatsBuddies = m_pluginInjectedFactory->makeUnique<ChatsBuddiesSplitter>(talkables);
 
-    ChatsModel->setChats(chatsBuddies->chats().toList().toVector());
-    BuddiesModel->setBuddyList(chatsBuddies->buddies().toList());
+    ChatsModel->setChats(chatsBuddies->chats().values().toVector());
+    BuddiesModel->setBuddyList(chatsBuddies->buddies().values());
 }
 
 void HistoryMessagesTab::futureTalkablesAvailable()

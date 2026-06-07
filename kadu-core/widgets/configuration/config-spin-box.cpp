@@ -126,7 +126,7 @@ void ConfigSpinBox::onValueChanged(int i)
     if (Suffix.contains("%n"))
     {
         suffix =
-            QCoreApplication::translate("@default", Suffix.toUtf8().constData(), 0, QCoreApplication::CodecForTr, i);
+            QCoreApplication::translate("@default", Suffix.toUtf8().constData(), nullptr, i);
         QRegExp rx(QString("^.*%1").arg(i));
         rx.setMinimal(true);
         suffix.remove(rx);

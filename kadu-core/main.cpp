@@ -116,33 +116,38 @@ static void printBacktrace(const QString &header)
     fflush(stderr);
 }
 
-static void kaduQtMessageHandler(QtMsgType type, const char *msg)
+static void kaduQtMessageHandler(QtMsgType type, const QMessageLogContext &context, const QString &msg)
 {
+    Q_UNUSED(context); // jeśli jeszcze go nie używasz
+    
+    QByteArray localMsg = msg.toLocal8Bit();
+    const char *cmsg = localMsg.constData();
+    
     switch (type)
     {
     case QtDebugMsg:
-        fprintf(stderr, "Debug: %s\n", msg);
+        fprintf(stderr, "Debug: %s\n", cmsg);
         fflush(stderr);
         break;
 #if QT_VERSION >= QT_VERSION_CHECK(5, 5, 0)
     case QtInfoMsg:
-        fprintf(stderr, "Info: %s\n", msg);
+        fprintf(stderr, "Info: %s\n", cmsg);
         fflush(stderr);
         break;
 #endif
     case QtWarningMsg:
-        fprintf(stderr, "\033[34mWarning: %s\033[0m\n", msg);
+        fprintf(stderr, "\033[34mWarning: %s\033[0m\n", cmsg);
         fflush(stderr);
-        if (strstr(msg, "no mimesource for") == 0)
+        if (strstr(cmsg, "no mimesource for") == 0)
             printBacktrace("warning from Qt (above)");
         break;
     case QtCriticalMsg:
-        fprintf(stderr, "\033[31;1mCritical: %s\033[0m\n", msg);
+        fprintf(stderr, "\033[31;1mCritical: %s\033[0m\n", cmsg);
         fflush(stderr);
         printBacktrace("critical error from Qt (above)");
         break;
     case QtFatalMsg:
-        fprintf(stderr, "\033[31;1mFatal: %s\033[0m\n", msg);
+        fprintf(stderr, "\033[31;1mFatal: %s\033[0m\n", cmsg);
         fflush(stderr);
         printBacktrace("fatal error from Qt (above)");
         abort();
@@ -243,7 +248,7 @@ int main(int argc, char *argv[]) try
 
 #ifndef Q_OS_WIN
         // Qt version is better on win32
-        qInstallMsgHandler(kaduQtMessageHandler);
+        qInstallMessageHandler(kaduQtMessageHandler);
 #endif
 
         Core core{std::move(injector)};

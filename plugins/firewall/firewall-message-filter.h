@@ -24,6 +24,7 @@
 #include <QtCore/QObject>
 #include <QtCore/QPointer>
 #include <QtCore/QRegExp>
+#include <QElapsedTimer>
 #include <injeqt/injeqt.h>
 
 #include "chat/chat-manager.h"
@@ -87,8 +88,8 @@ private:
     Contact LastContact;
 
     unsigned int FloodMessages;
-    QTime LastMsg;
-    QTime LastNotify;
+    QElapsedTimer LastMsg;
+    QElapsedTimer LastNotify;
     QRegExp pattern;
 
     bool CheckFloodingEmoticons;

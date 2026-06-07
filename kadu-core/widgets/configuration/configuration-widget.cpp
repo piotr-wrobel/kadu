@@ -445,7 +445,7 @@ ConfigSection *ConfigurationWidget::configSection(const KaduIcon &icon, const QS
 
     QFontMetrics fontMetrics = SectionsListWidget->fontMetrics();
     // TODO: 48 = margins + scrollbar - get real scrollbar width
-    int width = fontMetrics.width(name) + 80;
+    int width = fontMetrics.horizontalAdvance(name) + 80;
 
     auto newConfigSection = m_injectedFactory->makeInjected<ConfigSection>(
         name, this, newConfigSectionListWidgetItem, ContainerWidget, icon);

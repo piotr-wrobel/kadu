@@ -24,7 +24,7 @@
 
 #include <QtCore/QObject>
 #include <QtCore/QPointer>
-#include <QtCore/QTime>
+//#include <QtCore/QTime>
 #include <QElapsedTimer>
 #include <injeqt/injeqt.h>
 

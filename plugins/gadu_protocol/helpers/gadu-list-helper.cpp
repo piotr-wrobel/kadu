@@ -139,7 +139,7 @@ BuddyList GaduListHelper::streamPre70ToBuddyList(const QString &firstLine, Accou
         return result;
 
     QString line = firstLine;
-    QStringList sections = line.split(';', QString::KeepEmptyParts);
+    QStringList sections = line.split(';', Qt::KeepEmptyParts);
 
     if (sections.count() > 6)
     {
@@ -164,7 +164,7 @@ BuddyList GaduListHelper::streamPre70ToBuddyList(const QString &firstLine, Accou
     while (!content.atEnd())
     {
         line = content.readLine();
-        sections = line.split(';', QString::KeepEmptyParts);
+        sections = line.split(';', Qt::KeepEmptyParts);
 
         if (sections.count() < 7)
             continue;
@@ -187,7 +187,7 @@ BuddyList GaduListHelper::stream70ToBuddyList(Account account, QTextStream &cont
     {
         line = content.readLine();
 
-        sections = line.split(';', QString::KeepEmptyParts);
+        sections = line.split(';', Qt::KeepEmptyParts);
 
         Buddy buddy = line70ToBuddy(account, sections);
         if (buddy)
